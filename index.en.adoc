@@ -1,5 +1,5 @@
-= GBIF Document Template
-Author One <communication@gbif.org>; Author Two
+= Course name
+GBIF Secretariat <training@gbif.org>
 :multipage:
 :multipage-level: 1
 :toc: left
@@ -10,7 +10,7 @@ Author One <communication@gbif.org>; Author Two
 :title-logo-image: img/web/photo.jpg
 :license: https://creativecommons.org/licenses/by-sa/4.0/
 :docinfo: shared-head
-:stylesheet: /adoc/gbif-stylesheet/stylesheets/gbif-training.css
+// :stylesheet: /adoc/gbif-stylesheet/stylesheets/gbif-training.css
 
 ifndef::backend-pdf[]
 languageLinks:combined[]
@@ -23,9 +23,7 @@ endif::backend-pdf[]
 
 :sectnums!:
 
-include::colophon.en.adoc[]
-
-include::preface.en.adoc[]
+include::description.en.adoc[]
 
 :sectnums:
 
@@ -33,12 +31,14 @@ include::100.en.adoc[]
 
 include::200.en.adoc[]
 
+include::300.en.adoc[]
+
 :sectnums!:
 
-include::afterword.en.adoc[]
-
-include::appa.en.adoc[]
+include::keydocs.en.adoc[]
 
 include::glossary.en.adoc[]
 
-include::bibliography.en.adoc[]
+include::colophon.en.adoc[]
+
+include::acknowledgements.en.adoc[]

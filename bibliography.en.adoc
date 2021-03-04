@@ -1,7 +1,7 @@
 [bibliography]
 == References
 
-//The bibliography list is a style of AsciiDoc bulleted list.
+//The bibliography list is a style of AsciiDoc bulleted list. Use if needed and add to index.
 
 - [[carrillo]] Carrillo Trueba C (1995) El Pedregal de San Ángel. Mexico City: Universidad Nacional Autonoma de Mexico.
 - [[eggener]]	Keith Eggener (2001) Luis Barragán’s Gardens of el Pedregal Princeton, N.J., USA: Princeton Architectural Press.

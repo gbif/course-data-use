@@ -1,0 +1,42 @@
+[description]
+== Description
+
+****
+this is the description...
+
+Topics include:
+
+* Topic
+* Topic
+* Topic
+* Topic
+
+This course is comprised of ... 
+Second sentence...
+****
+
+=== Audience
+This course is for...
+
+=== Prerequisites
+
+. prerequisite 1 if any
+
+. prerequisite 2 if any
+
+=== Learning objectives
+
+* Objective
+* Objective
+* Objective
+* Objective
+
+// inlude if needed, otherwise remove
+=== Certification
+
+Upon successful completion of the course and successful assessment of assignments (by trainers/mentors), participants have the opportunity to receive an official certification in the form of a Mozilla Open Badge.
+
+Participants are required to submit ... and it is scored against the educational rubrics for the course. 
+
+* An overall score of ??? earns a BASIC badge
+* An overall score of ??? earns an ADVANCED badge
