@@ -1,5 +1,7 @@
 = GBIF Document Template
 Author One <communication@gbif.org>; Author Two
+:multipage:
+:multipage-level: 1
 :toc: left
 :toclevels: 3
 :numbered:
@@ -7,10 +9,17 @@ Author One <communication@gbif.org>; Author Two
 :revdate: {git-metadata-date} {git-metadata-time} {git-metadata-timezone}
 :title-logo-image: img/web/photo.jpg
 :license: https://creativecommons.org/licenses/by-sa/4.0/
+:docinfo: shared-head
+:stylesheet: /adoc/gbif-stylesheet/stylesheets/gbif-training.css
 
-ifdef::backend-html5[]
+ifndef::backend-pdf[]
 languageLinks:combined[]
-endif::backend-html5[]
+endif::backend-pdf[]
+
+// add cover image to img directory and update filename below
+ifndef::backend-pdf[]
+image::img/web/photo.jpg[]
+endif::backend-pdf[]
 
 :sectnums!:
 
