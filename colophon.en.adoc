@@ -2,7 +2,7 @@
 
 === Suggested citation
 
-GBIF Secretariat (2021) GBIF Biodiversity Data Mobilization Course. 12th edition. GBIF Secretariat: Copenhagen. https://doi.org/10.35035/ce-c6cr-6w42. [Date of course.]
+GBIF Secretariat (2021) GBIF Biodiversity Data Mobilization Course. 6th edition. GBIF Secretariat: Copenhagen. https://doi.org/10.35035/ce-xxxx-xxxx. [Date of course.]
 
 === Contributors
 
@@ -10,12 +10,12 @@ The _Course Name_ was originally developed as part of ..., a programme funded by
 
 === Licence
 
-_Course Name_ is licensed under https://creativecommons.org/licenses/by-sa/4.0[Creative Commons Attribution-ShareAlike 4.0 Unported License].
+_Course Name_ is licensed under https://creativecommons.org/licenses/by/4.0[Creative Commons Attribution 4.0 Unported License].
 
 === Persistent URI
 
-https://doi.org/10.35035/doc-xxxx-xxxx
+https://doi.org/10.35035/ce-xxxx-xxxx
 
 === Document control
 
-Third edition, April 2020
+Sixth edition, September 2021
