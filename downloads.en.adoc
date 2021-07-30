@@ -1,0 +1,18 @@
+== Files for download
+
+All files for the course may be downloaded from this page. 
+Or if you prefer, all files are linked individually throughout the course as they occur in the curriculum. 
+The video files are embedded throughout the course, as well, and play from YouTube. Subtitles are available when playing from YouTube for most videos. 
+If you have difficulty accessing the embedded videos, please download the mp4 files to play them locally on your computer.
+
+=== Videos
+The videos are narrated in English. Subtitles are not available for the downloaded videos.
+
+link:../videos/linkname.zip[linkname.zip,opts=download] (??.? MB)
+
+=== Exercise data
+This link:../exercise-data/ExerciseData.zip[compressed file,opts=download] (ZIP ??.? MB) contains the exercise data. 
+
+=== Exercise sheets
+This link:../course-docs/ExerciseSheets.zip[compressed file,opts=download] (ZIP ?.? MB) contains the exercise sheet(s). 
+The exercises sheets are written in English and should be completed in English.

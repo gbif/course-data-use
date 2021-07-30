@@ -16,11 +16,10 @@ Sentence 3.
 === sub topic
 
 [NOTE.presentation]
-Watch video on the key concepts of ...
-
-.In this video (12:26), you will review ... used in this course. 
+In this video (12:26), you will review ... used in this course. 
 If you are unable to watch the embeded Vimeo video, you can download it locally. (MP4 - 44.5 MB)
-video::434713215[vimeo, height=480, width=640, align=center]
+
+video::FZAF5Sy8Nsc[youtube, height=540, width=960, align=center]
 
 
 [NOTE.activity]
