@@ -1,0 +1,80 @@
+[multipage-level=2]
+== Foundations
+
+This module includes instruction to ensure all participants are at the same level before delving into the data mobilization topics. 
+You will receive an introduction on how to access GBIF mediated data, your responsibilities as a user, and other data sources and tools that you will be putting into use during the rest of the course. 
+Lastly, you will be asked to install the Wallace software as part of this module.
+Paragraph1, sentence1.
+Sentence 2.
+Sentence 3.
+
+Paragraph2, sentence1.
+Sentence 2.
+Sentence 3.
+
+Paragraph3, sentence1.
+Sentence 2.
+Sentence 3.
+
+=== Data Access
+User Profile
+
+
+
+Search capability
+
+
+
+Data downloads
+There is technically only one way to generate a GBIF download, and that is through the downloads API (https://www.gbif.org/developer/occurrence). Here I list 3 interfaces to the downloads API. All of these send a JSON request with filters to the GBIF servers where it is interpreted and a download is generated. I strongly recommend using rgbif::occ_download() except if you have a very simple request.  
+
+Here is an example using curl. I do not really recommend editing JSON directly for generating downloads. I just present this here for completeness and for better understanding how the downloads API actually works. You can see here that even a very simple download is verbose. 
+For building complex reproducible downloads from GBIF, there is no better tool than rgbif::occ_download() for generating occurrence downloads. 
+ Especially if you are using R for the rest of your analysis, this will allow you to produce end-to-end scripts of your research. 
+reference for domain specific language: 
+
+
+Citation
+
+[NOTE.presentation]
+In this video (12:26), you will review ... used in this course. 
+If you are unable to watch the embeded Vimeo video, you can download it locally. (MP4 - 44.5 MB)
+
+video::FZAF5Sy8Nsc[youtube, height=540, width=960, align=center]
+
+// Start embedded presentation
+
+ifdef::backend-pdf[]
+The presentation can be viewed in the online version of the course.
+endif::backend-pdf[]
+
+ifndef::backend-pdf[]
+++++
+<div class="responsive-slides">
+  <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSgzwh3c26F38-TtMNkjykJT_PI8uY4_5INkI9da6rZiDFLX6_c1TZmX26KesqzDA/embed?start=false&loop=false" frameborder="0" allowfullscreen="true"></iframe>
+</div>
+++++
+endif::backend-pdf[]
+
+// End embedded presention
+
+[NOTE.activity]
+Become familiar with the ...
+
+****
+this is an example of a block
+this second sentence
+
+this is second paragraph first sentence.
+this is second sentence
+****
+
+==== sub sub topic
+
+Paragraph1, sentence1.
+Sentence 2.
+Sentence 3.
+
+“Paragraph2, sentence1.
+Sentence 2.
+Sentence 3.
