@@ -1,1 +1,15 @@
 
+•	Correctness (Accuracy)
+o	closeness of measured values, observations or estimates to the real or true value e.g. has the species been identified correctly or the collection locality been identified correctly
+•	Consistency (Precision)
+o	level of resolution of the data e.g. precision of coordinates, taxonomic determination
+o	For most analyses you want highly accurate data although the level of precision may vary dependent on your analysis
+•	GBIF can help you to determine the accuracy and precision of the data (although you must always double-check!)
+•	 
+
+Correctness and Consistency are two ways of documenting data errors and are measures of data quality.
+-	Correctness, sometimes also called accuracy, is “How close the recorded values is to the actual value”.
+-	 In the diagram it’s how close is the shot to the centre of the target.
+-	Consistency is “How often you get it right”
+-	In the diagram it is how close the shots are together irrespective of how near they are to the centre of the target.
+These are measures of how well the data gatherer was able to capture the true value being investigated. Knowing these properties of the data you have, will help you to understand the ways in which you can and cannot clean, validate and process the data.
