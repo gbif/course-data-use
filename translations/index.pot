@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-08-02 06:46+0000\n"
+"POT-Creation-Date: 2021-08-02 08:13+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -53,247 +53,247 @@ msgstr ""
 #. type: delimited block *
 #: description.en.adoc:8
 msgid ""
-"This workshop working in collaboration with UNEP-WCMC’s CONNECT programme "
-"aims to demonstrate how mobilized primary biodiversity data can be "
-"integrated into national policy-making processes.  Participants will be "
-"introduced to the importance of biodiversity data within the decision making "
-"process before learning how to clean data and running key analyses - "
-"determining the distribution of a species and assessing the conservation "
-"status of species.  Participants will then learn how to communicate their "
-"results to key stakeholders in the decision making process."
+"This course enables participants to plan and implement biodiversity data "
+"mobilization efforts effectively using accepted community standards.  Its "
+"aim is to facilitate the use of GBIF-mediated data for a number of key use "
+"cases that feed into decision-making processes.  This course was first "
+"developed as part of the Biodiversity Information for Development (BID) "
+"programme funded by the European Union."
 msgstr ""
 
 #. type: delimited block *
-#: description.en.adoc:12
-msgid ""
-"The event will have online and onsite components and both will have a strong "
-"practical approach (including a significant component of group work).  "
-"Participants will have the possibility to evaluate their learning and "
-"receive recognition of their level of understanding with a digital badge .  "
-"The official language of the workshop will be English."
-msgstr ""
-
-#. type: delimited block *
-#: description.en.adoc:14
-msgid ""
-"Only participants and mentors who have been selected by the GBIF Secretariat "
-"can subscribe to this workshop. Please address any questions you may have "
-"with respect to the course to Andrew Rodrigues arodrigues@gbif.org."
-msgstr ""
-
-#. type: delimited block *
-#: description.en.adoc:16
+#: description.en.adoc:10 description.en.adoc:19
 msgid "Topics include:"
 msgstr ""
 
 #. type: delimited block *
-#: description.en.adoc:18
-msgid "Fit-for-Purpose Data"
+#: description.en.adoc:12
+msgid "Data Processing"
 msgstr ""
 
 #. type: delimited block *
-#: description.en.adoc:19
-msgid "Processing a GBIF-mediated dataset and making it “fit-for-purpose”"
+#: description.en.adoc:13 description.en.adoc:26
+msgid "Ecological Niche Modelling"
 msgstr ""
 
 #. type: delimited block *
-#: description.en.adoc:20
-msgid "Data for Species Assessments"
+#: description.en.adoc:14
+msgid "Red List Assessments"
+msgstr ""
+
+#. type: delimited block *
+#: description.en.adoc:16
+msgid ""
+"This course is comprised of online content paired with quizzes and practical "
+"exercises. When offered as an onsite or virtual workshop, group work and "
+"social interaction are encouraged."
 msgstr ""
 
 #. type: delimited block *
 #: description.en.adoc:21
+msgid "Fit-for-Purpose Data"
+msgstr ""
+
+#. type: delimited block *
+#: description.en.adoc:22
+msgid "Processing a GBIF-mediated dataset and making it “fit-for-purpose”"
+msgstr ""
+
+#. type: delimited block *
+#: description.en.adoc:23
+msgid "Data for Species Assessments"
+msgstr ""
+
+#. type: delimited block *
+#: description.en.adoc:24
 msgid ""
 "Using GBIF-mediated data for creating species distribution maps using IUCN "
 "mapping standards"
 msgstr ""
 
 #. type: delimited block *
-#: description.en.adoc:22
+#: description.en.adoc:25
 msgid ""
 "Using GBIF-mediated data for assessing species conservation status using the "
 "IUCN Red List Categories and Criteria"
 msgstr ""
 
 #. type: delimited block *
-#: description.en.adoc:23
-msgid "Ecological Niche Modelling"
-msgstr ""
-
-#. type: delimited block *
-#: description.en.adoc:24
+#: description.en.adoc:27
 msgid ""
 "Introduction to running and interpreting a basic ecological model to "
 "determine the distribution of a species"
 msgstr ""
 
 #. type: delimited block *
-#: description.en.adoc:25
+#: description.en.adoc:28
 msgid "Exploring niche modelling under different environmental conditions"
 msgstr ""
 
 #. type: delimited block *
-#: description.en.adoc:30
+#: description.en.adoc:33
 msgid "This course is comprised of ...  Second sentence..."
-msgstr ""
-
-#. type: Title ===
-#: description.en.adoc:32
-#, no-wrap
-msgid "Audience"
-msgstr ""
-
-#. type: Plain text
-#: description.en.adoc:34
-msgid "This course is for..."
 msgstr ""
 
 #. type: Title ===
 #: description.en.adoc:35
 #, no-wrap
-msgid "Prerequisites"
+msgid "Audience"
 msgstr ""
 
 #. type: Plain text
 #: description.en.adoc:38
 msgid ""
-"To make best use of the activities around this workshop, the participants "
-"should possess the following skills and knowledge:"
+"This course is designed for individuals who work as researchers or "
+"technicians in biodiversity research or policy institutions.  The "
+"instruction provided is particularly useful for those who have a need or "
+"desire to use GBIF-mediated data in their own research or analyses."
 msgstr ""
 
-#. type: Plain text
+#. type: Title ===
 #: description.en.adoc:40
-msgid ""
-"have a university-level education in biodiversity informatics, ecology or "
-"conservation;"
-msgstr ""
-
-#. type: Plain text
-#: description.en.adoc:41
-msgid ""
-"have some understanding of computer-based geographical and statistical "
-"analysis tools e.g. GIS and R, and may have already run analyses using these "
-"tools;"
-msgstr ""
-
-#. type: Plain text
-#: description.en.adoc:42
-msgid ""
-"have an understanding of national and/or international biodiversity policy "
-"e.g. the Convention on Biological Diversity, Sustainable Development Goals, "
-"CITES etc;"
+#, no-wrap
+msgid "Prerequisites"
 msgstr ""
 
 #. type: Plain text
 #: description.en.adoc:43
-msgid "have a basic command of English."
+msgid "Introduction to GBIF course"
 msgstr ""
 
 #. type: Plain text
-#: description.en.adoc:44
+#: description.en.adoc:45
 msgid ""
-"be able to disseminate the knowledge acquired during the workshop among the "
-"rest of the partners of their BID projects."
+"Additionally, to make best use of the activities around this course, the "
+"participants should possess the following skills and knowledge:"
+msgstr ""
+
+#. type: Plain text
+#: description.en.adoc:47
+msgid ""
+"Basic skills in computer and internet use, and, in particular, in the use of "
+"spreadsheets."
 msgstr ""
 
 #. type: Plain text
 #: description.en.adoc:48
-msgid "prerequisite 1 if any"
+msgid ""
+"Basic understanding of computer-based geographical and statistical analysis "
+"tools e.g. GIS and R, and may have already run analyses using these tools."
+msgstr ""
+
+#. type: Plain text
+#: description.en.adoc:49
+msgid ""
+"Basic knowledge about geography and biodiversity informatics: geography and "
+"mapping concepts, basic taxonomy and nomenclature rules."
 msgstr ""
 
 #. type: Plain text
 #: description.en.adoc:50
+msgid ""
+"Willingness to disseminate the knowledge learned in the workshop with "
+"partners and collaborators in your project by adapting the biodiversity data "
+"use training materials to specific contexts and languages while maintaining "
+"their instructional value."
+msgstr ""
+
+#. type: Plain text
+#: description.en.adoc:51
+msgid ""
+"A good command of English. While efforts are made to provide materials in "
+"other languages, instruction/videos will be in English."
+msgstr ""
+
+#. type: Plain text
+#: description.en.adoc:55
+msgid "prerequisite 1 if any"
+msgstr ""
+
+#. type: Plain text
+#: description.en.adoc:57
 msgid "prerequisite 2 if any"
 msgstr ""
 
 #. type: Title ===
-#: description.en.adoc:51
+#: description.en.adoc:58
 #, no-wrap
 msgid "Learning objectives"
 msgstr ""
 
 #. type: Plain text
-#: description.en.adoc:54
-msgid ""
-"Understanding data quality issues that may affect data use and how to handle "
-"these data quality issues"
-msgstr ""
-
-#. type: Plain text
-#: description.en.adoc:55
-msgid ""
-"Discern between IUCN mapping protocols and the data requirements of these "
-"protocols"
-msgstr ""
-
-#. type: Plain text
-#: description.en.adoc:56
-msgid ""
-"Apply criterion B of the IUCN Categories and Criteria for the assessment of "
-"a species conservation status using a fit-for purpose dataset"
-msgstr ""
-
-#. type: Plain text
-#: description.en.adoc:57
-msgid "Explain difference between fundamental and realized niches"
-msgstr ""
-
-#. type: Plain text
-#: description.en.adoc:58
-msgid "Explain how to delimit a training region"
-msgstr ""
-
-#. type: Plain text
-#: description.en.adoc:59
-msgid "Generate a simple niche model"
-msgstr ""
-
-#. type: Plain text
-#: description.en.adoc:60
-msgid "Explain niche model results"
-msgstr ""
-
-#. type: Plain text
 #: description.en.adoc:61
-msgid "Identify areas of uncertainty in projection"
+msgid "Understanding common data quality issues that may affect data use"
 msgstr ""
 
 #. type: Plain text
 #: description.en.adoc:62
 msgid ""
-"Develop a biodiversity data mainstreaming strategy that considers the "
-"national context"
+"Apply data processing routines on GBIF downloads to create fit for purpose "
+"datasets"
 msgstr ""
 
 #. type: Plain text
 #: description.en.adoc:63
-msgid ""
-"Identify policy entry points and categorize key stakeholders with respect to "
-"their relative influence"
+msgid "Learn the difference between fundamental and realized niches"
 msgstr ""
 
 #. type: Plain text
 #: description.en.adoc:64
+msgid "Explain how to delimit a training region"
+msgstr ""
+
+#. type: Plain text
+#: description.en.adoc:65
+msgid "Generate a simple niche model"
+msgstr ""
+
+#. type: Plain text
+#: description.en.adoc:66
+msgid "Explain niche model results"
+msgstr ""
+
+#. type: Plain text
+#: description.en.adoc:67
+msgid "Identify areas of uncertainty in projection"
+msgstr ""
+
+#. type: Plain text
+#: description.en.adoc:68
 msgid ""
 "Develop a communication strategy and convincing arguments for the "
 "integration of biodiversity into decision making processes"
 msgstr ""
 
 #. type: Plain text
-#: description.en.adoc:67 description.en.adoc:68 description.en.adoc:69
+#: description.en.adoc:69
+msgid ""
+"Apply criterion B of the IUCN Categories and Criteria for the assessment of "
+"a species conservation status using a fit-for purpose dataset"
+msgstr ""
+
+#. type: Plain text
 #: description.en.adoc:70
+msgid ""
+"Apply IUCN mapping protocols for the production of Red List species "
+"distribution maps"
+msgstr ""
+
+#. type: Plain text
+#: description.en.adoc:73 description.en.adoc:74 description.en.adoc:75
+#: description.en.adoc:76
 msgid "Objective"
 msgstr ""
 
 #.  inlude if needed, otherwise remove
 #. type: Title ===
-#: description.en.adoc:72
+#: description.en.adoc:78
 #, no-wrap
 msgid "Certification"
 msgstr ""
 
 #. type: Plain text
-#: description.en.adoc:75
+#: description.en.adoc:81
 msgid ""
 "Upon successful completion of the course and successful assessment of "
 "assignments (by trainers/mentors), participants have the opportunity to "
@@ -301,19 +301,19 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: description.en.adoc:77
+#: description.en.adoc:83
 msgid ""
 "Participants are required to submit ... and it is scored against the "
 "educational rubrics for the course."
 msgstr ""
 
 #. type: Plain text
-#: description.en.adoc:79
+#: description.en.adoc:85
 msgid "An overall score of ??? earns a BASIC badge"
 msgstr ""
 
 #. type: Plain text
-#: description.en.adoc:79
+#: description.en.adoc:85
 msgid "An overall score of ??? earns an ADVANCED badge"
 msgstr ""
 
