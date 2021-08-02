@@ -33,6 +33,12 @@ For building complex reproducible downloads from GBIF, there is no better tool t
  Especially if you are using R for the rest of your analysis, this will allow you to produce end-to-end scripts of your research. 
 reference for domain specific language: 
 
+Data can be downloaded in three formats
+
+*	Simple: Tab delimited CSV. Only contains the data after GBIF interpretation. No multimedia included. More information about CSV
+*	Darwin Core Archive: The Darwin Core Archive (DwC-A) contains both the original data as publisher provided it and the GBIF interpretation. Links (but not files) to multimedia included. More information about DwC-A
+*	Species list: Tab delimited CSV with the distinct list of names in the search result.
+
 
 Citation
 
