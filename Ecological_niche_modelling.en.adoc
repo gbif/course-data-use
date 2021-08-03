@@ -1,6 +1,43 @@
 [multipage-level=2]
 == Ecological Niche Models
 
+An equation or equations that describe the ecological niche of a species.
+Used to predict suitable habitat in geographic space.
+Niche modeling is essentially does quantitatively what natural historians do qualitatively.
+Look at the characteristics of where a species is found.
+Use that information to predict what else might be suitable habitat
+
+Why
+Ideally we could infer the complete ecological niche of a species through experimental manipulation.
+However, we have limited resources to understand.
+Limited access to individuals (large, rare).
+Limited by funding, facilities (large).
+Data is available.
+You can use the data you are collecting for you BID projects.
+Other individual databases.
+OR go more broadly and collect occurrence data from database aggregators.
+If you still don’t have enough information, you can search the literature for additional records.
+
+Uses
+
+**	Protected area designation-
+Generate niche models to create maps of potentially suitable habitat for species of interest.
+Look at where there are existing or planned protected areas.
+Stack niche models to see where diversity if concentrated.
+Maximize protection of as many species as possible, given resources
+**	Invasive species management - 
+Can build niche model of known occurrences of an invasive species.
+Look at where else it might be found.
+These maps are of native orange cup coral distribution occurrences on the left, potentially suitable habitat on the right.
+**	Planning for climate change -
+Inferring where a species might have suitable habitat in the future.
+In this case, cats in New Zealand.
+Occurrences at the top
+Map of potential distributions at the bottom
+Left: Present suitable habitat
+Middle: Predicted future suitable habitat
+Right: change
+
 Paragraph1, sentence1.
 Sentence 2.
 Sentence 3.
