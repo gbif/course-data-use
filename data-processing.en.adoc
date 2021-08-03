@@ -17,7 +17,8 @@ Correctness and Consistency are two ways of documenting data errors and are meas
 -	Consistency is “How often you get it right”
 -	In the diagram it is how close the shots are together irrespective of how near they are to the centre of the target.
 These are measures of how well the data gatherer was able to capture the true value being investigated. Knowing these properties of the data you have, will help you to understand the ways in which you can and cannot clean, validate and process the data.
-Data Quality
+
+=== Common Data Filters
 Taxon Keys
 
 
@@ -66,7 +67,7 @@ Remove duplicates
 For your application it might be important to remove duplicate records.
 
 
-Advanced filtering
+=== Advanced filtering
 
 There are other things to consider when post processing GBIF data, such.  
 Here are some additional things you might want to do to your data. These things are little bit more complex and involve more judgement calls, so I leave them out of the main cleaning pipeline script. 
