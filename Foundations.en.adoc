@@ -16,16 +16,18 @@ Paragraph3, sentence1.
 Sentence 2.
 Sentence 3.
 
+=== Terminology
+
 === Data Access
 User Profile
 
 
 
-Search capability
+=== Search capability
 
 
 
-Data downloads
+=== Data downloads
 There is technically only one way to generate a GBIF download, and that is through the downloads API (https://www.gbif.org/developer/occurrence). Here I list 3 interfaces to the downloads API. All of these send a JSON request with filters to the GBIF servers where it is interpreted and a download is generated. I strongly recommend using rgbif::occ_download() except if you have a very simple request.  
 
 Here is an example using curl. I do not really recommend editing JSON directly for generating downloads. I just present this here for completeness and for better understanding how the downloads API actually works. You can see here that even a very simple download is verbose. 
@@ -40,7 +42,7 @@ Data can be downloaded in three formats
 *	Species list: Tab delimited CSV with the distinct list of names in the search result.
 
 
-Citation
+=== Citation
 
 [NOTE.presentation]
 In this video (12:26), you will review ... used in this course. 
