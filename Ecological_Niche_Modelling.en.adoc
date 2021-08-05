@@ -38,6 +38,76 @@ Left: Present suitable habitat
 Middle: Predicted future suitable habitat
 Right: change
 
+What is a niche?
+Joseph Grinnell’s Niche Concept
+Joseph Grinnell was an early ecologist who was interested in why certain birds were found where they were found in a landscape. His theory was as follows: READ QUOTE.
+“An explanation of this restricted distribution is probably to be found in the close adjustment of the bird in various physiological and psychological respects to a narrow range of environmental conditions. The nature of these critical conditions is to be learned through an examination of the bird's habitat.”
+
+Grinnell was thinking of niche as a distribution of environmental conditions
+	Specifically, a species is found where there are suitable environmental conditions for that species
+	You can infer what conditions are suitable by quantifying the environmental conditions where a species is found
+Makes sense, right? Think back to the forest mushroom example.
+
+Evelyn Hutchinson’s Niche Concept
+
+G Evelyn Hutchinson came along later, and further built on the idea of where species are found in terms of the “resources” they use.
+“Resource” in this case means space in the environment, which he suggested thinking of as an N-dimensional hypervolume. Each dimension in the hypervolume is a different environmental characteristic--in the case of the cube shown here, temperature, salinity, and bathymetry. The color dots represent the niches of two marine codfish species. You can see that although there’s overlap, they occupy distinct areas within the hypervolume.  
+
+Generally, the theoretical framework we use to model an ecological niche combines the ideas of these two ecologists.
+	The modeled ecological niche of a species is an n-dimensional hypervolume that we infer by looking at the characteristics of the environments in which the species is found.
+•	From Grinnell
+•	Spatially-explicit
+•	Resources that are not depletable
+•	Measurable from distribution
+•	From Hutchinson
+•	N-dimensional hypervolume
+
+Fundamental niche: 
+	tied to physiological tolerances
+ 
+Ideally, we are modeling the fundamental niche of the species, which is the full range of environmental conditions in which a species can persist.
+Realized niche: 
+	subset of the fundamental niche that the species can access AND experiences favorable biotic interactions
+What we are actually modeling is the realized niche!
+	Where within available n-dimensional niche space a species actually occurs
+	Two main reasons a species isn’t found throughout N-dimensional niche space
+1.	The species can’t physically get there
+a.	Maybe it evolved in South Africa and there’s acceptable habitat in Argentina, but the species can’t disperse there
+2.	The species is excluded due to biotic interactions
+a.	Commensalisms
+b.	Competition
+3.	Here’s a classic example in barnacles. There are two species that compete in the intertidal zone.
+4.		Fundamental niches
+5.			Balanus is the area of the intertidal zone that stays wet all the time
+6.			Chthalamus is the full range of the intertidal zone
+7.		Realized niches
+8.			Balanus realized niche is the same as its fundamental niche
+9.			Chthalamus is the part of its fundamental niche where Balanus does not occur.
+ 
+
+Balanus cannot stand exposure to air but outcompetes Chthamalus where they co-exist Chthalamus cannot compete with Balanus but if Balanus is removed, it can survive lower in the intertidal.
+The niche you are actually modeling
+Ideally, the fundamental niche. Always the realized niche. Hopefully, the realized niche is close to the fundamental niche
+●	Interference
+○	Biological
+Historical
+Commonly used algorithms
+BIOCLIM
+●	Very simple
+●	Infer rectilinear envelope
+●	Everything inside is suitable
+●	Not very predictive
+Randomly samples from occurrences as well as areas the species can potentially occur but has not been observed. 
+Maxent
+•	Randomly samples from presence records and “background”
+•	Background = areas the species can experience
+•	Uses these samples to iteratively develop and test a model
+•	A series of equations that best fit the data
+•	Randomly samples from occurrences as well as areas the species can potentially occur but has not been observed. 
+ 
+Elith et al., 2010
+
+
 Paragraph1, sentence1.
 Sentence 2.
 Sentence 3.
