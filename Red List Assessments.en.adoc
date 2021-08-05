@@ -176,13 +176,18 @@ Using GBIF-mediated data for calculations of EOO and AOO
 The nature of GBIF-medaited data lends itself to the calculation of EOO and AOO measurements where occurrence points within a species native range can be used for defining the minimum convex polygon or onto which a 2x2km grid can placed for EOO measurements.  A number of tools have been developed for calculating these measurement including ArcGIS toolboxes, the R package red and GeoCat.  The latter provides users with little programming or GIS experience, the ability to take GBIF-mediated data and calculate EOO and AOO measurements.  In the following video, we provide you with an overview of how this tool works.   
 
 
+===Mapping standards for IUCN Red List Assessments
 
+Species maps are included on the Red List for several reasons. Primarily, the maps provide a visual representation of the species’ distribution, so people can see where the species is found. These data can also be used to conduct many different analyses, such as global threatened species richness for different taxonomic groups, which are then used to inform conservation planning and other decisions. The maps can help inform Red List assessments, by allowing calculations of extent of occurrence (EOO) and area of occupancy (AOO). They can also help to identify conservation priorities. For example, this data can help identify priority areas for conservation and inform conservation policy; it can help identify gaps in scientific knowledge; and it can help inform business decisions (e.g. where not to expand development).
 
+The species distribution maps, commonly referred to as “limits of distribution” or “field guide” maps, aim to provide the current known distribution of the species within its native range.  The limits of distribution are determined by using known occurrences of the species, along with knowledge of habitat preferences, remaining suitable habitat, elevation limits, and other expert knowledge of the species and its range. 
 
+[CLICK] In many cases the distribution is depicted as polygons, but it may also be represented by data points (collection records), or a mixture of points and polygons. [CLICK] For polygon maps, the polygon shows the limits of the taxon’s distribution, which essentially means that the species probably only occurs within this polygon, [CLICK] but it does not mean that it is distributed equally within that polygon or occurs everywhere within that polygon.
 
+In the video, you can get an overview of the different mapping standards in use for mapping assessed species' distributions.
 
-
-
+=== Minimum Documentation
+Assessors should provide with their maps, whether they be based on points, polygons or a combination of both, a set of accompanying attributes i.e. data attached to points and polygons. Some of these attributes are required as part of minimum documentation supporting assessments.  Other attributes are either recommended or optional and a full overiview of these minimum documentation requirements can be found in the mapping guidelines docuemnt and these attribute fields have been mapped to Darwin Core terms to facilitate the fulfilment of minimum documentation requirements.
 
 
 Paragraph1, sentence1.
