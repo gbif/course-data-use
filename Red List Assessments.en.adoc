@@ -1,0 +1,88 @@
+[multipage-level=2]
+== IUCN Red List Assessment
+
+What does the IUCN Red List actually tell us? The assessment itself is an estimate of EXTINCTION RISK. 
+
+All species have a probability of going extinct due to random events.  
+However, some species have a higher probability of extinction of going extinct due to a number of determining factors such as population trends, range and threats faced by the species. 
+The IUCN Red List of Threatened Species provides a robust and transparent framework in the form of the Categories and Criteria that build on scientific publications by Mace et al. in the early nineties that identified those factors that would be indicative of elevated extinction risks in species and the development of quantitative thresholds for each of those factors that could be used for assessing the extinction risk of  all species across all systems -  marine, terrestrial and freshwater.   
+It is not the only method for assessing the conservation status of species and regionally different methodologies may be used, however, it is an internationally recognised standard that is acknowledged as a key tool for assessing progress for towards achieving the Aichi bodiversity targets. 
+
+However, the Red List is not a final list of species that are high priorities for conservation action. 
+A species with a high risk of extinction may not necessarily be the highest priority for receiving conservation action; equally, a species that currently has a very low risk of extinction may deserve some conservation action. 
+Clearly extinction risk is a very important factor to consider when determining which species to invest in, but it is not the only factor that should be considered. 
+
+When establishing conservation priorities, it is important to consider financial, cultural, logistical, biological, ethical, social and other factors in addition to extinction risk, to maximize the effectiveness of conservation actions. 
+It’s important to keep this in mind when doing Red List assessments, and not to have a preconceived notion of how threatened a species “should” be or in which category it should be listed.
+
+Assesssments consist of a categordy and accompanying criteria e.g. Vulnerable A2a;B2ab(iii), documentation supporting the category and criteria and a distribution map
+
+The Red List Categories and Criteria were originally developed for use at the global level, but they can give incorrect assessments of extinction risk when used by themselves for regional assessments. IUCN developed the Guidelines for Application of IUCN Red List Criteria at Regional Levels, which adapt the Red List methodology for regional use (free to download from the Red List website).
+
+All described taxa except microorganism can be assessed including species, subspecies, varieties and subpopulations.  Undescribed species taxa can be assessed, only if they area  clearly distinct species, voucher references are provided, distribution information is available and there is conservation benefit to the assessment.  
+
+Only wild populations inside their natural range, and populations resulting from conservation introductions (also called "benign introductions") should be assessed. 
+
+== Process
+Before an assessment can be published on the Red List, it goes through a rigorous approval process, which is one of the reasons the Red List is respected and valued for informing conservation decisions. This process differs slightly depending on who is doing the assessments, but the basic process involves:
+First convening experts who will complete the assessments and compiling the data for all the species that will be assessed through a given project. This information often comes from published books, articles and reports, but information from grey literature (unpublished material) and scientists’ personal experience and observations are also used. 
+Experts then discuss the data and assign a Red List category and criteria to the species (often working with project staff). They also complete a range map and provide supporting documentation that justifies the assessment. 
+These draft assessments are then sent to 2 independent reviewers, who check to make sure all relevant data has been included in the assessment and that the assessment is the most appropriate given the available data. If there are any problems, it is returned to the assessors with an explanation of what needs to be improved. If everything is in place, the reviewers approve the assessment and let the assessor know it is ready for submission. 
+The assessor then checks all the assessments for consistency, proofreading and formatting before submitting to the IUCN Red List Unit. 
+The Red List Unit scans the assessments for obvious errors and quality checks. If there are problems, the assessment goes back to the assessor for improvement. If the assessments are accepted, they will be published on the next Red List update.
+
+The general assessment process at the global level:
+
+All assessments have (1) Assessors (there may only one named assessor, or there may be more than one person involved in the assessment); and (2) Reviewers (there are at least two named Reviewers who review the assessment and agree that it is an appropriate assessment based on all data currently available for the species).
+
+Assessors fall into two categories: (1) those within the IUCN network (SGs, RLAs, assessment projects managed IUCN staff (including regional offices) and Red List Partner organizations); and (2) those from outside the IUCN network. Anyone with sufficient knowledge of a species and the IUCN criteria can carry out an assessment.
+
+Reviewers are generally from the network of Red List Authorities, which are mostly IUCN Specialist Groups, but where there are gaps, other organisations act as RLAs (e.g., Project Seahorse, BirdLife International, etc).
+
+Assessments coming to the IUCN Red List Unit from within IUCN should already have been through the review process (the RLAs nest within the SGs). These are checked by Red List Unit staff to ensure the criteria have been applied correctly and to pick up on any errors. If anything is wrong with the assessment, it is returned to the assessors. If the assessments are sound, they are added to the IUCN Red List for the next update.
+
+Assessments coming from outside the IUCN network need to go through the peer review process. Red List Unit staff check them and, if there are no problems, forward the assessments onto the appropriate RLA; the RLA then evaluates the assessment and returns it to the Red List Unit. If evaluators agree with the assessment, it is included in the next Red List update. If the evaluators disagree, the assessment is returned to the assessors with an explanation of the problem.
+
+
+Paragraph1, sentence1.
+Sentence 2.
+Sentence 3.
+
+Paragraph2, sentence1.
+Sentence 2.
+Sentence 3.
+
+Paragraph3, sentence1.
+Sentence 2.
+Sentence 3.
+
+=== sub topic
+
+[NOTE.presentation]
+Watch video on the key concepts of ...
+
+.In this video (12:26), you will review ... used in this course. 
+If you are unable to watch the embeded Vimeo video, you can download it locally. (MP4 - 44.5 MB)
+video::434713215[vimeo, height=480, width=640, align=center]
+
+
+[NOTE.activity]
+Become familiar with the ...
+
+****
+this is an example of a block
+this second sentence
+
+this is second paragraph first sentence.
+this is second sentence
+****
+
+==== sub sub topic
+
+Paragraph1, sentence1.
+Sentence 2.
+Sentence 3.
+
+“Paragraph2, sentence1.
+Sentence 2.
+Sentence 3.
