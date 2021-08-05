@@ -59,6 +59,132 @@ Based on a species assessment against these criteria, one of 9 categories can be
 The threatened categories use quantitative thresholds but a lack of high quality data shoudl not deter assessors from applying the IUCN criteria.  Certain metrics within the assessment process can be based on observations, estimations, inferences, suspicions and projections and guidance on when these can be used is given hthe IUCN guidelines and summary sheet.  The video outlnes the differences between these different data quaulity types. 
 
 
+
+
+===Applying Criterion B - Restricted Geographic Range
+While GBIF-mediated may provide information that is useful for all criteria, it is for crietion B that GBIF-mediated data can play a critical role in the assessment of a taxon due to the locality information contained within it.  Remember, though, that in a real assessment, you should apply all the criteria when assessing a taxon. 
+
+Criterion B is based on two subcriteria: 
+
+Criterion B1 – based on the estimated extent of occurrence. And
+Criterion B2 – based on the estimated area of occupancy. 
+
+In order to list a species as threatened under criterion B, it must first meet the thresholds for either criterion B1, or B2, or both B1 and B2. In addition, it must also meet at least two of three subcriteria: 
+
+The population is severely fragmented, or occurs in few locations.
+There is evidence of continuing decline.
+There is evidence of extreme fluctuations.
+
+Extent of occurrence and area of occupancy are two different ways to measure characteristics of a taxon’s distribution. Note that neither of them measure the ‘range’ per se; rather, they both measure characteristics of a taxon’s range that influence its extinction risk.
+
+Extent of occurrence (or EOO) is the area contained within the shortest continuous imaginary boundary drawn around all the known, inferred or projected sites where the taxon is currently found, or is believed to be present. This is often called the ‘minimum convex polygon’. Extent of occurrence measures the spatial spread of the areas currently occupied by the taxon, and hence the spatial spread of extinction risk. The intent behind this parameter is to measure the degree to which risks from threatening factors are spread spatially across the taxon’s geographical distribution. It is not intended to be an estimate of the amount of occupied or potential habitat, or a general measure of the taxon’s range. 
+
+The IUCN Red List Categories and Criteria state that EOO may exclude “discontinuities or disjunctions within the overall distribution of the taxa”. However, for measuring EOO for criterion B (which we will discuss later), exclusion of areas forming discontinuities or disjunctions from estimates of EOO is strongly discouraged. This is because disjunctions and outlying occurrences accurately reflect the extent to which a large range size reduces the chance that the entire population of the taxon will be affected by a single threatening process. Inappropriate exclusions of discontinuities or disjunctions within the overall distribution of a taxon will underestimate EOO for the purpose of assessing criterion B and consequently will underestimate the degree to which risk is spread spatially for the taxon.
+
+Projected sites are those that 
+
+Area of occupancy is the area within a taxon’s extent of occurrence that is actually occupied by a taxon. The measure reflects the fact that a taxon will not usually occur throughout the area of its extent of occurrence, which may contain unsuitable or unoccupied habitats. IUCN recommends it be measured by laying a 2x2 km grid over a map of the species distribution or point localities and counting the number of occupied cells; the User Guidelines go into much more detail about how to measure area of occupancy, and how to scale up or scale down AOO estimates if other grid cell areas have been used.
+Please bear in mind that this value assumes adequate survey effort such that you are certain the species only occurs in known localities.
+
+This is how EOO and AOO measurements might look on a range map. 
+
+In this example we show the distribution map for an Australian dragonfly species. The species is known from ten data collection points (shown by the red dots), occurring in eight separate HydroBASIN areas (shown by the blue polygons). In this case the limits of the species’ distribution are represented by the entire HydroBASIN areas; not all of these areas are likely to be completely occupied by this species, but there is suitable habitat within these areas (outside of the data collection points). If we had more detailed information about the biology of the species (or more data points), a more detailed distribution map could be created.
+
+[CLICK]  The extent of occurrence is the entire area within a minimum convex polygon around all of the known, inferred or projected areas the species is likely to occupy. In this example, the extent of occurrence is very large (over 121,000 km²) because it includes the large areas of unoccupied space between the sites where the species has actually been recorded from.
+
+[CLICK]  The area of occupancy is measured using a 2x2 km grid and adding up the occupied cells within the grid. The scale of the map in this example  is too large to show all of these occupied cells for this species, so to illustrate this here we have zoomed into the collection points for this species around the Brisbane area only, where there are three occupied grid cells. In total for this species, it has a minimum area of occupancy of 40 km² (because the data points occur within 10 separate grid cells); if it occurred within the entire area of available suitable habitat known for the species, its area of occupancy would be around 440 km². Even this uncertain range of 40-440 km² would meet the EN threshold under criterion B for this species.
+
+Severely fragmented – Populations are considered ‘severely fragmented’ when most of the individuals (>50%) are found in small, isolated subpopulations between which there is very little dispersal. These subpopulations may be too small to be viable, and so may go extinct with little probability that they will be rescued or re-colonized by dispersing individuals. 
+
+[CLICK] It’s not enough just to have small, isolated subpopulations to consider a taxon severely fragmented. Taxa with highly mobile adults or that produce large numbers of easily dispersed diaspores can more easily rescue or re-colonize sites where populations are declining, and are therefore less vulnerable to extinction.
+
+[CLICK- let the animation run] Here you can see that even though the subpopulations are small and fragmented, when some subpopulations go extinct they are re-colonized by the other subpopulations. These would not be considered severely fragmented.
+
+[CLICK] However, taxa that don’t produce very many diaspores or only produce larges ones that don’t disperse easily are more isolated and there is less movement between them.
+
+[CLICK – let the animation run] In this example, there is no movement or dispersal between the subpopulations, so that when one subpopulation goes extinct, the others can’t re-colonize the area. The risk of extinction  for this taxon is higher than for the previous taxon.
+
+Location – Pay close attention to the definition of location, as it is one of the most misunderstood and misapplied terms in the Red List criteria. The term ‘location’ defines a geographically or ecologically distinct area in which a single threatening event can rapidly affect all individuals of the taxon present. A location is therefore defined entirely by the most significant current or plausible potential threat - IT DOES NOT MEAN THE NUMBER OF SITES OR LOCALITIES THE SPECIES IS RECORDED FROM.
+
+The size of the location depends on the area covered by the threatening event and may include part of one or many subpopulations. Where a taxon is affected by more than one threatening event, location should be defined by considering the most serious plausible threat. If there are no serious threats acting on the population (and no plausible threats expected to affect the population in the foreseeable future), no consideration should be given to how many locations there are. Without a threatening event, the number of locations cannot be measured.
+
+For example, where the most serious plausible threat is habitat loss, a location is an area where a single development project can eliminate or severely reduce the population. Where the most serious plausible threat is volcanic eruption, hurricane, tsunami, frequent flood or fire, locations may be defined by the previous or predicted extent of lava flows, storm paths, inundation, fire paths, etc. Where the most serious plausible threat is collection or harvest, then locations may be defined based on the size of jurisdictions (within which similar regulations apply) or on the level of access (e.g., ease with which collectors may reach different areas), as well as on the factors that determine how the levels of exploitation change (e.g., if collection intensity in two separate areas changes in response to the same market trends in demand, these may be counted as a single location).
+
+Let’s look at a few examples. Here we have an aquatic species, distributed in a river system and in a nearby lake. [CLICK] The most serious threat to the species is invasive species, which are introduced to the river and quickly spread throughout the entire river. [CLICK] How many locations do you think there should be?
+
+In this case, introducing invasive species just once into the river affected all of the individuals in the river, so we would consider that one location (CLICK). The lake would be a second location [CLICK], as we would have to introduce invasive species separately into the lake to affect those individuals, but once we did so, all individuals in the lake would be affected.
+
+Here’s another example. [CLICK] This time, pollution is the most serious threat. When pollution enters the river upstream, it affects the entire river downstream, but doesn’t travel up the tributaries. How many locations should we have in this example?
+
+[TRAINER’S NOTE: GIVE THE PARTICIPANTS A CHANCE TO SUGGEST NUMBER OF LOCATIONS BEFORE REVEALING THE ANSWER]
+
+[CLICK, CLICK, CLICK, CLICK]
+In this example there would be around 4 locations, as it would take 4 separate pollution events to affect all of the individuals of the species we are evaluating: one in the main river body, one in each tributary, and one in the lake. This is somewhat subjective, as you could have more than one location in the main river body or in the tributaries if pollution were introduced at some point below where some of our individuals are located. In a real assessment, you would have to consider where the most likely areas for pollution to enter the river would be located and count the number of locations accordingly.
+
+What if the pollution occurred further downstream and only affected a small part of the population? How many locations would this be?
+
+[TRAINER’S NOTE: again, let the participants attempt an answer]
+
+[CLICK] If the main threat shown here is in combination with other threats affecting other parts of the range, then it may be feasible to count 4-5 locations. But, if this pollution is the single threat affecting only a small proportion of the population, it would be impossible to realistically estimate the number of locations.
+
+The Red List Guidelines provide guidance on what to do if parts of the range currently are not affected by any threats. Different options are available:
+
+[CLICK]
+If most (>50%) of the distribution is unaffected by threats, then DO NOT consider number of locations at all.
+
+If only part of the area is unaffected, then:
+  Use number of subpopulations as a surrogate for number of locations (if there are very definite subpopulations). OR
+  Use the smallest area affected by a threat to determine the number of locations in the unaffected areas. OR
+  Base the number of locations in the unaffected area on the threat that is most likely to occur in that area.
+  
+ Where the most serious plausible threat does not affect all of the taxon’s distribution, other threats can be used to define and count locations in those areas not affected by the most serious plausible threat.
+
+[CLICK]
+In this example the species is distributed throughout a river basin and pollution is the most serious threat affecting the largest proportion of the population [CLICK, CLICK]. But, there are different threats affecting other parts of the basin: there is a dam affecting the population in one part branch of the catchment area [CLICK] and fishing pressure is affecting part of the population in another part of the catchment [CLICK]. How many locations would you count here? 
+
+[TRAINER’S NOTE: let the participants attempt to answer]
+
+[CLICK]  There are 5-6 locations – depending on whether you count the unaffected area above the pollution event in the right hand branch of the river system. 
+
+If there are no plausible threats, [CLICK] the number of locations cannot be counted and the subcriteria that refer to locations cannot be used.
+
+Reduction – A reduction is simply a decline in the population size. In the Red List Criteria, a population reduction of at least a specific percentage is measured over a specific time period, but essentially a reduction is just a population decline. The Red List Guidelines give more details about how to estimate a reduction from population data.
+
+Continuing Decline – A continuing decline is a recent, current or projected future decline which is liable to continue unless remedial measures are taken. The decline may be smooth, irregular or sporadic, but the key point is that it is expected to continue unless something is done to stop or reverse the decline.
+
+To start with, let’s look at a very simple example. Imagine you have a species where the population is split into several groups of individuals with unoccupied areas between them. In the slide we show a species of tree, but it could easily be birds, mammals, insects, fungi... Any species you happen to be working on. The larger pictures represent mature, reproducing individuals; the smaller images represent individuals that are too young to reproduce. The red arrow in the top right of the screen represents movement of genetic material between the two groups (which may be seed, pollen, larvae, individuals, etc. which contribute to the group they settle in).
+
+[CLICK]
+For the purposes of a Red List assessment, the ‘POPULATION’ is the total number of individuals of the taxon (including all adults, juveniles, senescent individuals, etc.) across the entire global range.
+
+[CLICK]
+However, some of the Red List criteria rely on the ‘POPULATION SIZE’. This is measured as the number of mature individuals only. 
+
+[CLICK]
+MATURE INDIVIDUALS are those individuals that are known, estimated or inferred to be capable of reproduction; juveniles, senescent and repressed individuals are excluded from this parameter. 
+
+The reason we focus on the number of mature individuals as a measure of population size is to allow the criteria to be applied in a consistent manner to taxa that have very different life histories. The assessment focuses on the functional part of the population: the part that is likely to actively contribute to the next generation. 
+
+For some taxa it can be challenging to define what a mature individual is (e.g., colonial species such as corals, fungi, lichen, etc.). The Red List Guidelines provide more detailed guidance on how to estimate the number of mature individuals appropriately for a range of different scenarios.
+
+[CLICK]
+Another important concept in the Red List Criteria is ‘SUBPOPULATION’. Subpopulations are distinct groups within the population, between which there is little demographic exchange (typically no more than one successful migrant individual or gamete per year). They may be separated by a some geographic barrier, or by a very large area of unsuitable habitat that prevents dispersal of genetic material between the groups. Or it may be some behavioural mechanism that prevents individuals from different groups from interbreeding.
+
+For example it might be a migratory species where groups of individuals migrate thousands of kilometres to use the same feeding areas, but they have high fidelity to their natal breeding areas, so there are very few (or even no) individuals dispersing to breed within the other groups. So when you are considering how many subpopulations there are for a species, think about their dispersal abilities, distance and barriers between groups of individuals, amount of suitable habitat available to allow successful dispersal between groups, and behavioural aspects that might limit successful interbreeding between groups.
+
+Using GBIF-mediated data for calculations of EOO and AOO
+The nature of GBIF-medaited data lends itself to the calculation of EOO and AOO measurements where occurrence points within a species native range can be used for defining the minimum convex polygon or onto which a 2x2km grid can placed for EOO measurements.  A number of tools have been developed for calculating these measurement including ArcGIS toolboxes, the R package red and GeoCat.  The latter provides users with little programming or GIS experience, the ability to take GBIF-mediated data and calculate EOO and AOO measurements.  In the following video, we provide you with an overview of how this tool works.   
+
+
+
+
+
+
+
+
+
+
+
 Paragraph1, sentence1.
 Sentence 2.
 Sentence 3.
