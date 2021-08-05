@@ -108,6 +108,52 @@ Maxent
 Elith et al., 2010
 
 
+=== Environmental variables
+
+Environmental variables, also known as environmental data, explanatory variables, bioclimatic data or covariates are anything that can be summarized by a raster (gridded dataset).  The can be either continuous or categorical (i.e. data expressed as vectors),  direct measurements or derived products, static or dynamic or terrestrial, aquatic or atmospheric. 
+The tables belos give examples of each data type 
+
+Continuous 
+Categorical
+Direct Mesurement – remotely sensed data(raw), weather station data
+Derived Product – climatology data, GCMs, derived remotely sensed data 
+Static (Geophysical)  - Altitude?bathymetry, Slope, Aspect, Soil charecteristics
+Dynamic (bioclimatic) – temperature, precipitation, sea surface height
+Terrestrial – climate, terrain, vegetation/land cover, soil
+Aquatic – sea surface temperature, bathymetry, pH, salinity
+Freshwater – Flow rates, accumulation, temperature
+Atmospheric – wind (UV), radiation
+
+Common sources of data
+
+•	WorldClim (Terrestrial)
+•	EarthEnv  (Terrestrial and Freshwater)
+•	Bio-Oracle (Marine)
+•	National Geophysical Data Center (Terrestrial and Marine)
+•	National Snow and Ice Data Center (Terrestrial and Marine
+•	World Ocean Atlas (Marine)
+•	Raw GCM outputs  (ALL)
+WorldClim is the most commonly-used climate data consisting of 19 derived bioclimatic variables (“BioClim”). These are typically divided into “quarters”(warmest quarter, direst quarter) and related to seasonality.
+WorldClim also produces past and future modeled climate
+•	Past:  HCO, LGM, LIG
+•	Future:  to 2100 AD
+•	But there are other sources e.g. http://ecoclimate.org/ that stretch back farther
+•	These are often not just climate models but also models of land position/amount
+•	The past and future models are different:
+•	Past models parameterized and testable using direct evidence
+•	Future models based on forcing variables (e.g. CO2)
+
+Selecting covariates (or environmental variables)
+More environmental data isn’t always better.  You want to balance to achieve a balance between the number of data points and parameters so that you do not overfit you model.  When selecting variables we want to be sure that:
+-	our variables are Biologically relevant
+-	our variables are Not highly correlated
+-	we do not use all 19 Bioclim variables
+Selection is typically a 2 step process
+
+1.	Initial covariate selection: Identify any very highly correlated variables. For each highly correlated pair, drop the least biologically relevant.
+2.	After environmental data are extracted to species occurrence data, assess correlation again. Again, for each highly correlated pair, drop the least biologically relevant.
+
+
 Paragraph1, sentence1.
 Sentence 2.
 Sentence 3.
