@@ -31,9 +31,9 @@ include::downloads.en.adoc[]
 
 include::Foundations.en.adoc[]
 
-include::data-processing.en.adoc[]
+include::Data_Processing.en.adoc[]
 
-include::Ecological_niche_modelling.en.adoc[]
+include::Ecological_Niche_Modelling.en.adoc[]
 
 include::Red_List_Assessments.en.adoc[]
 
