@@ -35,6 +35,8 @@ include::data-processing.en.adoc[]
 
 include::Ecological_niche_modelling.en.adoc[]
 
+include::Red_List_Assessments.en.adoc[]
+
 include::course-evaluation.en.adoc[]
 
 include::keydocs.en.adoc[]
