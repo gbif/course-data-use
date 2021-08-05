@@ -43,6 +43,21 @@ Assessments coming to the IUCN Red List Unit from within IUCN should already hav
 
 Assessments coming from outside the IUCN network need to go through the peer review process. Red List Unit staff check them and, if there are no problems, forward the assessments onto the appropriate RLA; the RLA then evaluates the assessment and returns it to the Red List Unit. If evaluators agree with the assessment, it is included in the next Red List update. If the evaluators disagree, the assessment is returned to the assessors with an explanation of the problem.
 
+==The IUCN Categories and Crtieria
+Assessments are based on 5 objective scientific criteria, each containing a set of quantitative thresholds against which the risk of extintion of a species can be assessed.  These 5 criteria are:
+Criterion A - Popluation Reduction
+Criterion B - Restricted geograhic range
+Croterion C - Small population size and decline
+Criterion D - Very small or restricted population
+Criterion E - Quantitative Analysis
+
+The thresholds for each of these critersia are summarised in the IUCN summary sheet. Species must be assessed against all criteria during an assessment and it is the criterion with the highest threat category that is used in an assessment.
+
+Based on a species assessment against these criteria, one of 9 categories can be attributed to a taxon outlined in the diagram below.  If the data are so uncertain that both CR and LC are plausible categories, the taxon can be listed as DD. Full guidance on the application of DD, NT and EX can be found in the IUCN guidelines.
+
+==Data Quality
+The threatened categories use quantitative thresholds but a lack of high quality data shoudl not deter assessors from applying the IUCN criteria.  Certain metrics within the assessment process can be based on observations, estimations, inferences, suspicions and projections and guidance on when these can be used is given hthe IUCN guidelines and summary sheet.  The video outlnes the differences between these different data quaulity types. 
+
 
 Paragraph1, sentence1.
 Sentence 2.
