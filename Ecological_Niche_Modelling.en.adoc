@@ -133,7 +133,6 @@ The tables belos give examples of each data type
 [%autowidth.stretch]
 [cols="1,1,1,1"]
 |===
-
 |Terrestrial |Aquatic |Freshwater |Atmospheric  
 
 |Climate, terrain, vegetation/land cover, soil
