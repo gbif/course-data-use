@@ -38,7 +38,7 @@ Left: Present suitable habitat
 Middle: Predicted future suitable habitat
 Right: change
 
-What is a niche?
+== What is a niche?
 Joseph Grinnell’s Niche Concept
 Joseph Grinnell was an early ecologist who was interested in why certain birds were found where they were found in a landscape. His theory was as follows: READ QUOTE.
 “An explanation of this restricted distribution is probably to be found in the close adjustment of the bird in various physiological and psychological respects to a narrow range of environmental conditions. The nature of these critical conditions is to be learned through an examination of the bird's habitat.”
@@ -91,7 +91,7 @@ Ideally, the fundamental niche. Always the realized niche. Hopefully, the realiz
 ●	Interference
 ○	Biological
 Historical
-Commonly used algorithms
+== Commonly used algorithms
 BIOCLIM
 ●	Very simple
 ●	Infer rectilinear envelope
@@ -108,7 +108,7 @@ Maxent
 Elith et al., 2010
 
 
-=== Environmental variables
+== Environmental variables
 
 Environmental variables, also known as environmental data, explanatory variables, bioclimatic data or covariates are anything that can be summarized by a raster (gridded dataset).  The can be either continuous or categorical (i.e. data expressed as vectors),  direct measurements or derived products, static or dynamic or terrestrial, aquatic or atmospheric. 
 The tables belos give examples of each data type 
@@ -143,7 +143,7 @@ WorldClim also produces past and future modeled climate
 •	Past models parameterized and testable using direct evidence
 •	Future models based on forcing variables (e.g. CO2)
 
-Selecting covariates (or environmental variables)
+== Selecting covariates (or environmental variables)
 More environmental data isn’t always better.  You want to balance to achieve a balance between the number of data points and parameters so that you do not overfit you model.  When selecting variables we want to be sure that:
 -	our variables are Biologically relevant
 -	our variables are Not highly correlated
@@ -162,7 +162,7 @@ Spatio-temporal resolution and covariate data extent should align with:
 -	the limitations of other input data (e.g., available usable occurrence data)
 -	the scope of the base question(s)/hypotheses
 
-Training (model calibration) regions
+== Training (model calibration) regions
 
 •	Training regions in Maxent (and other ENM algorithms) The area from which Maxent samples the background for model inference
 Considerations when determining a training region for your model
@@ -176,7 +176,7 @@ Considerations when determining a training region for your model
 •	(e.g. range map) Should reflect available geographic regions that could have been sampled by the study species during the relevant time period
 •	Bigger is not better
 
-Interpretation and Post-Processing of Niche Models
+== Interpretation and Post-Processing of Niche Models
 
 Variable Response Curves
 In the ideal modeling scenario... You would seek to identify the ideal model calibration for your data 
@@ -219,7 +219,7 @@ What is OR?
 Which OR is better?
 OR = 0  → No presences predicted absent
 
-Thresholding a Niche Model
+== Thresholding a Niche Model
 What is model thresholding?
 Process by which we convert the continuous (raw) output from a statistical model to a binary output. 
 Binary output generally interpreted as suitable/not suitable
