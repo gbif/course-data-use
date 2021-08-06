@@ -153,6 +153,170 @@ Selection is typically a 2 step process
 1.	Initial covariate selection: Identify any very highly correlated variables. For each highly correlated pair, drop the least biologically relevant.
 2.	After environmental data are extracted to species occurrence data, assess correlation again. Again, for each highly correlated pair, drop the least biologically relevant.
 
+What data are we using?
+The Basics:
+•	Spatial Resolution: 10 Arc Minutes
+•	Temporal Resolution: 1955-2006
+•	Available Extent: Global
+Spatio-temporal resolution and covariate data extent should align with:
+-	the limitations of other input data (e.g., available usable occurrence data)
+-	the scope of the base question(s)/hypotheses
+
+Training (model calibration) regions
+
+•	Training regions in Maxent (and other ENM algorithms) The area from which Maxent samples the background for model inference
+Considerations when determining a training region for your model
+•	Where did species originate?
+•	Dispersal ability
+•	Distance
+•	Biogeographic barriers
+•	NOT RECTANGLES
+•	NOT POLITICAL BOUNDARIES
+•	NOT COARSE RANGE DELIMITATION
+•	(e.g. range map) Should reflect available geographic regions that could have been sampled by the study species during the relevant time period
+•	Bigger is not better
+
+Interpretation and Post-Processing of Niche Models
+
+Variable Response Curves
+In the ideal modeling scenario... You would seek to identify the ideal model calibration for your data 
+and modeling intent, by comparing: 
+•	multiple calibration scenarios for an individual algorithm
+•	and, the best model calibration scenario across multiple 
+algorithms
+
+Remember: For the purposes of this workshop, these exercises (e.g., dipping our toes into the major theoretical concepts underpinning ENM/SDM) we’re looking at only 1 algorithm.
+Two levels of model evaluation
+•	Many options exist for evaluating model calibration scenarios
+Common and accepted approaches:
+•	Akaike Information Criterion (AIC): 
+•	Compare and identifying the best model calibration scenario for an individual statistical algorithm
+•	Balances model fit with model complexity
+•	can NOT be used to compare between different algorithms
+•	Omission Rate (OR): 
+•	Compare model performance across algorithms
+•	
+•	Akaike Information Criterion (AIC): Assessing within algorithm performance
+What is AIC?
+-	Log likelihood based evaluation metric, commonly used with regression methods
+Which AIC is “better”?
+-	Model with the lowest AIC
+-	Models within 2 points of each other do not differ significantly; will need to look at other factors (e.g., variable contribution) that may suggest which (if any) of the equivalent models is more ideal
+   
+
+AICc = AIC corrected
+     Corrected to account for 
+     smaller, finite sample sizes
+delta.AICc = difference in AICc 
+     between the models being 
+     compared
+w.AIC = AIC weight
+
+Omission Rate (OR):
+Assessing across algorithm performance
+What is OR?
+-	Method of evaluating a model’s ability to accurately predict to test data (typically after applying a threshold)
+Which OR is better?
+OR = 0  → No presences predicted absent
+
+Thresholding a Niche Model
+What is model thresholding?
+Process by which we convert the continuous (raw) output from a statistical model to a binary output. 
+Binary output generally interpreted as suitable/not suitable
+How do we choose the “threshold” value that determines a presence versus an absence?
+-	Minimum Training Presence (MTP)
+-	MTP + user-selected error rate (e.g., E=5%, E=10%)
+Which is better?
+-	Depends on your data!
+
+
+
+
+
+
+
+
+
+
+
+	Species is present	Species is absent
+Model predicts species as present	Accurate	Type 1 Error (commission)
+Model predicts species as absent	Type 2 Error
+(omission)	Accurate
+
+
+
+
+
+
+
+
+
+
+
+
+Classification
+
+•	Sensitivity
+•	True positive rate
+•	Specificity
+•	True negative rate
+•	Would you rather throw out milk that was fine, or drink milk that had spoiled?
+Thresholds: a Tradeoff
+•	Threshold -> 100
+	- all areas are suitable
+	- high commission errors
+	- omission error goes to 0
+•	Same in converse
+
+
+
+== Projecting a Niche Model
+
+•	Finding additional suitable habitat using a niche model
+•	You do this when you map your niche model onto the training region
+•	Also map into past/future or novel environment
+•	Asking where species can persist
+
+Project to your training region
+•	Most common
+•	Simplest
+Different contemporaneous geographies
+•	Species distribution models
+•	Target sampling for rare organisms
+•	e.g. de Siqueira et al. 2009
+•	Predicting sister species
+•	e.g. Owens et al. 2013
+•	Predicting invasive potential of introduced species
+•	Kumar et al. 2015
+
+Different times
+•	Hindcasting distributions
+•	Paleodistributions of modern taxa
+•	E.g. identifying refugia
+•	Schiffornis turdina,Thrush-like Mourner
+•	Peterson and Nyári, 2007
+•	Forecasting distributions
+•	Future distributions of modern taxa
+•	e.g. identifying range shifts due to climate change
+•	Pinus massoniana, Masson Pine
+•	Wang et al. 2016
+The Big Caveat
+•	Novel environments
+•	climate conditions not found in model training region
+•	Truncation
+•	Cut off suitability response
+•	Clamping
+•	Suitability remains continuous
+•	Extrapolation
+•	Use model equations to predict change in suitability outside training region
+
+Projection Uncertainty’
+●	MESS: Multivariate Environmental Suitability Surface
+●	Identifies extrapolation
+○	Red on map
+○	Produced when using Maxent
+
 
 Paragraph1, sentence1.
 Sentence 2.
