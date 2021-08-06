@@ -219,7 +219,7 @@ What is OR?
 Which OR is better?
 OR = 0  → No presences predicted absent
 
-== Thresholding a Niche Model
+=== Thresholding a Niche Model
 What is model thresholding?
 Process by which we convert the continuous (raw) output from a statistical model to a binary output. 
 Binary output generally interpreted as suitable/not suitable
