@@ -254,29 +254,18 @@ Which is better?
 -	Depends on your data!
 
 
+[cols="1,1,1"]
+|===
+|  |Species is present |Species is absent 
 
+|Model predicts species as present
+|Accurate
+|Type 1 Error (commission)
 
-
-
-
-
-
-
-
-	Species is present	Species is absent
-Model predicts species as present	Accurate	Type 1 Error (commission)
-Model predicts species as absent	Type 2 Error
-(omission)	Accurate
-
-
-
-
-
-
-
-
-
-
+|Model predicts species as absent
+|Type 2 Error (omission)
+|Accurate
+|=== 
 
 
 Classification
