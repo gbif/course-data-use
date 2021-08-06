@@ -283,37 +283,15 @@ Thresholds: a Tradeoff
 •	Same in converse
 
 
-
 === Projecting a Niche Model
 
-•	Finding additional suitable habitat using a niche model
-•	You do this when you map your niche model onto the training region
-•	Also map into past/future or novel environment
-•	Asking where species can persist
+You project a niche model when you map your model onto the training region to find additional suitable habitat. You can also map your model into the past or the future or into novel environments. You are asking, where can the species persist?
 
-Project to your training region
-•	Most common
-•	Simplest
-Different contemporaneous geographies
-•	Species distribution models
-•	Target sampling for rare organisms
-•	e.g. de Siqueira et al. 2009
-•	Predicting sister species
-•	e.g. Owens et al. 2013
-•	Predicting invasive potential of introduced species
-•	Kumar et al. 2015
+Projecting to your training region is the most common and simplest form. 
+However, you can also project into different contemporaneous geographies to, for example, target sampling in undersurveyed regions for rare organisms e.g. de Siqueira et al. 2009, predicting the existence of sister species e.g. Owens et al. 2013, and predicting the invasive potential of introduced species. 
 
-Different times
-•	Hindcasting distributions
-•	Paleodistributions of modern taxa
-•	E.g. identifying refugia
-•	Schiffornis turdina,Thrush-like Mourner
-•	Peterson and Nyári, 2007
-•	Forecasting distributions
-•	Future distributions of modern taxa
-•	e.g. identifying range shifts due to climate change
-•	Pinus massoniana, Masson Pine
-•	Wang et al. 2016
+We can also project into the past and the future, for example, to hindcast distributions in the case of determining paleodistributions of modern taxa for identifying refugia e.g. Peterson and Nyári, 2007, or to forecast species distributions to identify range shifts due to cliamte change e.g. Wang et al., 2016.
+
 The Big Caveat
 •	Novel environments
 •	climate conditions not found in model training region
