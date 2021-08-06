@@ -187,7 +187,8 @@ For example, if your environmental data have a spatial resolution of 10 Arc Minu
 === Training (model calibration) regions
 
 Training regions in Maxent (and other ENM algorithms) are the areas from which these algorithms sample the background for model inference.
-Considerations when determining a training region for your model
+Considerations when determining a training region for your model:
+
 * Where did species originate?
 * Dispersal ability
 * Distance
