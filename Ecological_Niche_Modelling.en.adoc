@@ -142,61 +142,66 @@ The tables belos give examples of each data type
 |=== 
 
 
-Common sources of data
+*Common sources of data*
 
-•	WorldClim (Terrestrial)
-•	EarthEnv  (Terrestrial and Freshwater)
-•	Bio-Oracle (Marine)
-•	National Geophysical Data Center (Terrestrial and Marine)
-•	National Snow and Ice Data Center (Terrestrial and Marine
-•	World Ocean Atlas (Marine)
-•	Raw GCM outputs  (ALL)
-WorldClim is the most commonly-used climate data consisting of 19 derived bioclimatic variables (“BioClim”). These are typically divided into “quarters”(warmest quarter, direst quarter) and related to seasonality.
+* WorldClim (Terrestrial)
+* EarthEnv  (Terrestrial and Freshwater)
+* Bio-Oracle (Marine)
+* National Geophysical Data Center (Terrestrial and Marine)
+* National Snow and Ice Data Center (Terrestrial and Marine
+* World Ocean Atlas (Marine)
+* Raw GCM outputs  (ALL)
+
+WorldClim is the most commonly-used climate data consisting of 19 derived bioclimatic variables (“BioClim”). 
+These are typically divided into “quarters” (warmest quarter, direst quarter) and are related to seasonality.
 WorldClim also produces past and future modeled climate
-•	Past:  HCO, LGM, LIG
-•	Future:  to 2100 AD
-•	But there are other sources e.g. http://ecoclimate.org/ that stretch back farther
-•	These are often not just climate models but also models of land position/amount
-•	The past and future models are different:
-•	Past models parameterized and testable using direct evidence
-•	Future models based on forcing variables (e.g. CO2)
+* Past:  HCO, LGM, LIG
+* Future:  to 2100 AD
+
+But there are other sources e.g. http://ecoclimate.org/ that stretch back farther.
+These are often not just climate models but also models of land position/amount.
+These past and future models differ in that past models are parameterized and testable using direct evidence, whereas future models are based on forcing variables (e.g. CO~2~)
 
 === Selecting covariates (or environmental variables)
-More environmental data isn’t always better.  You want to balance to achieve a balance between the number of data points and parameters so that you do not overfit you model.  When selecting variables we want to be sure that:
--	our variables are Biologically relevant
--	our variables are Not highly correlated
--	we do not use all 19 Bioclim variables
+
+More environmental data isn’t always better.  
+You want to balance to achieve a balance between the number of data points and the number of environmental variables so that you do not overfit you model.
+When selecting variables we want to be sure that:
+* our variables are biologically relevant
+* our variables are not highly correlated
+* we do not use all 19 Bioclim variables
+
 Selection is typically a 2 step process
 
-1.	Initial covariate selection: Identify any very highly correlated variables. For each highly correlated pair, drop the least biologically relevant.
-2.	After environmental data are extracted to species occurrence data, assess correlation again. Again, for each highly correlated pair, drop the least biologically relevant.
+. Initial covariate selection: Identify any very highly correlated variables. 
+For each highly correlated pair, drop the least biologically relevant.
+. After environmental data are extracted to species occurrence data, assess correlation again. 
+Again, for each highly correlated pair, drop the least biologically relevant.
 
-What data are we using?
-The Basics:
-•	Spatial Resolution: 10 Arc Minutes
-•	Temporal Resolution: 1955-2006
-•	Available Extent: Global
-Spatio-temporal resolution and covariate data extent should align with:
+Importantly, spatio-temporal resolution and covariate data extent should align with:
 -	the limitations of other input data (e.g., available usable occurrence data)
 -	the scope of the base question(s)/hypotheses
 
+For example, if your environmental data have a spatial resolution of 10 Arc Minutes and a temporal resolution between 1955 and 2006, then the temporal and spatial resolution of the GBIF-meadited data you are going to use should correspond to those resolutions. 
+
 === Training (model calibration) regions
 
-•	Training regions in Maxent (and other ENM algorithms) The area from which Maxent samples the background for model inference
+Training regions in Maxent (and other ENM algorithms) are the areas from which these algorithms sample the background for model inference.
 Considerations when determining a training region for your model
-•	Where did species originate?
-•	Dispersal ability
-•	Distance
-•	Biogeographic barriers
-•	NOT RECTANGLES
-•	NOT POLITICAL BOUNDARIES
-•	NOT COARSE RANGE DELIMITATION
-•	(e.g. range map) Should reflect available geographic regions that could have been sampled by the study species during the relevant time period
-•	Bigger is not better
+* Where did species originate?
+* Dispersal ability
+* Distance
+* Biogeographic barriers
+* NOT RECTANGLES
+* NOT POLITICAL BOUNDARIES
+* NOT COARSE RANGE DELIMITATION
+* (e.g. range map) Should reflect available geographic regions that could have been sampled by the study species during the relevant time period
+* Bigger is not better
 
 === Interpretation and Post-Processing of Niche Models
 
 Variable Response Curves
+
 In the ideal modeling scenario... You would seek to identify the ideal model calibration for your data 
 and modeling intent, by comparing: 
 •	multiple calibration scenarios for an individual algorithm
