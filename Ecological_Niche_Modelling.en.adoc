@@ -1,44 +1,30 @@
 [multipage-level=2]
 == Ecological Niche Models
 
-An equation or equations that describe the ecological niche of a species.
-Used to predict suitable habitat in geographic space.
-Niche modeling is essentially does quantitatively what natural historians do qualitatively.
-Look at the characteristics of where a species is found.
-Use that information to predict what else might be suitable habitat
+An ecological niche model is an equation or set of equations that describe the ecological niche of a species.
+Niche modeling essentially does quantitatively, what natural historians do qualitatively.
+The models predict suitable habitat for a species in geographic space.
+Models identify the characteristics of where a species has been found or observed and use that information to predict where else might be suitable habitat.
 
-Why
-Ideally we could infer the complete ecological niche of a species through experimental manipulation.
-However, we have limited resources to understand.
-Limited access to individuals (large, rare).
-Limited by funding, facilities (large).
-Data is available.
-You can use the data you are collecting for you BID projects.
-Other individual databases.
-OR go more broadly and collect occurrence data from database aggregators.
-If you still don’t have enough information, you can search the literature for additional records.
+*Why?*
 
-Uses
+Modelling approaches allow for the inference of a species without the need for experimental manipualtion that may be too costly, logigistically impossible and/or unethical. These approaches also allow us to use existing data that we may have collected or observed ourselves, harvested from literature or obtained from data aggregators such as GBIF. 
 
-**	Protected area designation-
-Generate niche models to create maps of potentially suitable habitat for species of interest.
-Look at where there are existing or planned protected areas.
-Stack niche models to see where diversity if concentrated.
-Maximize protection of as many species as possible, given resources
-**	Invasive species management - 
-Can build niche model of known occurrences of an invasive species.
-Look at where else it might be found.
-These maps are of native orange cup coral distribution occurrences on the left, potentially suitable habitat on the right.
-**	Planning for climate change -
-Inferring where a species might have suitable habitat in the future.
-In this case, cats in New Zealand.
-Occurrences at the top
-Map of potential distributions at the bottom
-Left: Present suitable habitat
-Middle: Predicted future suitable habitat
-Right: change
+*Uses*
 
-=== What is a niche?
+Beyond defining the limits of a species niche, ecological niche models have a number of practical uses including:
+
+* The designation of protected areas - comparisons of protected area coverage and niche models of interest species can identify gaps in protected areas coverage that merit increased protection.   
+By stacking niche models for different species, we can also identify areas where biodiversity is concentrated and maximise the protection of as many species as possible e.g. Leathwick et al., 2008
+
+* Invasive species management - We can build niche models of known occurrences of an invasive species within its native range and project this information into regions of potential invasion to determine the potential invasive threat of the species e.g.Carlos-Júnior et al., 2015.
+
+
+* Climate change mitigation - using models to define the characteristics of a species' niche, we can then predict the availability of suitable habitat under different climate scenarios and thus infer the impacts of climate change e.g. Aguilar et al. 2015
+
+
+=== *What is a niche?*
+
 Joseph Grinnell’s Niche Concept
 Joseph Grinnell was an early ecologist who was interested in why certain birds were found where they were found in a landscape. His theory was as follows: READ QUOTE.
 “An explanation of this restricted distribution is probably to be found in the close adjustment of the bird in various physiological and psychological respects to a narrow range of environmental conditions. The nature of these critical conditions is to be learned through an examination of the bird's habitat.”
@@ -91,7 +77,9 @@ Ideally, the fundamental niche. Always the realized niche. Hopefully, the realiz
 ●	Interference
 ○	Biological
 Historical
+
 === Commonly used algorithms
+
 BIOCLIM
 ●	Very simple
 ●	Infer rectilinear envelope
@@ -110,19 +98,50 @@ Elith et al., 2010
 
 === Environmental variables
 
-Environmental variables, also known as environmental data, explanatory variables, bioclimatic data or covariates are anything that can be summarized by a raster (gridded dataset).  The can be either continuous or categorical (i.e. data expressed as vectors),  direct measurements or derived products, static or dynamic or terrestrial, aquatic or atmospheric. 
+Environmental variables, also known as environmental data, explanatory variables, bioclimatic data or covariates are anything that can be summarized by a raster (gridded dataset).
+These variables are used to characterize the niche of a species.
+The data can be either continuous or categorical (i.e. data expressed as vectors), direct measurements or derived products, static or dynamic or terrestrial, aquatic or atmospheric. 
 The tables belos give examples of each data type 
 
-Continuous 
-Categorical
-Direct Mesurement – remotely sensed data(raw), weather station data
-Derived Product – climatology data, GCMs, derived remotely sensed data 
-Static (Geophysical)  - Altitude?bathymetry, Slope, Aspect, Soil charecteristics
-Dynamic (bioclimatic) – temperature, precipitation, sea surface height
-Terrestrial – climate, terrain, vegetation/land cover, soil
-Aquatic – sea surface temperature, bathymetry, pH, salinity
-Freshwater – Flow rates, accumulation, temperature
-Atmospheric – wind (UV), radiation
+[width=100%]
+[cols="1,1"]
+|===
+|Continuous |Categorical 
+
+|Cell in column 1, row 2
+|Cell in column 2, row 2
+|=== 
+
+[%autowidth.stretch]
+[cols="1,1"]
+|===
+|Direct Measurement |Derived Product 
+
+|Remotely sensed data (raw), weather station data
+|climatology data, GCMs, derived remotely sensed data 
+|=== 
+
+[%autowidth.stretch]
+[cols="1,1"]
+|===
+|Static |Dynamic
+
+|Altitude, bathymetry, slope, aspect, soil charecteristics
+|temperature, precipitation, sea surface height
+|=== 
+
+[%autowidth.stretch]
+[cols="1,1,1,1"]
+|===
+
+|Terrestrial |Aquatic |Freshwater |Atmospheric  
+
+|Climate, terrain, vegetation/land cover, soil
+|Sea surface temperature, bathymetry, pH, salinity
+|Flow rates, accumulation, temperature
+|Wind (UV), radiation
+|=== 
+
 
 Common sources of data
 
