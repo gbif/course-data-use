@@ -37,9 +37,9 @@ include::Use_Case_1.en.adoc[]
 
 include::Ecological_Niche_Modelling.en.adoc[]
 
-include::Red_List_Assessments.en.adoc[]
-
 include::Use_Case_2.en.adoc[]
+
+include::Red_List_Assessments.en.adoc[]
 
 include::course-evaluation.en.adoc[]
 
