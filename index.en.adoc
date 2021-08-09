@@ -33,6 +33,8 @@ include::Foundations.en.adoc[]
 
 include::Data_Processing.en.adoc[]
 
+include::Use Case 1.en.adoc[]
+
 include::Ecological_Niche_Modelling.en.adoc[]
 
 include::Red_List_Assessments.en.adoc[]
