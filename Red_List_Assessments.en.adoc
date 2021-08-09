@@ -232,7 +232,39 @@ In this exercise, you will calculate the Extent of Occurrence and Area of Occupa
 |Final Assessment
 2+|
 |===
+[cols="1,1,1"]
 
+|===
+3+|_Aphonopelma anax_ (Chamberlin, 1940)
+
+|Extent of occurrence
+2+|
+
+|Area of Occupancy
+2+|
+
+2+|
+|Justification (please state whether this is observed, estimated, projected, inferred or suspected)
+
+|Severe Fragmentation 
+|Yes or No
+|
+
+|Number of Locations 
+|
+|
+
+|Continuing Decline
+|Yes or No
+|
+
+|Extreme Fluctuations
+|Yes or No
+|
+
+|Final Assessment
+2+|
+|===
 === Mapping standards for IUCN Red List Assessments
 
 Species maps are included on the Red List for several reasons. Primarily, the maps provide a visual representation of the species’ distribution, so people can see where the species is found. These data can also be used to conduct many different analyses, such as global threatened species richness for different taxonomic groups, which are then used to inform conservation planning and other decisions. The maps can help inform Red List assessments, by allowing calculations of extent of occurrence (EOO) and area of occupancy (AOO). They can also help to identify conservation priorities. For example, this data can help identify priority areas for conservation and inform conservation policy; it can help identify gaps in scientific knowledge; and it can help inform business decisions (e.g. where not to expand development).
