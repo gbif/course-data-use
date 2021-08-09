@@ -311,6 +311,10 @@ OR = 0  → No presences predicted absent
 |None
 |=== 
 
+As we discussed in lecture, the parameters you use in calibrating you niche model can be critical in determining the reliability of resulting model predictions.  In Wallace we do this by selecting  feature classes, which essentially set the rules for model fitting. These feature classes refer to the sorts of equations Maxent will use to try to model the data (linear equations, quadratic equations, and equations involving products). “Hinge” equations use two linear equations that “hinge” at a particular value of an explanatory variable. “Threshold” determines that above or below a particular value of a particular environmental variable, habitat is immediately no longer suitable.  Ideally, we would select a combination of linear, quadratic, and product, which tends to fit models in a more biologically realistic manner and with less overfitting than if we also include hinge and threshold methods. 
+
+We can also select regularization multiplier and multiplier step values.  The regularization multiplier sets how closely our model fits the data that we have used.  A smaller value than the default of 1 will result in a more localized output distribution that is a closer fit to the presence records.  Overfitting the model in this way may mean that it does’t generalize well to independent data.  A larger multiplier will give a more spread out, less localized prediction.  The multiplier step value sets the intervals at which regularization multiplier will be tested.  So with multiplier values of 1-2 and a multiplier step value of 0.5, test models will be run for regularization multiplier values of 1, 1.5, and 2.
+
 Q1. Record the AICc score for each model.
 
 Q2. Which model performed better according to AICc
