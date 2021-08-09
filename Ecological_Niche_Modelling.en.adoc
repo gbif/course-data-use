@@ -237,6 +237,26 @@ Considerations when determining a training region for your model:
 * (e.g. range map) Should reflect available geographic regions that could have been sampled by the study species during the relevant time period
 * Bigger is not better
 
+==== Exercise 3 - Determing a training region
+
+Q1. On the map below, draw what you think would be a good training region for the model. 
+
+Q2. Why did you choose this area? Is it based on where the species is known to occur, as well as areas it could access? Are there features of the species’ natural history that help inform your choice?
+
+
+====  Exercise 4 
+[width=100%]
+[cols="1,1"]
+|===
+|Skills Acquired |Data Required 
+
+|Process environmental data layers to within your training region, Sample background points within your training region, Partition a dataset for an ecological niche model
+|A set of biologically-relevant environmental covariates that are minimally correlated
+|=== 
+
+Now that you know how to determine a training region, you will load your environmental data into Wallace and trim it to a training region we have made for you. Training region shapefiles are best made by creating a polygon shapefile in QGIS (or the GIS program of your choice). This is beyond the scope of this workshop, but here’s a tutorial: https://github.com/mtop/speciesgeocoder/wiki/Tutorial-for-creating-polygons-in-QGIS. We have provided you with a series of environmental variables from the MARSPEC dataset -  a set of high resolution climatic and geophysical GIS data layers for the world ocean from 1955 - 2010.  The variables have provided have been selected because they are biologically relevant and covary minimally. There is a very nice resource for distribution modeling at http://rspatial.org/sdm/; for more information on determining covariate correlations, see Chapter 4 on that website.
+
+
 === Interpretation and Post-Processing of Niche Models
 
 Variable Response Curves
@@ -280,6 +300,16 @@ What is OR?
 -	Method of evaluating a model’s ability to accurately predict to test data (typically after applying a threshold)
 Which OR is better?
 OR = 0  → No presences predicted absent
+
+==== Exercise 5 - Calibrating niche models
+[width=100%]
+[cols="1,1"]
+|===
+|Skills Acquired |Data Required 
+
+|Build an ecological niche model using a presence-background algorithm i.e. Maxent, Produce a set of model evaluation statistics for model selection
+|None
+|=== 
 
 === Thresholding a Niche Model
 What is model thresholding?
