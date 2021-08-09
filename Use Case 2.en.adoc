@@ -1,1 +1,40 @@
+*Using GBIF-mediated data for IUCN Red List Assessments*
 
+Use Case I is a practice use case for the data proecessing and ecological niche modelling modules. It is recommended that you download the exercise sheet (MS Word 345 KB) so that you can make notes as you work through the exercises. A suggested solution will be provided in the solution appendix. Use Case I is not graded.
+
+Scenario
+Mexico is a mega-diverse country with high numbers of species and high levels of endemism across all taxonomic groups.
+The government is committed to assessing the conservation status of all its species and has agreed to develop a national red list applying IUCN Categories and Criteria to all vertebrate and invertebrate taxonomic groups by the year 2030. 
+As part of this process, they have started the assessment of arachnid groups and are now assessing the conservation status of all species within the family Theraposidae – the tarantulas.  
+
+National and international arachnid specialists have come together at Mexican arachnid red list workshop and they will now be assessing the conservation status of the tarantula species Brachypelma smithi (F.O.Pickard-Cambridge, 1897) and Aphonopelma anax (Chamberlin, 1940).  
+Assessors want to use GBIF-mediated data to assess the species using Criterion B and provide maps that comply to IUCN documentation requirements. 
+
+Description
+_Brachypelma smithi_ (F.O.Pickard-Cambridge, 1897) is a large spider species in the family Theraphosidae.  
+It has a very restricted range within the state of Guerrero, requiring clearings in tropical dry forests on sandy soil where it can build its tunnel/den.  
+As with other tarantula species, males and females have different lifespans with averages of 6 and 25 years respectively.  
+Both males and females reach sexual maturity on average after 4 years.  
+The species plays a role in local indigenous culture where it is considered a vessel for the souls of community members and is thus afforded protection where the species is found near local, indigenous communities.  
+The species is threatened by the collection of individuals for the pet trade and is listed under CITES Appendix II; it is highly prized by collectors due to its rarity.  
+
+_Aphonopelma anax_ (Chamberlin, 1940) ) is a large spider species in the family Theraphosidae. 
+It is found in Southern Texas, USA and North Mexico. 
+They are found in semiarid climates in grasslands and shrub forests as well as within cities. 
+They live in burrows that can be created by themselves or modifying suitable habitats such as dead trees, empty rodent burrows, stacks of wood or natural crevices. 
+They have slow growth rates and live for several years before maturing – females can live up to 40 years while males rarely live over 2 years once they have matured. 
+The species is common across its range and although there has been increasing urban and agricultural development across its range in both the USA and Mexico, the extent of this development is limited to only a small portion of the species entire range.
+
+
+Exercises
+Exercises The individual exercises for this use case are located in the corresponding modules.
+
+Data Processing Exercise 1a-c
+
+Data capture Exercise 2
+
+Data management Exercise 3a-c
+
+Data publishing Exercise 4
+
+Exercise Sheet
