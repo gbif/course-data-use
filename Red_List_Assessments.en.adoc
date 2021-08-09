@@ -278,6 +278,15 @@ In the video, you can get an overview of the different mapping standards in use 
 === Minimum Documentation
 Assessors should provide with their maps, whether they be based on points, polygons or a combination of both, a set of accompanying attributes i.e. data attached to points and polygons. Some of these attributes are required as part of minimum documentation supporting assessments.  Other attributes are either recommended or optional and a full overiview of these minimum documentation requirements can be found in the mapping guidelines docuemnt and these attribute fields have been mapped to Darwin Core terms to facilitate the fulfilment of minimum documentation requirements.
 
+==== Exercise 3 - Producing a Species Distribution Map
+
+In this exercise, you will create a species distribution map for Brachypelma smithi applying IUCN mapping standards.    Please use the step-by-step guide for use case 1 to guide you through this exercise. For assessments that are accompanied by points only, it is recommended, if possible and appropriate, that a polygon map representing the distribution is also provided. Plausible options include, for example, the Minimum Convex Polygon (MCP) map (equivalent to the maximum EOO as defined in this document). Such a polygon should be marked in the polygon attribute table as generalisd = 1 (See Table 3 in Section 4.1.2). It would be used for display on the IUCN Red List website along with the points, and could also be used for analysis purposes.
+
+Q1. Provide the point attributes table in line with IUCN mapping standards for Brachypelma smithi including core, recommended and optional fields for the species distribution map using the processed GBIF data download for this species
+Q2. Using the Nature Conservancy Terrestrial Ecosystems dataset provided, what might be appropriate ecosystems to base a polygon map of the limits of a taxon´s distribution for both species?
+Q3. If these were freshwater species, what would be an appropriate GIS layer to use for creating polygon maps?
+Q4. Provide a polygon map for each of the species.
+Q5. What would be appropriate citations for the use of these data?
 
 Paragraph1, sentence1.
 Sentence 2.
