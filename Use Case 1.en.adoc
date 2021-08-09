@@ -1,1 +1,23 @@
+[multipage-level=2]
+== Use Case 1 - Ecological Niche Modelling in the marine realm
+Use Case I is a practice use case for the data proecessing and ecological niche modelling modules. It is recommended that you download the exercise sheet (MS Word 345 KB) so that you can make notes as you work through the exercises. A suggested solution will be provided in the solution appendix. Use Case I is not graded.
 
+=== Scenario
+
+
+==== Description
+_Gymnosarda unicolor_, the Dogtooth tuna, is a medium-sized fish species in the family Scombridae, which includes mackerels, tunas, and other popular commercial fish species.   
+They are found predominantly in reef environments throughout the tropical Indo-Pacific region, with smaller fish being more commonly found near shallow reef areas and larger ones haunting deep reef drop off areas, seamounts and steep underwater walls. 
+Rainbow tuna prey primarily on smaller schooling fishes and squids. 
+Usually they occur in small schools to a depth of 10–300 metres, but tagging studies in the Indian ocean have shown that individuals are able to disperse across distances of 4,000 km.
+Gymnosarda unicolor is harvested extensively across its range, both supplying local markets and as part of international trade. 
+In the last 30 years, there has been a 200% increase in catch size for this species due to the increased mechanisation of the fishing fleet and increased demand from more affluent urban communities on the islands that can afford the fish.  
+Further, in the last 5 years US retailer M&Vs has incorporated Filipino Gymnosarda unicolor within its supply chain in response to a new trend in the USA for the fish in “unicorn” sushi.  
+With increasing targeted fishing of this species to supply domestic and international markets, there is concern over the continued persistence of the species within the Philippines with no information on its conservation status.  
+Though this species is well-known by commercial fishermen, there has been no systematic study of the distribution of the species at global or national scales. 
+Within the Philippines there is no map of the species distribution within national waters that would ensure that the spatial management plans could shelter some Dogtooth tuna breeding grounds from fisheries over part of its range and thus ensure the sustainability of stocks.  
+
+
+A global dataset from www.gbif.org for Gymnosarda unicolor will be used - GBIF.org (22 November 2019) GBIF Occurrence Download https://doi.org/10.15468/dl.5fhynv
+
+=== Exercises
