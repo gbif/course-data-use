@@ -250,7 +250,7 @@ Q2. Why did you choose this area? Is it based on where the species is known to o
 |===
 |Skills Acquired |Data Required 
 
-|* Process environmental data layers to within your training region, 
+a|* Process environmental data layers to within your training region, 
 * Sample background points within your training region, 
 * Partition a dataset for an ecological niche model
 |A set of biologically-relevant environmental covariates that are minimally correlated
