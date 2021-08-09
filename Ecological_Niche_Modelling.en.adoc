@@ -311,6 +311,16 @@ OR = 0  → No presences predicted absent
 |None
 |=== 
 
+Q1. Record the AICc score for each model.
+
+Q2. Which model performed better according to AICc
+
+Q3. Fill in the following table with the model evaluation statistics for your model 
+
+Q4. Based on the overall omission rate for all the bins, which model performed better? Does this match the conclusion reached using AICc?
+
+Q5. Based on AICc and omission rate, which model do you think will be the best to continue working with?
+
 === Thresholding a Niche Model
 What is model thresholding?
 Process by which we convert the continuous (raw) output from a statistical model to a binary output. 
@@ -376,6 +386,22 @@ Projection Uncertainty’
 ○	Red on map
 ○	Produced when using Maxent
 
+
+===== Exercie 6 - Visualizing, Thresholding, and Projecting Niche Models
+[width=100%]
+[cols="1,1"]
+|===
+|Skills Acquired |Data Required 
+
+|Evaluate the fit of a model using variable response curves, Thresholding a continuous model output into a binary model output, Project models into a new time, Identify areas of model extrapolation in model projections 
+|Future predictions of climate variables
+|=== 
+
+In this exercise, you will process results from Exercise 6 to produce maps of Gymnosarda arcus suitable habitat, as well as several plots to diagnose model performance. You will also project your Rainbow tuna model into different bioclimatic conditions. You have been provided with a step-by-step guide to this exercise.
+
+Q1. What similarities do you see across the four visualizations? What  are the major differences?
+
+Q2. Look closely at your projected model. Based on what you know about our study species,  Gymnosarda arcus, do your model results make sense? Are there any areas of predicted absence or presence that are questionable? What areas? Why do you question the model prediction in these areas? 
 
 Paragraph1, sentence1.
 Sentence 2.
