@@ -390,7 +390,7 @@ Projection Uncertainty’
 ○	Red on map
 ○	Produced when using Maxent
 
-
+ 
 ===== Exercie 6 - Visualizing, Thresholding, and Projecting Niche Models
 [width=100%]
 [cols="1,1"]
