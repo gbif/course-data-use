@@ -109,8 +109,8 @@ These variables are used to characterize the niche of a species.
 The data can be either continuous or categorical (i.e. data expressed as vectors), direct measurements or derived products, static or dynamic or terrestrial, aquatic or atmospheric. 
 The tables belos give examples of each data type 
 
-[width=100%]
-[cols="1,1"]
+// [width=100%]
+[cols="50%,50%"]
 |===
 |Continuous |Categorical 
 
@@ -118,8 +118,8 @@ The tables belos give examples of each data type
 |Cell in column 2, row 2
 |=== 
 
-[%autowidth.stretch]
-[cols="1,1"]
+// [%autowidth.stretch]
+[cols="50%,50%"]
 |===
 |Direct Measurement |Derived Product 
 
@@ -127,8 +127,8 @@ The tables belos give examples of each data type
 |climatology data, GCMs, derived remotely sensed data 
 |=== 
 
-[%autowidth.stretch]
-[cols="1,1"]
+// [%autowidth.stretch]
+[cols="50%,50%"]
 |===
 |Static |Dynamic
 
@@ -136,8 +136,8 @@ The tables belos give examples of each data type
 |temperature, precipitation, sea surface height
 |=== 
 
-[%autowidth.stretch]
-[cols="1,1,1,1"]
+// [%autowidth.stretch]
+[cols="25%,25%,25%,25%"]
 |===
 |Terrestrial |Aquatic |Freshwater |Atmospheric  
 
