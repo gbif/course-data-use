@@ -31,6 +31,7 @@ Default Geospatial Issues
 GBIF removes common geospatial issues by default if you choose to have data with a location.
 
 The following things will be removed:
+
 *Zero Coordinates- Coordinates are exactly (0,0). null island. Zero-zero coordinate is a very common geospatial issue. It is so common that it has received the joke name “null island”. GBIF removes (0,0) when hasgeospatialissue  is set to FALSE.  
 *Country coordinate mis-match - The coordinates fall outside of the given country’s polygon.
 *Coordinate invalid - GBIF is unable to interpret the coordinates.
