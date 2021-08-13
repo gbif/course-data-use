@@ -27,15 +27,18 @@ If you are accessing GBIF-mediated data programatically as opposed to via the we
 Almost always you will want to post-process your GBIF download in some way to fit your needs. Here I take you through some common data quality filters. Sometimes you will have to make difficult judgement calls for your particular use-case. Whenever you are dealing with thousands-millions of records, you will never quite know the true quality of the source data. It is important to keep in mind that you are always just mitigating data quality issues, not eliminating them. 
 
 Default Geospatial Issues
+
 Zero Coordinates- Coordinates are exactly (0,0). null island. Zero-zero coordinate is a very common geospatial issue. It is so common that it has received the joke name “null island”. GBIF removes (0,0) when hasgeospatialissue  is set to FALSE.  
 
 Country coordinate mis-match
+
 GBIF removes records that do not match their countrycode. 
 Data publishers will often supply GBIF with a country code (US,TW,SE,JP…). GBIF uses the two letter system. 
 https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
 When a point does not fall within the country’s polygon or EEZ, but says that it should occur within the country, it gets flagged as having “country coordinate mis-match”. 
 
 Absence records
+
 Sometimes data publishers will include absence records (where they verify that a species in not present). Most of users don’t want these records.
 GBIF now has a field for classifying a record as present or absent. 99% of users will want to have only presence records, so no GBIF gives it to you as the default. If you want to make sure you only got presence records, you can include this filter. 
 Fossils and Living Specimens
@@ -46,18 +49,22 @@ Unfortunately not used very often.
 This field could allow you to remove records that are not naturally established. Publishers to not fill in this field very often, but there are cases where removing “MANAGED” records will remove zoo records.
 
 Old Records
+
 GBIF has many museum records that might be older than what is desired for some studies.
 
 Uncertain location 
+
 Often you will want to be sure that the coordinates give a certain location and are not really 1000s of km away from where the organism was observed or collected. There are two fields (corrdinate precision and coordinateUncertaintyInMeters you get with a SIMPLE CSV download that you can use to filter by “uncertainty”. These fields are not used very often by publishers who feel that their records are fairly certain. But in fact it would be very helpful for users, if all publishers tried to fill in one of these fields. 
 
 I recommend not filtering out missing values, since the value is often not filled in by publishers if they think the occurrence is fairly certain (from a GPS). 
 There are a few “fake” values for coordinate uncertainty that you should be aware of. These values are errors produced by geocoding software and do not represent real uncertainty values. In the case of 301, the uncertainty is often much-much greater than 301 and actually represents a country centroid.
 
 Points along the equator or prime meridian
+
 Some publishers consider zero and NULL to be equivalent, empty latitude and longitude end up being plotted along these two lines.
 
 Country centroids
+
 Country centroids are where the observation is pinned to center of the country instead of being closer to where the animal, plant, or microbe … was observed or recorded.  Country centroids are usually records that have been retrospectively given a lat-lon value based on a textual description of where the original record was located. So if the record simple says “Brazil”, some publishers will put the record in the center of Brazil. Similarly if the record simply says “Texas”, “Paris” … the record will go in the center of those regions. This is almost exclusively a feature of museum data (PRESERVED_SPECIMEN), but it can also happen with other types of records as well. 
 Geocoding software uses gazetteers. A gazetteer is a geographical dictionary or directory used in conjunction with a map or atlas.
 
@@ -66,6 +73,7 @@ There are a few very helpful functions there especially for removing country cen
 CoordinateCleaner is especially helpful for removing country centroids. 
 
 Remove duplicates
+
 For your application it might be important to remove duplicate records.
 
 
