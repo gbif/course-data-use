@@ -1,0 +1,160 @@
+Use Case 2 - Modelling the invasive potential of a terrestrial species
+
+Use Case I is a practice use case for the data proecessing and ecological niche modelling modules. 
+It is recommended that you download the exercise sheet (MS Word 345 KB) so that you can make notes as you work through the exercises. 
+A suggested solution will be provided in the solution appendix. 
+Use Case I is not graded.
+
+=== Scenario
+
+Description
+
+Mexico is a mega-diverse country with high numbers of species and high levels of endemism across all taxonomic groups.  
+According to the constitution, all land and water in Mexico belongs to the nation. 
+The national government is responsible for the planning system and affects land use through the work of several of its agencies, including the Secretariat of Agriculture, Territory and Urban Development (SEDATU), the National Water Commission (CONAGUA), the National Land Ownership and Regulation Commission (CORETT)
+and the Secretariat of Environment and Natural Resources (SEMARNAT).  
+At the national level there are two main plans. The National Development Plan (NDP) contains general objectives for economic and social development, and contains guidelines for land-use policies. 
+The national General Ecological Spatial Plan (GESP) aims at regulating land use to protect the environment and to promote sustainable development. 
+The constitution specifies that municipalities are the planning authorities, and they can decide on land use within the national legislative framework. 
+Municipalities develop land-use plans that control land-use changes and decide whether or not to issue building permits. 
+Exceptions to this rule are mining and water extraction activities, which are regulated by the national governments. 
+
+Guided by the GESP, the Mexican government has taken a strategic approach to conserving biodiversity given limited resources by prioritising areas for protection in consultation with state and municipal authorities, which are then responsible for  developing site management plans.  
+The government prioritises the identification of sites for protection by focusing on those sites at most risk from coastal development where the risk from degradation is considered most severe.  
+One category of area they would like to protect are Alliance for Zero Extinction (AZE) sites, a category of Key Biodiversity Area (KBA), where a species is uniquely found at that site and is endangered or critically endangered.  
+The area must have a definable boundary within which the character of habitats, biological communities, and/or management issues have more in common with each other than they do with those adjacent areas. They are often defined on the basis of data collected by Pronatura, the local Birdlife International Partner.  
+Following a stakeholder consultation process, a list of candidate species with restricted ranges were identified. 
+
+One of the greatest threats in the region is from the introduction of the African grass species, Pennisetum setaceum (Forssk.) Chiov.  
+It has become invasive in parts of its introduced range in the United States of America. The species is native to Tanzania, Kenya, Eritrea, Ethiopia and Yemen.  
+The species is popular as a horticultural species in Mexico, and local populations often encourage it since it can be used as fodder, to make fences, as thatch, and is made into soup or stew for human consumption. 
+In Mexico, it has naturalised and is rapidly expanding its range.  
+The species spreads in the tropical dry forest understory and aggregates in clearings often becoming the dominant species replacing native species.  
+
+The government is taking a cross-ministerial approach, bringing in the Secretariat of Environment and Natural Resources and the Secretariat of Tourism in developing complementary policies that ensure the conservation of natural resources and sustainable tourism in the long-term.  
+There are concerns within the tourism industry that these new policies could have a negative impact on a sector that has been rapidly growing over the last 20 years.  
+In order to appease some of these concerns, the government wants to identify those areas where directed conservation actions are required and, thus, the communities and sectors of the tourism industry that are most likely to be affected by such actions.   
+A key part of developing adequate management plans for those areas is understanding the relative impact of threats to those areas, and the government is particularly keen to understand the relative impact of invasive species.   
+
+________________________________________
+Data Collection
+Pennisetum setaceum is popular as a horticultural species in the city of Acapulco where it was introduced in the 1990s.  
+Within the last 5 years the species has started to spread out of the city and into surrounding forests.  
+Aggregations of Pennisetum setaceum are known to prevent spider species from burrowing into the soil and reduce the habitat available for them.  
+
+=== Invasives Exercise Sheet
+
+Download the exercise sheet. (MS Word, 342 KB)
+
+=== Exercise 1
+Exercise 1 – Fit-for-purpose data
+We will need to download both datasets for Brachypelma smithi  and Pennisetum setaceum from www.gbif.org.  
+You will then need to process the Brachypelma smithi dataset for a species assessment and the Pennisetum setaceum dataset for an ecological niche model and make them fit-for-purpose. 
+For Pennisetum setaceum you will only need occurrence data from its native range to run the ecological niche model. Please use the step-by-step guide for Use Case 2 to guide you through this exercise.
+
+Q1.  What are the taxonkeys for each of the species and what is the taxonomic status of each species?
+
+Q2.  In what format did you download the data and how what are the unique properties of this type of download?
+
+Q3.  What are the DOIs of your downloads?
+
+Q4. What are the following key data quality processing steps did you use for cleaning both datasets?  For each requirement, what is your justification?
+-	Default geospatial issues
+-	Absence records
+-	Fossils and living specimens
+-	Establishment Means
+-	Old records
+-	Uncertain location 
+-	Bad default values for coordinate uncertainty
+-	Points along the Equator or prime meridian
+-	Country centroids
+-	Duplicate removal
+-	Outliers
+-	Metagenomics
+-	Outside Native ranges
+-	Gridded datasets
+-	Automated identifications
+Q5. What additional data processing steps might you want to validate taxonomic identification of species?
+-	
+
+=== Exercise 2
+First thing’s first. Launch Wallace.   You will be running an ecological niche model on the Pennisetum setaceum data.
+Please use the step-by-step guide for use case 2 to guide you through this exercise.
+
+Exercise 4:
+
+Q1. What is the overall goal of your ecological niche model? That is, what question or hypothesis are you exploring?
+
+
+Q2. What type of niche are we modeling? What limits our ability to model the kind of niche we hope to model?
+
+
+
+=== Exercise 3 - Training Regions and Environmental Data
+In this exercise, you should determine what your training region for your model will be and select this within Wallace.  
+Rather than use a provided datafile please use the functions within Wallace to select your training region. 
+Please use the step-by-step guide for use case 2 to guide you through this exercise.
+
+Exercise 3 - Determining a training region
+
+Q1. On the map below, draw what you think would be a good training region for the model for Pennisetum setaceum. 
+ 
+Q2. Why did you choose the area you chose? Is it based on where the species is known to occur, as well as areas it could access? Are their features of the species’ natural history that help inform your choice?
+
+
+=== Exercise 4 - Partitioning Occurrence Data and Calibrating Niche Models
+In this exercise, partition your occurrence data for Pennisetum setaceum and run a Maxent model in Wallace. 
+Based on the model evaluation statistics, you should select the model to continue working with.  
+Please use the step-by-step guide for use case 2 to guide you through this exercise.
+
+Exercise 4 - Partitioning Occurrence Data and Calibrating Niche Models
+Q1. Record the AICc score for each model.
+i)	LQHP_1: 
+ii)	LQHP_2: 
+
+Q2. Which model performed better according to AICc
+
+
+Q3. Fill in the following table with the model evaluation statistics for your model 
+
+Model	OR10_bin.1	OR10_bin.2	OR10_bin.3	OR10_bin.4	ORmin_bin.1	ORmin_bin.2	ORmin_bin.3	ORmin_bin.4
+LQHP_1								
+LQHP_2								
+
+Q4. Based on the overall omission rate for all the bins, which model performed better? Does this match the conclusion reached using AICc?
+
+
+Q5. Based on AICc and omission rate, which model do you think will be the best to continue working with?
+
+
+=== Exercise 5 - Visualizing, Thresholding, and Projecting Niche Models
+In this exercise, you will process results from Exercise 6 to produce maps of Pennisetum setaceum suitable habitat, as well as several plots to diagnose model performance. 
+You will also project your Pennisetum setaceum model into different geographic regions with a particular focus on Mexico and the Americas. 
+Please use the step-by-step guide for use case 2 to guide you through this exercise.
+
+Exercise 5 - Visualizing, Thresholding and Projecting Niche Models
+
+Q1. What similarities do you see across the four visualizations? What are the major differences?
+
+
+Q2. Look closely at your projected model. Based on what you know about our study species, Pennisetum setaceum, do your model results make sense? Are there any areas of predicted absence or presence that are questionable? What areas? Why do you question the model prediction in these areas? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
