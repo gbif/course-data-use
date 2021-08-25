@@ -31,6 +31,8 @@ include::downloads.en.adoc[]
 
 include::Foundations.en.adoc[]
 
+include::Tools for Data Analysis.en.adoc[]
+
 include::Data_Processing.en.adoc[]
 
 include::Use_Case_1.en.adoc[]
