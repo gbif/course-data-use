@@ -1,4 +1,5 @@
-Use Case 2 - Modelling the invasive potential of a terrestrial species
+[multipage-level=2]
+== Use Case 2 - Modelling the invasive potential of a terrestrial species
 
 Use Case I is a practice use case for the data proecessing and ecological niche modelling modules. 
 It is recommended that you download the exercise sheet (MS Word 345 KB) so that you can make notes as you work through the exercises. 
