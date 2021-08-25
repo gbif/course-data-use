@@ -33,9 +33,9 @@ include::Foundations.en.adoc[]
 
 include::Tools-for-Data-Analysis.en.adoc[]
 
-include::Data-Processing.en.adoc[]
-
 include::Use-Case-1.en.adoc[]
+
+include::Data-Processing.en.adoc[]
 
 include::Ecological-Niche-Modelling.en.adoc[]
 
