@@ -9,7 +9,6 @@ o	closeness of measured values, observations or estimates to the real or true va
 o	level of resolution of the data e.g. precision of coordinates, taxonomic determination
 o	For most analyses you want highly accurate data although the level of precision may vary dependent on your analysis
 •	GBIF can help you to determine the accuracy and precision of the data (although you must always double-check!)
-•	 
 
 Correctness and Consistency are two ways of documenting data errors and are measures of data quality.
 -	Correctness, sometimes also called accuracy, is “How close the recorded values is to the actual value”.
@@ -17,6 +16,39 @@ Correctness and Consistency are two ways of documenting data errors and are meas
 -	Consistency is “How often you get it right”
 -	In the diagram it is how close the shots are together irrespective of how near they are to the centre of the target.
 These are measures of how well the data gatherer was able to capture the true value being investigated. Knowing these properties of the data you have, will help you to understand the ways in which you can and cannot clean, validate and process the data.
+
+=== Tools for processing your data
+
+=== Software tools
+[NOTE.activity]
+Review software tools used in biodiversity informatics
+ 
+During the course activities, we’ll demonstrate and work with many different software tools related to data digitization, data quality and transformation.
+You probably already use several of them in your daily work.
+
+Community trainers, mentors and former course participants have compiled a list with information about biodiversity informatics software tools.
+It provides links for their main websites, a key facts and a summary of strong and weak points.
+
+Download link:../course-docs/Software-database-EN.xlsx[Software-database-EN.xlsx,opts=download]. (23 KB)
+
+When analysing biodiversity software that you have not used before, you need to consider how you would adapt it for your purposes.
+You will find below a list with which you can start your evaluation.
+They are inspired by the chapter “characteristics of a good database solution” of the GBIF manual https://www.gbif.org/document/80574/initiating-a-collection-digitisation-project[“Initiating a Digitisation Project”^]:
+
+* *Price*: One of the most determining factors.
+Beware of other costs beyond the price of the software license, such as hardware needed to run it, maintenance, upgrades, and the expertise to run it.
+* *Functionality*: You need to have clarity on what do you expect the software to achieve, and make sure it does it efficiently.
+Do not get distracted by additional functionality that can make the software more complex unnecessarily.
+* *Stability*: Some solutions have been in the market for long and are supported by solid institutions or companies are more likely to be bug-free and/or have good systems in place to solve any issues arising.
+It will also make more likely to be updated and ported to more modern operating systems.
+* *Scalability*: Some software performs very well when demoed out-of-the-box, but its  performance degrades after some time or when using them with larger amounts of data or when several users access it simultaneously.
+Check the opinions of other users online.
+* *Integration*: Make sure that the software accepts and produces the data formats that you use and need.
+Data transformation is a time consuming task.
+* *Language support*: it is essential that everyone using the software can understand its interface, and the documentation that will make possible its use.
+* *Documentation and technical support*: make sure to explore the existing documentation and support mechanisms.
+You can be sure that at some point you will need it.
+* *Learning curve*: Some software may require specific training to learn how to use it, while others are more intuitive and can be learned while using them, supported by in-line help systems.
 
 === Common Data Filters
 Taxon Keys
