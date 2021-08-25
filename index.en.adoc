@@ -1,4 +1,4 @@
-= Course name
+= Biodiversity Data Use
 GBIF Secretariat <training@gbif.org>
 :multipage:
 :multipage-level: 1
