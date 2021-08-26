@@ -2,6 +2,7 @@
 == Ecological Niche Models
 [NOTE.objectives]
 
+== What is an ecological niche model?
 An ecological niche model is an equation or set of equations that describe the ecological niche of a species.
 Niche modeling essentially does quantitatively, what natural historians do qualitatively.
 The models predict suitable habitat for a species in geographic space.
