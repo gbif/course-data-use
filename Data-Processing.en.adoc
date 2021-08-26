@@ -1,6 +1,6 @@
 [multipage-level=2]
 == Data Processing
-[NOTE.objective]
+[NOTE.objectives]
 In the data processing module, you will familiarize yourself with the concept of fit-for purpose datasets and some commonly used data filters that you may want to consider for creating your own fit-for-purpose dataset. 
 
 === Fit-for-purpose data
@@ -9,17 +9,17 @@ These are measures of how well the data gatherer was able to capture the true va
 The nature of GBIF's data publication workflow means that the correctness and consistency of the data can vary dependent on the data publishers and the source of the data.
 Knowing these properties of the data you have, will help you to understand the ways in which you can and cannot clean, validate and process the data.
 
-* Correctness (Accuracy)
-o	closeness of measured values, observations or estimates to the real or true value e.g. has the species been identified correctly or the collection locality been identified correctly i.e.  “How close the recorded values is to the actual value”.
+* Correctness (Accuracy) - closeness of measured values, observations or estimates to the real or true value e.g. has the species been identified correctly or the collection locality been identified correctly i.e.  “How close the recorded values is to the actual value”.
 
 image::img/web/Correctness.png[align=center,width=640,height=360]
+
 In the diagram it’s how close is the shot to the centre of the target.
 
-* Consistency (Precision)
-o	level of resolution of the data e.g. precision of coordinates, taxonomic determination i.e. “How often you get it right”
+* Consistency (Precision) - level of resolution of the data e.g. precision of coordinates, taxonomic determination i.e. “How often you get it right”
 
 
 image::img/web/Consistency.png[align=center,width=640,height=360]
+
 In the diagram it is how close the shots are together irrespective of how near they are to the centre of the target.
 
 
