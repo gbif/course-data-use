@@ -84,21 +84,28 @@ Historical
 === Commonly used algorithms
 
 BIOCLIM
-●	Very simple
-●	Infer rectilinear envelope
-●	Everything inside is suitable
-●	Not very predictive
-Randomly samples from occurrences as well as areas the species can potentially occur but has not been observed. 
+* Very simple
+* Infer rectilinear envelope
+* Everything inside is suitable
+* Not very predictive
+* Randomly samples from occurrences as well as areas the species can potentially occur but has not been observed. 
+
 Maxent
-•	Randomly samples from presence records and “background”
-•	Background = areas the species can experience
-•	Uses these samples to iteratively develop and test a model
-•	A series of equations that best fit the data
-•	Randomly samples from occurrences as well as areas the species can potentially occur but has not been observed. 
+* Randomly samples from presence records and “background”
+* Background = areas the species can experience
+* Uses these samples to iteratively develop and test a model
+* A series of equations that best fit the data
+* Randomly samples from occurrences as well as areas the species can potentially occur but has not been observed. 
  
 Elith et al., 2010
 
 ==== Exercise 1 - Starting Wallace and Loading Occurrences
+[NOTE.activity]
+For this use case we will be using the modular, R-based platform Wallace link https://wallaceecomod.github.io/ for reproducible modeling of species niches and distributions. 
+The platform is powered by a variety of R packages including dismo and enmeval allows and lowers the threshold for access to basic modelling functions through a user friendly graphical user interface (GUI).
+It is a great platform for getting you started in in niche modelling and will allow to learn the basics of modelling, explore your data and generate a backcbone R script that will allow for the repeatability of your analyses.  
+What it will not be able to do is generate final, publishable models but it shoudl give you a good grasp of the principles of niche modeling. 
+
 First thing’s first. We’ll start by launching Wallace and giving you a quick overview of the steps you will go through to generate a niche model. You have been provided with a step-by-step guide to this exercise.
 
 Q1. What is the overall goal of your ecological niche model? That is, what question or hypothesis are you exploring?
