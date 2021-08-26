@@ -1,6 +1,7 @@
 [multipage-level=2]
 == Ecological Niche Models
 [NOTE.objectives]
+
 An ecological niche model is an equation or set of equations that describe the ecological niche of a species.
 Niche modeling essentially does quantitatively, what natural historians do qualitatively.
 The models predict suitable habitat for a species in geographic space.
@@ -25,6 +26,7 @@ By stacking niche models for different species, we can also identify areas where
 
 === *What is a niche?*
 [NOTE.presentation]
+
 Joseph Grinnell’s Niche Concept
 Joseph Grinnell was an early ecologist who was interested in why certain birds were found where they were found in a landscape. His theory was as follows: READ QUOTE.
 “An explanation of this restricted distribution is probably to be found in the close adjustment of the bird in various physiological and psychological respects to a narrow range of environmental conditions. The nature of these critical conditions is to be learned through an examination of the bird's habitat.”
