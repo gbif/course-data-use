@@ -24,10 +24,11 @@ In the diagram it is how close the shots are together irrespective of how near t
 For most analyses you want highly accurate data although the level of precision may vary dependent on your analysis.
 GBIF can help you to determine the accuracy and precision of the data through, for example, filters and issue flags, however, you must always double-check!
 
-=== Data Processing Tools
+== Data Processing Tools
 As outlined in 'Software Tools'you should use tools appropriate for you for processing your data post donwload. 
 While GBIF filters will allow for some data processing, it is highly recommended that you additional data processing including a data visualisation step. 
 Tools that can be used for this are: 
+
 * Spreadsheet editing software e.g. Excel, Google Sheets (smaller datasets)
 * OpenRefine
 * R packages and scripts eg CoordinateCleaner, scrubr and biogeo (automated data processing)
