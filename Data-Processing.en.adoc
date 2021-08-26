@@ -6,11 +6,14 @@ In the data processing module, you will familiarize yourself with the concept of
 •	Correctness (Accuracy)
 o	closeness of measured values, observations or estimates to the real or true value e.g. has the species been identified correctly or the collection locality been identified correctly
 
-image::img/web/use-case-3-analogue.png[align=center,width=640,height=360]
+image::img/web/Correctness.png[align=center,width=640,height=360]
 
 •	Consistency (Precision)
 o	level of resolution of the data e.g. precision of coordinates, taxonomic determination
 o	For most analyses you want highly accurate data although the level of precision may vary dependent on your analysis
+
+image::img/web/Consistency.png[align=center,width=640,height=360]
+
 •	GBIF can help you to determine the accuracy and precision of the data (although you must always double-check!)
 
 Correctness and Consistency are two ways of documenting data errors and are measures of data quality.
