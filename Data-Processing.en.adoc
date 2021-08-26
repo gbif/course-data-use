@@ -1,5 +1,6 @@
 [multipage-level=2]
 == Data Processing
+[NOTE.objective]
 In the data processing module, you will familiarize yourself with the concept of fit-for purpose datasets and some commonly used data filters that you may want to consider for creating your own fit-for-purpose dataset. 
 
 === Fit-for-purpose data
