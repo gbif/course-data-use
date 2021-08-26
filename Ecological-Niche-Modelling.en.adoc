@@ -100,7 +100,8 @@ Maxent
 Elith et al., 2010
 
 ==== Exercise 1 - Starting Wallace and Loading Occurrences
-[NOTE.activity]First thing’s first. We’ll start by launching Wallace and giving you a quick overview of the steps you will go through to generate a niche model. You have been provided with a step-by-step guide to this exercise.
+[NOTE.activity]
+First thing’s first. We’ll start by launching Wallace and giving you a quick overview of the steps you will go through to generate a niche model. You have been provided with a step-by-step guide to this exercise.
 
 For this use case we will be using the modular, R-based platform Wallace link https://wallaceecomod.github.io/ for reproducible modeling of species niches and distributions. 
 The platform is powered by a variety of R packages including dismo and enmeval allows and lowers the threshold for access to basic modelling functions through a user friendly graphical user interface (GUI).
