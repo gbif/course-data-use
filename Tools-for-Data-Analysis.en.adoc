@@ -1,11 +1,11 @@
 [multipage-level=2]
 == Tools for Data Analysis
 
-=== Software tools
+== Software tools
 [NOTE.activity]
 Review software tools used in biodiversity informatics
  
-During the course activities, we’ll demonstrate and work with many different software tools related to data digitization, data quality and transformation.
+During the course activities, we’ll demonstrate and work with many different software tools related to data quality and analysis.
 You probably already use several of them in your daily work.
 
 Community trainers, mentors and former course participants have compiled a list with information about biodiversity informatics software tools.
