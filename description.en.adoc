@@ -2,40 +2,31 @@
 == Description
 
 ****
-This course enables participants to plan and implement biodiversity data mobilization efforts effectively using accepted community standards.
-Its aim is to facilitate the use of GBIF-mediated data for a number of key use cases that feed into decision-making processes.
-This course was first developed as part of the Biodiversity Information for Development (BID) programme funded by the European Union.
+This course takes a modular approach to training in the use of GBIF-mediated data and builds on the Data Use for Decision Making course.
+The course comprises of one compulsory course in Data processing and then optional modules that you can follow based on your specific area of interest. 
+The first two optional modules tha we have develpoed are:
 
-Topics include:
-
-*	Data Processing
 *	Ecological Niche Modelling
 *	Red List Assessments
 
 This course is comprised of online content paired with quizzes and practical exercises. When offered as an onsite or virtual workshop, group work and social interaction are encouraged.
 
-
 Topics include:
 
 * Fit-for-Purpose Data
 ** Processing a GBIF-mediated dataset and making it “fit-for-purpose”
-* Data for Species Assessments
-** Using GBIF-mediated data for creating species distribution maps using IUCN mapping standards 
-** Using GBIF-mediated data for assessing species conservation status using the IUCN Red List Categories and Criteria 
 * Ecological Niche Modelling
 ** Introduction to running and interpreting a basic ecological model to determine the distribution of a species
 ** Exploring niche modelling under different environmental conditions
+* Data for Species Assessments
+** Using GBIF-mediated data for creating species distribution maps using IUCN mapping standards 
+** Using GBIF-mediated data for assessing species conservation status using the IUCN Red List Categories and Criteria 
 
-
-
-This course is comprised of ... 
-Second sentence...
 ****
 
 === Audience
 This course is designed for individuals who work as researchers or technicians in biodiversity research or policy institutions.
 The instruction provided is particularly useful for those who have a need or desire to use GBIF-mediated data in their own research or analyses.
-
 
 === Prerequisites
 
@@ -48,12 +39,6 @@ Additionally, to make best use of the activities around this course, the partici
 * Basic knowledge about geography and biodiversity informatics: geography and mapping concepts, basic taxonomy and nomenclature rules.
 * Willingness to disseminate the knowledge learned in the workshop with partners and collaborators in your project by adapting the biodiversity data use training materials to specific contexts and languages while maintaining their instructional value.
 * A good command of English. While efforts are made to provide materials in other languages, instruction/videos will be in English.
-
-
-
-. prerequisite 1 if any
-
-. prerequisite 2 if any
 
 === Learning objectives
 
@@ -68,18 +53,7 @@ Additionally, to make best use of the activities around this course, the partici
 * Apply criterion B of the IUCN Categories and Criteria for the assessment of a species conservation status using a fit-for purpose dataset
 * Apply IUCN mapping protocols for the production of Red List species distribution maps
 
-
-* Objective
-* Objective
-* Objective
-* Objective
-
-// inlude if needed, otherwise remove
 === Certification
+All participants must complete the data processing module and successfully complete the associated assigment will receive  an official certification in the form of a Mozilla Open Badge.  
+If you should complete further optional dtaa use modules you will receive a badge for the course that you took. 
 
-Upon successful completion of the course and successful assessment of assignments (by trainers/mentors), participants have the opportunity to receive an official certification in the form of a Mozilla Open Badge.
-
-Participants are required to submit ... and it is scored against the educational rubrics for the course. 
-
-* An overall score of ??? earns a BASIC badge
-* An overall score of ??? earns an ADVANCED badge
