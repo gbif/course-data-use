@@ -253,6 +253,7 @@ Considerations when determining a training region for your model:
 In this activity you will have to to define a geographic region - a training region - that reflects the natural disctribution of the species and from which your model will sample environmental variables. 
 
 Q1. On the map below, draw what you think would be a good training region for the model. 
+
 image::img/web/Training_region_exercise.png[align=center,width=640,height=360]
 
 Q2. Why did you choose this area? Is it based on where the species is known to occur, as well as areas it could access? Are there features of the species’ natural history that help inform your choice?
