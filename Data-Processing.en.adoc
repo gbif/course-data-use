@@ -5,6 +5,9 @@ In the data processing module, you will familiarize yourself with the concept of
 === Fit-for-purpose data
 •	Correctness (Accuracy)
 o	closeness of measured values, observations or estimates to the real or true value e.g. has the species been identified correctly or the collection locality been identified correctly
+
+image::img/web/use-case-3-analogue.png[align=center,width=640,height=360]
+
 •	Consistency (Precision)
 o	level of resolution of the data e.g. precision of coordinates, taxonomic determination
 o	For most analyses you want highly accurate data although the level of precision may vary dependent on your analysis
