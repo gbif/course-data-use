@@ -255,6 +255,7 @@ Q2. Why did you choose this area? Is it based on where the species is known to o
 
 
 ====  Exercise 4 
+[NOTE.activity]
 [width=100%]
 [cols="1,1"]
 |===
