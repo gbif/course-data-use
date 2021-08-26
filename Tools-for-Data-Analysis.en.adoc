@@ -1,5 +1,4 @@
 [multipage-level=2]
-== Tools for Data Analysis
 
 == Software tools
 [NOTE.activity]
