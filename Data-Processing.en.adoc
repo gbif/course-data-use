@@ -40,11 +40,11 @@ Uncertainty surrounding the taxonomy of a data point can arise for several reaso
 
 * Species misidentification
 * Synoynmy
-* Data input errors
+* Novel names
 
-== Species misidentification
+== Species mis-identification
 
-Species identification is a complex process, with species described from a certain set of characters identified in a published species description and linked to a type specimen held within a scientific collection that be used for validation of species identification. Where taxa are very similar or a set of complex traits are required for correct identification, specific taxonomic expertise may be required that data publishers may not possess leading to misidentification of species. As users, you must have a clear understanding of how taxonomic determinations for your interest group are made:
+Species identification is a complex process, with species described from a certain set of characters identified in a published species description and linked to a type specimen held within a scientific collection that be used for validation of species identification. Where taxa are very similar or a set of complex traits are required for correct identification, specific taxonomic expertise may be required that data publishers may not possess leading to mis-identification of species. As users, you must have a clear understanding of how taxonomic determinations for your interest group are made:
 
 * what are the characters used for defining the species? Are these characters easily confused or captured when the species is observed or collected?
 * Are there related species that could be easily confused with the species you are interested in? 
@@ -53,30 +53,13 @@ If you think that there is a risk that species may be incorrectly identified, yo
 
 == Synonymy 
 
-Synonymy can arise when the same species has been described several times and with each time a new name was given to the species, or when there is a change in the taxonomy of a species for example, a species is moved from one genus to another. Only one species name can be accepted, and other names are what we call synonyms. These synonyms may still be in use to lesser or greater extent and you should be sure when obtaining     
+Synonymy can arise when the same species has been described several times and with each time a new name was given to the species, or when there is a change in the taxonomy of a species for example, a species is moved from one genus to another. Only one species name can be accepted, and other names are what we call synonyms. These synonyms may still be in use to a lesser or greater extent and you should be sure when getting data from GBIF to obtain data for the taxonomic name you need. GBIF's taxonomic backbone differentiates between accepted scientific names and synonyms, and unique identifiers in the form taxon keys. Species searches https://www.gbif.org/species/search allow for filtering for accepted names and synonyms and taxon keys can be used for programmatic searches of GBIF.
 
+== New names
 
+There may be instances where the scientific name does not match any name in the GBIF backbone, perhaps because the species is newly described, or is not within a checklist used by GBIF to construct its backbone or it has been misspelled or badly formatted. These names are flagged with the TAXON_MATCH_HIGHERRANK flag indicating that the scientific name has not been recognised but that the data point has matched at a higher taxonomic level eg. genus or family. This flag can be used for identifying and filtering for these these data.
 
-
-
-
-GBIF issue flags ⚐
-GBIF has around 50 “issue” flags. These are usually some missing values from the publisher or some other problem. In a download, they can be found in the issue column of a download. 
-Two additional issues which might be interesting for users: 
-•	TAXON_MATCH_HIGHERRANK
-•	TAXON_MATCH_FUZZY
-Blog post discussing issue flags in detail: https://data-blog.gbif.org/post/issues-and-flags/
-GBIF has around 50 issues flags. 
-We have seen a few of them the default geospatial issues. Aside from the default geospatial issues, most of these flags are not very interesting for users. They are usually more useful for data publishers who have left a field blank or made an error during publishing. 
-Two issues flags which still might be sometimes useful are: 
-•	Taxon match higherrank 
-•	The record can be matched to the GBIF taxonomic backbone at a higher rank, but not with the scientific name given.
-Reasons include:
-•	- The name is new, and not available in the taxonomic datasets yet
-•	- The name is missing in the backbone’s taxonomic sources for others reasons
-•	- Formatting or spelling of the scientific name caused interpretation errors
-•	Taxon match fuzzy
-•	Matching to the taxonomic backbone can only be done using a fuzzy, non exact match.
+There is also a TAXON_MATCH_FUZZY flag that can be used for identifying and filtering names that can only match the taxonomic backbone using a fuzzy, non exact match.
 
 Taxon Keys
 If you are accessing GBIF-mediated data programatically as opposed to via the website, taxon keys provide an effective way for defining searches based on taxonomy. 
@@ -94,17 +77,44 @@ Sometimes you will have to make difficult judgement calls for your particular us
 Whenever you are dealing with thousands-millions of records, you will never quite know the true quality of the source data. 
 It is important to keep in mind that you are always just mitigating data quality issues, not eliminating them. 
 
-== Default Geospatial Issues
+=== Handling Data Quality
 
+Filtering the data allows you as a user to obtain the data that is most fit for purpose. All searches have a set of filters that can be used for finding the data you need, and occurrence searches have a set of additional 'Advanced" search filters for users that need to do more advanced filtering.  While filters may allow you to filter out data that may not be relevant, or be of lower quality for your purposes, additonal filtering may be required either manually or programmaticially to deal with additional data quality issues that arise during the GBIF data publishing model.  Below are some common data filters that you as a user might consider to make the data more fit-for-purpose. 
+
+
+== Geospatial Filters & Issues
+
+The data can be filtered spatially in an occurrrence search in one of 3 ways:
+
+* Country or area/Continent - data is filtered by country and will include data within the Exclusive Economic Zone (EEZ)
+* Administrative area - this filter uses the GADM database https://gadm.org/data.html of administrative areas for all countries in the world to allow for 
 GBIF removes common geospatial issues by default if you choose to have data with a location.
-
-The following things will be removed:
-
-*Zero Coordinates- Coordinates are exactly (0,0) or what is sometimes called "null island". Zero-zero coordinate is a very common geospatial issue. GBIF removes (0,0) when hasgeospatialissue is set to FALSE.  
-*Country coordinate mis-match - Data publishers will often supply GBIF with a country code (US,TW,SE,JP…). GBIF uses the two letter system. 
+* Location - this filter allows you to filter for data with coordinates and/or draw your own polygon shape filters or use a GeoJSON file to delimit your own shape filter. If you filter for those data with coordinates, a number of geospatial issues associated with the data publishing workflow will be eliminated. These are:
+**Zero Coordinates- Coordinates are exactly (0,0) or what is sometimes called "null island". Zero-zero coordinate is a very common geospatial issue. GBIF removes (0,0) when hasgeospatialissue is set to FALSE.  
+**Country coordinate mis-match - Data publishers will often supply GBIF with a country code (US,TW,SE,JP…). GBIF uses the two letter system. 
 https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2. When a point does not fall within the country’s polygon or EEZ, but says that it should occur within the country, it gets flagged as having “country coordinate mis-match” and will be removed if data are filtered for locations.
-*Coordinate invalid - If GBIF is unable to interpret the coordinates i.e. the coordinates .
-*Coordinate invalid - The coordinates are outside of the range for decimal lat/lon values ((-90,90), (-180,180)).
+**Coordinate invalid - If GBIF is unable to interpret the coordinates i.e. the coordinates .
+**Coordinate invalid - The coordinates are outside of the range for decimal lat/lon values ((-90,90), (-180,180)).
+
+== Country centroids
+
+Country centroids are where the observation is pinned to center of the country instead of being closer to where the animal, plant, or microbe … was observed or recorded.  Country centroids are usually records that have been retrospectively given a lat-lon value based on a textual description of where the original record was located. So if the record simple says “Brazil”, some publishers will put the record in the center of Brazil. Similarly if the record simply says “Texas”, “Paris” … the record will go in the center of those regions. This is almost exclusively a feature of museum data (PRESERVED_SPECIMEN), but it can also happen with other types of records as well. 
+Geocoding software uses gazetteers. A gazetteer is a geographical dictionary or directory used in conjunction with a map or atlas.
+
+CoordinateCleaner is an R package for “cleaning up” GBIF occurrences. 
+There are a few very helpful functions there especially for removing country centroids.
+CoordinateCleaner is especially helpful for removing country centroids. 
+
+== Uncertain location 
+
+Often you will want to be sure that the coordinates give a certain location and are not really 1000s of km away from where the organism was observed or collected. There are two fields (corrdinate precision and coordinateUncertaintyInMeters you get with a SIMPLE CSV download that you can use to filter by “uncertainty”. These fields are not used very often by publishers who feel that their records are fairly certain. But in fact it would be very helpful for users, if all publishers tried to fill in one of these fields. 
+
+I recommend not filtering out missing values, since the value is often not filled in by publishers if they think the occurrence is fairly certain (from a GPS). 
+There are a few “fake” values for coordinate uncertainty that you should be aware of. These values are errors produced by geocoding software and do not represent real uncertainty values. In the case of 301, the uncertainty is often much-much greater than 301 and actually represents a country centroid.
+
+Points along the equator or prime meridian
+
+Some publishers consider zero and NULL to be equivalent, empty latitude and longitude end up being plotted along these two lines.
 
 == Absence records
 
@@ -124,26 +134,6 @@ This field could allow you to remove records that are not naturally established.
 == Old Records
 
 GBIF has many museum records that might be older than what is desired for some studies.
-
-== Uncertain location 
-
-Often you will want to be sure that the coordinates give a certain location and are not really 1000s of km away from where the organism was observed or collected. There are two fields (corrdinate precision and coordinateUncertaintyInMeters you get with a SIMPLE CSV download that you can use to filter by “uncertainty”. These fields are not used very often by publishers who feel that their records are fairly certain. But in fact it would be very helpful for users, if all publishers tried to fill in one of these fields. 
-
-I recommend not filtering out missing values, since the value is often not filled in by publishers if they think the occurrence is fairly certain (from a GPS). 
-There are a few “fake” values for coordinate uncertainty that you should be aware of. These values are errors produced by geocoding software and do not represent real uncertainty values. In the case of 301, the uncertainty is often much-much greater than 301 and actually represents a country centroid.
-
-Points along the equator or prime meridian
-
-Some publishers consider zero and NULL to be equivalent, empty latitude and longitude end up being plotted along these two lines.
-
-== Country centroids
-
-Country centroids are where the observation is pinned to center of the country instead of being closer to where the animal, plant, or microbe … was observed or recorded.  Country centroids are usually records that have been retrospectively given a lat-lon value based on a textual description of where the original record was located. So if the record simple says “Brazil”, some publishers will put the record in the center of Brazil. Similarly if the record simply says “Texas”, “Paris” … the record will go in the center of those regions. This is almost exclusively a feature of museum data (PRESERVED_SPECIMEN), but it can also happen with other types of records as well. 
-Geocoding software uses gazetteers. A gazetteer is a geographical dictionary or directory used in conjunction with a map or atlas.
-
-CoordinateCleaner is an R package for “cleaning up” GBIF occurrences. 
-There are a few very helpful functions there especially for removing country centroids.
-CoordinateCleaner is especially helpful for removing country centroids. 
 
 == Remove duplicates
 
