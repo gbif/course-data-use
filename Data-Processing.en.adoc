@@ -97,7 +97,7 @@ https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2. When a point does not fall wit
 ** Coordinate invalid - If GBIF is unable to interpret the coordinates i.e. the coordinates .
 ** Coordinate invalid - The coordinates are outside of the range for decimal lat/lon values ((-90,90), (-180,180)).
 
- Country centroids
+==== Country centroids
 
 Country centroids are where the observation is pinned to center of the country instead of being closer to where the animal, plant, or microbe … was observed or recorded.  Country centroids are usually records that have been retrospectively given a lat-lon value based on a textual description of where the original record was located. So if the record simple says “Brazil”, some publishers will put the record in the center of Brazil. Similarly if the record simply says “Texas”, “Paris” … the record will go in the center of those regions. This is almost exclusively a feature of museum data (PRESERVED_SPECIMEN), but it can also happen with other types of records as well. 
 Geocoding software uses gazetteers. A gazetteer is a geographical dictionary or directory used in conjunction with a map or atlas.
@@ -106,7 +106,7 @@ CoordinateCleaner is an R package for “cleaning up” GBIF occurrences.
 There are a few very helpful functions there especially for removing country centroids.
 CoordinateCleaner is especially helpful for removing country centroids. 
 
-Uncertain location 
+==== Uncertain location 
 
 Often you will want to be sure that the coordinates give a certain location and are not really 1000s of km away from where the organism was observed or collected. There are two fields (corrdinate precision and coordinateUncertaintyInMeters you get with a SIMPLE CSV download that you can use to filter by “uncertainty”. These fields are not used very often by publishers who feel that their records are fairly certain. But in fact it would be very helpful for users, if all publishers tried to fill in one of these fields. 
 
