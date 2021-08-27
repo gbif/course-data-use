@@ -1,5 +1,5 @@
 [multipage-level=2]
-== Use Case 1 - Ecological Niche Modelling
+= Use Case 1 - Ecological Niche Modelling
 [NOTE.activity]
 Use Case I is a practice use case for the data proecessing and ecological niche modelling modules. It is recommended that you download the exercise sheet (MS Word 345 KB) so that you can make notes as you work through the exercises. A suggested solution will be provided in the solution appendix. Use Case I is not graded.
 
