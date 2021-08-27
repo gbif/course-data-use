@@ -1,5 +1,5 @@
 [multipage-level=2]
-== Ecological Niche Models
+= Ecological Niche Models
 [NOTE.objectives]
 
 == What is an ecological niche model?
