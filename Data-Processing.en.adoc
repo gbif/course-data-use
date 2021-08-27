@@ -34,7 +34,7 @@ Tools that can be used for this are:
 * R packages and scripts eg CoordinateCleaner, scrubr and biogeo (automated data processing)
 * Geographical Information Systems (GIS) 
 
-=== Handling Taxonomic Uncertainty
+= Handling Taxonomic Uncertainty
 
 Uncertainty surrounding the taxonomy of a data point can arise for several reasons:
 
@@ -77,7 +77,7 @@ Sometimes you will have to make difficult judgement calls for your particular us
 Whenever you are dealing with thousands-millions of records, you will never quite know the true quality of the source data. 
 It is important to keep in mind that you are always just mitigating data quality issues, not eliminating them. 
 
-=== Handling Data Quality
+= Handling Data Quality
 
 Filtering the data allows you as a user to obtain the data that is most fit for purpose. All searches have a set of filters that can be used for finding the data you need, and occurrence searches have a set of additional 'Advanced" search filters for users that need to do more advanced filtering.  While filters may allow you to filter out data that may not be relevant, or be of lower quality for your purposes, additonal filtering may be required either manually or programmaticially to deal with additional data quality issues that arise during the GBIF data publishing model.  Below are some common data filters that you as a user might consider to make the data more fit-for-purpose. 
 
@@ -96,7 +96,7 @@ https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2. When a point does not fall wit
 **Coordinate invalid - If GBIF is unable to interpret the coordinates i.e. the coordinates .
 **Coordinate invalid - The coordinates are outside of the range for decimal lat/lon values ((-90,90), (-180,180)).
 
-== Country centroids
+ Country centroids
 
 Country centroids are where the observation is pinned to center of the country instead of being closer to where the animal, plant, or microbe … was observed or recorded.  Country centroids are usually records that have been retrospectively given a lat-lon value based on a textual description of where the original record was located. So if the record simple says “Brazil”, some publishers will put the record in the center of Brazil. Similarly if the record simply says “Texas”, “Paris” … the record will go in the center of those regions. This is almost exclusively a feature of museum data (PRESERVED_SPECIMEN), but it can also happen with other types of records as well. 
 Geocoding software uses gazetteers. A gazetteer is a geographical dictionary or directory used in conjunction with a map or atlas.
@@ -105,7 +105,7 @@ CoordinateCleaner is an R package for “cleaning up” GBIF occurrences.
 There are a few very helpful functions there especially for removing country centroids.
 CoordinateCleaner is especially helpful for removing country centroids. 
 
-== Uncertain location 
+Uncertain location 
 
 Often you will want to be sure that the coordinates give a certain location and are not really 1000s of km away from where the organism was observed or collected. There are two fields (corrdinate precision and coordinateUncertaintyInMeters you get with a SIMPLE CSV download that you can use to filter by “uncertainty”. These fields are not used very often by publishers who feel that their records are fairly certain. But in fact it would be very helpful for users, if all publishers tried to fill in one of these fields. 
 
@@ -144,19 +144,21 @@ For your application it might be important to remove duplicate records.
 There are other things to consider when post processing GBIF data, such.  
 Here are some additional things you might want to do to your data. These things are little bit more complex and involve more judgement calls, so I leave them out of the main cleaning pipeline script. 
 
-== Outliers
+ Outliers
 I have found the DBSCAN to be an effective way to detect points that might be outliers. 
 
-== Metagenomics
+Metagenomics
 Metagenomics datasets sample the environment for DNA and then match the samples against an existing reference database. Especially with non-microorganisms these matches can often be incorrect or suspicious. GBIF has changed its processing so this typically is not a large problem anymore. 
 
 Currently, there is not a great way for filtering for only metagenomics datasets. 
 
-== outside native ranges
-== gridded datasets
+ outside native ranges
+
+gridded datasets
 Most publishers of gridded datasets actually fill in one of the following columns: coordinateuncertaintyinmeters, coordinateprecision, footprintwkt
 So filtering by these columns can be a good way to remove gridded datasets.
 GBIF has an experimental API for identifying datasets which exhibit a certain about of "griddyness". You can read more here
-== automated identifications
+
+automated identifications
 
 
