@@ -1,9 +1,9 @@
 [multipage-level=2]
-== Data Processing
+= Data Processing
 [NOTE.objectives]
 In the data processing module, you will familiarize yourself with the concept of fit-for purpose datasets and some commonly used data filters that you may want to consider for creating your own fit-for-purpose dataset. 
 
-=== Fit-for-purpose data
+== Fit-for-purpose data
 Correctness and Consistency are two ways of documenting data errors and are measures of data quality. 
 These are measures of how well the data gatherer was able to capture the true value being investigated. 
 The nature of GBIF's data publication workflow means that the correctness and consistency of the data can vary dependent on the data publishers and the source of the data.
@@ -24,7 +24,7 @@ In the diagram it is how close the shots are together irrespective of how near t
 For most analyses you want highly accurate data although the level of precision may vary dependent on your analysis.
 GBIF can help you to determine the accuracy and precision of the data through, for example, filters and issue flags, however, you must always double-check!
 
-== Data Processing Tools
+=== Data Processing Tools
 As outlined in 'Software Tools'you should use tools appropriate for you for processing your data post donwload. 
 While GBIF filters will allow for some data processing, it is highly recommended that you additional data processing including a data visualisation step. 
 Tools that can be used for this are: 
@@ -34,7 +34,7 @@ Tools that can be used for this are:
 * R packages and scripts eg CoordinateCleaner, scrubr and biogeo (automated data processing)
 * Geographical Information Systems (GIS) 
 
-= Handling Taxonomic Uncertainty
+== Handling Taxonomic Uncertainty
 
 Uncertainty surrounding the taxonomy of a data point can arise for several reasons:
 
@@ -42,7 +42,7 @@ Uncertainty surrounding the taxonomy of a data point can arise for several reaso
 * Synoynmy
 * Novel names
 
-== Species mis-identification
+=== Species mis-identification
 
 Species identification is a complex process, with species described from a certain set of characters identified in a published species description and linked to a type specimen held within a scientific collection that be used for validation of species identification. Where taxa are very similar or a set of complex traits are required for correct identification, specific taxonomic expertise may be required that data publishers may not possess leading to mis-identification of species. As users, you must have a clear understanding of how taxonomic determinations for your interest group are made:
 
@@ -51,11 +51,11 @@ Species identification is a complex process, with species described from a certa
 
 If you think that there is a risk that species may be incorrectly identified, you can take a conservative approach to the data you use and only use those data linked to specimens in collections where taxonomic validation would be possible and eliminate other data sources. Another approach may be to use associated data such as collector information, media, DNA sequences etc to validate the taxonomic determination.
 
-== Synonymy 
+=== Synonymy 
 
 Synonymy can arise when the same species has been described several times and with each time a new name was given to the species, or when there is a change in the taxonomy of a species for example, a species is moved from one genus to another. Only one species name can be accepted, and other names are what we call synonyms. These synonyms may still be in use to a lesser or greater extent and you should be sure when getting data from GBIF to obtain data for the taxonomic name you need. GBIF's taxonomic backbone differentiates between accepted scientific names and synonyms, and unique identifiers in the form taxon keys. Species searches https://www.gbif.org/species/search allow for filtering for accepted names and synonyms and taxon keys can be used for programmatic searches of GBIF.
 
-== New names
+=== New names
 
 There may be instances where the scientific name does not match any name in the GBIF backbone, perhaps because the species is newly described, or is not within a checklist used by GBIF to construct its backbone or it has been misspelled or badly formatted. These names are flagged with the TAXON_MATCH_HIGHERRANK flag indicating that the scientific name has not been recognised but that the data point has matched at a higher taxonomic level eg. genus or family. This flag can be used for identifying and filtering for these these data.
 
@@ -77,12 +77,12 @@ Sometimes you will have to make difficult judgement calls for your particular us
 Whenever you are dealing with thousands-millions of records, you will never quite know the true quality of the source data. 
 It is important to keep in mind that you are always just mitigating data quality issues, not eliminating them. 
 
-= Handling Data Quality
+== Handling Data Quality
 
 Filtering the data allows you as a user to obtain the data that is most fit for purpose. All searches have a set of filters that can be used for finding the data you need, and occurrence searches have a set of additional 'Advanced" search filters for users that need to do more advanced filtering.  While filters may allow you to filter out data that may not be relevant, or be of lower quality for your purposes, additonal filtering may be required either manually or programmaticially to deal with additional data quality issues that arise during the GBIF data publishing model.  Below are some common data filters that you as a user might consider to make the data more fit-for-purpose. 
 
 
-== Geospatial Filters & Issues
+=== Geospatial Filters & Issues
 
 The data can be filtered spatially in an occurrrence search in one of 3 ways:
 
@@ -116,14 +116,14 @@ Points along the equator or prime meridian
 
 Some publishers consider zero and NULL to be equivalent, empty latitude and longitude end up being plotted along these two lines.
 
-== Absence records
+=== Absence records
 
 Sometimes data publishers will include absence records (where they verify that a species in not present). Most of users don’t want these records.
 GBIF now has a field for classifying a record as present or absent. 
 99% of users will want to have only presence records, so no GBIF gives it to you as the default. 
 If you want to make sure you only got presence records, you can include this filter. 
 
-== Fossils and Living Specimens
+=== Fossils and Living Specimens
 
 GBIF has Fossils and Living Specimens (usually a plant inside a botanical garden or sometimes and animal in a zoo).  Most users do not want fossils or plants in botanical gardens. This filter will remove some of these cases. This will not remove all such cases, since some publishers will not fill in the basis of record field correctly. 
 establishmentMeans
@@ -131,34 +131,34 @@ dwc:establishmentMeans : The process by which the biological individual(s) repre
 Unfortunately not used very often.
 This field could allow you to remove records that are not naturally established. Publishers to not fill in this field very often, but there are cases where removing “MANAGED” records will remove zoo records.
 
-== Old Records
+=== Old Records
 
 GBIF has many museum records that might be older than what is desired for some studies.
 
-== Remove duplicates
+=== Remove duplicates
 
 For your application it might be important to remove duplicate records.
 
-=== Advanced filtering
+== Advanced filtering
 
 There are other things to consider when post processing GBIF data, such.  
 Here are some additional things you might want to do to your data. These things are little bit more complex and involve more judgement calls, so I leave them out of the main cleaning pipeline script. 
 
- Outliers
+=== Outliers
 I have found the DBSCAN to be an effective way to detect points that might be outliers. 
 
-Metagenomics
+=== Metagenomics
 Metagenomics datasets sample the environment for DNA and then match the samples against an existing reference database. Especially with non-microorganisms these matches can often be incorrect or suspicious. GBIF has changed its processing so this typically is not a large problem anymore. 
 
 Currently, there is not a great way for filtering for only metagenomics datasets. 
 
- outside native ranges
+=== outside native ranges
 
-gridded datasets
+=== gridded datasets
 Most publishers of gridded datasets actually fill in one of the following columns: coordinateuncertaintyinmeters, coordinateprecision, footprintwkt
 So filtering by these columns can be a good way to remove gridded datasets.
 GBIF has an experimental API for identifying datasets which exhibit a certain about of "griddyness". You can read more here
 
-automated identifications
+=== automated identifications
 
 
