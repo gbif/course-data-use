@@ -1,5 +1,5 @@
 [multipage-level=2]
-== Software tools
+= Software tools
 [NOTE.activity]
 Review software tools used in biodiversity informatics
  
