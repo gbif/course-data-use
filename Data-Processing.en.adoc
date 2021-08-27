@@ -34,7 +34,32 @@ Tools that can be used for this are:
 * R packages and scripts eg CoordinateCleaner, scrubr and biogeo (automated data processing)
 * Geographical Information Systems (GIS) 
 
-=== Common Data Filters
+=== Handling Taxonomic Uncertainty
+
+Uncertainty surrounding the taxonomy of a data point can arise for several reasons:
+
+* Species misidentification
+* Synoynmy
+* Data input errors
+
+== Species misidentification
+
+Species identification is a complex process, with species described from a certain set of characters identified in a published species description and linked to a type specimen held within a scientific collection that be used for validation of species identification. Where taxa are very similar or a set of complex traits are required for correct identification, specific taxonomic expertise may be required that data publishers may not possess leading to misidentification of species. As users, you must have a clear understanding of how taxonomic determinations for your interest group are made:
+
+* what are the characters used for defining the species? Are these characters easily confused or captured when the species is observed or collected?
+* Are there related species that could be easily confused with the species you are interested in? 
+
+If you think that there is a risk that species may be incorrectly identified, you can take a conservative approach to the data you use and only use those data linked to specimens in collections where taxonomic validation would be possible and eliminate other data sources. Another approach may be to use associated data such as collector information, media, DNA sequences etc to validate the taxonomic determination.
+
+== Synonymy 
+
+Synonymy can arise when the same species has been described several times and with each time a new name was given to the species, or when there is a change in the taxonomy of a species for example, a species is moved from one genus to another. Only one species name can be accepted, and other names are what we call synonyms. These synonyms may still be in use to lesser or greater extent and you should be sure when obtaining     
+
+
+
+
+
+
 GBIF issue flags ⚐
 GBIF has around 50 “issue” flags. These are usually some missing values from the publisher or some other problem. In a download, they can be found in the issue column of a download. 
 Two additional issues which might be interesting for users: 
