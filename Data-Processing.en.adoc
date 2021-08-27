@@ -91,11 +91,11 @@ The data can be filtered spatially in an occurrrence search in one of 3 ways:
 GBIF removes common geospatial issues by default if you choose to have data with a location.
 * Location - this filter allows you to filter for data with coordinates and/or draw your own polygon shape filters or use a GeoJSON file to delimit your own shape filter. If you filter for those data with coordinates, a number of geospatial issues associated with the data publishing workflow will be eliminated. These are:
 
-**Zero Coordinates- Coordinates are exactly (0,0) or what is sometimes called "null island". Zero-zero coordinate is a very common geospatial issue. GBIF removes (0,0) when hasgeospatialissue is set to FALSE.  
-**Country coordinate mis-match - Data publishers will often supply GBIF with a country code (US,TW,SE,JP…). GBIF uses the two letter system. 
+*Zero Coordinates- Coordinates are exactly (0,0) or what is sometimes called "null island". Zero-zero coordinate is a very common geospatial issue. GBIF removes (0,0) when hasgeospatialissue is set to FALSE.  
+*Country coordinate mis-match - Data publishers will often supply GBIF with a country code (US,TW,SE,JP…). GBIF uses the two letter system. 
 https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2. When a point does not fall within the country’s polygon or EEZ, but says that it should occur within the country, it gets flagged as having “country coordinate mis-match” and will be removed if data are filtered for locations.
-**Coordinate invalid - If GBIF is unable to interpret the coordinates i.e. the coordinates .
-**Coordinate invalid - The coordinates are outside of the range for decimal lat/lon values ((-90,90), (-180,180)).
+*Coordinate invalid - If GBIF is unable to interpret the coordinates i.e. the coordinates .
+*Coordinate invalid - The coordinates are outside of the range for decimal lat/lon values ((-90,90), (-180,180)).
 
  Country centroids
 
