@@ -99,35 +99,48 @@ https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2. When a point does not fall wit
 
 ==== Country centroids
 
-Country centroids are where the observation is pinned to center of the country instead of being closer to where the animal, plant, or microbe … was observed or recorded.  Country centroids are usually records that have been retrospectively given a lat-lon value based on a textual description of where the original record was located. So if the record simple says “Brazil”, some publishers will put the record in the center of Brazil. Similarly if the record simply says “Texas”, “Paris” … the record will go in the center of those regions. This is almost exclusively a feature of museum data (PRESERVED_SPECIMEN), but it can also happen with other types of records as well. 
-Geocoding software uses gazetteers. A gazetteer is a geographical dictionary or directory used in conjunction with a map or atlas.
+Country centroids are where the observation is pinned to center of the country instead of where the taxon was observed or recorded.
+Country centroids are usually records that have been retrospectively given a lat-lon value based on a textual description of where the original record was located. Geocoding software uses gazetteers, geographical dictionaries or directories used in conjunction with a map or atlas, to attribute coordinates to place names. 
+So, if the record simply says “Brazil”, some publishers will put the record in the center of Brazil. 
+Similarly if the record simply says “Texas” or “Paris” the record will go in the center of those regions. 
+This is almost exclusively a feature of museum data (PRESERVED_SPECIMEN), but it can also happen with other types of records as well.  
 
-CoordinateCleaner is an R package for “cleaning up” GBIF occurrences. 
-There are a few very helpful functions there especially for removing country centroids.
-CoordinateCleaner is especially helpful for removing country centroids. 
+Identifying country centroid data is currently not possible using GBIF filters, however, the R package CoordinateCleaner can be used for identifying and filtering for country centroids.
+
+==== Points along the equator or prime meridian
+
+Some publishers consider zero and NULL to be equivalent so that empty latitude and longitude fields for a record are given a zero value.  As a result, records end up being plotted along these the equator and prime meridian lines.
 
 ==== Uncertain location 
 
-Often you will want to be sure that the coordinates give a certain location and are not really 1000s of km away from where the organism was observed or collected. There are two fields (corrdinate precision and coordinateUncertaintyInMeters you get with a SIMPLE CSV download that you can use to filter by “uncertainty”. These fields are not used very often by publishers who feel that their records are fairly certain. But in fact it would be very helpful for users, if all publishers tried to fill in one of these fields. 
+Often you will want to be sure that the coordinates give a certain location and are not really 1000s of km away from where the organism was observed or collected. There are two fields coordinate precision and coordinateUncertaintyInMeters in Darwin Core that you get with a SIMPLE CSV download that you can use to filter by “uncertainty”.  However, these fields are not used very often by publishers who feel that their records are fairly certain (from a GPS) and we would not recommend not filtering out missing values. 
 
-I recommend not filtering out missing values, since the value is often not filled in by publishers if they think the occurrence is fairly certain (from a GPS). 
-There are a few “fake” values for coordinate uncertainty that you should be aware of. These values are errors produced by geocoding software and do not represent real uncertainty values. In the case of 301, the uncertainty is often much-much greater than 301 and actually represents a country centroid.
+There are also a few “fake” values for coordinate uncertainty that you should be aware of. These values are errors produced by geocoding software and do not represent real uncertainty values. 
+These "fake" values are 301, 3036, 999 and 9999.  
+In the case of the value 301, the uncertainty is often much-much greater than 301 and actually represents a country centroid.
 
-Points along the equator or prime meridian
+==== Absence records
 
-Some publishers consider zero and NULL to be equivalent, empty latitude and longitude end up being plotted along these two lines.
+By default, both presence and absence records are shown when you search www.gbif.org. Absence records confirm that a species was not found at a specific locality when that area was surveyed and this information can be useful in, for example, developing ecological niche models. However, you may only be interested in presence records and in this instance you can filter for only presence records using the Occurrence Status filter. 
 
-=== Absence records
+=== Basis of Record Fossils and Living Specimens
 
-Sometimes data publishers will include absence records (where they verify that a species in not present). Most of users don’t want these records.
-GBIF now has a field for classifying a record as present or absent. 
-99% of users will want to have only presence records, so no GBIF gives it to you as the default. 
-If you want to make sure you only got presence records, you can include this filter. 
+Basis of record is a Darwin Core term that refers to the specific nature of the record and can refer to one of 6 classes:
+* Living Specimen - a specimen that is alive, for example, a living plant in a botanical garden or a living animal in a zoo.  The specimen is not, however, within its 
+* Preserved Specimen - a speciment that has been preserved, for example, a plant on an herbarium shett or a cataloged lot of fish in a jar.
+* Fossil Specimen - a preserved specimen that is a fossil, for example, a body fossil, a coprolite, a gastrolith, an ichnofossil or a piece of petrified tree.
+* Material Citation - A reference to or citation of one, a part of, or multiple specimens in scholarly publications, for example, a citation of a physical specimen from a scientifci collection in taxonomic treatment in a scientiufic publication or an occurrence mentioned in a field note book.  
+* Human Observation - an output of human observation process eg evidence of an occurrence taken from field notes or literature or a records of an occurence without physical evidence nor evidence captured with a machine.  
+* Machine Observation - An output of a machine observation process for example a photograph, a video, an audio recording, a remote sensing image or an occurrence record based on telemetry.  
 
-=== Fossils and Living Specimens
+Basis or record should allow users to filter out those indidivuals in ex-situ collections such as zoos and botanic gardens or fossils as well as filter for those records based on whether the record is based on a specimen or an observation, which can support taxonomic validation.  
+You should note that, even though this can be a useful filter, data publishers do not always fill the basis of record field correctly and you should always double check your data before use.
 
-GBIF has Fossils and Living Specimens (usually a plant inside a botanical garden or sometimes and animal in a zoo).  Most users do not want fossils or plants in botanical gardens. This filter will remove some of these cases. This will not remove all such cases, since some publishers will not fill in the basis of record field correctly. 
-establishmentMeans
+GBIF has Fossils and Living Specimens (usually a plant inside a botanical garden or sometimes and animal in a zoo).  
+Most users do not want fossils or plants in botanical gardens. 
+This filter will remove some of these cases. This will not remove all such cases, since some publishers will not fill in the basis of record field correctly. 
+
+===- establishmentMeans
 dwc:establishmentMeans : The process by which the biological individual(s) represented in the Occurrence became established at the location.
 Unfortunately not used very often.
 This field could allow you to remove records that are not naturally established. Publishers to not fill in this field very often, but there are cases where removing “MANAGED” records will remove zoo records.
@@ -149,7 +162,10 @@ Here are some additional things you might want to do to your data. These things 
 I have found the DBSCAN to be an effective way to detect points that might be outliers. 
 
 === Metagenomics
-Metagenomics datasets sample the environment for DNA and then match the samples against an existing reference database. Especially with non-microorganisms these matches can often be incorrect or suspicious. GBIF has changed its processing so this typically is not a large problem anymore. 
+
+Metagenomics datasets sample the environment for DNA and then match the samples against an existing reference database. 
+Especially with non-microorganisms these matches can often be incorrect or suspicious. 
+GBIF has changed its processing so this typically is not a large problem anymore. 
 
 Currently, there is not a great way for filtering for only metagenomics datasets. 
 
