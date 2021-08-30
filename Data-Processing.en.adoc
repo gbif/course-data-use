@@ -126,6 +126,7 @@ By default, both presence and absence records are shown when you search www.gbif
 === Basis of Record Fossils and Living Specimens
 
 Basis of record is a Darwin Core term that refers to the specific nature of the record and can refer to one of 6 classes:
+
 * Living Specimen - a specimen that is alive, for example, a living plant in a botanical garden or a living animal in a zoo.  The specimen is not, however, within its 
 * Preserved Specimen - a speciment that has been preserved, for example, a plant on an herbarium shett or a cataloged lot of fish in a jar.
 * Fossil Specimen - a preserved specimen that is a fossil, for example, a body fossil, a coprolite, a gastrolith, an ichnofossil or a piece of petrified tree.
@@ -140,8 +141,10 @@ GBIF has Fossils and Living Specimens (usually a plant inside a botanical garden
 Most users do not want fossils or plants in botanical gardens. 
 This filter will remove some of these cases. This will not remove all such cases, since some publishers will not fill in the basis of record field correctly. 
 
-===- establishmentMeans
-dwc:establishmentMeans : The process by which the biological individual(s) represented in the Occurrence became established at the location.
+==== Establishment Means
+
+The Darwin Core term establishmentMeans identifies the process by which the biological individual(s) represented in the Occurrence became established at the location. 
+As such, it can serve as a useful filtering tool for identifying records that are outside of a species native range with accepted terms for this field being native, nativeReintroduced, introduced, introducedAssistedColonisation, vagrant and uncertain.  
 Unfortunately not used very often.
 This field could allow you to remove records that are not naturally established. Publishers to not fill in this field very often, but there are cases where removing “MANAGED” records will remove zoo records.
 
