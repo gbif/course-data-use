@@ -42,9 +42,9 @@ Uncertainty surrounding the taxonomy of a data point can arise for several reaso
 * Synoynmy
 * Novel names
 
-=== Species mis-identification
+=== Species misidentification
 
-Species identification is a complex process, with species described from a certain set of characters identified in a published species description and linked to a type specimen held within a scientific collection that be used for validation of species identification. Where taxa are very similar or a set of complex traits are required for correct identification, specific taxonomic expertise may be required that data publishers may not possess leading to mis-identification of species. As users, you must have a clear understanding of how taxonomic determinations for your interest group are made:
+Species identification is a complex process, with species described from a certain set of characters identified in a published species description and linked to a type specimen held within a scientific collection that be used for validation of species identification. Where taxa are very similar or a set of complex traits are required for correct identification, specific taxonomic expertise may be required that data publishers may not possess leading to misidentification of species. As users, you must have a clear understanding of how taxonomic determinations for your interest group are made:
 
 * what are the characters used for defining the species? Are these characters easily confused or captured when the species is observed or collected?
 * Are there related species that could be easily confused with the species you are interested in? 
@@ -121,9 +121,20 @@ In the case of the value 301, the uncertainty is often much-much greater than 30
 
 ==== Absence records
 
-By default, both presence and absence records are shown when you search www.gbif.org. Absence records confirm that a species was not found at a specific locality when that area was surveyed and this information can be useful in, for example, developing ecological niche models. However, you may only be interested in presence records and in this instance you can filter for only presence records using the Occurrence Status filter. 
+By default, both presence and absence records are shown when you search www.gbif.org. 
+Absence records confirm that a species was not found at a specific locality when that area was surveyed and this information can be useful in, for example, developing ecological niche models. 
+However, you may only be interested in presence records and in this instance you can filter for only presence records using the Occurrence Status filter. 
 
-=== Basis of Record Fossils and Living Specimens
+==== Establishment Means
+
+The Darwin Core term establishmentMeans identifies the process by which the biological individual(s) represented in the Occurrence became established at the location. 
+As such, it can serve as a useful filtering tool for identifying records that are outside of a species native range with accepted terms for this field being native, nativeReintroduced, introduced, introducedAssistedColonisation, vagrant and uncertain.  
+Currently, GBIF records can be searched using the older vocabulary terms native, introduced, naturalized, native, managed and uncertain -   https://rs.gbif.org/vocabulary/gbif/establishment_means.xml, and these will be updated in late 2022. 
+In some instances,  removing “MANAGED” records will remove zoo records.
+
+Use this filter cautiously, however, as most records do not contain this information and so would be exluded from a search with this filter on and we would recommend to use the information within the Establishement Means term for filtering after download. 
+
+=== Basis of Record 
 
 Basis of record is a Darwin Core term that refers to the specific nature of the record and can refer to one of 6 classes:
 
@@ -141,20 +152,15 @@ GBIF has Fossils and Living Specimens (usually a plant inside a botanical garden
 Most users do not want fossils or plants in botanical gardens. 
 This filter will remove some of these cases. This will not remove all such cases, since some publishers will not fill in the basis of record field correctly. 
 
-==== Establishment Means
-
-The Darwin Core term establishmentMeans identifies the process by which the biological individual(s) represented in the Occurrence became established at the location. 
-As such, it can serve as a useful filtering tool for identifying records that are outside of a species native range with accepted terms for this field being native, nativeReintroduced, introduced, introducedAssistedColonisation, vagrant and uncertain.  
-Unfortunately not used very often.
-This field could allow you to remove records that are not naturally established. Publishers to not fill in this field very often, but there are cases where removing “MANAGED” records will remove zoo records.
-
 === Old Records
 
 GBIF has many museum records that might be older than what is desired for some studies.
 
-=== Remove duplicates
+=== Duplicates
 
-For your application it might be important to remove duplicate records.
+Duplication of records can occur when several records of the same individal are made.  This can occur from for instance, a researcher depositing several specimens from an individual tree in herbaria around the world who all then publish these data on GBIF, or when an individual has been dopeisted in a natural history coellection and the indidivual was also sampled for its DNA.  In this instance, there will be a record for the specimen in the collections and one for the DNA sequence. 
+
+GBIF had recently introduces a clustering function in its advanced search that allows users to identify clusters of records i.e. records that appear to be derived from the same source.  This allows users to identify potential duplicated data and filter for these out of yoru download.  Note that if you filter out those records that are in cluster, you will lose all records found within that cluster and will lose potentially useful data. The filter may be better used to indicate the extent to which there is duplication in the dataset or for indepedent donwloads of the clustered and non-clustered datasets for comparison.
 
 == Advanced filtering
 
