@@ -81,7 +81,6 @@ It is important to keep in mind that you are always just mitigating data quality
 
 Filtering the data allows you as a user to obtain the data that is most fit for purpose. All searches have a set of filters that can be used for finding the data you need, and occurrence searches have a set of additional 'Advanced" search filters for users that need to do more advanced filtering.  While filters may allow you to filter out data that may not be relevant, or be of lower quality for your purposes, additonal filtering may be required either manually or programmaticially to deal with additional data quality issues that arise during the GBIF data publishing model.  Below are some common data filters that you as a user might consider to make the data more fit-for-purpose. 
 
-
 === Geospatial Filters & Issues
 
 The data can be filtered spatially in an occurrrence search in one of 3 ways:
