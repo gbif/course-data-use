@@ -3,13 +3,18 @@
 
 ****
 This course takes a modular approach to training in the use of GBIF-mediated data and builds on the Data Use for Decision Making course.
-The course comprises of one compulsory course in Data processing and then optional modules that you can follow based on your specific area of interest. 
-The first two optional modules tha we have develpoed are:
+Different use cases have been developed that will get you started on some of the many different ways you can use GIBF-mediated data.
+
+This course is comprised of online content paired with quizzes and you should complete these first.  
+You can then complete the relevant use case that will build on what you have learnt through a set of practical exercises. 
+When offered as an onsite or virtual workshop, group work and social interaction are encouraged.
+
+The course comprises of one compulsory course in Data Processing and then optional modules that you can follow based on the learning path that is most relevant to you. 
+The first two optional modules that we have develpoed are:
 
 *	Ecological Niche Modelling
 *	Red List Assessments
 
-This course is comprised of online content paired with quizzes and practical exercises. When offered as an onsite or virtual workshop, group work and social interaction are encouraged.
 
 Topics include:
 
@@ -54,6 +59,6 @@ Additionally, to make best use of the activities around this course, the partici
 * Apply IUCN mapping protocols for the production of Red List species distribution maps
 
 === Certification
-All participants must complete the data processing module and successfully complete the associated assigment will receive  an official certification in the form of a Mozilla Open Badge.  
-If you should complete further optional dtaa use modules you will receive a badge for the course that you took. 
+Certificates in the form of digital badges will be issued to participants that successfuly complete a use case assignment.  There are several use cases and you should complete the ones that are of most relevance to your work or that interest you.  
+
 
