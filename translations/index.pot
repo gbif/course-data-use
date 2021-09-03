@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-08-26 12:04+0000\n"
+"POT-Creation-Date: 2021-09-03 08:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -51,87 +51,96 @@ msgid "Description"
 msgstr ""
 
 #. type: delimited block *
-#: description.en.adoc:8
+#: description.en.adoc:7
 msgid ""
 "This course takes a modular approach to training in the use of GBIF-mediated "
-"data and builds on the Data Use for Decision Making course.  The course "
-"comprises of one compulsory course in Data processing and then optional "
-"modules that you can follow based on your specific area of interest.  The "
-"first two optional modules tha we have develpoed are:"
-msgstr ""
-
-#. type: delimited block *
-#: description.en.adoc:10 description.en.adoc:19
-msgid "Ecological Niche Modelling"
+"data and builds on the Data Use for Decision Making course.  Different use "
+"cases have been developed that will get you started on some of the many "
+"different ways you can use GIBF-mediated data."
 msgstr ""
 
 #. type: delimited block *
 #: description.en.adoc:11
-msgid "Red List Assessments"
-msgstr ""
-
-#. type: delimited block *
-#: description.en.adoc:13
 msgid ""
-"This course is comprised of online content paired with quizzes and practical "
-"exercises. When offered as an onsite or virtual workshop, group work and "
+"This course is comprised of online content paired with quizzes and you "
+"should complete these first.  You can then complete the relevant use case "
+"that will build on what you have learnt through a set of practical "
+"exercises.  When offered as an onsite or virtual workshop, group work and "
 "social interaction are encouraged."
 msgstr ""
 
 #. type: delimited block *
-#: description.en.adoc:15
-msgid "Topics include:"
+#: description.en.adoc:14
+msgid ""
+"The course comprises of one compulsory course in Data Processing and then "
+"optional modules that you can follow based on the learning path that is most "
+"relevant to you.  The first two optional modules that we have develpoed are:"
+msgstr ""
+
+#. type: delimited block *
+#: description.en.adoc:16 description.en.adoc:24
+msgid "Ecological Niche Modelling"
 msgstr ""
 
 #. type: delimited block *
 #: description.en.adoc:17
-msgid "Fit-for-Purpose Data"
-msgstr ""
-
-#. type: delimited block *
-#: description.en.adoc:18
-msgid "Processing a GBIF-mediated dataset and making it “fit-for-purpose”"
+msgid "Red List Assessments"
 msgstr ""
 
 #. type: delimited block *
 #: description.en.adoc:20
+msgid "Topics include:"
+msgstr ""
+
+#. type: delimited block *
+#: description.en.adoc:22
+msgid "Fit-for-Purpose Data"
+msgstr ""
+
+#. type: delimited block *
+#: description.en.adoc:23
+msgid "Processing a GBIF-mediated dataset and making it “fit-for-purpose”"
+msgstr ""
+
+#. type: delimited block *
+#: description.en.adoc:25
 msgid ""
 "Introduction to running and interpreting a basic ecological model to "
 "determine the distribution of a species"
 msgstr ""
 
 #. type: delimited block *
-#: description.en.adoc:21
+#: description.en.adoc:26
 msgid "Exploring niche modelling under different environmental conditions"
 msgstr ""
 
 #. type: delimited block *
-#: description.en.adoc:22
+#: description.en.adoc:27
 msgid "Data for Species Assessments"
 msgstr ""
 
 #. type: delimited block *
-#: description.en.adoc:23
+#: description.en.adoc:28
 msgid ""
 "Using GBIF-mediated data for creating species distribution maps using IUCN "
 "mapping standards"
 msgstr ""
 
 #. type: delimited block *
-#: description.en.adoc:24
+#: description.en.adoc:29
 msgid ""
 "Using GBIF-mediated data for assessing species conservation status using the "
 "IUCN Red List Categories and Criteria"
 msgstr ""
 
 #. type: Title ===
-#: description.en.adoc:27
+#: description.en.adoc:32
 #, no-wrap
 msgid "Audience"
 msgstr ""
 
 #. type: Plain text
-#: description.en.adoc:30
+#: description.en.adoc:35
 msgid ""
 "This course is designed for individuals who work as researchers or "
 "technicians in biodiversity research or policy institutions.  The "
@@ -140,46 +149,46 @@ msgid ""
 msgstr ""
 
 #. type: Title ===
-#: description.en.adoc:31
+#: description.en.adoc:36
 #, no-wrap
 msgid "Prerequisites"
 msgstr ""
 
 #. type: Plain text
-#: description.en.adoc:34
+#: description.en.adoc:39
 msgid "Introduction to GBIF course"
 msgstr ""
 
 #. type: Plain text
-#: description.en.adoc:36
+#: description.en.adoc:41
 msgid ""
 "Additionally, to make best use of the activities around this course, the "
 "participants should possess the following skills and knowledge:"
 msgstr ""
 
 #. type: Plain text
-#: description.en.adoc:38
+#: description.en.adoc:43
 msgid ""
 "Basic skills in computer and internet use, and, in particular, in the use of "
 "spreadsheets."
 msgstr ""
 
 #. type: Plain text
-#: description.en.adoc:39
+#: description.en.adoc:44
 msgid ""
 "Basic understanding of computer-based geographical and statistical analysis "
 "tools e.g. GIS and R, and may have already run analyses using these tools."
 msgstr ""
 
 #. type: Plain text
-#: description.en.adoc:40
+#: description.en.adoc:45
 msgid ""
 "Basic knowledge about geography and biodiversity informatics: geography and "
 "mapping concepts, basic taxonomy and nomenclature rules."
 msgstr ""
 
 #. type: Plain text
-#: description.en.adoc:41
+#: description.en.adoc:46
 msgid ""
 "Willingness to disseminate the knowledge learned in the workshop with "
 "partners and collaborators in your project by adapting the biodiversity data "
@@ -188,89 +197,89 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: description.en.adoc:42
+#: description.en.adoc:47
 msgid ""
 "A good command of English. While efforts are made to provide materials in "
 "other languages, instruction/videos will be in English."
 msgstr ""
 
 #. type: Title ===
-#: description.en.adoc:43
+#: description.en.adoc:48
 #, no-wrap
 msgid "Learning objectives"
 msgstr ""
 
 #. type: Plain text
-#: description.en.adoc:46
+#: description.en.adoc:51
 msgid "Understanding common data quality issues that may affect data use"
 msgstr ""
 
 #. type: Plain text
-#: description.en.adoc:47
+#: description.en.adoc:52
 msgid ""
 "Apply data processing routines on GBIF downloads to create fit for purpose "
 "datasets"
 msgstr ""
 
 #. type: Plain text
-#: description.en.adoc:48
+#: description.en.adoc:53
 msgid "Learn the difference between fundamental and realized niches"
 msgstr ""
 
 #. type: Plain text
-#: description.en.adoc:49
+#: description.en.adoc:54
 msgid "Explain how to delimit a training region"
 msgstr ""
 
 #. type: Plain text
-#: description.en.adoc:50
+#: description.en.adoc:55
 msgid "Generate a simple niche model"
 msgstr ""
 
 #. type: Plain text
-#: description.en.adoc:51
+#: description.en.adoc:56
 msgid "Explain niche model results"
 msgstr ""
 
 #. type: Plain text
-#: description.en.adoc:52
+#: description.en.adoc:57
 msgid "Identify areas of uncertainty in projection"
 msgstr ""
 
 #. type: Plain text
-#: description.en.adoc:53
+#: description.en.adoc:58
 msgid ""
 "Develop a communication strategy and convincing arguments for the "
 "integration of biodiversity into decision making processes"
 msgstr ""
 
 #. type: Plain text
-#: description.en.adoc:54
+#: description.en.adoc:59
 msgid ""
 "Apply criterion B of the IUCN Categories and Criteria for the assessment of "
 "a species conservation status using a fit-for purpose dataset"
 msgstr ""
 
 #. type: Plain text
-#: description.en.adoc:55
+#: description.en.adoc:60
 msgid ""
 "Apply IUCN mapping protocols for the production of Red List species "
 "distribution maps"
 msgstr ""
 
 #. type: Title ===
-#: description.en.adoc:56
+#: description.en.adoc:61
 #, no-wrap
 msgid "Certification"
 msgstr ""
 
 #. type: Plain text
-#: description.en.adoc:59
+#: description.en.adoc:63
 msgid ""
-"All participants must complete the data processing module and successfully "
-"complete the associated assigment will receive an official certification in "
-"the form of a Mozilla Open Badge.  If you should complete further optional "
-"dtaa use modules you will receive a badge for the course that you took."
+"Certificates in the form of digital badges will be issued to participants "
+"that successfuly complete a use case assignment.  There are several use "
+"cases and you should complete the ones that are of most relevance to your "
+"work or that interest you."
 msgstr ""
 
 #. type: Title ==
