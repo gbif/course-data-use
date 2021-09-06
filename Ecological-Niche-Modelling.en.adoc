@@ -245,7 +245,7 @@ Thresholds: a Tradeoff
 •	Same in converse
 
 
-=== Projecting a Niche Model
+== Projecting a Niche Model
 
 You project a niche model when you map your model onto the training region to find additional suitable habitat. You can also map your model into the past or the future or into novel environments. You are asking, where can the species persist?
 
