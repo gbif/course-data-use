@@ -9,13 +9,13 @@ These are measures of how well the data gatherer was able to capture the true va
 The nature of GBIF's data publication workflow means that the correctness and consistency of the data can vary dependent on the data publishers and the source of the data.
 Knowing these properties of the data you have, will help you to understand the ways in which you can and cannot clean, validate and process the data.
 
-* Correctness (Accuracy) - closeness of measured values, observations or estimates to the real or true value e.g. has the species been identified correctly or the collection locality been identified correctly i.e.  “How close the recorded values is to the actual value”.
+* Correctness (Accuracy) - closeness of measured values, observations or estimates to the real or true value e.g. has the species been identified correctly or the collection locality been identified correctly.
 
 image::img/web/Correctness.png[align=center,width=640,height=360]
 
 In the diagram it’s how close is the shot to the centre of the target.
 
-* Consistency (Precision) - level of resolution of the data e.g. precision of coordinates, taxonomic determination i.e. “How often you get it right”
+* Consistency (Precision) - level of resolution of the data e.g. precision of coordinates, taxonomic determination.
 
 image::img/web/Consistency.png[align=center,width=640,height=360]
 
@@ -33,6 +33,22 @@ Tools that can be used for this are:
 * OpenRefine
 * R packages and scripts eg CoordinateCleaner, scrubr and biogeo (automated data processing)
 * Geographical Information Systems (GIS) 
+
+===Flags and Issues
+The GBIF network publishes datasets, integrating them into a common access system. 
+Here users can retrieve data through common search and download services. 
+During the indexation process over the raw data, GBIF adds issues and flags to records with common data quality problems. 
+These may contain useful information for you as a user to create fit-for-purpose datasets.  
+
+Remarks are shown on the individual occurrence pages to explain the process done after interpretation:
+
+*Excluded means the original data couldn’t be interpreted, so is excluded in the interpreted fields.
+*Altered means the original data is modified in the interpretation process to be indexed in GBIF.org.
+*Inferred means the Using other record information the data indexed is inferred, if the original is empty.
+
+Excluding all records with a particular issue is not currently possible with the search interface. It is possible to filter all records you are not interested in with issues by selecting the particular issue and hitting the reverse button. However, reversing will still only give you all other flagged occurrences and not issue-free records. This is something that GBIF is working to improve. (at occurrence search)
+
+A full overview of all issues and flags can be here: https://data-blog.gbif.org/post/issues-and-flags/
 
 == Handling Taxonomic Uncertainty
 
