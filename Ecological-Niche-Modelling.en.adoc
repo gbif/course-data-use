@@ -44,7 +44,7 @@ Maxent
 * A series of equations that best fit the data
 * Randomly samples from occurrences as well as areas the species can potentially occur but has not been observed. 
  
-image::img/web/maxent.png[align=center,width=640,height=360]
+image::img/web/maxent.gif[align=center,width=640,height=360]
 
 == Environmental variables
 
