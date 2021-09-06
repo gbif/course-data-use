@@ -34,7 +34,7 @@ Tools that can be used for this are:
 * R packages and scripts eg CoordinateCleaner, scrubr and biogeo (automated data processing)
 * Geographical Information Systems (GIS) 
 
-===Flags and Issues
+== Flags and Issues
 The GBIF network publishes datasets, integrating them into a common access system. 
 Here users can retrieve data through common search and download services. 
 During the indexation process over the raw data, GBIF adds issues and flags to records with common data quality problems. 
