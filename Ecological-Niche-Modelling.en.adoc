@@ -7,81 +7,26 @@ An ecological niche model is an equation or set of equations that describe the e
 Niche modeling essentially does quantitatively, what natural historians do qualitatively.
 The models predict suitable habitat for a species in geographic space.
 Models identify the characteristics of where a species has been found or observed and use that information to predict where else might be suitable habitat.
-
-*Why?*
-
 Modelling approaches allow for the inference of a species without the need for experimental manipualtion that may be too costly, logigistically impossible and/or unethical. These approaches also allow us to use existing data that we may have collected or observed ourselves, harvested from literature or obtained from data aggregators such as GBIF. 
 
-*Uses*
+The following video outlines the different concepts of a niche.
 
+
+
+
+
+*Uses*
 Beyond defining the limits of a species niche, ecological niche models have a number of practical uses including:
 
 * The designation of protected areas - comparisons of protected area coverage and niche models of interest species can identify gaps in protected areas coverage that merit increased protection.   
 By stacking niche models for different species, we can also identify areas where biodiversity is concentrated and maximise the protection of as many species as possible e.g. Leathwick et al., 2008
 
-* Invasive species management - We can build niche models of known occurrences of an invasive species within its native range and project this information into regions of potential invasion to determine the potential invasive threat of the species e.g.Carlos-Júnior et al., 2015.
+* Invasive species management - We can build niche models of known occurrences of an invasive species within its native range and project this information into regions of potential invasion to determine the potential invasive threat of the species e.g. Carlos-Júnior et al., 2015.
 
 
 * Climate change mitigation - using models to define the characteristics of a species' niche, we can then predict the availability of suitable habitat under different climate scenarios and thus infer the impacts of climate change e.g. Aguilar et al. 2015
 
-
-=== *What is a niche?*
-[NOTE.presentation]
-
-Joseph Grinnell’s Niche Concept
-Joseph Grinnell was an early ecologist who was interested in why certain birds were found where they were found in a landscape. His theory was as follows: READ QUOTE.
-“An explanation of this restricted distribution is probably to be found in the close adjustment of the bird in various physiological and psychological respects to a narrow range of environmental conditions. The nature of these critical conditions is to be learned through an examination of the bird's habitat.”
-
-Grinnell was thinking of niche as a distribution of environmental conditions
-	Specifically, a species is found where there are suitable environmental conditions for that species
-	You can infer what conditions are suitable by quantifying the environmental conditions where a species is found
-Makes sense, right? Think back to the forest mushroom example.
-
-Evelyn Hutchinson’s Niche Concept
-
-G Evelyn Hutchinson came along later, and further built on the idea of where species are found in terms of the “resources” they use.
-“Resource” in this case means space in the environment, which he suggested thinking of as an N-dimensional hypervolume. Each dimension in the hypervolume is a different environmental characteristic--in the case of the cube shown here, temperature, salinity, and bathymetry. The color dots represent the niches of two marine codfish species. You can see that although there’s overlap, they occupy distinct areas within the hypervolume.  
-
-Generally, the theoretical framework we use to model an ecological niche combines the ideas of these two ecologists.
-	The modeled ecological niche of a species is an n-dimensional hypervolume that we infer by looking at the characteristics of the environments in which the species is found.
-•	From Grinnell
-•	Spatially-explicit
-•	Resources that are not depletable
-•	Measurable from distribution
-•	From Hutchinson
-•	N-dimensional hypervolume
-
-Fundamental niche: 
-	tied to physiological tolerances
- 
-Ideally, we are modeling the fundamental niche of the species, which is the full range of environmental conditions in which a species can persist.
-Realized niche: 
-	subset of the fundamental niche that the species can access AND experiences favorable biotic interactions
-What we are actually modeling is the realized niche!
-	Where within available n-dimensional niche space a species actually occurs
-	Two main reasons a species isn’t found throughout N-dimensional niche space
-1.	The species can’t physically get there
-a.	Maybe it evolved in South Africa and there’s acceptable habitat in Argentina, but the species can’t disperse there
-2.	The species is excluded due to biotic interactions
-a.	Commensalisms
-b.	Competition
-3.	Here’s a classic example in barnacles. There are two species that compete in the intertidal zone.
-4.		Fundamental niches
-5.			Balanus is the area of the intertidal zone that stays wet all the time
-6.			Chthalamus is the full range of the intertidal zone
-7.		Realized niches
-8.			Balanus realized niche is the same as its fundamental niche
-9.			Chthalamus is the part of its fundamental niche where Balanus does not occur.
- 
-
-Balanus cannot stand exposure to air but outcompetes Chthamalus where they co-exist Chthalamus cannot compete with Balanus but if Balanus is removed, it can survive lower in the intertidal.
-The niche you are actually modeling
-Ideally, the fundamental niche. Always the realized niche. Hopefully, the realized niche is close to the fundamental niche
-●	Interference
-○	Biological
-Historical
-
-=== Commonly used algorithms
+*Commonly used algorithms*
 
 BIOCLIM
 * Very simple
@@ -90,6 +35,8 @@ BIOCLIM
 * Not very predictive
 * Randomly samples from occurrences as well as areas the species can potentially occur but has not been observed. 
 
+image::img/web/bioclim.png[align=center,width=640,height=360]
+
 Maxent
 * Randomly samples from presence records and “background”
 * Background = areas the species can experience
@@ -97,14 +44,14 @@ Maxent
 * A series of equations that best fit the data
 * Randomly samples from occurrences as well as areas the species can potentially occur but has not been observed. 
  
-Elith et al., 2010
+image::img/web/maxent.png[align=center,width=640,height=360]
 
-=== Environmental variables
+== Environmental variables
 
 Environmental variables, also known as environmental data, explanatory variables, bioclimatic data or covariates are anything that can be summarized by a raster (gridded dataset).
 These variables are used to characterize the niche of a species.
 The data can be either continuous or categorical (i.e. data expressed as vectors), direct measurements or derived products, static or dynamic or terrestrial, aquatic or atmospheric. 
-The tables belos give examples of each data type 
+The tables below give examples of each data type. 
 
 // [width=100%]
 [cols="50%,50%"]
@@ -144,7 +91,6 @@ The tables belos give examples of each data type
 |Wind (UV), radiation
 |=== 
 
-
 *Common sources of data*
 
 * WorldClim (Terrestrial)
@@ -182,54 +128,59 @@ For each highly correlated pair, drop the least biologically relevant.
 Again, for each highly correlated pair, drop the least biologically relevant.
 
 Importantly, spatio-temporal resolution and covariate data extent should align with:
--	the limitations of other input data (e.g., available usable occurrence data)
--	the scope of the base question(s)/hypotheses
+
+* the limitations of other input data (e.g., available usable occurrence data)
+* the scope of the base question(s)/hypotheses
 
 For example, if your environmental data have a spatial resolution of 10 Arc Minutes and a temporal resolution between 1955 and 2006, then the temporal and spatial resolution of the GBIF-meadited data you are going to use should correspond to those resolutions. 
 
 === Training (model calibration) regions
 
 Training regions in Maxent (and other ENM algorithms) are the areas from which these algorithms sample the background for model inference.
-Considerations when determining a training region for your model:
+Considerations when determining a training region for your model are:
 
 * Where did species originate?
 * Dispersal ability
 * Distance
 * Biogeographic barriers
-* NOT RECTANGLES
-* NOT POLITICAL BOUNDARIES
-* NOT COARSE RANGE DELIMITATION
-* (e.g. range map) Should reflect available geographic regions that could have been sampled by the study species during the relevant time period
+* it should not be a rectangle
+* it should not correspond to political boundaries
+* it should not be a coarse range delimitation (e.g. range map) 
+* it should reflect available geographic regions that could have been sampled by the study species during the relevant time period
 * Bigger is not better
 
-=== Interpretation and Post-Processing of Niche Models
+== Interpretation and Post-Processing of Niche Models
 
 Variable Response Curves
 
 In the ideal modeling scenario... You would seek to identify the ideal model calibration for your data 
 and modeling intent, by comparing: 
-•	multiple calibration scenarios for an individual algorithm
-•	and, the best model calibration scenario across multiple 
-algorithms
 
-Remember: For the purposes of this workshop, these exercises (e.g., dipping our toes into the major theoretical concepts underpinning ENM/SDM) we’re looking at only 1 algorithm.
-Two levels of model evaluation
-•	Many options exist for evaluating model calibration scenarios
-Common and accepted approaches:
-•	Akaike Information Criterion (AIC): 
-•	Compare and identifying the best model calibration scenario for an individual statistical algorithm
-•	Balances model fit with model complexity
-•	can NOT be used to compare between different algorithms
-•	Omission Rate (OR): 
-•	Compare model performance across algorithms
-•	
-•	Akaike Information Criterion (AIC): Assessing within algorithm performance
-What is AIC?
--	Log likelihood based evaluation metric, commonly used with regression methods
-Which AIC is “better”?
--	Model with the lowest AIC
--	Models within 2 points of each other do not differ significantly; will need to look at other factors (e.g., variable contribution) that may suggest which (if any) of the equivalent models is more ideal
-   
+* multiple calibration scenarios for an individual algorithm and 
+* the best model calibration scenario across multiple algorithms
+
+In the use cases, where you will be dipping your toes into the major theoretical concepts underpinning ENM/SDM, you'll be looking at only 1 algorithm.
+
+Model evaluation
+
+Many options exist for evaluating model calibration scenarios.
+Common and accepted approaches are:
+
+* Akaike Information Criterion (AIC): 
+** Compares and identifies the best model calibration scenario for an individual statistical algorithm
+** Balances model fit with model complexity
+** can NOT be used to compare between different algorithms
+
+* Omission Rate (OR): 
+** Compares model performance across algorithms
+
+*Akaike Information Criterion (AIC): Assessing within algorithm performance* 
+AIC is a log likelihood based evaluation metric, commonly used within regression methods.
+We can evaluate the performance of a model i.e. “which model performed better” through:
+
+* Model with the lowest AIC
+* Models within 2 points of each other do not differ significantly.
+You will need to look at other factors (e.g., variable contribution) that may suggest which (if any) of the equivalent models is more ideal
 
 AICc = AIC corrected
      Corrected to account for 
@@ -239,25 +190,20 @@ delta.AICc = difference in AICc
      compared
 w.AIC = AIC weight
 
-Omission Rate (OR):
-Assessing across algorithm performance
-What is OR?
--	Method of evaluating a model’s ability to accurately predict to test data (typically after applying a threshold)
-Which OR is better?
-OR = 0  → No presences predicted absent
+*Omission Rate (OR): Assessing across algorithm performance*
+OR is a method of evaluating a model’s ability to accurately predict to test data (typically after applying a threshold)
+When OR = 0, then no presences were predicted as absent.
 
 
+== Thresholding a Niche Model
+Thresholding is the process by which we convert the continuous (raw) output from a statistical model to a binary output. 
+The binary output is generally interpreted as areas that are suitable/not suitable for the species.
 
-=== Thresholding a Niche Model
-What is model thresholding?
-Process by which we convert the continuous (raw) output from a statistical model to a binary output. 
-Binary output generally interpreted as suitable/not suitable
-How do we choose the “threshold” value that determines a presence versus an absence?
+We choose the “threshold” value that determines a presence versus an absence of the species using the:
 -	Minimum Training Presence (MTP)
 -	MTP + user-selected error rate (e.g., E=5%, E=10%)
-Which is better?
--	Depends on your data!
 
+The precise method by which you do this depends on your data.
 
 [cols="1,1,1"]
 |===
@@ -293,9 +239,15 @@ Thresholds: a Tradeoff
 You project a niche model when you map your model onto the training region to find additional suitable habitat. You can also map your model into the past or the future or into novel environments. You are asking, where can the species persist?
 
 Projecting to your training region is the most common and simplest form. 
-However, you can also project into different contemporaneous geographies to, for example, target sampling in undersurveyed regions for rare organisms e.g. de Siqueira et al. 2009, predicting the existence of sister species e.g. Owens et al. 2013, and predicting the invasive potential of introduced species. 
+However, you can also project into different contemporaneous geographies to, for example:
 
-We can also project into the past and the future, for example, to hindcast distributions in the case of determining paleodistributions of modern taxa for identifying refugia e.g. Peterson and Nyári, 2007, or to forecast species distributions to identify range shifts due to cliamte change e.g. Wang et al., 2016.
+* target sampling in undersurveyed regions for rare organisms e.g. de Siqueira et al. 2009
+* predicting the existence of sister species e.g. Owens et al. 2013
+* predicting the invasive potential of introduced species. 
+
+We can also project into the past and the future, for example:
+* to hindcast distributions in the case of determining paleodistributions of modern taxa for identifying refugia e.g. Peterson and Nyári, 2007
+* to forecast species distributions to identify range shifts due to cliamte change e.g. Wang et al., 2016.
 
 The Big Caveat
 •	Novel environments
