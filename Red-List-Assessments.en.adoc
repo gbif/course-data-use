@@ -1,21 +1,15 @@
 [multipage-level=2]
 = IUCN Red List Assessment
 
-What does the IUCN Red List actually tell us? The assessment itself is an estimate of EXTINCTION RISK. 
-
 All species have a probability of going extinct due to random events.  
 However, some species have a higher probability of extinction of going extinct due to a number of determining factors such as population trends, range and threats faced by the species. 
-The IUCN Red List of Threatened Species provides a robust and transparent framework in the form of the Categories and Criteria that build on scientific publications by Mace et al. in the early nineties that identified those factors that would be indicative of elevated extinction risks in species and the development of quantitative thresholds for each of those factors that could be used for assessing the extinction risk of  all species across all systems -  marine, terrestrial and freshwater.   
+The IUCN Red List of Threatened Species provides a robust and transparent framework in the form of the Categories and Criteria for estimating the risk of extinction ofof  all species across all systems -  marine, terrestrial and freshwater.
+
 It is not the only method for assessing the conservation status of species and regionally different methodologies may be used, however, it is an internationally recognised standard that is acknowledged as a key tool for assessing progress for towards achieving the Aichi bodiversity targets. 
 
-However, the Red List is not a final list of species that are high priorities for conservation action. 
-A species with a high risk of extinction may not necessarily be the highest priority for receiving conservation action; equally, a species that currently has a very low risk of extinction may deserve some conservation action. 
-Clearly extinction risk is a very important factor to consider when determining which species to invest in, but it is not the only factor that should be considered. 
-
+Importanly, the Red List is not a final list of species that are high priorities for conservation action. 
 When establishing conservation priorities, it is important to consider financial, cultural, logistical, biological, ethical, social and other factors in addition to extinction risk, to maximize the effectiveness of conservation actions. 
 It’s important to keep this in mind when doing Red List assessments, and not to have a preconceived notion of how threatened a species “should” be or in which category it should be listed.
-
-Assesssments consist of a categordy and accompanying criteria e.g. Vulnerable A2a;B2ab(iii), documentation supporting the category and criteria and a distribution map
 
 The Red List Categories and Criteria were originally developed for use at the global level, but they can give incorrect assessments of extinction risk when used by themselves for regional assessments. IUCN developed the Guidelines for Application of IUCN Red List Criteria at Regional Levels, which adapt the Red List methodology for regional use (free to download from the Red List website).
 
@@ -24,13 +18,6 @@ All described taxa except microorganism can be assessed including species, subsp
 Only wild populations inside their natural range, and populations resulting from conservation introductions (also called "benign introductions") should be assessed. 
 
 === Process
-Before an assessment can be published on the Red List, it goes through a rigorous approval process, which is one of the reasons the Red List is respected and valued for informing conservation decisions. This process differs slightly depending on who is doing the assessments, but the basic process involves:
-First convening experts who will complete the assessments and compiling the data for all the species that will be assessed through a given project. This information often comes from published books, articles and reports, but information from grey literature (unpublished material) and scientists’ personal experience and observations are also used. 
-Experts then discuss the data and assign a Red List category and criteria to the species (often working with project staff). They also complete a range map and provide supporting documentation that justifies the assessment. 
-These draft assessments are then sent to 2 independent reviewers, who check to make sure all relevant data has been included in the assessment and that the assessment is the most appropriate given the available data. If there are any problems, it is returned to the assessors with an explanation of what needs to be improved. If everything is in place, the reviewers approve the assessment and let the assessor know it is ready for submission. 
-The assessor then checks all the assessments for consistency, proofreading and formatting before submitting to the IUCN Red List Unit. 
-The Red List Unit scans the assessments for obvious errors and quality checks. If there are problems, the assessment goes back to the assessor for improvement. If the assessments are accepted, they will be published on the next Red List update.
-
 The general assessment process at the global level:
 
 All assessments have (1) Assessors (there may only one named assessor, or there may be more than one person involved in the assessment); and (2) Reviewers (there are at least two named Reviewers who review the assessment and agree that it is an appropriate assessment based on all data currently available for the species).
@@ -43,290 +30,73 @@ Assessments coming to the IUCN Red List Unit from within IUCN should already hav
 
 Assessments coming from outside the IUCN network need to go through the peer review process. Red List Unit staff check them and, if there are no problems, forward the assessments onto the appropriate RLA; the RLA then evaluates the assessment and returns it to the Red List Unit. If evaluators agree with the assessment, it is included in the next Red List update. If the evaluators disagree, the assessment is returned to the assessors with an explanation of the problem.
 
+image::img/web/redlistprocess.png[align=center,width=640,height=360]
+
 === The IUCN Categories and Crtieria
-Assessments are based on 5 objective scientific criteria, each containing a set of quantitative thresholds against which the risk of extintion of a species can be assessed.  These 5 criteria are:
+Assessments are based on 5 objective scientific criteria, each containing a set of quantitative thresholds against which the risk of extintion of a species can be assessed.  
+
+These 5 criteria are:
+
 Criterion A - Popluation Reduction
 Criterion B - Restricted geograhic range
 Croterion C - Small population size and decline
 Criterion D - Very small or restricted population
 Criterion E - Quantitative Analysis
 
-The thresholds for each of these critersia are summarised in the IUCN summary sheet. Species must be assessed against all criteria during an assessment and it is the criterion with the highest threat category that is used in an assessment.
+The thresholds for each of these criteria are summarised in the IUCN summary sheet. 
+Species must be assessed against all criteria during an assessment and it is the criterion with the highest threat category that is used in an assessment.
 
-Based on a species assessment against these criteria, one of 9 categories can be attributed to a taxon outlined in the diagram below.  If the data are so uncertain that both CR and LC are plausible categories, the taxon can be listed as DD. Full guidance on the application of DD, NT and EX can be found in the IUCN guidelines.
+Based on a species assessment against these criteria, one of 9 categories can be attributed to a taxon outlined in the diagram below.  
+If the data are so uncertain that both CR and LC are plausible categories, the taxon can be listed as DD. Full guidance on the application of DD, NT and EX can be found in the IUCN guidelines.
+
+image::img/web/iunccategories.png[align=center,width=640,height=360]
 
 === Data Quality
-The threatened categories use quantitative thresholds but a lack of high quality data shoudl not deter assessors from applying the IUCN criteria.  Certain metrics within the assessment process can be based on observations, estimations, inferences, suspicions and projections and guidance on when these can be used is given hthe IUCN guidelines and summary sheet.  The video outlnes the differences between these different data quaulity types. 
-
-
-==== Exercise 1 - Data Processing 
-
-Q1.  What are the taxonkeys for each of the species and what is the taxonomic status of each species?
-Q2.  In what format did you download the data and how what are the unique properties of this type of download?
-Q3.  What are the DOIs of your downloads?
-Q4. What are the following key data quality processing steps did you use for cleaning both datasets?  For each requirement, what is your justification?
--	Default geospatial issues
--	Absence records
--	Fossils and living specimens
--	Establishment Means
--	Old records
--	Uncertain location 
--	Bad default values for coordinate uncertainty
--	Points along the Equator or prime meridian
--	Country centroids
--	Duplicate removal
--	Outliers
--	Metagenomics
--	Outside Native ranges
--	Gridded datasets
--	Automated identifications
-Q5. What additional data processing steps might you want to validate taxonomic identification of species?
-Q1. As these will be national red list assessments, what additional data processing step will be required for the non-endemic Aphonopelma anax dataset?
+The threatened categories use quantitative thresholds but a lack of high quality data should not deter assessors from applying the IUCN criteria.  
+Certain metrics within the assessment process can be based on observations, estimations, inferences, suspicions and projections and guidance on when these can be used is given hthe IUCN guidelines and summary sheet.  
+The video outlnes the differences between these different data quality types. 
 
 === Applying Criterion B - Restricted Geographic Range
-While GBIF-mediated may provide information that is useful for all criteria, it is for crietion B that GBIF-mediated data can play a critical role in the assessment of a taxon due to the locality information contained within it.  Remember, though, that in a real assessment, you should apply all the criteria when assessing a taxon. 
+While GBIF-mediated may provide information that is useful for all criteria, it is for crietion B that GBIF-mediated data can play a critical role in the assessment of a taxon due to the locality information contained within it.  
+Remember, however, that in a real assessment, you should apply ALL the criteria when assessing a taxon. 
 
 Criterion B is based on two subcriteria: 
 
-Criterion B1 – based on the estimated extent of occurrence. And
-Criterion B2 – based on the estimated area of occupancy. 
+* Criterion B1 – based on the estimated extent of occurrence. And
+* Criterion B2 – based on the estimated area of occupancy. 
 
 In order to list a species as threatened under criterion B, it must first meet the thresholds for either criterion B1, or B2, or both B1 and B2. In addition, it must also meet at least two of three subcriteria: 
 
-The population is severely fragmented, or occurs in few locations.
-There is evidence of continuing decline.
-There is evidence of extreme fluctuations.
+* The population is severely fragmented, or occurs in few locations.
+* There is evidence of continuing decline.
+* There is evidence of extreme fluctuations.
 
-Extent of occurrence and area of occupancy are two different ways to measure characteristics of a taxon’s distribution. Note that neither of them measure the ‘range’ per se; rather, they both measure characteristics of a taxon’s range that influence its extinction risk.
+The following video provides definitions of the different metrics and terms used within Criterion B and you can apply them for assesing a species using criterion B.
 
-Extent of occurrence (or EOO) is the area contained within the shortest continuous imaginary boundary drawn around all the known, inferred or projected sites where the taxon is currently found, or is believed to be present. This is often called the ‘minimum convex polygon’. Extent of occurrence measures the spatial spread of the areas currently occupied by the taxon, and hence the spatial spread of extinction risk. The intent behind this parameter is to measure the degree to which risks from threatening factors are spread spatially across the taxon’s geographical distribution. It is not intended to be an estimate of the amount of occupied or potential habitat, or a general measure of the taxon’s range. 
-
-The IUCN Red List Categories and Criteria state that EOO may exclude “discontinuities or disjunctions within the overall distribution of the taxa”. However, for measuring EOO for criterion B (which we will discuss later), exclusion of areas forming discontinuities or disjunctions from estimates of EOO is strongly discouraged. This is because disjunctions and outlying occurrences accurately reflect the extent to which a large range size reduces the chance that the entire population of the taxon will be affected by a single threatening process. Inappropriate exclusions of discontinuities or disjunctions within the overall distribution of a taxon will underestimate EOO for the purpose of assessing criterion B and consequently will underestimate the degree to which risk is spread spatially for the taxon.
-
-Projected sites are those that 
-
-Area of occupancy is the area within a taxon’s extent of occurrence that is actually occupied by a taxon. The measure reflects the fact that a taxon will not usually occur throughout the area of its extent of occurrence, which may contain unsuitable or unoccupied habitats. IUCN recommends it be measured by laying a 2x2 km grid over a map of the species distribution or point localities and counting the number of occupied cells; the User Guidelines go into much more detail about how to measure area of occupancy, and how to scale up or scale down AOO estimates if other grid cell areas have been used.
-Please bear in mind that this value assumes adequate survey effort such that you are certain the species only occurs in known localities.
-
-This is how EOO and AOO measurements might look on a range map. 
-
-In this example we show the distribution map for an Australian dragonfly species. The species is known from ten data collection points (shown by the red dots), occurring in eight separate HydroBASIN areas (shown by the blue polygons). In this case the limits of the species’ distribution are represented by the entire HydroBASIN areas; not all of these areas are likely to be completely occupied by this species, but there is suitable habitat within these areas (outside of the data collection points). If we had more detailed information about the biology of the species (or more data points), a more detailed distribution map could be created.
-
-[CLICK]  The extent of occurrence is the entire area within a minimum convex polygon around all of the known, inferred or projected areas the species is likely to occupy. In this example, the extent of occurrence is very large (over 121,000 km²) because it includes the large areas of unoccupied space between the sites where the species has actually been recorded from.
-
-[CLICK]  The area of occupancy is measured using a 2x2 km grid and adding up the occupied cells within the grid. The scale of the map in this example  is too large to show all of these occupied cells for this species, so to illustrate this here we have zoomed into the collection points for this species around the Brisbane area only, where there are three occupied grid cells. In total for this species, it has a minimum area of occupancy of 40 km² (because the data points occur within 10 separate grid cells); if it occurred within the entire area of available suitable habitat known for the species, its area of occupancy would be around 440 km². Even this uncertain range of 40-440 km² would meet the EN threshold under criterion B for this species.
-
-Severely fragmented – Populations are considered ‘severely fragmented’ when most of the individuals (>50%) are found in small, isolated subpopulations between which there is very little dispersal. These subpopulations may be too small to be viable, and so may go extinct with little probability that they will be rescued or re-colonized by dispersing individuals. 
-
-[CLICK] It’s not enough just to have small, isolated subpopulations to consider a taxon severely fragmented. Taxa with highly mobile adults or that produce large numbers of easily dispersed diaspores can more easily rescue or re-colonize sites where populations are declining, and are therefore less vulnerable to extinction.
-
-[CLICK- let the animation run] Here you can see that even though the subpopulations are small and fragmented, when some subpopulations go extinct they are re-colonized by the other subpopulations. These would not be considered severely fragmented.
-
-[CLICK] However, taxa that don’t produce very many diaspores or only produce larges ones that don’t disperse easily are more isolated and there is less movement between them.
-
-[CLICK – let the animation run] In this example, there is no movement or dispersal between the subpopulations, so that when one subpopulation goes extinct, the others can’t re-colonize the area. The risk of extinction  for this taxon is higher than for the previous taxon.
-
-Location – Pay close attention to the definition of location, as it is one of the most misunderstood and misapplied terms in the Red List criteria. The term ‘location’ defines a geographically or ecologically distinct area in which a single threatening event can rapidly affect all individuals of the taxon present. A location is therefore defined entirely by the most significant current or plausible potential threat - IT DOES NOT MEAN THE NUMBER OF SITES OR LOCALITIES THE SPECIES IS RECORDED FROM.
-
-The size of the location depends on the area covered by the threatening event and may include part of one or many subpopulations. Where a taxon is affected by more than one threatening event, location should be defined by considering the most serious plausible threat. If there are no serious threats acting on the population (and no plausible threats expected to affect the population in the foreseeable future), no consideration should be given to how many locations there are. Without a threatening event, the number of locations cannot be measured.
-
-For example, where the most serious plausible threat is habitat loss, a location is an area where a single development project can eliminate or severely reduce the population. Where the most serious plausible threat is volcanic eruption, hurricane, tsunami, frequent flood or fire, locations may be defined by the previous or predicted extent of lava flows, storm paths, inundation, fire paths, etc. Where the most serious plausible threat is collection or harvest, then locations may be defined based on the size of jurisdictions (within which similar regulations apply) or on the level of access (e.g., ease with which collectors may reach different areas), as well as on the factors that determine how the levels of exploitation change (e.g., if collection intensity in two separate areas changes in response to the same market trends in demand, these may be counted as a single location).
-
-Let’s look at a few examples. Here we have an aquatic species, distributed in a river system and in a nearby lake. [CLICK] The most serious threat to the species is invasive species, which are introduced to the river and quickly spread throughout the entire river. [CLICK] How many locations do you think there should be?
-
-In this case, introducing invasive species just once into the river affected all of the individuals in the river, so we would consider that one location (CLICK). The lake would be a second location [CLICK], as we would have to introduce invasive species separately into the lake to affect those individuals, but once we did so, all individuals in the lake would be affected.
-
-Here’s another example. [CLICK] This time, pollution is the most serious threat. When pollution enters the river upstream, it affects the entire river downstream, but doesn’t travel up the tributaries. How many locations should we have in this example?
-
-[TRAINER’S NOTE: GIVE THE PARTICIPANTS A CHANCE TO SUGGEST NUMBER OF LOCATIONS BEFORE REVEALING THE ANSWER]
-
-[CLICK, CLICK, CLICK, CLICK]
-In this example there would be around 4 locations, as it would take 4 separate pollution events to affect all of the individuals of the species we are evaluating: one in the main river body, one in each tributary, and one in the lake. This is somewhat subjective, as you could have more than one location in the main river body or in the tributaries if pollution were introduced at some point below where some of our individuals are located. In a real assessment, you would have to consider where the most likely areas for pollution to enter the river would be located and count the number of locations accordingly.
-
-What if the pollution occurred further downstream and only affected a small part of the population? How many locations would this be?
-
-[TRAINER’S NOTE: again, let the participants attempt an answer]
-
-[CLICK] If the main threat shown here is in combination with other threats affecting other parts of the range, then it may be feasible to count 4-5 locations. But, if this pollution is the single threat affecting only a small proportion of the population, it would be impossible to realistically estimate the number of locations.
-
-The Red List Guidelines provide guidance on what to do if parts of the range currently are not affected by any threats. Different options are available:
-
-[CLICK]
-If most (>50%) of the distribution is unaffected by threats, then DO NOT consider number of locations at all.
-
-If only part of the area is unaffected, then:
-  Use number of subpopulations as a surrogate for number of locations (if there are very definite subpopulations). OR
-  Use the smallest area affected by a threat to determine the number of locations in the unaffected areas. OR
-  Base the number of locations in the unaffected area on the threat that is most likely to occur in that area.
-  
- Where the most serious plausible threat does not affect all of the taxon’s distribution, other threats can be used to define and count locations in those areas not affected by the most serious plausible threat.
-
-[CLICK]
-In this example the species is distributed throughout a river basin and pollution is the most serious threat affecting the largest proportion of the population [CLICK, CLICK]. But, there are different threats affecting other parts of the basin: there is a dam affecting the population in one part branch of the catchment area [CLICK] and fishing pressure is affecting part of the population in another part of the catchment [CLICK]. How many locations would you count here? 
-
-[TRAINER’S NOTE: let the participants attempt to answer]
-
-[CLICK]  There are 5-6 locations – depending on whether you count the unaffected area above the pollution event in the right hand branch of the river system. 
-
-If there are no plausible threats, [CLICK] the number of locations cannot be counted and the subcriteria that refer to locations cannot be used.
-
-Reduction – A reduction is simply a decline in the population size. In the Red List Criteria, a population reduction of at least a specific percentage is measured over a specific time period, but essentially a reduction is just a population decline. The Red List Guidelines give more details about how to estimate a reduction from population data.
-
-Continuing Decline – A continuing decline is a recent, current or projected future decline which is liable to continue unless remedial measures are taken. The decline may be smooth, irregular or sporadic, but the key point is that it is expected to continue unless something is done to stop or reverse the decline.
-
-To start with, let’s look at a very simple example. Imagine you have a species where the population is split into several groups of individuals with unoccupied areas between them. In the slide we show a species of tree, but it could easily be birds, mammals, insects, fungi... Any species you happen to be working on. The larger pictures represent mature, reproducing individuals; the smaller images represent individuals that are too young to reproduce. The red arrow in the top right of the screen represents movement of genetic material between the two groups (which may be seed, pollen, larvae, individuals, etc. which contribute to the group they settle in).
-
-[CLICK]
-For the purposes of a Red List assessment, the ‘POPULATION’ is the total number of individuals of the taxon (including all adults, juveniles, senescent individuals, etc.) across the entire global range.
-
-[CLICK]
-However, some of the Red List criteria rely on the ‘POPULATION SIZE’. This is measured as the number of mature individuals only. 
-
-[CLICK]
-MATURE INDIVIDUALS are those individuals that are known, estimated or inferred to be capable of reproduction; juveniles, senescent and repressed individuals are excluded from this parameter. 
-
-The reason we focus on the number of mature individuals as a measure of population size is to allow the criteria to be applied in a consistent manner to taxa that have very different life histories. The assessment focuses on the functional part of the population: the part that is likely to actively contribute to the next generation. 
-
-For some taxa it can be challenging to define what a mature individual is (e.g., colonial species such as corals, fungi, lichen, etc.). The Red List Guidelines provide more detailed guidance on how to estimate the number of mature individuals appropriately for a range of different scenarios.
-
-[CLICK]
-Another important concept in the Red List Criteria is ‘SUBPOPULATION’. Subpopulations are distinct groups within the population, between which there is little demographic exchange (typically no more than one successful migrant individual or gamete per year). They may be separated by a some geographic barrier, or by a very large area of unsuitable habitat that prevents dispersal of genetic material between the groups. Or it may be some behavioural mechanism that prevents individuals from different groups from interbreeding.
-
-For example it might be a migratory species where groups of individuals migrate thousands of kilometres to use the same feeding areas, but they have high fidelity to their natal breeding areas, so there are very few (or even no) individuals dispersing to breed within the other groups. So when you are considering how many subpopulations there are for a species, think about their dispersal abilities, distance and barriers between groups of individuals, amount of suitable habitat available to allow successful dispersal between groups, and behavioural aspects that might limit successful interbreeding between groups.
 
 Using GBIF-mediated data for calculations of EOO and AOO
 The nature of GBIF-medaited data lends itself to the calculation of EOO and AOO measurements where occurrence points within a species native range can be used for defining the minimum convex polygon or onto which a 2x2km grid can placed for EOO measurements.  A number of tools have been developed for calculating these measurement including ArcGIS toolboxes, the R package red and GeoCat.  The latter provides users with little programming or GIS experience, the ability to take GBIF-mediated data and calculate EOO and AOO measurements.  In the following video, we provide you with an overview of how this tool works.   
 
-==== Exercise 2 - Applying IUCN Red List Criterion B
-In this exercise, you will calculate the Extent of Occurrence and Area of Occupancy for Brachypelma smithi using GeoCat - www.geocat.kew.org  and then do a red list assessment for each species based on the information provided in “Data Collection” above. 
 
-[cols="1,1,1"]
-|===
-3+|_Brachypelma smithi_ (F.O.Pickard-Cambridge, 1897)
-
-|Extent of occurrence
-2+|
-
-|Area of Occupancy
-2+|
-
-2+|
-|Justification (please state whether this is observed, estimated, projected, inferred or suspected)
-
-|Severe Fragmentation 
-|Yes or No
-|
-
-|Number of Locations 
-|
-|
-
-|Continuing Decline
-|Yes or No
-|
-
-|Extreme Fluctuations
-|Yes or No
-|
-
-|Final Assessment
-2+|
-|===
-[cols="1,1,1"]
-
-|===
-3+|_Aphonopelma anax_ (Chamberlin, 1940)
-
-|Extent of occurrence
-2+|
-
-|Area of Occupancy
-2+|
-
-2+|
-|Justification (please state whether this is observed, estimated, projected, inferred or suspected)
-
-|Severe Fragmentation 
-|Yes or No
-|
-
-|Number of Locations 
-|
-|
-
-|Continuing Decline
-|Yes or No
-|
-
-|Extreme Fluctuations
-|Yes or No
-|
-
-|Final Assessment
-2+|
-|===
 === Mapping standards for IUCN Red List Assessments
 
-Species maps are included on the Red List for several reasons. Primarily, the maps provide a visual representation of the species’ distribution, so people can see where the species is found. These data can also be used to conduct many different analyses, such as global threatened species richness for different taxonomic groups, which are then used to inform conservation planning and other decisions. The maps can help inform Red List assessments, by allowing calculations of extent of occurrence (EOO) and area of occupancy (AOO). They can also help to identify conservation priorities. For example, this data can help identify priority areas for conservation and inform conservation policy; it can help identify gaps in scientific knowledge; and it can help inform business decisions (e.g. where not to expand development).
+Species maps are included on the Red List for several reasons. Primarily, the maps provide a visual representation of the species’ distribution, so people can see where the species is found. 
+These data can also be used to conduct many different analyses, such as global threatened species richness for different taxonomic groups, which are then used to inform conservation planning and other decisions. 
+The maps can help inform Red List assessments, by allowing calculations of extent of occurrence (EOO) and area of occupancy (AOO). 
+They can also help to identify conservation priorities. 
+For example, this data can help identify priority areas for conservation and inform conservation policy; it can help identify gaps in scientific knowledge; and it can help inform business decisions (e.g. where not to expand development).
 
-The species distribution maps, commonly referred to as “limits of distribution” or “field guide” maps, aim to provide the current known distribution of the species within its native range.  The limits of distribution are determined by using known occurrences of the species, along with knowledge of habitat preferences, remaining suitable habitat, elevation limits, and other expert knowledge of the species and its range. 
+The species distribution maps, commonly referred to as “limits of distribution” or “field guide” maps, aim to provide the current known distribution of the species within its native range.  
+The limits of distribution are determined by using known occurrences of the species, along with knowledge of habitat preferences, remaining suitable habitat, elevation limits, and other expert knowledge of the species and its range. 
 
-[CLICK] In many cases the distribution is depicted as polygons, but it may also be represented by data points (collection records), or a mixture of points and polygons. [CLICK] For polygon maps, the polygon shows the limits of the taxon’s distribution, which essentially means that the species probably only occurs within this polygon, [CLICK] but it does not mean that it is distributed equally within that polygon or occurs everywhere within that polygon.
+In many cases the distribution is depicted as polygons, but it may also be represented by data points (collection records), or a mixture of points and polygons. 
+For polygon maps, the polygon shows the limits of the taxon’s distribution, which essentially means that the species probably only occurs within this polygon, but it does not mean that it is distributed equally within that polygon or occurs everywhere within that polygon.
 
 In the video, you can get an overview of the different mapping standards in use for mapping assessed species' distributions.
 
 === Minimum Documentation
-Assessors should provide with their maps, whether they be based on points, polygons or a combination of both, a set of accompanying attributes i.e. data attached to points and polygons. Some of these attributes are required as part of minimum documentation supporting assessments.  Other attributes are either recommended or optional and a full overiview of these minimum documentation requirements can be found in the mapping guidelines docuemnt and these attribute fields have been mapped to Darwin Core terms to facilitate the fulfilment of minimum documentation requirements.
+Assessors should provide with their maps, whether they are points, polygons or a combination of both, a set of accompanying attributes i.e. data attached to points and polygons. 
+Some of these attributes are required as part of minimum documentation supporting assessments.  
+Other attributes are either recommended or optional and a full overiview of these minimum documentation requirements can be found in the mapping guidelines document.
+These attribute fields have been mapped to Darwin Core terms in the document to facilitate the fulfilment of minimum documentation requirements when submitting your red list assessments.
 
-==== Exercise 3 - Producing a Species Distribution Map
-
-In this exercise, you will create a species distribution map for Brachypelma smithi applying IUCN mapping standards.    Please use the step-by-step guide for use case 1 to guide you through this exercise. For assessments that are accompanied by points only, it is recommended, if possible and appropriate, that a polygon map representing the distribution is also provided. Plausible options include, for example, the Minimum Convex Polygon (MCP) map (equivalent to the maximum EOO as defined in this document). Such a polygon should be marked in the polygon attribute table as generalisd = 1 (See Table 3 in Section 4.1.2). It would be used for display on the IUCN Red List website along with the points, and could also be used for analysis purposes.
-
-Q1. Provide the point attributes table in line with IUCN mapping standards for Brachypelma smithi including core, recommended and optional fields for the species distribution map using the processed GBIF data download for this species
-Q2. Using the Nature Conservancy Terrestrial Ecosystems dataset provided, what might be appropriate ecosystems to base a polygon map of the limits of a taxon´s distribution for both species?
-Q3. If these were freshwater species, what would be an appropriate GIS layer to use for creating polygon maps?
-Q4. Provide a polygon map for each of the species.
-Q5. What would be appropriate citations for the use of these data?
-
-Paragraph1, sentence1.
-Sentence 2.
-Sentence 3.
-
-Paragraph2, sentence1.
-Sentence 2.
-Sentence 3.
-
-Paragraph3, sentence1.
-Sentence 2.
-Sentence 3.
-
-=== sub topic
-
-[NOTE.presentation]
-Watch video on the key concepts of ...
-
-.In this video (12:26), you will review ... used in this course. 
-If you are unable to watch the embeded Vimeo video, you can download it locally. (MP4 - 44.5 MB)
-video::434713215[vimeo, height=480, width=640, align=center]
-
-
-[NOTE.activity]
-Become familiar with the ...
-
-****
-this is an example of a block
-this second sentence
-
-this is second paragraph first sentence.
-this is second sentence
-****
-
-==== sub sub topic
-
-Paragraph1, sentence1.
-Sentence 2.
-Sentence 3.
-
-“Paragraph2, sentence1.
-Sentence 2.
-Sentence 3.
