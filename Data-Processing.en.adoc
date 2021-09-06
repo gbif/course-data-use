@@ -145,10 +145,14 @@ In the case of the value 301, the uncertainty is often much-much greater than 30
 Gridded datasets are a known problem at GBIF. 
 Many datasets have equally-spaced points in a regular pattern. 
 These datasets are usually systematic national surveys or data taken from some atlas (“so-called rasterized collection designs”).
+Georeferenced occurrences are snapped to a central point 
+
+image::img/web/gridSnap.gif[align=center,width=640,height=360]
 
 Most publishers of gridded datasets actually fill in one of the following columns: coordinateuncertaintyinmeters, coordinateprecision, footprintwkt
 So filtering by these columns can be a good way to remove gridded datasets.
-GBIF has an experimental API for identifying datasets which exhibit a certain about of "griddyness". You can read more here
+The R package Coordinate cleaner also has a function for removing gridded datasets.
+GBIF has an experimental API for identifying datasets which exhibit a certain about of "griddyness". You can read more here: https://data-blog.gbif.org/post/finding-gridded-datasets/
 
 ==== Absence records
 
