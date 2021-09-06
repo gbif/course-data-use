@@ -40,13 +40,20 @@ Here users can retrieve data through common search and download services.
 During the indexation process over the raw data, GBIF adds issues and flags to records with common data quality problems. 
 These may contain useful information for you as a user to create fit-for-purpose datasets.  
 
+image::img/web/workflow2.png[align=center,width=640,height=360]
+
 Remarks are shown on the individual occurrence pages to explain the process done after interpretation:
 
 *Excluded means the original data couldn’t be interpreted, so is excluded in the interpreted fields.
 *Altered means the original data is modified in the interpretation process to be indexed in GBIF.org.
 *Inferred means the Using other record information the data indexed is inferred, if the original is empty.
 
-Excluding all records with a particular issue is not currently possible with the search interface. It is possible to filter all records you are not interested in with issues by selecting the particular issue and hitting the reverse button. However, reversing will still only give you all other flagged occurrences and not issue-free records. This is something that GBIF is working to improve. (at occurrence search)
+Excluding all records with a particular issue is not currently possible with the search interface. 
+It is possible to filter all records you are not interested in with issues by selecting the particular issue and hitting the reverse button. 
+However, reversing will still only give you all other flagged occurrences and not issue-free records. 
+This is something that GBIF is working to improve. (at occurrence search)
+
+image::img/web/filtering.png[align=center,width=640,height=360]
 
 A full overview of all issues and flags can be here: https://data-blog.gbif.org/post/issues-and-flags/
 
