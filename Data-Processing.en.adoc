@@ -141,6 +141,15 @@ There are also a few “fake” values for coordinate uncertainty that you shoul
 These "fake" values are 301, 3036, 999 and 9999.  
 In the case of the value 301, the uncertainty is often much-much greater than 301 and actually represents a country centroid.
 
+=== gridded datasets
+Gridded datasets are a known problem at GBIF. 
+Many datasets have equally-spaced points in a regular pattern. 
+These datasets are usually systematic national surveys or data taken from some atlas (“so-called rasterized collection designs”).
+
+Most publishers of gridded datasets actually fill in one of the following columns: coordinateuncertaintyinmeters, coordinateprecision, footprintwkt
+So filtering by these columns can be a good way to remove gridded datasets.
+GBIF has an experimental API for identifying datasets which exhibit a certain about of "griddyness". You can read more here
+
 ==== Absence records
 
 By default, both presence and absence records are shown when you search www.gbif.org. 
@@ -187,7 +196,8 @@ GBIF had recently introduces a clustering function in its advanced search that a
 == Advanced filtering
 
 There are other things to consider when post processing GBIF data, such.  
-Here are some additional things you might want to do to your data. These things are little bit more complex and involve more judgement calls, so I leave them out of the main cleaning pipeline script. 
+Here are some additional things you might want to do to your data. 
+These things are little bit more complex and involve more judgement calls, so I leave them out of the main cleaning pipeline script. 
 
 === Outliers
 I have found the DBSCAN to be an effective way to detect points that might be outliers. 
@@ -202,10 +212,7 @@ Currently, there is not a great way for filtering for only metagenomics datasets
 
 === outside native ranges
 
-=== gridded datasets
-Most publishers of gridded datasets actually fill in one of the following columns: coordinateuncertaintyinmeters, coordinateprecision, footprintwkt
-So filtering by these columns can be a good way to remove gridded datasets.
-GBIF has an experimental API for identifying datasets which exhibit a certain about of "griddyness". You can read more here
+
 
 === automated identifications
 
