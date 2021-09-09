@@ -20,15 +20,16 @@ The platform is powered by a variety of R packages including dismo and enmeval a
 It is a great platform for getting you started in in niche modeling and will allow to learn the basics of modeling, explore your data and generate a backcbone R script that will allow for the repeatability of your analyses.  
 What it will not be able to do is generate final, publishable models but it shoudl give you a good grasp of the principles of niche modeling. 
 
+Wallace allows you to visualize your data and remove indivual data records that may be outliers or imprecise within the Process Occurrence Data module. 
+Visualize your processed data and remove any additioanl data points that you may have missed in the initial data processing step. 
+
 Q1. What is the overall goal of your ecological niche model? That is, what question or hypothesis are you exploring?
 
 Q2. What type of niche are we modeling? What limits our ability to model the kind of niche we hope to model?
 
 === Exercise 2 - Data Processing
 Not all of the data within the download is fit-for-purpose, and in this exercise you should process your data download to only include those data points that you will be using to build your ecological niche model. 
-You should Answer questions 1 to 3 before then cleaning the dataset provided in line with data quality requirements above.  
-You have been provided with a step-by-step guide for processing your data with Excel and QGIS.  
-You may want to should use whichever processing tool you are most comfortbale with, we have provided you with a guide for processing data in Excel and QGIS and an R Markdown document if youd would like to take a more programmatic approach to data processing.  
+You should use whichever processing tool you are most comfortable with, we have provided you with an link:../data/DU_ENM_ExampleRScript.txt[R Script,opts=download] if you would like to take a more programmatic approach to data processing, although you could complete this exercise using the filters on www.gbif.org and processing with Open Refine or Excel, for example.  
 
 Q1.  What are the taxonkeys for each of the species and what is the taxonomic status of each species?
 
