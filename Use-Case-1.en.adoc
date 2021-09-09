@@ -29,7 +29,7 @@ Q2. What type of niche are we modeling? What limits our ability to model the kin
 
 === Exercise 2 - Data Processing
 Not all of the data within the download is fit-for-purpose, and in this exercise you should process your data download to only include those data points that you will be using to build your ecological niche model. 
-You should use whichever processing tool you are most comfortable with, we have provided you with an link:../data/Data_Processing_Exercise.R[R Script,opts=download] if you would like to take a more programmatic approach to data processing, although you could complete this exercise using the filters on www.gbif.org and processing with Open Refine or Excel, for example.  
+You should use whichever processing tool you are most comfortable with, we have provided you with an link:../data/DU_ENM_ExampleRScript.txt[R Script,opts=download] if you would like to take a more programmatic approach to data processing, although you could complete this exercise using the filters on www.gbif.org and processing with Open Refine or Excel, for example.  
 
 Q1.  What are the taxonkeys for each of the species and what is the taxonomic status of each species?
 
