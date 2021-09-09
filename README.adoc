@@ -5,6 +5,8 @@ https://docs.gbif.org/documentation-guidelines/[image:https://docs.gbif.org/docu
 https://creativecommons.org/licenses/by-sa/4.0/[image:https://img.shields.io/badge/License-CC%20BY%2D-SA%204.0-lightgrey.svg[CC BY-SA 4.0]]
 // Build status badge
 https://builds.gbif.org/job/course-data-use/lastBuild/console[image:https://builds.gbif.org/job/course-data-use/badge/icon[Build status]]
+// Crowdin badge
+https://crowdin.com/project/data-use-for-decision-making[image:https://badges.crowdin.net/data-use-for-decision-making/localized.svg[Crowdin]]
 
 = GBIF Course Data-Use
 
