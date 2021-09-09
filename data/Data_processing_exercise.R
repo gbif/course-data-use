@@ -1,0 +1,63 @@
+# Example R script for processing a GBIF download.You must fill in the elements yourselves where you are prompted with the word "insert" in the following script
+#set your working directory
+setwd("insert the pathway you want to save your files in and get them from")
+#install the data processing packages rgbif, taxize and Coordinate Cleaner and load package libraries
+install.packages("rgbif")
+install.packages("taxize")
+install.packages("CoordinateCleaner")
+library(rgbif)
+library(dplyr)
+library(readr)
+library(taxize)
+library(CoordinateCleaner)
+#provide your GBIF login credentials
+user="insert GBIF user account name"
+pwd="insert GBIF user account password"
+email="insert email associated with your GBIF user account"
+#download the GBIF dataset for your desired taxon. You can set download filter parameters using pred_in and pred functions
+occ_download(
+    pred("taxonKey", insert taxon key for the species you are interested in),
+    pred_in("basisOfRecord",c('PRESERVED_SPECIMEN','HUMAN_OBSERVATION')),
+    pred("hasCoordinate", TRUE),
+    pred("hasGeospatialIssue", FALSE),
+    format = "SIMPLE_CSV",
+  user=user,pwd=pwd,email=email
+    )
+gbif_download_key = "insert the download key provided to you by GBIF"
+path_to_download = "insert the path to where you want to download the data"
+
+#additional code for unzipping and extracting your zipped download file. This can also be done manually.
+rgbif::occ_download_get(gbif_download_key, overwrite = FALSE)
+zip_file = paste0(gbif_download_key,".zip")
+extract_dir = paste0(gbif_download_key)
+unzip(zip_file,exdir=extract_dir)
+#read your file into R and process the data with a range of filters. You can delete and edit filters based on the data you would like to keep in.
+gbif_download = data.table::fread(paste0(gbif_download_key,"/",gbif_download_key,".csv")) %>%
+  glimpse()
+gbif_clean_data = gbif_download %>%
+  setNames(tolower(names(.))) %>% # set lowercase column names to work with CoordinateCleaner
+  filter(occurrencestatus  == "PRESENT") %>%
+  filter(!is.na(decimallongitude)) %>% 
+  filter(!is.na(decimallatitude)) %>% 
+  filter(!basisofrecord %in% c("FOSSIL_SPECIMEN","LIVING_SPECIMEN")) %>%
+  filter(!establishmentmeans %in% c("MANAGED", "INTRODUCED", "INVASIVE", "NATURALISED")) %>%
+  filter(year >= 1955 & year <=2010) %>% # the years for which we have MARSPEC data 
+  filter(coordinateprecision > 0.01 | is.na(coordinateprecision)) %>% 
+  filter(coordinateuncertaintyinmeters < 10000 | is.na(coordinateuncertaintyinmeters)) %>%
+  filter(!coordinateuncertaintyinmeters %in% c(301,3036,999,9999)) %>% 
+  filter(!decimallatitude == 0 | !decimallongitude == 0) %>%
+  cc_cen(buffer = 2000) %>% # remove country centroids within 2km 
+  cc_cap(buffer = 2000) %>% # remove capitals centroids within 2km
+  cc_inst(buffer = 2000) %>% # remove zoo and herbaria within 2km 
+  distinct(decimallongitude,decimallatitude,specieskey,datasetkey, .keep_all = TRUE) %>% # this removes a lot of records! 
+  glimpse() # look at results of pipeline
+#write the results of your data processing to a csv file
+readr::write_csv(gbif_clean_data,"insert the name you want to give to your processed file")
+#reformat your processed data into a format that can be input into Wallace for ecological niche modeling
+gbif_clean_data %>%
+select(name=scientificname,longitude=decimallongitude,latitude=decimallatitude) %>%  
+readr::write_csv("gbif_clean_data_wallace.csv")
+#install and run wallace
+install.packages('wallace')# load the package
+library(wallace)# run the app
+run_wallace()
