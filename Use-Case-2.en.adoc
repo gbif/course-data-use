@@ -4,6 +4,7 @@
 Use Case I is a practice use case for the data proecessing and ecological niche modelling modules. It is recommended that you download the exercise sheet (MS Word 345 KB) so that you can make notes as you work through the exercises. A suggested solution will be provided in the solution appendix. Use Case I is not graded.
 
 === Scenario
+
 Mexico is a mega-diverse country with high numbers of species and high levels of endemism across all taxonomic groups.
 The government is committed to assessing the conservation status of all its species and has agreed to develop a national red list applying IUCN Categories and Criteria to all vertebrate and invertebrate taxonomic groups by the year 2030. 
 As part of this process, they have started the assessment of arachnid groups and are now assessing the conservation status of all species within the family Theraposidae – the tarantulas.  
@@ -12,6 +13,7 @@ National and international arachnid specialists have come together at Mexican ar
 Assessors want to use GBIF-mediated data to assess the species using Criterion B and provide maps that comply to IUCN documentation requirements. 
 
 Description
+
 _Brachypelma smithi_ (F.O.Pickard-Cambridge, 1897) is a large spider species in the family Theraphosidae.  
 It has a very restricted range within the state of Guerrero, requiring clearings in tropical dry forests on sandy soil where it can build its tunnel/den.  
 As with other tarantula species, males and females have different lifespans with averages of 6 and 25 years respectively.  
