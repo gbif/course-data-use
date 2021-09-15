@@ -30,7 +30,7 @@ The species is common across its range and although there has been increasing ur
 Exercises
 Exercises The individual exercises for this use case are located in the corresponding modules.
 
-==== Exercise 1 - Data Processing 
+== Exercise 1 - Data Processing 
 
 Q1.  What are the taxonkeys for each of the species and what is the taxonomic status of each species?
 Q2.  In what format did you download the data and how what are the unique properties of this type of download?
@@ -54,7 +54,7 @@ Q4. What are the following key data quality processing steps did you use for cle
 Q5. What additional data processing steps might you want to validate taxonomic identification of species?
 Q1. As these will be national red list assessments, what additional data processing step will be required for the non-endemic Aphonopelma anax dataset?
 
-==== Exercise 2 - Applying IUCN Red List Criterion B
+== Exercise 2 - Applying IUCN Red List Criterion B
 In this exercise, you will calculate the Extent of Occurrence and Area of Occupancy for Brachypelma smithi using GeoCat - www.geocat.kew.org  and then do a red list assessment for each species based on the information provided in “Data Collection” above. 
 
 [cols="1,1,1"]
@@ -123,7 +123,7 @@ In this exercise, you will calculate the Extent of Occurrence and Area of Occupa
 2+|
 |===
 
-==== Exercise 3 - Producing a Species Distribution Map
+== Exercise 3 - Producing a Species Distribution Map
 
 In this exercise, you will create a species distribution map for Brachypelma smithi applying IUCN mapping standards.    Please use the step-by-step guide for use case 1 to guide you through this exercise. For assessments that are accompanied by points only, it is recommended, if possible and appropriate, that a polygon map representing the distribution is also provided. Plausible options include, for example, the Minimum Convex Polygon (MCP) map (equivalent to the maximum EOO as defined in this document). Such a polygon should be marked in the polygon attribute table as generalisd = 1 (See Table 3 in Section 4.1.2). It would be used for display on the IUCN Red List website along with the points, and could also be used for analysis purposes.
 
@@ -133,12 +133,3 @@ Q3. If these were freshwater species, what would be an appropriate GIS layer to 
 Q4. Provide a polygon map for each of the species.
 Q5. What would be appropriate citations for the use of these data?
 
-Data Processing Exercise 1a-c
-
-Data capture Exercise 2
-
-Data management Exercise 3a-c
-
-Data publishing Exercise 4
-
-Exercise Sheet
