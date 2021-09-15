@@ -3,7 +3,7 @@
 
 Use Case I is a practice use case for the data proecessing and ecological niche modelling modules. It is recommended that you download the exercise sheet (MS Word 345 KB) so that you can make notes as you work through the exercises. A suggested solution will be provided in the solution appendix. Use Case I is not graded.
 
-Scenario
+=== Scenario
 Mexico is a mega-diverse country with high numbers of species and high levels of endemism across all taxonomic groups.
 The government is committed to assessing the conservation status of all its species and has agreed to develop a national red list applying IUCN Categories and Criteria to all vertebrate and invertebrate taxonomic groups by the year 2030. 
 As part of this process, they have started the assessment of arachnid groups and are now assessing the conservation status of all species within the family Theraposidae – the tarantulas.  
