@@ -59,7 +59,7 @@ Certain metrics within the assessment process can be based on observations, esti
 In this video (09:27), you will review the differences between these different data quality types. 
 
 [.responsive-video]
-video::605444817[vimeo, width =640]
+video::605444817[vimeo, width =640, height =480]
 
 === Applying Criterion B - Restricted Geographic Range
 While GBIF-mediated may provide information that is useful for all criteria, it is for crietion B that GBIF-mediated data can play a critical role in the assessment of a taxon due to the locality information contained within it.  
