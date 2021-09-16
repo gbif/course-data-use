@@ -76,8 +76,11 @@ In order to list a species as threatened under criterion B, it must first meet t
 * There is evidence of continuing decline.
 * There is evidence of extreme fluctuations.
 
-The following video provides definitions of the different metrics and terms used within Criterion B and you can apply them for assesing a species using criterion B.
+[NOTE.presentation]
+The following video provides definitions of the different metrics and terms used within Criterion B and how you can apply them for assesing a species using criterion B.
 
+[.responsive-video]
+video::605444150[vimeo,width=640,height=480]
 
 Using GBIF-mediated data for calculations of EOO and AOO
 The nature of GBIF-medaited data lends itself to the calculation of EOO and AOO measurements where occurrence points within a species native range can be used for defining the minimum convex polygon or onto which a 2x2km grid can placed for EOO measurements.  A number of tools have been developed for calculating these measurement including ArcGIS toolboxes, the R package red and GeoCat.  The latter provides users with little programming or GIS experience, the ability to take GBIF-mediated data and calculate EOO and AOO measurements.  In the following video, we provide you with an overview of how this tool works.   
