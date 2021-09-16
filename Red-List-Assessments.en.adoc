@@ -55,10 +55,10 @@ image::img/web/iunccategories.png[align=center,width=640,height=360]
 [NOTE.presentation]
 The threatened categories use quantitative thresholds but a lack of high quality data should not deter assessors from applying the IUCN criteria.  
 Certain metrics within the assessment process can be based on observations, estimations, inferences, suspicions and projections and guidance on when these can be used is given hthe IUCN guidelines and summary sheet.  
-In this video (09:27), you will review the differences between these different data quality types. 
 
+In this video (09:27), you will review the differences between these different data quality types. 
 [.responsive-video]
-video::6aee9f03e5[vimeo]
+video::605444817[vimeo]
 
 === Applying Criterion B - Restricted Geographic Range
 While GBIF-mediated may provide information that is useful for all criteria, it is for crietion B that GBIF-mediated data can play a critical role in the assessment of a taxon due to the locality information contained within it.  
