@@ -3,9 +3,13 @@
 
 All species have a probability of going extinct due to random events.  
 However, some species have a higher probability of extinction of going extinct due to a number of determining factors such as population trends, range and threats faced by the species. 
-The IUCN Red List of Threatened Species provides a robust and transparent framework in the form of the Categories and Criteria for estimating the risk of extinction ofof  all species across all systems -  marine, terrestrial and freshwater.
+The IUCN Red List of Threatened Species provides a robust and transparent framework in the form of the Categories and Criteria for estimating the risk of extinction of  all species across all systems -  marine, terrestrial and freshwater.
 
-It is not the only method for assessing the conservation status of species and regionally different methodologies may be used, however, it is an internationally recognised standard that is acknowledged as a key tool for assessing progress for towards achieving the Aichi bodiversity targets. 
+It is not the only method for assessing the conservation status of species and regionally different methodologies may be used, however, it is an internationally recognised standard that is acknowledged as a key tool for assessing progress towards achieving bodiversity targets as set out in the Convention on Biological Diversity. 
+
+
+
+
 
 Importanly, the Red List is not a final list of species that are high priorities for conservation action. 
 When establishing conservation priorities, it is important to consider financial, cultural, logistical, biological, ethical, social and other factors in addition to extinction risk, to maximize the effectiveness of conservation actions. 
