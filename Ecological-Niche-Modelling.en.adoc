@@ -198,16 +198,6 @@ Thresholding is the process by which we convert the continuous (raw) output, or 
 The binary output is generally interpreted as areas that are suitable/not suitable for the species.
 Models are rarely perfect and it is likely that they will predict species as being present where they are not actually present (commission errors) and, conversely, absent where they actually occur (omission errors). When we threshold out model we want to decide on a threshold at which we are minimising both commission and omission errors. If we have threshold value of 100 then all areas are suitable for the species and we will have a high number of commission errors and the number of omission errors will approach 0. 
 
-We choose the “threshold” value that determines a presence versus an absence of the species using the:
--	Minimum Training Presence (MTP) - the minimum suitability score of a presence
--	MTP + user-selected error rate (e.g., E=5%, E=10%) - a user-selected percentage that reflects the level of error (i.e. commission/omission) you expect in the data.
-
-Precise method by which you do this depends on the quality of the data that you used to build the model.
-
-
-image::img/web/threshold.png[align=center,width=640,height=360]
-
-
 [cols="1,1,1"]
 |===
 |  |Species is present |Species is absent 
@@ -221,9 +211,13 @@ image::img/web/threshold.png[align=center,width=640,height=360]
 |Accurate
 |=== 
 
+We choose the “threshold” value that determines a presence versus an absence of the species using the:
+-	Minimum Training Presence (MTP) - the minimum suitability score of a presence
+-	MTP + user-selected error rate (e.g., E=5%, E=10%) - a user-selected percentage that reflects the level of error (i.e. commission/omission) you expect in the data.
 
+image::img/web/threshold.png[align=center,width=640,height=360]
 
-
+Precise method by which you do this depends on the quality of the data that you used to build the model.
 
 == Projecting a Niche Model
 
