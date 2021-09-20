@@ -251,8 +251,8 @@ Extrapolation - extends the response curve based on trends obtained from calibra
 
 *Projection Uncertainty*
 
-MESS: Multivariate Environmental Suitability Surface is a means of both quantifying environmental similarity between calibration and transfer regions and highlighting regions in geographic space where strict extrapolation occurs. These are shown as red on the map and can be produced when using Maxent.
-
+MESS: Multivariate Environmental Suitability Surface is a measure of the similarity between the new environments and those in the training sample.  They allow modelers to identify areas of model extrapolation in novel environments. It measures the similarity of any given point to a reference set of points, with respect to the chosen predictor variables. It reports the closeness of the point to the distribution of reference points, gives negative values for dissimilar points and maps these values across the whole prediction region. The map below is an example of a MESS with areas in red on the map highlighting areas of model extrapolation where into potentially unsuitable environments for the species
+.  
 image::img/web/mess.png[align=center,width=640,height=360]
 
 
