@@ -111,6 +111,7 @@ These past and future models differ in that past models are parameterized and te
 More environmental data isn’t always better.  
 You want to balance to achieve a balance between the number of data points and the number of environmental variables so that you do not overfit you model.
 When selecting variables we want to be sure that:
+
 * our variables are biologically relevant - they should reflect the species of study's biology e.g. solar radiation my not be a relevant environmental variable for soil dwelling species
 * our variables are not highly correlated - for instance, if we take the two variables and temperature, temperature is not independent of elevation so we may want to remove one of these variables. In this instance, elevation would be preferably removed as it is more accurately measured.
 * we do not use all 19 Bioclim variables
@@ -122,9 +123,12 @@ Importantly, spatio-temporal resolution and covariate data extent should align w
 
 For example, if your environmental data have a spatial resolution of 10 Arc Minutes and a temporal resolution between 1955 and 2006, then the temporal and spatial resolution of the GBIF-meadited data you are going to use should correspond to those resolutions. 
 
-=== Training (model calibration) regions
+=== Training regions
 
-Training regions (or study areas) are the areas from which model algorithms sample the background for model inference. In the case of presence-background models such as Maxent, this will be the area from which the model will randomly pick pseudoabsences that are use for calibrating the model.  The training area can be thought of as the areas where the species could potentially experience envinronmental conditions. The species may not actually occur there, but it is possible that the species can reach those areas.  Points to consider when delimiting your training regions are:
+Training regions (or study areas) are the areas from which model algorithms sample the background for model inference. 
+In the case of presence-background models such as Maxent, this will be the area from which the model will randomly pick pseudoabsences that are use for calibrating the model.  The training area can be thought of as the areas where the species could potentially experience envinronmental conditions. 
+The species may not actually occur there, but it is possible that the species can reach those areas.  
+Points to consider when delimiting your training regions are:
 
 * Where did the species originate?
 * How far can the species diserse?
@@ -132,7 +136,7 @@ Training regions (or study areas) are the areas from which model algorithms samp
 * it should not be a rectangle
 * it should not correspond to political boundaries
 * it should not be a coarse range delimitation (e.g. range map) 
-* gigger is not better
+* bigger is not better
 
 image::img/web/maxent.gif[align=center,width=640,height=360]
 
@@ -251,8 +255,8 @@ Extrapolation - extends the response curve based on trends obtained from calibra
 
 *Projection Uncertainty*
 
-MESS: Multivariate Environmental Suitability Surface is a measure of the similarity between the new environments and those in the training sample.  They allow modelers to identify areas of model extrapolation in novel environments. It measures the similarity of any given point to a reference set of points, with respect to the chosen predictor variables. It reports the closeness of the point to the distribution of reference points, gives negative values for dissimilar points and maps these values across the whole prediction region. The map below is an example of a MESS with areas in red on the map highlighting areas of model extrapolation where into potentially unsuitable environments for the species
-.  
+MESS: Multivariate Environmental Suitability Surface is a measure of the similarity between the new environments and those in the training sample.  They allow modelers to identify areas of model extrapolation in novel environments. It measures the similarity of any given point to a reference set of points, with respect to the chosen predictor variables. It reports the closeness of the point to the distribution of reference points, gives negative values for dissimilar points and maps these values across the whole prediction region. The map below is an example of a MESS with areas in red on the map highlighting areas of model extrapolation where into potentially unsuitable environments for the species.
+
 image::img/web/mess.png[align=center,width=640,height=360]
 
 
