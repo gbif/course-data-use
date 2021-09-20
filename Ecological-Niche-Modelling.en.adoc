@@ -152,6 +152,8 @@ In the ideal modeling scenario... You would seek to identify the ideal model cal
 * multiple calibration scenarios for an individual algorithm and 
 * the best model calibration scenario across multiple algorithms
 
+Understanding model performance requires model evaluation (D1). A first step is that of assessing model precision and significance — that is, whether the model can correctly predict independent presence (or absence) data and whether the model prediction is better than null expectations. Commonly used indices that measure model performance can be either threshold-independent (D2; for example, area under the receiver operating characteristic curve or ROC AUC88), or threshold-dependent (for example, partial ROC89, true skill statistic or TSS, sensitivity and specificity90); the latter approaches require reporting of thresholds and how they were derived.
+
 In the use cases, where you will be dipping your toes into the major theoretical concepts underpinning ENM/SDM, you'll be looking at only 1 algorithm.
 
 Many options exist for evaluating model calibration scenarios.
@@ -237,19 +239,19 @@ We can also project into the past and the future, for example:
 
 *What happens when a model is projected into novel environments?*
 
-The Big Caveat
-Novel environments
-* climate conditions not found in model training region
-Truncation
-* Cut off suitability response
-Clamping
-* Suitability remains continuous
-Extrapolation
+
+The Big Caveat however, is that we do not know how our model will behave in new environments. Transferring a model across space and/or time may lead to extrapolation if the projected environments are novel relative to training environments.
+Model algorithms have three strategies for dealing with extrapolation of response curves into environmental conditions different than those existing in the region of model calibration:
+
+Truncation - Designates all conditions outside of the calibration data range as unsuitable and thus the model could not be projected beyond the training region
+Clamping - Uses the marginal values in the calibration area as the prediction for more extreme conditions in transfer areas thus may under predict the full extent of the projected niche 
+Extrapolation - extends the response curve based on trends obtained from calibration conditions or assumptions about the niche thus making assumptions of the suitability of novel environments on the species 
+
 * Use model equations to predict change in suitability outside training region
 
 *Projection Uncertainty*
 
-MESS: Multivariate Environmental Suitability Surface identifies areas of extrapolation i.e. areas in the projected ecological model that are unlikely to be suitable for the species. These are show as red on the map and can be produced when using Maxent.
+MESS: Multivariate Environmental Suitability Surface is a means of both quantifying environmental similarity between calibration and transfer regions and highlighting regions in geographic space where strict extrapolation occurs. These are shown as red on the map and can be produced when using Maxent.
 
 image::img/web/mess.png[align=center,width=640,height=360]
 
