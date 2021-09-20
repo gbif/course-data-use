@@ -111,16 +111,9 @@ These past and future models differ in that past models are parameterized and te
 More environmental data isn’t always better.  
 You want to balance to achieve a balance between the number of data points and the number of environmental variables so that you do not overfit you model.
 When selecting variables we want to be sure that:
-* our variables are biologically relevant
-* our variables are not highly correlated
+* our variables are biologically relevant - they should reflect the species of study's biology e.g. solar radiation my not be a relevant environmental variable for soil dwelling species
+* our variables are not highly correlated - for instance, if we take the two variables and temperature, temperature is not independent of elevation so we may want to remove one of these variables. In this instance, elevation would be preferably removed as it is more accurately measured.
 * we do not use all 19 Bioclim variables
-
-Selection is typically a 2 step process
-
-. Initial covariate selection: Identify any very highly correlated variables. 
-For each highly correlated pair, drop the least biologically relevant.
-. After environmental data are extracted to species occurrence data, assess correlation again. 
-Again, for each highly correlated pair, drop the least biologically relevant.
 
 Importantly, spatio-temporal resolution and covariate data extent should align with:
 
@@ -131,30 +124,27 @@ For example, if your environmental data have a spatial resolution of 10 Arc Minu
 
 === Training (model calibration) regions
 
-Training regions in Maxent (and other ENM algorithms) are the areas from which these algorithms sample the background for model inference.
-image::img/web/maxent.gif[align=center,width=640,height=360]
+Training regions (or study areas) are the areas from which model algorithms sample the background for model inference. In the case of presence-background models such as Maxent, this will be the area from which the model will randomly pick pseudoabsences that are use for calibrating the model.  The training area can be thought of as the areas where the species could potentially experience envinronmental conditions. The species may not actually occur there, but it is possible that the species can reach those areas.  Points to consider when delimiting your training regions are:
 
-Considerations when determining a training region for your model are:
-
-* Where did species originate?
-* Dispersal ability
-* Distance
-* Biogeographic barriers
+* Where did the species originate?
+* How far can the species diserse?
+* Are there any biogeographic barriers that would prevent the dispersal of the species?
 * it should not be a rectangle
 * it should not correspond to political boundaries
 * it should not be a coarse range delimitation (e.g. range map) 
-* it should reflect available geographic regions that could have been sampled by the study species during the relevant time period
-* Bigger is not better
+* gigger is not better
+
+image::img/web/maxent.gif[align=center,width=640,height=360]
 
 == Interpretation and Post-Processing of Niche Models
 
 *Variable Response Curves*
 
-Variable response curves are model outputs that estimate the suitability of each variable. 
+Variable response curves are model outputs that describe how well your model has characterised how the species responds to the variable. Approximately normal curves may indicate better estimates of the fundamental niche of the species e.g.Æ
 
 image::img/web/variableresponse.png[align=center,width=640,height=360]
 
-Approximately normal curves may indicate better estimates of the fundamental niche although some variables such as ice concentrations do not work like that (very few species can live enclosed in ice!)
+However, some variables such as ice concentrations do not work like that - very few species can live enclosed in ice!
 
 *Model evaluation*
 In the ideal modeling scenario... You would seek to identify the ideal model calibration for your data and modeling intent, by comparing: 
@@ -198,16 +188,19 @@ When OR = 0, then no presences were predicted as absent.
 
 
 === Thresholding a Niche Model
-Thresholding is the process by which we convert the continuous (raw) output from a statistical model to a binary output. 
+Thresholding is the process by which we convert the continuous (raw) output, or continuous suitability surface, from a statistical model to a binary output. 
 The binary output is generally interpreted as areas that are suitable/not suitable for the species.
+Models are rarely perfect and it is likely that they will predict species as being present where they are not actually present (commission errors) and, conversely, absent where they actually occur (omission errors). When we threshold out model we want to decide on a threshold at which we are minimising both commission and omission errors. If we have threshold value of 100 then all areas are suitable for the species and we will have a high number of commission errors and the number of omission errors will approach 0. 
+
+We choose the “threshold” value that determines a presence versus an absence of the species using the:
+-	Minimum Training Presence (MTP) - the minimum suitability score of a presence
+-	MTP + user-selected error rate (e.g., E=5%, E=10%) - a user-selected percentage that reflects the level of error (i.e. commission/omission) you expect in the data.
+
+Precise method by which you do this depends on the quality of the data that you used to build the model.
+
 
 image::img/web/threshold.png[align=center,width=640,height=360]
 
-We choose the “threshold” value that determines a presence versus an absence of the species using the:
--	Minimum Training Presence (MTP)
--	MTP + user-selected error rate (e.g., E=5%, E=10%)
-
-The precise method by which you do this depends on your data.
 
 [cols="1,1,1"]
 |===
@@ -223,19 +216,7 @@ The precise method by which you do this depends on your data.
 |=== 
 
 
-Classification
 
-•	Sensitivity
-•	True positive rate
-•	Specificity
-•	True negative rate
-•	Would you rather throw out milk that was fine, or drink milk that had spoiled?
-Thresholds: a Tradeoff
-•	Threshold -> 100
-	- all areas are suitable
-	- high commission errors
-	- omission error goes to 0
-•	Same in converse
 
 
 == Projecting a Niche Model
