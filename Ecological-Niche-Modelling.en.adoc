@@ -28,25 +28,18 @@ By stacking niche models for different species, we can also identify areas where
 
 *Commonly used algorithms*
 
-*BIOCLIM*
+Algorithms to develop ecological niche models can be divided into three categories: presence-only, presence-background and presence-absence.  
 
-* Very simple
-* Infer rectilinear envelope
-* Everything inside is suitable
-* Not very predictive
-* Randomly samples from occurrences as well as areas the species can potentially occur but has not been observed. 
+Presence-only algorithms focus solely on the environmental values linked to each occurrence record for calibration and create environmental envelopes, which are ellipsoids, squares, or convex-hull that surround the occurrences in an environmental space. These models are not very predictive Calibration of these modes is insensitive to changes in the extent of the study area. Commonly used algorithms include Bioclim and NicheA. 
 
 image::img/web/bioclim.png[align=center,width=640,height=360]
 
-*Maxent*
+Presence-absence algorithms need a set of localities where the organism occurs (i.e., presence) and a set of localities where the organisms does not occur (i.e., absence). Presence-absence models are calibrated by comparing environmental conditions where the organism is present vs. where it is absent and are generally useful to reconstruct the distribution at fine scale and short periods, resulting in the need of accurate localities and high-resolution environmental variables. These models, however, have limited capacities to be projected to different areas or periods, instead, their signals are space and time specific. Many algorithms are available including regression (e.g., Generalized Linear Models and Generalized Additive Models) and classification (e.g., Boosted Regression Trees, Random Forest, and Support Vector Machines) algorithms, with protocols described in detail elsewhere 
 
-* Randomly samples from presence records and “background”
-* Background = areas the species can experience
-* Uses these samples to iteratively develop and test a model
-* A series of equations that best fit the data
-* Randomly samples from occurrences as well as areas the species can potentially occur but has not been observed. 
+Absence data is limited in availability and is of questionable quality, as it is difficult to confirm the absence of a species from a particular area. To overcome the issues, presence-background models simulate absence data by generating random points (i.e., fake absence data) across the study area to be able to use presence-absence algorithms. Because the background corresponds to the study area, calibration of these algorithms is highly sensitive to variations in the extent of the study area extent selected. A popular ecological niche modeling algorithm using this approach is Maxent, and wll will focus on this algorithm throughout this course.
  
 image::img/web/maxent.gif[align=center,width=640,height=360]
+
 
 == Environmental variables
 
