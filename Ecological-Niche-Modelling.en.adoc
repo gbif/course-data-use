@@ -146,6 +146,8 @@ Points to consider when delimiting your training regions are:
 
 image::img/web/Training_region.jpg[align=center,width=640,height=360]
 
+In the above example, the isthmus of Panama acts as effective barrier to the isolation of the Panamic porkfish to the Pacific and the Porkfish to the Caribbean.  Training regions for each species would not contain areas on the opposite side of the Isthmus from where the species was found.
+
 == Interpretation and Post-Processing of Niche Models
 
 You are now ready to build your model and this means deciding on the level of complexity of your model.  
