@@ -47,15 +47,15 @@ image::img/web/maxent.gif[align=center,width=640,height=360]
 Environmental variables, also known as environmental data, explanatory variables, bioclimatic data or covariates are anything that can be summarized by a raster (gridded dataset).
 These variables are used to characterize the niche of a species.
 The data can be either continuous or categorical (i.e. data expressed as vectors), direct measurements or derived products, static or dynamic or terrestrial, aquatic or atmospheric. 
-The tables below give examples of each data type. 
+The tables below give examples of how these data can be classified. 
 
 // [width=100%]
 [cols="50%,50%"]
 |===
 |Continuous |Categorical 
 
-|Cell in column 1, row 2
-|Cell in column 2, row 2
+|Elevation, bathymetry
+|Geology, Ecosystem
 |=== 
 
 // [%autowidth.stretch]
@@ -142,19 +142,25 @@ Points to consider when delimiting your training regions are:
 image::img/web/maxent.gif[align=center,width=640,height=360]
 
 == Interpretation and Post-Processing of Niche Models
-You are now ready to build your model and this means deciding on the level of complexity of your model.  This is done through two key factors: feature classes and the regularization multiplier. Feature classes determine the shape of available modeled relationships in environmental space and the more feature classes chosen, the higher the potential for model complexity. The regularization multiplier penalizes complexity to a greater degree, with higher values leading to simpler models with fewer variables.  For these reasons, evaluating model performance and estimating optimal model complexity constitute important elements of a niche/distributional modeling for examples simultaneously varying the feature classes allowed and the regularization multiplers applied to each of them. Phillips, S.J., & Dudík, M. (2008). Modeling of species distributions with Maxent: new extensions and a comprehensive evaluation. Ecography. 31: 161-175. 
+
+You are now ready to build your model and this means deciding on the level of complexity of your model.  
+This is done through two key factors: feature classes and the regularization multiplier. 
+Feature classes determine the shape of available modeled relationships in environmental space and the more feature classes chosen, the higher the potential for model complexity. The regularization multiplier penalizes complexity to a greater degree, with higher values leading to simpler models with fewer variables.  
+For these reasons, evaluating model performance and estimating optimal model complexity constitute important elements of a niche/distributional modeling for examples simultaneously varying the feature classes allowed and the regularization multiplers applied to each of them. Phillips, S.J., & Dudík, M. (2008). Modeling of species distributions with Maxent: new extensions and a comprehensive evaluation. Ecography. 31: 161-175. 
 
 *Model Evaluation*
 
-You will hjave to assess the model's precision and significance — that is, whether the model can correctly predict independent presence (or absence) data and whether the model prediction is better than null expectations. Outputs for your model will include variable response curves and a number of statistics that can be used for assessing the performance of your model.
+You will have to assess the model's precision and significance — that is, whether the model can correctly predict independent presence (or absence) data and whether the model prediction is better than null expectations. 
+Outputs for your model will include variable response curves and a number of statistics that can be used for assessing the performance of your model.
 
 *Variable Response Curves*
 
-Variable response curves are model outputs that describe how well your model has characterised how the species responds to the variable. Approximately normal curves may indicate better estimates of the fundamental niche of the species e.g.
+Variable response curves are model outputs that describe how well your model has characterised how the species responds to the variable. 
+Approximately normal curves may indicate better estimates of the fundamental niche of the species e.g.
 
 image::img/web/variableresponse.png[align=center,width=640,height=360]
 
-Curves that deviate from normal distributions or are flat, may indicate that the variable may not be a good estimator of a species's fundamental nicehe.  However, some variables such as ice concentrations do not work like that - very few species can live enclosed in ice!
+Curves that deviate from normal distributions or are flat, may indicate that the variable may not be a good estimator of a species's fundamental nicehe.  However, some variables such as ice concentrations, the lower curve in the diagram above, do not work like that - very few species can live enclosed in ice!
 
 *Statistics*
 
@@ -214,7 +220,6 @@ However, you can also project into different contemporaneous geographies too, fo
 We can also project into the past and the future, for example:
 * to hindcast distributions in the case of determining paleodistributions of modern taxa for identifying refugia e.g. Peterson and Nyári, 2007
 * to forecast species distributions to identify range shifts due to cliamte change e.g. Wang et al., 2016.
-
 
 *The Big Caveat*
 
