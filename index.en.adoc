@@ -29,8 +29,6 @@ include::description.en.adoc[]
 
 include::downloads.en.adoc[]
 
-include::Foundations.en.adoc[]
-
 include::Tools-for-Data-Analysis.en.adoc[]
 
 include::Data-Processing.en.adoc[]
