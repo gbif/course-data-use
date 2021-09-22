@@ -1,61 +1,51 @@
 [multipage-level=2]
-= IUCN Red List Assessment
+= Assessing the conservation status of a species 
+[NOTE.objectives]
+This module will introduce you to the basic concepts and terminology associated with assessing the conservation status of a species using the IUCN Red List Categories and Criteria.  
+By the end of the module, you should understand what the conceptual framework of the IUCN Red List of Categories and Criteria and how you can apply them using GBIF-mediated data.
+
+== IUCN Red List of Threatened Species
+
+The International Union for Conservation of Nature (IUCN) Red List of Threatened Species provides a robust and transparent framework in the form of the IUCN Red List Categories and Criteria for estimating the risk of extinction of  all species across all systems -  marine, terrestrial and freshwater.
+It is an internationally recognised standard that can be applied at a global, regional and national level and is acknowledged as a key tool for assessing progress towards achieving bodiversity targets as set out in the Convention on Biological Diversity. 
 
 All species have a probability of going extinct due to random events.  
 However, some species have a higher probability of extinction of going extinct due to a number of determining factors such as population trends, range and threats faced by the species. 
-The IUCN Red List of Threatened Species provides a robust and transparent framework in the form of the Categories and Criteria for estimating the risk of extinction of  all species across all systems -  marine, terrestrial and freshwater.
+Using a set of obective, scientific criteria  quantitive thresholds, the IUCN Red List Categories and Criteria allow assessors to use knowledge of a species´ biology and the threats that the species evaluate the extinction risk of a species and assign a conservation status for that species in the form of a Category. 
 
-It is not the only method for assessing the conservation status of species and regionally different methodologies may be used, however, it is an internationally recognised standard that is acknowledged as a key tool for assessing progress towards achieving bodiversity targets as set out in the Convention on Biological Diversity. 
+=== IUCN Red List Categories and Crtiteria
 
-
-
-
-
-Importanly, the Red List is not a final list of species that are high priorities for conservation action. 
-When establishing conservation priorities, it is important to consider financial, cultural, logistical, biological, ethical, social and other factors in addition to extinction risk, to maximize the effectiveness of conservation actions. 
-It’s important to keep this in mind when doing Red List assessments, and not to have a preconceived notion of how threatened a species “should” be or in which category it should be listed.
-
-The Red List Categories and Criteria were originally developed for use at the global level, but they can give incorrect assessments of extinction risk when used by themselves for regional assessments. IUCN developed the Guidelines for Application of IUCN Red List Criteria at Regional Levels, which adapt the Red List methodology for regional use (free to download from the Red List website).
-
-All described taxa except microorganism can be assessed including species, subspecies, varieties and subpopulations.  Undescribed species taxa can be assessed, only if they area  clearly distinct species, voucher references are provided, distribution information is available and there is conservation benefit to the assessment.  
-
-Only wild populations inside their natural range, and populations resulting from conservation introductions (also called "benign introductions") should be assessed. 
-
-=== Process
-The general assessment process at the global level:
-
-All assessments have (1) Assessors (there may only one named assessor, or there may be more than one person involved in the assessment); and (2) Reviewers (there are at least two named Reviewers who review the assessment and agree that it is an appropriate assessment based on all data currently available for the species).
-
-Assessors fall into two categories: (1) those within the IUCN network (SGs, RLAs, assessment projects managed IUCN staff (including regional offices) and Red List Partner organizations); and (2) those from outside the IUCN network. Anyone with sufficient knowledge of a species and the IUCN criteria can carry out an assessment.
-
-Reviewers are generally from the network of Red List Authorities, which are mostly IUCN Specialist Groups, but where there are gaps, other organisations act as RLAs (e.g., Project Seahorse, BirdLife International, etc).
-
-Assessments coming to the IUCN Red List Unit from within IUCN should already have been through the review process (the RLAs nest within the SGs). These are checked by Red List Unit staff to ensure the criteria have been applied correctly and to pick up on any errors. If anything is wrong with the assessment, it is returned to the assessors. If the assessments are sound, they are added to the IUCN Red List for the next update.
-
-Assessments coming from outside the IUCN network need to go through the peer review process. Red List Unit staff check them and, if there are no problems, forward the assessments onto the appropriate RLA; the RLA then evaluates the assessment and returns it to the Red List Unit. If evaluators agree with the assessment, it is included in the next Red List update. If the evaluators disagree, the assessment is returned to the assessors with an explanation of the problem.
-
-image::img/web/redlistprocess.png[align=center,width=640,height=360]
-
-=== The IUCN Categories and Crtieria
-Assessments are based on 5 objective scientific criteria, each containing a set of quantitative thresholds against which the risk of extintion of a species can be assessed.  
+Assessments are based on 5 objective scientific criteria, each containing a set of quantitative thresholds against which the risk of extintion of a species can be assessed.  Species must be assessed against all criteria during an assessment.
 
 These 5 criteria are:
 
-Criterion A - Popluation Reduction
-Criterion B - Restricted geograhic range
-Croterion C - Small population size and decline
+Criterion A - Popluation reduction
+Criterion B - Restricted geographic range
+Criterion C - Small population size and decline
 Criterion D - Very small or restricted population
-Criterion E - Quantitative Analysis
+Criterion E - Quantitative analysis
 
-The thresholds for each of these criteria are summarised in the IUCN summary sheet. 
-Species must be assessed against all criteria during an assessment and it is the criterion with the highest threat category that is used in an assessment.
-
-Based on a species assessment against these criteria, one of 9 categories can be attributed to a taxon outlined in the diagram below.  
-If the data are so uncertain that both CR and LC are plausible categories, the taxon can be listed as DD. Full guidance on the application of DD, NT and EX can be found in the IUCN guidelines.
+Each of these criteria have a set of associated thresholds for these biological traits that allow assessors to apply one of 9 categories that indicate extinction risk.  
 
 image::img/web/iunccategories.png[align=center,width=640,height=360]
 
-=== Data Quality
+It is the criterion with the highest threat category that is used in an assessment.
+
+=== Red List assessment process 
+
+Assessments that are to be integrated into the global IUCN Red List of Threatened Species can come from coordinated efforts within the IUCN network e.g. link:https://www.iucn.org/commissions/ssc-groups[IUCN Species Survival Commission Specialist Groups] IUCN Species Survival Commission Specialist Groups or from other processes such as the development of national Red Lists, if there are species that are being assessed that are endemic to that country. National Red Listing processes may differ from those prescribed by IUCN, but ANY assessment to be submitted to the global IUCN Red List of Threatened Species will have to go throught the following stages:
+
+* Assessment - Assessors are experts who have sufficient knowledge of a taxon to be able to apply the criteria in an informed way, these experts can come from within the IUCN network such as the link:https://www.iucn.org/commissions/ssc-groups[IUCN Species Survival Commission Specialist Groups] IUCN Species Survival Commission Specialist Groups or from national or regional taxonomic experts.
+
+* Review -  Reviewers of global assessments are generally from the network of Red List Authorities (RLAs), which are mostly IUCN Specialist Groups, but where there are gaps, other organisations act as RLAs (e.g., Project Seahorse, BirdLife International, etc) and agree that they are appropriate based on all data currently available for the species. Assessments coming to the IUCN Red List Unit from within IUCN should already have been through the review process (the RLAs nest within the SGs). Assessments coming from outside the IUCN network need to go through the peer review process.
+
+image::img/web/redlistprocess.png[align=center,width=640,height=360]
+
+== GBIF-mediated data and Red List assessments 
+
+The nature of GBIF-mediated data providing georeferenced data on the localities of taxa allows for the data to be of use 
+
+Data Quality
 [NOTE.presentation]
 The threatened categories use quantitative thresholds but a lack of high quality data should not deter assessors from applying the IUCN criteria.  
 Certain metrics within the assessment process can be based on observations, estimations, inferences, suspicions and projections and guidance on when these can be used is given hthe IUCN guidelines and summary sheet.  
@@ -64,6 +54,9 @@ In this video (09:27), you will review the differences between these different d
 
 [.responsive-video]
 video::605444817[vimeo,width=640,height=480]
+
+If the data are so uncertain that both CR and LC are plausible categories, the taxon can be listed as DD. Full guidance on the application of DD, NT and EX can be found in the IUCN guidelines.
+
 
 === Applying Criterion B - Restricted Geographic Range
 While GBIF-mediated may provide information that is useful for all criteria, it is for crietion B that GBIF-mediated data can play a critical role in the assessment of a taxon due to the locality information contained within it.  
@@ -112,4 +105,6 @@ Assessors should provide with their maps, whether they are points, polygons or a
 Some of these attributes are required as part of minimum documentation supporting assessments.  
 Other attributes are either recommended or optional and a full overiview of these minimum documentation requirements can be found in the mapping guidelines document.
 These attribute fields have been mapped to Darwin Core terms in the document to facilitate the fulfilment of minimum documentation requirements when submitting your red list assessments.
+
+
 
