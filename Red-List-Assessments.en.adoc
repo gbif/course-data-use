@@ -10,6 +10,8 @@ This module does not cover the entirety of the Red List assessment process but f
 The International Union for Conservation of Nature (IUCN) Red List of Threatened Species provides a robust and transparent framework in the form of the IUCN Red List Categories and Criteria for estimating the risk of extinction of  all species across all systems -  marine, terrestrial and freshwater.
 It is an internationally recognised standard that can be applied at a global, regional and national level and is acknowledged as a key tool for assessing progress towards achieving bodiversity targets as set out in the Convention on Biological Diversity. 
 
+image::img/web/Red_list.png[align=center,width=640,height=360]
+
 All species have a probability of going extinct due to random events.  
 However, some species have a higher probability of extinction of going extinct due to a number of determining factors such as population trends, range and threats faced by the species. 
 Using a set of obective, scientific criteria  quantitive thresholds, the IUCN Red List Categories and Criteria allow assessors to use knowledge of a species´ biology and the threats that the species evaluate the extinction risk of a species and assign a conservation status for that species in the form of a Category. 
@@ -57,8 +59,13 @@ Species with very large ranges will generally have a lower risk of extinction th
 Two of the metrics within criterion B that are used for identifying these restricted distributions are Extent of Occurrence (EOO) and Area of Occupancy (AOO).  
 Extent of Occurrence is the area within the shortest continuous imaginary boundary drawn around all known, inferred, or projected sites presently occupied by the taxon. 
 It is not the species range and is drawn as minimum convex polygon around the limits of a species known range.  
+
+image::img/web/EOO.png[align=center,width=640,height=360]
+
 Area of Occupancy is the area within the extent of occurrence that is actually occupied by the taxon. 
 It is measured by overlaying a 2x2 km grid and counting the number of occupied cells.  
+
+image::img/web/AOO.png[align=center,width=640,height=360]
 
 Both these metrics require georeferenced locality data and GBIF-medaited data can be used for calculating both EOO and AOO of species.  
 A number of tools have been developed for calculating these measurement including ArcGIS toolboxes, the R package red and GeoCat.  
@@ -76,6 +83,9 @@ The limits of distribution are determined by using known occurrences of the spec
 
 Different mapping standards are applied for different taxonomic groups and for whether the species is terrestrial, marine or freshwater. 
 Full guidance on the application of these standards can be found at https://www.iucnredlist.org/resources/mappingstandards
+
+image::img/web/Red_list_maps.png[align=center,width=640,height=360]
+
 
 === Minimum Documentation
 Assessors should provide with their maps, whether they are points, polygons or a combination of both, a set of accompanying attributes i.e. data attached to points and polygons. 
