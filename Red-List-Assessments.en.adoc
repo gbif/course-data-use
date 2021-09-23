@@ -77,6 +77,5 @@ Different mapping standards are applied for different taxonomic groups and for w
 
 === Minimum Documentation
 Assessors should provide with their maps, whether they are points, polygons or a combination of both, a set of accompanying attributes i.e. data attached to points and polygons. 
-Some of these attributes are required as part of minimum documentation supporting assessments and a full overiview of these minimum documentation requirements can be found in the link:file:///C:/Users/hdv795/Downloads/Mapping_Standards_Version_1.19_2021.pdf [mapping standards guidelines document, opts= download] mapping standards guidelines document.
-These attribute fields have been mapped to Darwin Core terms to facilitate to highlight those fields in your GBIF downloads that can be used to fulfil minimum documentation requirements when submitting your red list assessments. 
-These mapped fields can be found in an excel file at https://www.iucnredlist.org/resources/mappingstandards. 
+Some of these attributes are required as part of minimum documentation supporting assessments and these attribute fields have been mapped to Darwin Core terms to highlight those fields in your GBIF downloads that can be used to fulfil minimum documentation requirements when submitting your red list assessments. 
+A full overview of these minimum documentation requirements and mapped Darwin Core fields can be found, respectively, in the mapping standards guidelines and as a downloadable Excel file at https://www.iucnredlist.org/resources/mappingstandards. 
