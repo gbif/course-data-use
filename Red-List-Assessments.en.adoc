@@ -20,11 +20,11 @@ Assessments are based on 5 objective, scientific criteria, each containing a set
 
 These 5 criteria are:
 
-*Criterion A - Popluation reduction
-*Criterion B - Restricted geographic range
-*Criterion C - Small population size and decline
-*Criterion D - Very small or restricted population
-*Criterion E - Quantitative analysis
+* Criterion A - Popluation reduction
+* Criterion B - Restricted geographic range
+* Criterion C - Small population size and decline
+* Criterion D - Very small or restricted population
+* Criterion E - Quantitative analysis
 
 Each of these criteria has a set of associated thresholds for these biological traits that allow assessors to apply one of 9 categories that indicate a species' extinction risk.  
 
@@ -74,7 +74,8 @@ For polygon maps, the polygon shows the limits of the taxon’s distribution, wh
 Polygon maps, commonly referred to as “limits of distribution” or “field guide” maps, aim to provide the current known distribution of the species within its native range.  
 The limits of distribution are determined by using known occurrences of the species, along with knowledge of habitat preferences, remaining suitable habitat, elevation limits, and other expert knowledge of the species and its range. 
 
-Different mapping standards are applied for different taxonomic groups and for whether the species is terrestrial, marine or freshwater. Full guidance on the application of these standards can be found at https://www.iucnredlist.org/resources/mappingstandards
+Different mapping standards are applied for different taxonomic groups and for whether the species is terrestrial, marine or freshwater. 
+Full guidance on the application of these standards can be found at https://www.iucnredlist.org/resources/mappingstandards
 
 === Minimum Documentation
 Assessors should provide with their maps, whether they are points, polygons or a combination of both, a set of accompanying attributes i.e. data attached to points and polygons. 
