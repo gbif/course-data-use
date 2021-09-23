@@ -74,13 +74,9 @@ In the following video, we provide you with an overview of how this tool works.
 
 === Mapping standards for IUCN Red List Assessments
 
-All species assessments should be accompanied by a distribution map.  Species maps are included on the Red List for several reasons. Primarily, the maps provide a visual representation of the species’ distribution, so people can see where the species is found and help to identify priority areas for conservation and inform conservation policy.
-
-In many cases the distribution is depicted as polygons, but it may also be represented by data points (collection records), or a mixture of points and polygons. 
-For polygon maps, the polygon shows the limits of the taxon’s distribution, which essentially means that the species probably only occurs within this polygon, but it does not mean that it is distributed equally within that polygon or occurs everywhere within that polygon.
-Polygon maps, commonly referred to as “limits of distribution” or “field guide” maps, aim to provide the current known distribution of the species within its native range.  
-The limits of distribution are determined by using known occurrences of the species, along with knowledge of habitat preferences, remaining suitable habitat, elevation limits, and other expert knowledge of the species and its range. 
-
+All species assessments should be accompanied by a distribution map.  
+Species maps are included on the Red List for several reasons. 
+Primarily, the maps provide a visual representation of the species’ distribution, so people can see where the species is found and help to identify priority areas for conservation and inform conservation policy. 
 Different mapping standards are applied for different taxonomic groups and for whether the species is terrestrial, marine or freshwater. 
 Full guidance on the application of these standards can be found at https://www.iucnredlist.org/resources/mappingstandards
 
@@ -88,6 +84,10 @@ image::img/web/Red_list_maps.png[align=center,width=640,height=360]
 
 image::img/web/Maps_taxonomic.png[align=center,width=640,height=360]
 
+In many cases the distribution is depicted as polygons, but it may also be represented by data points (collection records), or a mixture of points and polygons. 
+For polygon maps, the polygon shows the limits of the taxon’s distribution, which essentially means that the species probably only occurs within this polygon, but it does not mean that it is distributed equally within that polygon or occurs everywhere within that polygon.
+Polygon maps, commonly referred to as “limits of distribution” or “field guide” maps, aim to provide the current known distribution of the species within its native range.  
+The limits of distribution are determined by using known occurrences of the species, along with knowledge of habitat preferences, remaining suitable habitat, elevation limits, and other expert knowledge of the species and its range. 
 
 === Minimum Documentation
 Assessors should provide with their maps, whether they are points, polygons or a combination of both, a set of accompanying attributes i.e. data attached to points and polygons. 
