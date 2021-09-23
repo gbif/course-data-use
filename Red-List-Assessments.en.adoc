@@ -3,6 +3,7 @@
 [NOTE.objectives]
 This module will introduce you to the basic concepts and terminology associated with assessing the conservation status of a species using the IUCN Red List Categories and Criteria.  
 By the end of the module, you should understand what the conceptual framework of the IUCN Red List of Categories and Criteria and how you can apply them using GBIF-mediated data.
+This module does not cover the entirety of the Red List assessment process but focuses on how GBIF-mediated data can be used within these processes. For a comlete training you should complete the link:https://www.conservationtraining.org/course/index.php?categoryid=23[online IUCN Red List training course]. This will also provide the additional information you will need for completing the use case associated the use case if you will not be attending a GBIF training workshop.
 
 == IUCN Red List of Threatened Species
 
@@ -19,13 +20,13 @@ Assessments are based on 5 objective, scientific criteria, each containing a set
 
 These 5 criteria are:
 
-Criterion A - Popluation reduction
-Criterion B - Restricted geographic range
-Criterion C - Small population size and decline
-Criterion D - Very small or restricted population
-Criterion E - Quantitative analysis
+*Criterion A - Popluation reduction
+*Criterion B - Restricted geographic range
+*Criterion C - Small population size and decline
+*Criterion D - Very small or restricted population
+*Criterion E - Quantitative analysis
 
-Each of these criteria have a set of associated thresholds for these biological traits that allow assessors to apply one of 9 categories that indicate extinction risk.  
+Each of these criteria has a set of associated thresholds for these biological traits that allow assessors to apply one of 9 categories that indicate a species' extinction risk.  
 
 image::img/web/iunccategories.png[align=center,width=640,height=360]
 
@@ -33,9 +34,9 @@ It is the criterion with the highest threat category that is used in an assessme
 
 === Red List assessment process 
 
-Assessments that are to be integrated into the global IUCN Red List of Threatened Species can come from coordinated efforts within the IUCN network e.g. link:https://www.iucn.org/commissions/ssc-groups[IUCN Species Survival Commission Specialist Groups] IUCN Species Survival Commission Specialist Groups or from other processes such as the development of national Red Lists, if there are species that are being assessed that are endemic to that country. National Red Listing processes may differ from those prescribed by IUCN, but ANY assessment to be submitted to the global IUCN Red List of Threatened Species will have to go throught the following stages:
+Assessments that are to be integrated into the global IUCN Red List of Threatened Species can come from coordinated efforts within the IUCN network e.g. link:https://www.iucn.org/commissions/ssc-groups[IUCN Species Survival Commission Specialist Groups] or from other processes such as the development of national Red Lists, if there are species that are being assessed that are endemic to that country. National Red Listing processes may differ from those prescribed by IUCN, but ANY assessment to be submitted to the global IUCN Red List of Threatened Species will have to go throught the following stages:
 
-* Assessment - Assessors are experts who have sufficient knowledge of a taxon to be able to apply the criteria in an informed way, these experts can come from within the IUCN network such as the link:https://www.iucn.org/commissions/ssc-groups[IUCN Species Survival Commission Specialist Groups] IUCN Species Survival Commission Specialist Groups or from national or regional taxonomic experts.
+* Assessment - Assessors are experts who have sufficient knowledge of a taxon to be able to apply the criteria in an informed way, these experts can come from within the IUCN network such as the link:https://www.iucn.org/commissions/ssc-groups[IUCN Species Survival Commission Specialist Groups] or from national or regional taxonomic experts.
 
 * Review -  Reviewers of global assessments are generally from the network of Red List Authorities (RLAs), which are mostly IUCN Specialist Groups, but where there are gaps, other organisations act as RLAs (e.g., Project Seahorse, BirdLife International, etc) and agree that they are appropriate based on all data currently available for the species. 
 Assessments coming to the IUCN Red List Unit from within IUCN should already have been through the review process (the RLAs nest within the SGs). Assessments coming from outside the IUCN network need to go through the peer review process.
