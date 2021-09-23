@@ -86,6 +86,8 @@ Full guidance on the application of these standards can be found at https://www.
 
 image::img/web/Red_list_maps.png[align=center,width=640,height=360]
 
+image::img/web/Maps_taxonomic.png[align=center,width=640,height=360]
+
 
 === Minimum Documentation
 Assessors should provide with their maps, whether they are points, polygons or a combination of both, a set of accompanying attributes i.e. data attached to points and polygons. 
