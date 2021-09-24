@@ -1,15 +1,20 @@
 [multipage-level=2] 
 = Use Case 2 - IUCN Red List Assessments
 [NOTE.activity]
-Use Case I is a practice use case for the data proecessing and ecological niche modelling modules. It is recommended that you download the exercise sheet (MS Word 345 KB) so that you can make notes as you work through the exercises. A suggested solution will be provided in the solution appendix. Use Case I is not graded.
+Use Case 2 is a practice use case for the data processing and assessing conservation status modules. 
+Please note that this use case is fictitious and built for instructional purposes using data downloaded from www.gbif.org.  Any reference to countries and structures/organisations, real or otherwise, within those countries are used merely to facilitate the use of the data and do not reflect the reality within those countries.  
 
 === Scenario
+
+image::img/web/Brachypelma.jpg[align=center,width=640,height=360]
+
+  Brachypelma smithi (F.O.Pickard-Cambridge, 1897) observed in Mexico by adrianita (licensed under http://creativecommons.org/licenses/by-nc/4.0/) - https://www.gbif.org/occurrence/1453068554  
 
 Mexico is a mega-diverse country with high numbers of species and high levels of endemism across all taxonomic groups.
 The government is committed to assessing the conservation status of all its species and has agreed to develop a national red list applying IUCN Categories and Criteria to all vertebrate and invertebrate taxonomic groups by the year 2030. 
 As part of this process, they have started the assessment of arachnid groups and are now assessing the conservation status of all species within the family Theraposidae – the tarantulas.  
 
-National and international arachnid specialists have come together at Mexican arachnid red list workshop and they will now be assessing the conservation status of the tarantula species Brachypelma smithi (F.O.Pickard-Cambridge, 1897) and Aphonopelma anax (Chamberlin, 1940).  
+National and international arachnid specialists have come together at a Mexican arachnid red list workshop and they will now be assessing the conservation status of the tarantula species Brachypelma smithi (F.O.Pickard-Cambridge, 1897) and Aphonopelma anax (Chamberlin, 1940).  
 Assessors want to use GBIF-mediated data to assess the species using Criterion B and provide maps that comply to IUCN documentation requirements. 
 
 Description
@@ -29,6 +34,8 @@ They have slow growth rates and live for several years before maturing – femal
 The species is common across its range and although there has been increasing urban and agricultural development across its range in both the USA and Mexico, the extent of this development is limited to only a small portion of the species entire range.
 
 === Exercise 1 - Data Processing 
+
+You should download datasets from www.gbif.org for Brachypelma smithi  and Aphonopelma anax. There is a step-by-step guide or R markdown document provided to you to guide you through this exercise
 
 Q1.  What are the taxonkeys for each of the species and what is the taxonomic status of each species?
 
@@ -59,7 +66,8 @@ Q5. What additional data processing steps might you want to validate taxonomic i
 Q6. As these will be national red list assessments, what additional data processing step will be required for the non-endemic Aphonopelma anax dataset?
 
 === Exercise 2 - Applying IUCN Red List Criterion B
-In this exercise, you will calculate the Extent of Occurrence and Area of Occupancy for Brachypelma smithi and Aphonopelma anax using GeoCat - www.geocat.kew.org  and then do red list assessments for the species.  Remember Aphonopelma anax will be a national assessment and not a global assessment.
+
+In this exercise, you will calculate the Extent of Occurrence and Area of Occupancy for Brachypelma smithi and Aphonopelma anax using GeoCat - www.geocat.kew.org  and then do Red List assessments for the species.  Remember Aphonopelma anax will be a national assessment and not a global assessment.
 
 [cols="1,1,1"]
 |===
@@ -96,7 +104,9 @@ In this exercise, you will calculate the Extent of Occurrence and Area of Occupa
 [cols="1,1,1"]
 
 |===
-3+|_Aphonopelma anax_ (Chamberlin, 1940)
+3+|
+
+_Aphonopelma anax_ (Chamberlin, 1940)
 
 |Extent of occurrence
 2+|
