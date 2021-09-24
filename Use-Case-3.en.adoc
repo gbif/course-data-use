@@ -8,6 +8,9 @@ Use Case I is not graded.
 
 === Scenario
 
+image::img/web/pennisetum.jpg[align=center,width=640,height=360]
+Pennisetum setaceum by Jael Palhas via vBioDiversity4All , licensed under CC BY-NC 4.0
+
 Description
 
 Mexico is a mega-diverse country with high numbers of species and high levels of endemism across all taxonomic groups. One of the threats in the region is from invasive species and in particular the introduction of the African grass species, Pennisetum setaceum (Forssk.) Chiov.  It has become invasive in parts of its introduced range in the United States of America. The species is native to Tanzania, Kenya, Eritrea, Ethiopia and Yemen.  The species is popular as a horticultural species in Mexico, and local populations often encourage it since it can be used as fodder, to make fences, as thatch, and is made into soup or stew for human consumption. In Mexico, it has naturalized and is rapidly expanding its range.  The species spreads in the tropical dry forest understory and aggregates in clearings often becoming the dominant species replacing native species.  
