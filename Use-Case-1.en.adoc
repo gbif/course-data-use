@@ -3,34 +3,24 @@
 [NOTE.activity]
 Use Case I is a practice use case for the data proecessing and ecological niche modeling modules. It is recommended that you download the link:../data/DU_UseCase1_ENM_Marine.docx[exercise sheet,opts=download] (MS Word, 3754 KB)so that you can make notes as you work through the exercises. A suggested solution will be provided in the solution appendix. Use Case I is not graded.
 
+Please note that this use case is fictitious and built for instructional purposes using data downloaded from www.gbif.org.  Any reference to countries and structures/organisations, real or otherwise, within those countries are used merely to facilitate the use of the data and do not reflect the reality within those countries. 
+
 === Scenario
 
 *Description*
 
+image::img/web/Gymnosarda.jpg[align=center,width=640,height=360]
+
+Gymnosarda unicolor (Rüppell, 1836) observed in Solomon Islands by Mark Rosenstein (licensed under http://creativecommons.org/licenses/by-nc-sa/4.0/) - https://www.gbif.org/occurrence/2242880417
+
 _Gymnosarda unicolor_, the Dogtooth tuna, is a medium-sized fish species in the family Scombridae, which includes mackerels, tunas, and other popular commercial fish species. They are found predominantly in reef environments throughout the tropical Indo-Pacific region, with smaller fish being more commonly found near shallow reef areas and larger ones haunting deep reef drop off areas, seamounts and steep underwater walls. Rainbow tuna prey primarily on smaller schooling fishes and squids. Usually they occur in small schools to a depth of 10–300 metres, but tagging studies in the Indian ocean have shown that individuals are able to disperse across distances of 4,000 km. _Gymnosarda unicolor_ is harvested extensively across its range, both supplying local markets and as part of international trade. In the last 30 years, there has been a 200% increase in catch size for this species due to the increased mechanisation of the fishing fleet and increased demand from more affluent urban communities on the islands that can afford the fish. Further, in the last 5 years US retailer M&Vs has incorporated _Gymnosarda unicolor_ within its supply chain in response to a new trend in the USA for the fish in “unicorn” sushi. With increasing targeted fishing of this species to supply domestic and international markets, there is concern over the continued persistence of the species and there is no information on its conservation status. Though this species is well-known by commercial fishermen, there has been no systematic study of the distribution of the species at global scale. A distribution map for the species would provide a starting point from which fishery management plans could be developed to ensure the sustainability of stocks.
-You will need to download the current dataset for _Gymnosarda unicolor_
-from www.gbif.org.
 
 
-=== Exercise 1 - Starting Wallace and Loading Occurrences
-[NOTE.activity]
-First thing’s first. We’ll start by launching Wallace and giving you a quick overview of the steps you will go through to generate a niche model. You have been provided with a link:../data/DU_ENM_Exercise1_Starting_Wallace.docx[step-by-step guide,opts=download] to this exercise.
+*Data Description*
+You will need to download the current dataset for _Gymnosarda unicolor_ from www.gbif.org.
 
-For this use case we will be using the modular, R-based platform Wallace link https://wallaceecomod.github.io/ for reproducible modeling of species niches and distributions. 
-The platform is powered by a variety of R packages including dismo and enmeval allows and lowers the threshold for access to basic modeling functions through a user friendly graphical user interface (GUI).
-It is a great platform for getting you started in in niche modeling and will allow to learn the basics of modeling, explore your data and generate a backcbone R script that will allow for the repeatability of your analyses.  
-What it will not be able to do is generate final, publishable models but it shoudl give you a good grasp of the principles of niche modeling. 
-
-Wallace allows you to visualize your data and remove indivual data records that may be outliers or imprecise within the Process Occurrence Data module. 
-Visualize your processed data and remove any additioanl data points that you may have missed in the initial data processing step. 
-
-Q1. What is the overall goal of your ecological niche model? That is, what question or hypothesis are you exploring?
-
-Q2. What type of niche are we modeling? What limits our ability to model the kind of niche we hope to model?
-
-=== Exercise 2 - Data Processing
-Not all of the data within the download is fit-for-purpose, and in this exercise you should process your data download to only include those data points that you will be using to build your ecological niche model. 
-You should use whichever processing tool you are most comfortable with, we have provided you with an link:../data/DU_ENM_ExampleRScript.txt[R Script,opts=download] if you would like to take a more programmatic approach to data processing, although you could complete this exercise using the filters on www.gbif.org and processing with Open Refine or Excel, for example.  
+=== Exercise 1 - Data Processing
+You should download  datasets from www.gbif.org for _Gymnosarda unicolor_. Not all of the data within the download is fit-for-purpose, and in this exercise you should process your data download to only include those data points that you will be using to build your ecological niche model. You should use whichever processing tool you are most comfortable e.g. Excel, Open Refine, R etc. We have provided you with a step-by-step guide in Excel and an link:../data/DU_ENM_ExampleRScript.txt[R Script,opts=download]  if you would like to take a more programmatic approach to data processing. 
 
 Q1.  What are the taxonkeys for each of the species and what is the taxonomic status of each species?
 
@@ -57,6 +47,23 @@ Q4. What are the following key data quality processing steps did you use for cle
 * Automated identifications
 
 Q5. What additional data processing steps might you want to validate taxonomic identification of species?
+
+=== Exercise 2 - Starting Wallace and Loading Occurrences
+[NOTE.activity]
+First thing’s first. We’ll start by launching Wallace and giving you a quick overview of the steps you will go through to generate a niche model. You have been provided with a link:../data/DU_ENM_Exercise1_Starting_Wallace.docx[step-by-step guide,opts=download] to this exercise.
+
+For this use case we will be using the modular, R-based platform Wallace link https://wallaceecomod.github.io/ for reproducible modeling of species niches and distributions. 
+The platform is powered by a variety of R packages including dismo and enmeval allows and lowers the threshold for access to basic modeling functions through a user friendly graphical user interface (GUI).
+It is a great platform for getting you started in in niche modeling and will allow to learn the basics of modeling, explore your data and generate a backcbone R script that will allow for the repeatability of your analyses.  
+What it will not be able to do is generate final, publishable models but it shoudl give you a good grasp of the principles of niche modeling. 
+
+Wallace allows you to visualize your data and remove indivual data records that may be outliers or imprecise within the Process Occurrence Data module. 
+Visualize your processed data and remove any additioanl data points that you may have missed in the initial data processing step. 
+
+Q1. What is the overall goal of your ecological niche model? That is, what question or hypothesis are you exploring?
+
+Q2. What type of niche are we modeling? What limits our ability to model the kind of niche we hope to model?
+
 
 === Exercise 3 - Determining a training region
 [NOTE.activity]
@@ -85,7 +92,7 @@ Now that you know how to determine a training region, you will load your environ
 
 You have been provided with a link:../data/DU_ENM_Exercise4_Env_Data_Calibr.docx[step-by-step guide,opts=download] for this exercise.
 
-=== Exercise 5 - Calibrating niche models
+=== Exercise 5 - Model Evaluation
 [width=100%]
 [cols="1,1"]
 |===
@@ -121,10 +128,10 @@ Q5. Based on AICc and omission rate, which model do you think will be the best t
 |Future predictions of climate variables
 |=== 
 
-In this exercise, you will process results from Exercise 6 to produce maps of Gymnosarda arcus suitable habitat, as well as several plots to diagnose model performance. You will also project your Rainbow tuna model into different bioclimatic conditions. You have been provided with a link:../data/DU_ENM_Exercise6_Visualize_Threshold_Project.docx[step-by-step guide,opts=download] for this exercise.
+In this exercise, you will process results from Exercise 6 to produce maps of _Gymnosarda unicolor_ suitable habitat, as well as several plots to diagnose model performance. You will also project your Rainbow tuna model into different bioclimatic conditions. You have been provided with a link:../data/DU_ENM_Exercise6_Visualize_Threshold_Project.docx[step-by-step guide,opts=download] for this exercise.
 
 Q1. What similarities do you see across the four visualizations? What  are the major differences?
 
-Q2. Look closely at your projected model. Based on what you know about our study species,  Gymnosarda arcus, do your model results make sense? Are there any areas of predicted absence or presence that are questionable? What areas? Why do you question the model prediction in these areas? 
+Q2. Look closely at your projected model. Based on what you know about our study species, _Gymnosarda unicolor_, do your model results make sense? Are there any areas of predicted absence or presence that are questionable? What areas? Why do you question the model prediction in these areas? 
 
 
