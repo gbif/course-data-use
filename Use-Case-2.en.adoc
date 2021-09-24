@@ -59,7 +59,7 @@ Q5. What additional data processing steps might you want to validate taxonomic i
 Q6. As these will be national red list assessments, what additional data processing step will be required for the non-endemic Aphonopelma anax dataset?
 
 === Exercise 2 - Applying IUCN Red List Criterion B
-In this exercise, you will calculate the Extent of Occurrence and Area of Occupancy for Brachypelma smithi using GeoCat - www.geocat.kew.org  and then do a red list assessment for each species based on the information provided in “Data Collection” above. 
+In this exercise, you will calculate the Extent of Occurrence and Area of Occupancy for Brachypelma smithi and Aphonopelma anax using GeoCat - www.geocat.kew.org  and then do red list assessments for the species.  Remember Aphonopelma anax will be a national assessment and not a global assessment.
 
 [cols="1,1,1"]
 |===
@@ -129,9 +129,9 @@ In this exercise, you will calculate the Extent of Occurrence and Area of Occupa
 
 === Exercise 3 - Producing a Species Distribution Map
 
-In this exercise, you will create a species distribution map for Brachypelma smithi applying IUCN mapping standards.    Please use the step-by-step guide for use case 1 to guide you through this exercise. For assessments that are accompanied by points only, it is recommended, if possible and appropriate, that a polygon map representing the distribution is also provided. Plausible options include, for example, the Minimum Convex Polygon (MCP) map (equivalent to the maximum EOO as defined in this document). Such a polygon should be marked in the polygon attribute table as generalisd = 1 (See Table 3 in Section 4.1.2). It would be used for display on the IUCN Red List website along with the points, and could also be used for analysis purposes.
+In this exercise, you will create a species distribution map for Brachypelma smithi and Aphonopelma anax applying IUCN mapping standards. Please use the step-by-step guide to guide you through this exercise. Note: For assessments that are accompanied by points only, it is recommended, if possible and appropriate, that a polygon map representing the distribution is also provided. 
 
-Q1. Provide the point attributes table in line with IUCN mapping standards for Brachypelma smithi including core, recommended and optional fields for the species distribution map using the processed GBIF data download for this species
+Q1. Provide the point attributes table in line with IUCN mapping standards for Brachypelma smithi and Aphonopelma anax including core, recommended and optional fields for the species distribution map using the processed GBIF data download for this species
 
 
 Q2. Using the Nature Conservancy Terrestrial Ecosystems dataset provided, what might be appropriate ecosystems to base a polygon map of the limits of a taxon´s distribution for both species?
