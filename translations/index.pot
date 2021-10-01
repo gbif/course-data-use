@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-10-01 11:04+0000\n"
+"POT-Creation-Date: 2021-10-01 11:40+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3287,7 +3287,7 @@ msgid "Exercise 5 - Visualizing, Thresholding and Projecting Niche Models"
 msgstr ""
 
 #. type: Plain text
-#: Use-Case-3.en.adoc:110
+#: Use-Case-3.en.adoc:109
 msgid ""
 "Q2. Look closely at your projected model. Based on what you know about our "
 "study species, Pennisetum setaceum, do your model results make sense? Are "
