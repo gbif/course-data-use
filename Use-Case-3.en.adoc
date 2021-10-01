@@ -106,24 +106,4 @@ Exercise 5 - Visualizing, Thresholding and Projecting Niche Models
 Q1. What similarities do you see across the four visualizations? What are the major differences?
 
 
-Q2. Look closely at your projected model. Based on what you know about our study species, Pennisetum setaceum, do your model results make sense? Are there any areas of predicted absence or presence that are questionable? What areas? Why do you question the model prediction in these areas? 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Q2. Look closely at your projected model. Based on what you know about our study species, Pennisetum setaceum, do your model results make sense? Are there any areas of predicted absence or presence that are questionable? What areas? Why do you question the model prediction in these areas?
