@@ -3,7 +3,7 @@
 
 ****
 This course takes a modular approach to training in the use of GBIF-mediated data and builds on the Data Use for Decision Making course.
-Different use cases have been developed that will get you started on some of the many different ways you can use GIBF-mediated data.
+Different use cases have been developed that will get you started on some of the many different ways you can use GBIF-mediated data.
 
 This course is comprised of online content paired with quizzes and you should complete these first.  
 You can then complete the relevant use case that will build on what you have learnt through a set of practical exercises. 
@@ -35,7 +35,7 @@ The instruction provided is particularly useful for those who have a need or des
 
 === Prerequisites
 
-* Introduction to GBIF course
+* [Introduction to GBIF course](https://docs.gbif.org/course-introduction-to-gbif/en/)
 
 Additionally, to make best use of the activities around this course, the participants should possess the following skills and knowledge:
 
