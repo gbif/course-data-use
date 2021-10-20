@@ -5,8 +5,10 @@ In the data processing module, you will familiarize yourself with the concept of
 
 == Fit-for-purpose data
 
-Usually, when we want to use the data, we will have to process the data to only include those data whose correctness and consistency are within the thresholds set by the analysis we want to perform.  
-For instance, if we are studying plant biogeography in Indonesia, and want to do to a specific analysis for only one of the islands within the archipelago, then the download is no longer fit for purpose and we will have to process our original dataset download. 
+Almost always you will want to post-process your GBIF download in some way to fit your purposes. 
+Sometimes you will have to make difficult judgement calls for your particular use-case. 
+Whenever you are dealing with thousands-millions of records, you will never quite know the true quality of the source data. 
+It is important to keep in mind that you are always just mitigating data quality issues, not eliminating them. 
 
 The data that we get in GBIF download, will contain data from a range of sources and the data will likely vary in its correctness and consistency. 
 Correctness and consistency are two ways of documenting data errors and are measures of data quality. 
@@ -18,13 +20,13 @@ Knowing these properties of the data you have, will help you to understand the w
 
 image::img/web/Correctness.png[align=center,width=640,height=360]
 
-In the Indonesian example, an appropriate question might be - Have localities been correctly georeferenced?
+For instance, if we are studying plant biogeography in Indonesia, and want to do to a specific analysis for only one of the islands within the archipelago, then an appropriate question might be - Have localities on the island been correctly georeferenced?
 
 * Consistency (Precision) - level of resolution of the data e.g. precision of coordinates, taxonomic determination.
 
 image::img/web/Consistency.png[align=center,width=640,height=360]
 
-In the Indonesian example, an appropriate question might be - Does the uncertainty in the coordinate allow for the occurrence record to not be on the island?
+In the Indonesian example, an appropriate question might be - Does the uncertainty in the coordinate estimate allow for the occurrence record to not be on the island?
 
 As a general rule, for most analyses you want highly accurate data although the level of precision may vary dependent on your analysis.
 GBIF can help you to determine the accuracy and precision of the data through, for example, filters and issue flags, however, you must always double-check!
@@ -67,44 +69,34 @@ It is always important to include a data visualisation step in your data process
 
 Uncertainty surrounding the taxonomy of a data point can arise for several reasons:
 
-* Species misidentification
+* Species mis-identification
 * Synoynmy
 * Novel names
 
-=== Species misidentification
+=== Species mis-identification
 
-Species identification is a complex process, with species described from a certain set of characters identified in a published species description and linked to a type specimen held within a scientific collection that be used for validation of species identification. Where taxa are very similar or a set of complex traits are required for correct identification, specific taxonomic expertise may be required that data publishers may not possess leading to misidentification of species. As users, you must have a clear understanding of how taxonomic determinations for your interest group are made:
+Species identification is a complex process, with species typically described from a certain set of characters identified in a published species description and linked to a type specimen held within a scientific collection that be used for validation of species identification. Where taxa are very similar or a set of complex traits are required for correct identification, specific taxonomic expertise may be required that data publishers may not possess leading to a mis-identification of a species. As users, you must have a clear understanding of how taxonomic determinations for your interest group are made:
 
-* what are the characters used for defining the species? Are these characters easily confused or captured when the species is observed or collected?
+* What are the characters used for defining the species? 
+* Are these characters easily confused or captured when the species is observed or collected?
 * Are there related species that could be easily confused with the species you are interested in? 
 
 If you think that there is a risk that species may be incorrectly identified, you can take a conservative approach to the data you use and only use those data linked to specimens in collections where taxonomic validation would be possible and eliminate other data sources. Another approach may be to use associated data such as collector information, media, DNA sequences etc to validate the taxonomic determination.
 
 === Synonymy 
 
-Synonymy can arise when the same species has been described several times and with each time a new name was given to the species, or when there is a change in the taxonomy of a species for example, a species is moved from one genus to another. Only one species name can be accepted, and other names are what we call synonyms. These synonyms may still be in use to a lesser or greater extent and you should be sure when getting data from GBIF to obtain data for the taxonomic name you need. GBIF's taxonomic backbone differentiates between accepted scientific names and synonyms, and unique identifiers in the form taxon keys. Species searches https://www.gbif.org/species/search allow for filtering for accepted names and synonyms and taxon keys can be used for programmatic searches of GBIF.
+Synonymy can arise when the same species has been described several times and a new name is given to the species each time it is described, or, when there is a change in the taxonomy of a species, for example, a species is moved from one genus to another. Only one species name can be accepted, and other names are what we call synonyms. These synonyms may still be in use to a lesser or greater extent and you should be sure when getting data from GBIF to obtain data for the taxonomic name you need. GBIF's taxonomic backbone differentiates between accepted scientific names and synonyms, and unique identifiers in the form of taxon keys. Species searches https://www.gbif.org/species/search allow for filtering for accepted names and synonyms and taxon keys can be used for programmatic searches of GBIF.
+
+Taxon Keys
+Scientific names can be messy.
+If you are accessing GBIF-mediated data programatically as opposed to via the website, taxon keys provide an effective way for defining searches based on taxonomy. 
+Taxon keys are issued at the species, genus family, order, phylum and kingdom level. 
+Unique identifiers are issued to accepted names with synonyms of those accepted names issued the same identifier.  
+So, it may make sense to sort out the species by their unique taxon keys provided during the indexation of the dataset by GIBF. 
 
 === New names
 
-There may be instances where the scientific name does not match any name in the GBIF backbone, perhaps because the species is newly described, or is not within a checklist used by GBIF to construct its backbone or it has been misspelled or badly formatted. These names are flagged with the TAXON_MATCH_HIGHERRANK flag indicating that the scientific name has not been recognised but that the data point has matched at a higher taxonomic level eg. genus or family. This flag can be used for identifying and filtering for these these data.
-
-There is also a TAXON_MATCH_FUZZY flag that can be used for identifying and filtering names that can only match the taxonomic backbone using a fuzzy, non exact match.
-
-Taxon Keys
-If you are accessing GBIF-mediated data programatically as opposed to via the website, taxon keys provide an effective way for defining searches based on taxonomy. 
-Scientific names can be messy. So it may make sense to sort out the species by their unique taxon keys provided during the indexation of the dataset by GIBF. 
-Taxon keys are issued at the species, genus family, order, phylum and kingdom level. Unique identifiers are issued to accepted names with synonyms of those accepted names issued the same identifier.  
-Takon keys allow for discerning between In the previous GBIF API and the version of rgbif that wrapped that API, you could search the equivalent of this function with a species name, which was convenient. 
-However, names are messy right. So it sorta makes sense to sort out the species key numbers you want exactly, and then get your occurrence data with this function. 
-GBIF has added a parameter scientificName to allow searches by scientific names in this function - which includes synonym taxa. 
-Note: that if you do use the scientificName parameter, we will check internally that it's not a synonym of an accepted name, and if it is, we'll search on the accepted name. 
-If you want to force searching by a synonym do so by finding the GBIF identifier first with any name_* functions, then pass that ID to the taxonKey parameter.
-
-Almost always you will want to post-process your GBIF download in some way to fit your needs. 
-Here I take you through some common data quality filters. 
-Sometimes you will have to make difficult judgement calls for your particular use-case. 
-Whenever you are dealing with thousands-millions of records, you will never quite know the true quality of the source data. 
-It is important to keep in mind that you are always just mitigating data quality issues, not eliminating them. 
+There may be instances where the scientific name does not match any name in the GBIF backbone, perhaps because the species is newly described, or is not within a checklist used by GBIF to construct its backbone. These names are flagged with the TAXON_MATCH_HIGHERRANK flag indicating that the scientific name has not been recognised but that the data point has matched at a higher taxonomic level eg. genus or family. This flag can be used for identifying and filtering for these data.  When names have been misspelled or badly formatted, there is also a TAXON_MATCH_FUZZY flag that can be used for identifying and filtering names that can only match the taxonomic backbone using a fuzzy, non exact match.
 
 == Handling Data Quality
 
