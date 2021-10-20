@@ -4,7 +4,12 @@
 In the data processing module, you will familiarize yourself with the concept of fit-for purpose datasets and some commonly used data filters that you may want to consider for creating your own fit-for-purpose dataset. 
 
 == Fit-for-purpose data
-Correctness and Consistency are two ways of documenting data errors and are measures of data quality. 
+
+Usually, when we want to use the data, we will have to process the data to only include those data whose correctness and consistency are within the thresholds set by the analysis we want to perform.  
+For instance, if we are studying plant biogeography in Indonesia, and want to do to a specific analysis for only one of the islands within the archipelago, then the download is no longer fit for purpose and we will have to process our original dataset download. 
+
+The data that we get in GBIF download, will contain data from a range of sources and the data will likely vary in its correctness and consistency. 
+Correctness and consistency are two ways of documenting data errors and are measures of data quality. 
 These are measures of how well the data gatherer was able to capture the true value being investigated. 
 The nature of GBIF's data publication workflow means that the correctness and consistency of the data can vary dependent on the data publishers and the source of the data.
 Knowing these properties of the data you have, will help you to understand the ways in which you can and cannot clean, validate and process the data.
@@ -13,26 +18,16 @@ Knowing these properties of the data you have, will help you to understand the w
 
 image::img/web/Correctness.png[align=center,width=640,height=360]
 
-In the diagram it’s how close is the shot to the centre of the target.
+In the Indonesian example, an appropriate question might be - Have localities been correctly georeferenced?
 
 * Consistency (Precision) - level of resolution of the data e.g. precision of coordinates, taxonomic determination.
 
 image::img/web/Consistency.png[align=center,width=640,height=360]
 
-In the diagram it is how close the shots are together irrespective of how near they are to the centre of the target.
+In the Indonesian example, an appropriate question might be - Does the uncertainty in the coordinate allow for the occurrence record to not be on the island?
 
-For most analyses you want highly accurate data although the level of precision may vary dependent on your analysis.
+As a general rule, for most analyses you want highly accurate data although the level of precision may vary dependent on your analysis.
 GBIF can help you to determine the accuracy and precision of the data through, for example, filters and issue flags, however, you must always double-check!
-
-=== Data Processing Tools
-As outlined in 'Software Tools'you should use tools appropriate for you for processing your data post donwload. 
-While GBIF filters will allow for some data processing, it is highly recommended that you additional data processing including a data visualisation step. 
-Tools that can be used for this are: 
-
-* Spreadsheet editing software e.g. Excel, Google Sheets (smaller datasets)
-* OpenRefine
-* R packages and scripts eg CoordinateCleaner, scrubr and biogeo (automated data processing)
-* Geographical Information Systems (GIS) 
 
 == Flags and Issues
 The GBIF network publishes datasets, integrating them into a common access system. 
@@ -56,6 +51,17 @@ This is something that GBIF is working to improve. (at occurrence search)
 image::img/web/filtering.png[align=center,width=640,height=360]
 
 A full overview of all issues and flags can be here: https://data-blog.gbif.org/post/issues-and-flags/
+
+=== Data Processing Tools
+While GBIF filters will allow for some data processing i.e. select only those data for download that fulfil certain criteria, it is highly recommended that you additional data processing and a range of tools are available. Your choice of which tool you use will be based on personal access, familiarity and utility of each of the tools.
+Tools that can be used for this are: 
+
+* Spreadsheet editing software e.g. Excel, Google Sheets (smaller datasets)
+* OpenRefine
+* R packages and scripts eg rgbif, CoordinateCleaner, scrubr and biogeo (automated data processing)
+* Geographical Information Systems (GIS) e.g. ArcGIS, QGIS and MapInfo
+
+It is always important to include a data visualisation step in your data processing so that you can identify anomalous data points that may have been missed during the processing stage. For those processing in R, this can be done within R, however, with OpenRefine or spreadsheet editing sofware you may have to use GIS software or even tools such as Google Earth for data visualisation.
 
 == Handling Taxonomic Uncertainty
 
