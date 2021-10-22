@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: data-use\n"
 "POT-Creation-Date: 2021-10-22 12:53+0000\n"
-"PO-Revision-Date: 2021-10-22 14:04\n"
+"PO-Revision-Date: 2021-10-22 15:05\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -20,53 +20,53 @@ msgstr ""
 #: index.en.adoc:1
 #, no-wrap
 msgid "Biodiversity Data Use"
-msgstr ""
+msgstr "Utiliser les données sur la Biodiversité"
 
 #. type: Plain text
 #: index.en.adoc:3
 msgid "GBIF Secretariat <training@gbif.org>"
-msgstr ""
+msgstr "Secrétariat du GBIF <training@gbif.org>"
 
 #. type: Plain text
 #: index.en.adoc:17
 msgid "languageLinks:combined[]"
-msgstr ""
+msgstr "languageLinks:combined[]"
 
 #. type: Plain text
 #: index.en.adoc:23
 msgid "Di Marco M, Ferrier S, Harwood TD, Hoskins AJ and Watson JEM (2019) Wilderness areas halve the extinction risk of terrestrial biodiversity. Nature. Springer Science and Business Media LLC 573(7775): 582–585. Available at: https://doi.org/10.1038/s41586-019-1567-7"
-msgstr ""
+msgstr "Di Marco M, Ferrier S, Harwood TD, Hoskins AJ and Watson JEM (2019) Wilderness areas halve the extinction risk of terrestrial biodiversity. Nature. Springer Science and Business Media LLC 573(7775): 582–585. Available at: https://doi.org/10.1038/s41586-019-1567-7"
 
 #. type: Plain text
 #: index.en.adoc:25
 msgid "image::img/web/Data USe Cover.png[align=center,width=640,height=360]"
-msgstr ""
+msgstr "image::img/web/Data USe Cover.png[align=center,width=640,height=360]"
 
 #. type: Title ==
 #: description.en.adoc:2
 #, no-wrap
 msgid "Description"
-msgstr ""
+msgstr "Description"
 
 #. type: delimited block *
 #: description.en.adoc:7
 msgid "This course takes a modular approach to training in the use of GBIF-mediated data and builds on the Data Use for Decision Making course developed as part of the Biodiversity Information for Development (BID) programme.  Different use cases have been developed that will get you started on some of the many different ways you can use GBIF-mediated data."
-msgstr ""
+msgstr "Ce cours adopte une approche modulaire pour la formation à l’utilisation des données du GBIF et s’appuie sur le cours Utilisation des données pour la prise de décision développé dans le cadre du programme Information sur la biodiversité pour le développement (BID). Différents cas d'utilisation ont été développés pour vous aider à démarrer sur les nombreuses façons d'utiliser des données en GBIF."
 
 #. type: delimited block *
 #: description.en.adoc:11
 msgid "This course is comprised of online content paired with quizzes and you should complete these first.  You can then complete the relevant use case that will build on what you have learnt through a set of practical exercises.  When offered as an onsite or virtual workshop, group work and social interaction are encouraged."
-msgstr ""
+msgstr "Ce cours est composé de contenu en ligne jumelé à des quiz et vous devez d'abord les compléter. Vous pourrez ensuite compléter le cas d'utilisation pertinent qui s'appuiera sur ce que vous avez appris grâce à un ensemble d'exercices pratiques. Lorsqu'il est offert en tant qu'atelier sur place ou virtuel, le travail de groupe et l'interaction sociale sont encouragés."
 
 #. type: delimited block *
 #: description.en.adoc:14
 msgid "The course comprises of one compulsory course in Data Processing and then optional modules that you can follow based on the learning path that is most relevant to you.  The first two optional modules that we have developed are:"
-msgstr ""
+msgstr "Le cours comprend un cours obligatoire sur le traitement des données, puis des modules optionnels que vous pouvez suivre en fonction du parcours qui vous intéresse le plus. Les deux premiers modules optionnels que nous avons développés sont :"
 
 #. type: delimited block *
 #: description.en.adoc:16 description.en.adoc:23
 msgid "Ecological Niche Modeling"
-msgstr ""
+msgstr "Modélisation de niche écologique"
 
 #. type: delimited block *
 #: description.en.adoc:17 description.en.adoc:26
