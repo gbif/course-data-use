@@ -2,7 +2,7 @@
 == Description
 
 ****
-This course takes a modular approach to training in the use of GBIF-mediated data and builds on the Data Use for Decision Making course.
+This course takes a modular approach to training in the use of GBIF-mediated data and builds on the Data Use for Decision Making course developed as part of the Biodiversity Information for Development (BID) programme.
 Different use cases have been developed that will get you started on some of the many different ways you can use GIBF-mediated data.
 
 This course is comprised of online content paired with quizzes and you should complete these first.  
@@ -10,20 +10,19 @@ You can then complete the relevant use case that will build on what you have lea
 When offered as an onsite or virtual workshop, group work and social interaction are encouraged.
 
 The course comprises of one compulsory course in Data Processing and then optional modules that you can follow based on the learning path that is most relevant to you. 
-The first two optional modules that we have develpoed are:
+The first two optional modules that we have developed are:
 
-*	Ecological Niche Modelling
-*	Red List Assessments
-
+*	Ecological Niche Modeling
+*	Assessing the Conservation Status of a Species
 
 Topics include:
 
-* Fit-for-Purpose Data
+* Data Processing
 ** Processing a GBIF-mediated dataset and making it “fit-for-purpose”
-* Ecological Niche Modelling
+* Ecological Niche Modeling
 ** Introduction to running and interpreting a basic ecological model to determine the distribution of a species
-** Exploring niche modelling under different environmental conditions
-* Data for Species Assessments
+** Exploring niche modeling under different environmental conditions
+* Assessing the Conservation Status of a Species
 ** Using GBIF-mediated data for creating species distribution maps using IUCN mapping standards 
 ** Using GBIF-mediated data for assessing species conservation status using the IUCN Red List Categories and Criteria 
 
@@ -47,7 +46,8 @@ Additionally, to make best use of the activities around this course, the partici
 
 === Learning objectives
 
-* Understanding common data quality issues that may affect data use
+* Access GBIF mediated data through a range of access points
+* Understand common data quality issues in GBIF downloads that may affect data use
 * Apply data processing routines on GBIF downloads to create fit for purpose datasets
 * Learn the difference between fundamental and realized niches
 * Explain how to delimit a training region
@@ -60,5 +60,3 @@ Additionally, to make best use of the activities around this course, the partici
 
 === Certification
 Certificates in the form of digital badges will be issued to participants that successfuly complete a use case assignment.  There are several use cases and you should complete the ones that are of most relevance to your work or that interest you.  
-
-
