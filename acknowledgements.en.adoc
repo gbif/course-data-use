@@ -36,5 +36,5 @@ Special acknowledgement ...
 
 * https://www.r-project.org/[R^]
 * https://wallaceecomod.github.io/vignettes/wallace_vignette.html[Wallace Ecological Niche Modelling Vignette^]
-* IUCN Red List of Threatened Species [https://www.iucnredlist.org/^]
+* IUCN Red List of Threatened Species[https://www.iucnredlist.org/^]
 
