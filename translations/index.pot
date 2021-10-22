@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-10-22 07:44+0000\n"
+"POT-Creation-Date: 2021-10-22 07:52+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -32,16 +32,14 @@ msgstr ""
 msgid "languageLinks:combined[]"
 msgstr ""
 
-#. type: Block title
-#: index.en.adoc:22
-#, no-wrap
-msgid "this is the image caption"
-msgstr ""
-
-#. type: Target for macro image
-#: index.en.adoc:23
-#, no-wrap
-msgid "img/web/photo.jpg"
+#. type: Plain text
+#: index.en.adoc:24
+msgid ""
+"Di Marco M, Ferrier S, Harwood TD, Hoskins AJ and Watson JEM (2019) "
+"Wilderness areas halve the extinction risk of terrestrial "
+"biodiversity. Nature. Springer Science and Business Media LLC 573(7775): "
+"582–585. Available at: https://doi.org/10.1038/s41586-019-1567-7 "
+"image::img/web/Data USe Cover.png[align=center,width=640,height=360]"
 msgstr ""
 
 #. type: Plain text
