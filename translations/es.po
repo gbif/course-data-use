@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: data-use\n"
 "POT-Creation-Date: 2021-10-22 12:53+0000\n"
-"PO-Revision-Date: 2021-10-22 14:04\n"
+"PO-Revision-Date: 2021-10-22 20:01\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -51,38 +51,38 @@ msgstr "Descripción"
 #. type: delimited block *
 #: description.en.adoc:7
 msgid "This course takes a modular approach to training in the use of GBIF-mediated data and builds on the Data Use for Decision Making course developed as part of the Biodiversity Information for Development (BID) programme.  Different use cases have been developed that will get you started on some of the many different ways you can use GBIF-mediated data."
-msgstr ""
+msgstr "Este curso adopta un enfoque modular para la formación en el uso de datos mediados por GBIF, y se basa en el curso de Uso de Datos para la Toma de Decisiones desarrollado como parte del programa de Información sobre la Biodiversidad para el Desarrollo (BID). Se han desarrollado diferentes casos de uso que le permitirán comenzar con algunas de las diferentes maneras en que puede utilizar datos mediados por GBIF."
 
 #. type: delimited block *
 #: description.en.adoc:11
 msgid "This course is comprised of online content paired with quizzes and you should complete these first.  You can then complete the relevant use case that will build on what you have learnt through a set of practical exercises.  When offered as an onsite or virtual workshop, group work and social interaction are encouraged."
-msgstr ""
+msgstr "Este curso está compuesto por contenido en línea asociado con cuestionarios y deberías completarlo primero. Entonces puedes completar el caso de uso pertinente que se basará en lo que has aprendido a través de un conjunto de ejercicios prácticos. Cuando se ofrece como un taller virtual o in situ, se fomenta el trabajo en grupo y la interacción social."
 
 #. type: delimited block *
 #: description.en.adoc:14
 msgid "The course comprises of one compulsory course in Data Processing and then optional modules that you can follow based on the learning path that is most relevant to you.  The first two optional modules that we have developed are:"
-msgstr ""
+msgstr "El curso comprende un curso obligatorio en Procesamiento de Datos y luego módulos opcionales que puedes seguir basándose en el camino de aprendizaje más relevante para ti. Los dos primeros módulos opcionales que hemos desarrollado son:"
 
 #. type: delimited block *
 #: description.en.adoc:16 description.en.adoc:23
 msgid "Ecological Niche Modeling"
-msgstr ""
+msgstr "Modelado de Nicho Ecológico"
 
 #. type: delimited block *
 #: description.en.adoc:17 description.en.adoc:26
 msgid "Assessing the Conservation Status of a Species"
-msgstr ""
+msgstr "Evaluar el Estado de Conservación de una Especie"
 
 #. type: delimited block *
 #: description.en.adoc:19
 msgid "Topics include:"
-msgstr ""
+msgstr "Los temas incluyen:"
 
 #. type: Title =
 #: description.en.adoc:21 Data-Processing.en.adoc:2
 #, no-wrap
 msgid "Data Processing"
-msgstr ""
+msgstr "Procesamiento de datos"
 
 #. type: delimited block *
 #: description.en.adoc:22
