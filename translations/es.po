@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: data-use\n"
-"POT-Creation-Date: 2021-10-22 12:41+0000\n"
-"PO-Revision-Date: 2021-10-22 12:44\n"
+"POT-Creation-Date: 2021-10-22 12:53+0000\n"
+"PO-Revision-Date: 2021-10-22 14:04\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -20,12 +20,12 @@ msgstr ""
 #: index.en.adoc:1
 #, no-wrap
 msgid "Biodiversity Data Use"
-msgstr ""
+msgstr "Uso de datos de biodiversidad"
 
 #. type: Plain text
 #: index.en.adoc:3
 msgid "GBIF Secretariat <training@gbif.org>"
-msgstr ""
+msgstr "Secretariado de GBIF <training@gbif.org>"
 
 #. type: Plain text
 #: index.en.adoc:17
@@ -35,7 +35,7 @@ msgstr ""
 #. type: Plain text
 #: index.en.adoc:23
 msgid "Di Marco M, Ferrier S, Harwood TD, Hoskins AJ and Watson JEM (2019) Wilderness areas halve the extinction risk of terrestrial biodiversity. Nature. Springer Science and Business Media LLC 573(7775): 582–585. Available at: https://doi.org/10.1038/s41586-019-1567-7"
-msgstr ""
+msgstr "Di Marco M, Ferrier S, Harwood TD, Hoskins AJ y Watson JEM (2019) Las áreas naturales reducen a la mitad el riesgo de extinción de la biodiversidad terrestre. Nature. Springer Science and Business Media LLC 573(7775): 582–585. Disponible en: https://doi.org/10.1038/s41586-019-1567-7"
 
 #. type: Plain text
 #: index.en.adoc:25
@@ -46,7 +46,7 @@ msgstr ""
 #: description.en.adoc:2
 #, no-wrap
 msgid "Description"
-msgstr ""
+msgstr "Descripción"
 
 #. type: delimited block *
 #: description.en.adoc:7
@@ -128,7 +128,7 @@ msgstr ""
 
 #. type: Plain text
 #: description.en.adoc:38
-msgid "[Introduction to GBIF course](https://docs.gbif.org/course-introduction-to-gbif/en/)"
+msgid "https://docs.gbif.org/course-introduction-to-gbif/[Introduction to GBIF course]"
 msgstr ""
 
 #. type: Plain text
