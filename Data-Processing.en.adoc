@@ -7,7 +7,7 @@ In the data processing module, you will familiarize yourself with the concept of
 
 Almost always you will want to post-process your GBIF download in some way to fit your purposes. 
 Sometimes you will have to make difficult judgement calls for your particular use-case. 
-Whenever you are dealing with thousands-millions of records, you will never quite know the true quality of the source data. 
+Whenever you are dealing with thousands or millions of records, you will never quite know the true quality of the source data. 
 It is important to keep in mind that you are always just mitigating data quality issues, not eliminating them. 
 
 The data that we get in GBIF download, will contain data from a range of sources and the data will likely vary in its correctness and consistency. 
@@ -163,7 +163,7 @@ These values are errors produced by geocoding software and do not represent real
 These "fake" values are 301, 3036, 999 and 9999.  
 In the case of the value 301, the uncertainty is often much-much greater than 301 and actually represents a country centroid.
 
-=== gridded datasets
+=== Gridded datasets
 Gridded datasets are a known problem at GBIF. 
 Many datasets have equally-spaced points in a regular pattern. 
 These datasets are usually systematic national surveys or data taken from some atlas (“so-called rasterized collection designs”).
