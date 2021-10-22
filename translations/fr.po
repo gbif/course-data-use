@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: data-use\n"
 "POT-Creation-Date: 2021-10-22 12:53+0000\n"
-"PO-Revision-Date: 2021-10-22 17:04\n"
+"PO-Revision-Date: 2021-10-22 18:58\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -279,7 +279,7 @@ msgstr "Cohérence (Précision) - niveau de résolution des données, par exempl
 #: Data-Processing.en.adoc:27
 #, no-wrap
 msgid "img/web/Consistency.png"
-msgstr ""
+msgstr "img/web/Consistency.png"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:30
