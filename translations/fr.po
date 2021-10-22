@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: data-use\n"
 "POT-Creation-Date: 2021-10-22 12:53+0000\n"
-"PO-Revision-Date: 2021-10-22 16:04\n"
+"PO-Revision-Date: 2021-10-22 17:04\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -252,28 +252,28 @@ msgstr "Presque toujours vous voudrez post-traiter votre téléchargement du GBI
 #. type: Plain text
 #: Data-Processing.en.adoc:18
 msgid "The data that we get in GBIF download, will contain data from a range of sources and the data will likely vary in its correctness and consistency.  Correctness and consistency are two ways of documenting data errors and are measures of data quality.  These are measures of how well the data gatherer was able to capture the true value being investigated.  The nature of GBIF's data publication workflow means that the correctness and consistency of the data can vary dependent on the data publishers and the source of the data.  Knowing these properties of the data you have, will help you to understand the ways in which you can and cannot clean, validate and process the data."
-msgstr ""
+msgstr "Les données que nous obtenons dans le téléchargement du GBIF, contiendront des données provenant d'une gamme de sources et les données varieront probablement en termes de justesse et de cohérence. La justesse et la cohérence sont deux façons de documenter les erreurs de données et sont des mesures de la qualité des données. Ce sont des mesures qui montrent à quel point le collecteur de données a été en mesure de saisir la véritable valeur étudiée. La nature du flux de publication des données du GBIF signifie que la justesse et la cohérence des données peuvent varier selon les éditeurs de données et la source des données. Si vous connaissez ces propriétés des données que vous avez, cela vous aidera à comprendre comment vous pouvez et ne pouvez pas nettoyer, valider et traiter les données."
 
 #. type: Plain text
 #: Data-Processing.en.adoc:20
 msgid "Correctness (Accuracy) - closeness of measured values, observations or estimates to the real or true value e.g. has the species been identified correctly or the collection locality been identified correctly."
-msgstr ""
+msgstr "Justesse (Précision) - proximité des valeurs mesurées, des observations ou des estimations de la valeur réelle ou réelle e. . - les espèces ont été identifiées correctement ou la localité de collecte a été correctement identifiée."
 
 #. type: Target for macro image
 #: Data-Processing.en.adoc:21
 #, no-wrap
 msgid "img/web/Correctness.png"
-msgstr ""
+msgstr "img/web/Correctness.png"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:24
 msgid "For instance, if we are studying plant biogeography in Indonesia, and want to do to a specific analysis for only one of the islands within the archipelago, then an appropriate question might be - Have localities on the island been correctly georeferenced?"
-msgstr ""
+msgstr "Par exemple, si nous étudions la biogéographie végétale en Indonésie, et veulons faire une analyse spécifique pour une seule des îles de l'archipel, alors une question appropriée pourrait être - Les localités de l'île ont-ils été correctement géoréférencés?"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:26
 msgid "Consistency (Precision) - level of resolution of the data e.g. precision of coordinates, taxonomic determination."
-msgstr ""
+msgstr "Cohérence (Précision) - niveau de résolution des données, par exemple précision des coordonnées, détermination taxonomique."
 
 #. type: Target for macro image
 #: Data-Processing.en.adoc:27
