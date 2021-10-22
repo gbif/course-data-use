@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: data-use\n"
-"POT-Creation-Date: 2021-10-22 12:41+0000\n"
-"PO-Revision-Date: 2021-10-22 12:44\n"
+"POT-Creation-Date: 2021-10-22 12:53+0000\n"
+"PO-Revision-Date: 2021-10-22 14:04\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -128,7 +128,7 @@ msgstr ""
 
 #. type: Plain text
 #: description.en.adoc:38
-msgid "[Introduction to GBIF course](https://docs.gbif.org/course-introduction-to-gbif/en/)"
+msgid "https://docs.gbif.org/course-introduction-to-gbif/[Introduction to GBIF course]"
 msgstr ""
 
 #. type: Plain text
