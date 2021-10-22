@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-10-22 08:42+0000\n"
+"POT-Creation-Date: 2021-10-22 08:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -493,9 +493,9 @@ msgstr ""
 msgid ""
 "Almost always you will want to post-process your GBIF download in some way "
 "to fit your purposes.  Sometimes you will have to make difficult judgement "
-"calls for your particular use-case.  Whenever you are dealing with "
-"thousands-millions of records, you will never quite know the true quality of "
-"the source data.  It is important to keep in mind that you are always just "
+"calls for your particular use-case.  Whenever you are dealing with thousands "
+"or millions of records, you will never quite know the true quality of the "
+"source data.  It is important to keep in mind that you are always just "
 "mitigating data quality issues, not eliminating them."
 msgstr ""
 
@@ -981,10 +981,11 @@ msgid ""
 "often much-much greater than 301 and actually represents a country centroid."
 msgstr ""
 
-#. type: Title ===
-#: Data-Processing.en.adoc:166
+#. type: Plain text
+#: Data-Processing.en.adoc:166 Use-Case-1.en.adoc:47 Use-Case-2.en.adoc:62
+#: Use-Case-3.en.adoc:51
 #, no-wrap
-msgid "gridded datasets"
+msgid "Gridded datasets"
 msgstr ""
 
 #. type: Plain text
@@ -2473,11 +2474,6 @@ msgstr ""
 #. type: Plain text
 #: Use-Case-1.en.adoc:46 Use-Case-2.en.adoc:61 Use-Case-3.en.adoc:50
 msgid "Outside Native ranges"
-msgstr ""
-
-#. type: Plain text
-#: Use-Case-1.en.adoc:47 Use-Case-2.en.adoc:62 Use-Case-3.en.adoc:51
-msgid "Gridded datasets"
 msgstr ""
 
 #. type: Plain text
