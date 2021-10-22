@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: data-use\n"
 "POT-Creation-Date: 2021-10-22 12:53+0000\n"
-"PO-Revision-Date: 2021-10-22 18:58\n"
+"PO-Revision-Date: 2021-10-22 22:05\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -284,12 +284,12 @@ msgstr "img/web/Consistency.png"
 #. type: Plain text
 #: Data-Processing.en.adoc:30
 msgid "In the Indonesian example, an appropriate question might be - Does the uncertainty in the coordinate estimate allow for the occurrence record to not be on the island?"
-msgstr ""
+msgstr "Dans l'exemple indonésien, une question appropriée pourrait être - L'incertitude dans l'estimation des coordonnées permet-elle que l'occurence ne soit pas sur l'île ?"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:33
 msgid "As a general rule, for most analyses you want highly accurate data although the level of precision may vary dependent on your analysis.  GBIF can help you to determine the accuracy and precision of the data through, for example, filters and issue flags, however, you must always double-check!"
-msgstr ""
+msgstr "En règle générale, pour la plupart des analyses, vous voulez des données très correctes, mais le niveau de précision peut varier en fonction de votre analyse. Le GBIF peut vous aider à déterminer la justesse et la précision des données à travers, par exemple, des filtres et la signalisation de tickets, cependant, vous devez toujours vérifier à deux fois !"
 
 #. type: Title ==
 #: Data-Processing.en.adoc:34
