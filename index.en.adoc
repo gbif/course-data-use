@@ -20,6 +20,7 @@ endif::backend-pdf[]
 ifndef::backend-pdf[]
 :figure-caption!:
 Di Marco M, Ferrier S, Harwood TD, Hoskins AJ and Watson JEM (2019) Wilderness areas halve the extinction risk of terrestrial biodiversity. Nature. Springer Science and Business Media LLC 573(7775): 582–585. Available at: https://doi.org/10.1038/s41586-019-1567-7
+
 image::img/web/Data USe Cover.png[align=center,width=640,height=360]
 endif::backend-pdf[]
 
