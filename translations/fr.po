@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: data-use\n"
 "POT-Creation-Date: 2021-10-22 12:53+0000\n"
-"PO-Revision-Date: 2021-10-22 15:05\n"
+"PO-Revision-Date: 2021-10-22 16:04\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -71,183 +71,183 @@ msgstr "Modélisation de niche écologique"
 #. type: delimited block *
 #: description.en.adoc:17 description.en.adoc:26
 msgid "Assessing the Conservation Status of a Species"
-msgstr ""
+msgstr "Évaluation de l'état de conservation d'une espèce"
 
 #. type: delimited block *
 #: description.en.adoc:19
 msgid "Topics include:"
-msgstr ""
+msgstr "Les sujets incluent:"
 
 #. type: Title =
 #: description.en.adoc:21 Data-Processing.en.adoc:2
 #, no-wrap
 msgid "Data Processing"
-msgstr ""
+msgstr "Traitement des données"
 
 #. type: delimited block *
 #: description.en.adoc:22
 msgid "Processing a GBIF-mediated dataset and making it “fit-for-purpose”"
-msgstr ""
+msgstr "Traitement d'un jeu de données GBIF et le rendre \"adapté à son but d'utilisation\""
 
 #. type: delimited block *
 #: description.en.adoc:24
 msgid "Introduction to running and interpreting a basic ecological model to determine the distribution of a species"
-msgstr ""
+msgstr "Introduction au fonctionnement et à l'interprétation d'un modèle écologique de base pour déterminer la distribution d'une espèce"
 
 #. type: delimited block *
 #: description.en.adoc:25
 msgid "Exploring niche modeling under different environmental conditions"
-msgstr ""
+msgstr "Explorer de la modélisation de niche dans différentes conditions environnementales"
 
 #. type: delimited block *
 #: description.en.adoc:27
 msgid "Using GBIF-mediated data for creating species distribution maps using IUCN mapping standards"
-msgstr ""
+msgstr "Utilisation de données gérées par le GBIF pour la création de cartes de distribution d'espèces en utilisant les standards de cartographie de l'UICN"
 
 #. type: delimited block *
 #: description.en.adoc:28
 msgid "Using GBIF-mediated data for assessing species conservation status using the IUCN Red List Categories and Criteria"
-msgstr ""
+msgstr "Utiliser les données gérées par le GBIF pour évaluer l'état de conservation des espèces à l'aide des catégories et critères de la Liste Rouge de l'UICN"
 
 #. type: Title ===
 #: description.en.adoc:31
 #, no-wrap
 msgid "Audience"
-msgstr ""
+msgstr "Audience"
 
 #. type: Plain text
 #: description.en.adoc:34
 msgid "This course is designed for individuals who work as researchers or technicians in biodiversity research or policy institutions.  The instruction provided is particularly useful for those who have a need or desire to use GBIF-mediated data in their own research or analyses."
-msgstr ""
+msgstr "Ce cours s'adresse aux personnes qui travaillent en tant que chercheurs ou techniciens dans des institutions de recherche en biodiversité ou de politiques. Les instructions fournies sont particulièrement utiles pour ceux qui ont le besoin ou le désir d'utiliser des données gérées par le GBIF dans leurs propres recherches ou analyses."
 
 #. type: Title ===
 #: description.en.adoc:35
 #, no-wrap
 msgid "Prerequisites"
-msgstr ""
+msgstr "Prérequis"
 
 #. type: Plain text
 #: description.en.adoc:38
 msgid "https://docs.gbif.org/course-introduction-to-gbif/[Introduction to GBIF course]"
-msgstr ""
+msgstr "https://docs.gbif.org/course-introduction-to-gbif/[Introduction au cours du GBIF]"
 
 #. type: Plain text
 #: description.en.adoc:40
 msgid "Additionally, to make best use of the activities around this course, the participants should possess the following skills and knowledge:"
-msgstr ""
+msgstr "De plus, pour tirer le meilleur parti des activités de ce cours, les participants devraient posséder les compétences et connaissances suivantes:"
 
 #. type: Plain text
 #: description.en.adoc:42
 msgid "Basic skills in computer and internet use, and, in particular, in the use of spreadsheets."
-msgstr ""
+msgstr "Compétences de base en informatique et dans l'utilisation d'Internet et, en particulier, dans l'utilisation de feuilles de calcul."
 
 #. type: Plain text
 #: description.en.adoc:43
 msgid "Basic understanding of computer-based geographical and statistical analysis tools e.g. GIS and R, and may have already run analyses using these tools."
-msgstr ""
+msgstr "La compréhension de base des outils d’analyse géographique et statistique par ordinateur tels que SIG et R, et devrait avoir déjà mené des analyses à l’aide de ces outils."
 
 #. type: Plain text
 #: description.en.adoc:44
 msgid "Basic knowledge about geography and biodiversity informatics: geography and mapping concepts, basic taxonomy and nomenclature rules."
-msgstr ""
+msgstr "Connaissances de base sur la géographie et l'informatique sur la biodiversité: concepts de géographie et de cartographie, taxonomie et règles de nomenclature de base."
 
 #. type: Plain text
 #: description.en.adoc:45
 msgid "Willingness to disseminate the knowledge learned in the workshop with partners and collaborators in your project by adapting the biodiversity data use training materials to specific contexts and languages while maintaining their instructional value."
-msgstr ""
+msgstr "La volonté de diffuser les connaissances acquises dans l'atelier avec des partenaires et des collaborateurs dans votre projet en adaptant les données sur la biodiversité utilisent des matériels de formation à des contextes et des langues spécifiques tout en maintenant leur valeur pédagogique."
 
 #. type: Plain text
 #: description.en.adoc:46
 msgid "A good command of English. While efforts are made to provide materials in other languages, instruction/videos will be in English."
-msgstr ""
+msgstr "Une bonne maîtrise de l'anglais. Bien que des efforts soient faits pour fournir du matériel dans d'autres langues, les instructions / vidéos seront en anglais."
 
 #. type: Title ===
 #: description.en.adoc:47
 #, no-wrap
 msgid "Learning objectives"
-msgstr ""
+msgstr "Objectifs d'apprentissage"
 
 #. type: Plain text
 #: description.en.adoc:50
 msgid "Access GBIF mediated data through a range of access points"
-msgstr ""
+msgstr "Accéder aux données du GBIF via une gamme de points d'accès"
 
 #. type: Plain text
 #: description.en.adoc:51
 msgid "Understand common data quality issues in GBIF downloads that may affect data use"
-msgstr ""
+msgstr "Comprendre les problèmes courants de qualité des données dans les téléchargements GBIF qui peuvent affecter l'utilisation des données"
 
 #. type: Plain text
 #: description.en.adoc:52
 msgid "Apply data processing routines on GBIF downloads to create fit for purpose datasets"
-msgstr ""
+msgstr "Appliquer des routines de traitement des données sur les téléchargements GBIF pour créer des jeux de données spécifiques"
 
 #. type: Plain text
 #: description.en.adoc:53
 msgid "Learn the difference between fundamental and realized niches"
-msgstr ""
+msgstr "Apprenez la différence entre les niches fondamentales et réalisées"
 
 #. type: Plain text
 #: description.en.adoc:54
 msgid "Explain how to delimit a training region"
-msgstr ""
+msgstr "Expliquer comment délimiter une région d'entraînement"
 
 #. type: Plain text
 #: description.en.adoc:55
 msgid "Generate a simple niche model"
-msgstr ""
+msgstr "Générer un modèle de niche simple"
 
 #. type: Plain text
 #: description.en.adoc:56
 msgid "Explain niche model results"
-msgstr ""
+msgstr "Expliquer les résultats du modèle de niche"
 
 #. type: Plain text
 #: description.en.adoc:57
 msgid "Identify areas of uncertainty in projection"
-msgstr ""
+msgstr "Identifier les zones d'incertitude dans la projection"
 
 #. type: Plain text
 #: description.en.adoc:58
 msgid "Develop a communication strategy and convincing arguments for the integration of biodiversity into decision making processes"
-msgstr ""
+msgstr "Développer une stratégie de communication et des arguments convaincants pour l'intégration de la biodiversité dans les processus décisionnels"
 
 #. type: Plain text
 #: description.en.adoc:59
 msgid "Apply criterion B of the IUCN Categories and Criteria for the assessment of a species conservation status using a fit-for purpose dataset"
-msgstr ""
+msgstr "Appliquer le critère B des catégories de l'UICN et des critères pour l'évaluation de l'état de conservation d'une espèce à l'aide d'un jeu de données adapté aux besoins"
 
 #. type: Plain text
 #: description.en.adoc:60
 msgid "Apply IUCN mapping protocols for the production of Red List species distribution maps"
-msgstr ""
+msgstr "Appliquer les protocoles de cartographie de l'UICN pour la production de cartes de distribution des espèces de la liste rouge"
 
 #. type: Title ===
 #: description.en.adoc:61
 #, no-wrap
 msgid "Certification"
-msgstr ""
+msgstr "Certification"
 
 #. type: Plain text
 #: description.en.adoc:62
 msgid "Certificates in the form of digital badges will be issued to participants that successfuly complete a use case assignment.  There are several use cases and you should complete the ones that are of most relevance to your work or that interest you."
-msgstr ""
+msgstr "Les certificats sous la forme de badges numériques seront délivrés aux participants qui ont terminé avec succès une affectation de cas d'utilisation. Il y a plusieurs cas d'utilisation et vous devriez compléter ceux qui sont les plus importants pour votre travail ou qui vous intéressent."
 
 #. type: Plain text
 #: Data-Processing.en.adoc:5
 msgid "In the data processing module, you will familiarize yourself with the concept of fit-for purpose datasets and some commonly used data filters that you may want to consider for creating your own fit-for-purpose dataset."
-msgstr ""
+msgstr "Dans le module de traitement des données, vous vous familiariserez avec le concept de jeux de données adaptés à vos besoins et avec certains filtres de données couramment utilisés que vous voudrez peut-être envisager pour créer votre propre jeu de données adapté à vos besoins."
 
 #. type: Title ==
 #: Data-Processing.en.adoc:6
 #, no-wrap
 msgid "Fit for purpose data"
-msgstr ""
+msgstr "Données adaptées au but d'utilisation"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:12
 msgid "Almost always you will want to post-process your GBIF download in some way to fit your purposes.  Sometimes you will have to make difficult judgement calls for your particular use-case.  Whenever you are dealing with thousands or millions of records, you will never quite know the true quality of the source data.  It is important to keep in mind that you are always just mitigating data quality issues, not eliminating them."
-msgstr ""
+msgstr "Presque toujours vous voudrez post-traiter votre téléchargement du GBIF d'une manière ou d'une autre pour correspondre à vos objectifs. Parfois, vous devrez faire des jugements difficiles pour votre cas particulier d'utilisation. Chaque fois que vous traitez avec des milliers ou des millions d'enregistrements, vous ne connaîtrez jamais la vraie qualité des données source. Il est important de garder à l'esprit que vous ne faites qu'atténuer les problèmes de qualité des données, et non les éliminer."
 
 #. type: Plain text
 #: Data-Processing.en.adoc:18
