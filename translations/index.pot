@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-10-22 07:32+0000\n"
+"POT-Creation-Date: 2021-10-22 07:44+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -4254,76 +4254,114 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: acknowledgements.en.adoc:13 acknowledgements.en.adoc:15
-msgid "instructor*"
+#: acknowledgements.en.adoc:13
+msgid "Nadine Bowles Newark"
 msgstr ""
 
 #. type: Plain text
-#: acknowledgements.en.adoc:14 acknowledgements.en.adoc:16
-msgid "instructor"
+#: acknowledgements.en.adoc:14
+msgid "Andrea Baquero"
+msgstr ""
+
+#. type: Plain text
+#: acknowledgements.en.adoc:15
+msgid "Kate Ingenloff"
+msgstr ""
+
+#. type: Plain text
+#: acknowledgements.en.adoc:16
+msgid "Hannah Owens"
+msgstr ""
+
+#. type: Plain text
+#: acknowledgements.en.adoc:17
+msgid "Melianie Raymond"
 msgstr ""
 
 #. type: Plain text
 #: acknowledgements.en.adoc:18
-#, no-wrap
-msgid "*Originators of the curriculum\n"
+msgid "Andrew Rodrigues"
+msgstr ""
+
+#. type: Plain text
+#: acknowledgements.en.adoc:19
+msgid "Laura Anna Russell"
 msgstr ""
 
 #. type: Plain text
 #: acknowledgements.en.adoc:20
+msgid "John Tayleur"
+msgstr ""
+
+#. type: Plain text
+#: acknowledgements.en.adoc:21
+msgid "John Waller"
+msgstr ""
+
+#. type: Plain text
+#: acknowledgements.en.adoc:23
 msgid "Special acknowledgement ..."
 msgstr ""
 
 #. type: Title ===
-#: acknowledgements.en.adoc:21
+#: acknowledgements.en.adoc:24
 #, no-wrap
 msgid "Translators"
 msgstr ""
 
 #. type: Title ====
-#: acknowledgements.en.adoc:23
+#: acknowledgements.en.adoc:26
 #, no-wrap
-msgid "Language 1"
+msgid "Spanish"
 msgstr ""
 
 #. type: Plain text
-#: acknowledgements.en.adoc:26 acknowledgements.en.adoc:31
-msgid "Name 1"
+#: acknowledgements.en.adoc:28
+msgid "Anabela Plos"
 msgstr ""
 
 #. type: Plain text
-#: acknowledgements.en.adoc:27 acknowledgements.en.adoc:32
-msgid "Name 2"
+#: acknowledgements.en.adoc:29
+msgid "Paula Zermoglio"
 msgstr ""
 
 #. type: Title ====
-#: acknowledgements.en.adoc:28
+#: acknowledgements.en.adoc:30
 #, no-wrap
-msgid "Language 2"
+msgid "French"
+msgstr ""
+
+#. type: Plain text
+#: acknowledgements.en.adoc:33
+msgid "Patricia Mergen"
+msgstr ""
+
+#. type: Plain text
+#: acknowledgements.en.adoc:34
+msgid "Anne Sophie Archambeau"
 msgstr ""
 
 #. type: Title ===
-#: acknowledgements.en.adoc:33
+#: acknowledgements.en.adoc:35
 #, no-wrap
 msgid "Resources"
 msgstr ""
 
 #. type: Plain text
-#: acknowledgements.en.adoc:36 acknowledgements.en.adoc:37
-#: acknowledgements.en.adoc:38 acknowledgements.en.adoc:39
-msgid "Resource"
-msgstr ""
-
-#. type: Title ===
-#: acknowledgements.en.adoc:40
-#, no-wrap
-msgid "Resource support"
+#: acknowledgements.en.adoc:38
+msgid "https://www.r-project.org/[R^]"
 msgstr ""
 
 #. type: Plain text
-#: acknowledgements.en.adoc:43 acknowledgements.en.adoc:44
-#: acknowledgements.en.adoc:45
-msgid "Support"
+#: acknowledgements.en.adoc:39
+msgid ""
+"https://wallaceecomod.github.io/vignettes/wallace_vignette.html[Wallace "
+"Ecological Niche Modelling Vignette^]"
+msgstr ""
+
+#. type: Plain text
+#: acknowledgements.en.adoc:40
+msgid "https://www.iucnredlist.org/[IUCN Red List of Threatened Species^]"
 msgstr ""
 
 #. type: Title ==
