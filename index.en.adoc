@@ -29,13 +29,9 @@ include::description.en.adoc[]
 
 include::Data-Processing.en.adoc[]
 
-include::course-evaluation.en.adoc[]
-
 include::keydocs.en.adoc[]
 
 include::glossary.en.adoc[]
-
-include::solutions.en.adoc[]
 
 include::acknowledgements.en.adoc[]
 
