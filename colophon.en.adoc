@@ -2,11 +2,11 @@
 
 === Suggested citation
 
-GBIF Secretariat (2021) GBIF Biodiversity Data Mobilization Course. 6th edition. GBIF Secretariat: Copenhagen. https://doi.org/10.35035/ce-xxxx-xxxx. [Date of course.]
+GBIF Secretariat (2021) GBIF Biodiversity Data Use Course. 6th edition. GBIF Secretariat: Copenhagen. https://doi.org/10.35035/ce-xxxx-xxxx. [Date of course.]
 
 === Contributors
 
-The _Course Name_ was originally developed as part of ..., a programme funded by the ... The original curriculum was created by Name 1, Name 2, Name 3.
+The _GBIF Biodiversity Data Use Course_ was originally developed as part of https://www.gbif.org/bid[Biodiversity Information Development^], a programme funded by the https://europa.eu[European Union^]. The original curriculum was created by Andrew Rodrigues, Hannah Owens and John Tayleur with additional contributions by GBIF trainers, mentors and students.
 
 === Licence
 
@@ -18,4 +18,4 @@ https://doi.org/10.35035/ce-xxxx-xxxx
 
 === Document control
 
-Sixth edition, September 2021
+Fifth edition, November 2021

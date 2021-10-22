@@ -9,37 +9,32 @@ Visit the GBIF page on https://www.gbif.org/article/5SExsCfj7UaUkMCsuc6Oec/mento
 
 The following individuals are recognized for their significant contributions to the course design, materials and instruction:
 
-* instructor*
-* instructor
-* instructor*
-* instructor
-
-*Originators of the curriculum
+* Nadine Bowles Newark
+* Andrea Baquero
+* Kate Ingenloff
+* Hannah Owens
+* Melianie Raymond
+* Andrew Rodrigues
+* Laura Anna Russell
+* John Tayleur
+* John Waller
 
 Special acknowledgement ...
 
 === Translators
 
-==== Language 1
+==== Spanish
+* Anabela Plos
+* Paula Zermoglio
 
-* Name 1
-* Name 2
+==== French
 
-==== Language 2
-
-* Name 1
-* Name 2
+* Patricia Mergen
+* Anne Sophie Archambeau
 
 === Resources
 
-* Resource
-* Resource
-* Resource
-* Resource
+* https://www.r-project.org/[R^]
+* https://wallaceecomod.github.io/vignettes/wallace_vignette.html[Wallace Ecological Niche Modelling Vignette^]
+* https://www.iucnredlist.org/[IUCN Red List of Threatened Species^]
 
-=== Resource support
-
-* Support
-* Support
-* Support
-* Support
