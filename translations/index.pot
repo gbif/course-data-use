@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-10-22 07:18+0000\n"
+"POT-Creation-Date: 2021-10-22 07:32+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -4341,9 +4341,9 @@ msgstr ""
 #. type: Plain text
 #: colophon.en.adoc:6
 msgid ""
-"GBIF Secretariat (2021) GBIF Biodiversity Data Mobilization Course. 6th "
-"edition. GBIF Secretariat: "
-"Copenhagen. https://doi.org/10.35035/ce-xxxx-xxxx. [Date of course.]"
+"GBIF Secretariat (2021) GBIF Biodiversity Data Use Course. 6th edition. GBIF "
+"Secretariat: Copenhagen. https://doi.org/10.35035/ce-xxxx-xxxx. [Date of "
+"course.]"
 msgstr ""
 
 #. type: Title ===
@@ -4355,9 +4355,11 @@ msgstr ""
 #. type: Plain text
 #: colophon.en.adoc:10
 msgid ""
-"The _Course Name_ was originally developed as part of ..., a programme "
-"funded by the ... The original curriculum was created by Name 1, Name 2, "
-"Name 3."
+"The _GBIF Biodiversity Data Use Course_ was originally developed as part of "
+"https://www.gbif.org/bid[Biodiversity Information Development^], a programme "
+"funded by the https://europa.eu[European Union^]. The original curriculum "
+"was created by Andrew Rodrigues, Hannah Owens and John Tayleur with "
+"additional contributions by GBIF trainers, mentors and students."
 msgstr ""
 
 #. type: Title ===
@@ -4393,5 +4395,5 @@ msgstr ""
 
 #. type: Plain text
 #: colophon.en.adoc:21
-msgid "Sixth edition, September 2021"
+msgid "Fifth edition, November 2021"
 msgstr ""
