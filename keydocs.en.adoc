@@ -8,6 +8,10 @@ All links open in a new window/tab.
 * https://data-blog.gbif.org/post/gbif-api-beginners-guide/[GBIF API beginners guide^]
 * https://data-blog.gbif.org/post/gbif-species-api/[(Almost) everything you want to know about the GBIF Species API^]
 
+== Cloud Computing
+* https://data-blog.gbif.org/post/microsoft-azure-and-gbif/[GBIF and Apache-Spark on Microsoft Azure tutorial^]
+* https://data-blog.gbif.org/post/aws-and-gbif/[GBIF and Apache-Spark on AWS tutorial^]
+
 === Darwin Core
 
 * https://dwc.tdwg.org/terms/[Darwin Core Terms: A quick reference guide^]
@@ -141,6 +145,7 @@ DataOne 2014.
 * https://data-blog.gbif.org/post/finding-gridded-datasets/[Finding gridded datasets^] & https://data-blog.gbif.org/post/gridded-datasets-update/[Gridded Datasets Update^]
 * https://data-blog.gbif.org/post/country-centroids/[Country centroids^]
 * https://data-blog.gbif.org/post/shapefiles/[Using shapefiles on GBIF data with R^]
+* https://data-blog.gbif.org/post/not-a-bird/[Not a bird download^]
 
 === Sensitive species
 
