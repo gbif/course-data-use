@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: data-use\n"
 "POT-Creation-Date: 2021-10-22 12:53+0000\n"
-"PO-Revision-Date: 2021-11-08 17:18\n"
+"PO-Revision-Date: 2021-11-08 18:24\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -475,7 +475,7 @@ msgstr ""
 #. type: Plain text
 #: Data-Processing.en.adoc:123
 msgid "The data can be filtered spatially in an occurrrence search in one of 3 ways:"
-msgstr ""
+msgstr "Les données peuvent être filtrées spatialement dans une recherche d'occurrences de l'une des 3 façons suivantes:"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:125
@@ -516,23 +516,23 @@ msgstr ""
 #: Data-Processing.en.adoc:139
 #, no-wrap
 msgid "Country centroids"
-msgstr ""
+msgstr "Les centroïdes des pays"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:147
 msgid "Country centroids are where the observation is pinned to the centre of the country instead of where the taxon was observed or recorded.  Country centroids are usually records that have been retrospectively given a lat-lon value based on a textual description of where the original record was located.  Geocoding software uses gazetteers, geographical dictionaries or directories used in conjunction with a map or atlas, to attribute coordinates to place names.  So, if the record simply says “Brazil”, some publishers will put the record in the center of Brazil.  Similarly if the record simply says “Texas” or “Paris” the record will go in the center of those regions.  This is almost exclusively a feature of museum data (PRESERVED_SPECIMEN), but it can also happen with other types of records as well."
-msgstr ""
+msgstr "Les centroïdes de pays sont ceux pour lesquels l'observation est épinglée au centre du pays à la place du lieu où le taxon a été observé ou enregistré.  Les centroïdes de pays sont généralement des enregistrements auxquels on a attribué rétrospectivement une valeur lat-long basée sur une description textuelle de l'emplacement de l'enregistrement original.  Les logiciels de géocodage utilisent des répertoires géographiques, des dictionnaires ou des annuaires utilisés en conjonction avec une carte ou un atlas, pour attribuer des coordonnées aux noms de lieux.  Ainsi, si la notice indique simplement \"Brésil\", certains éditeurs placeront la notice au centre du Brésil.  De même, si la notice indique simplement \"Texas\" ou \"Paris\", elle sera placée au centre de ces régions.  Il s'agit d'une caractéristique presque exclusive aux données de musée (PRESERVED_SPECIMEN), mais cela peut également se produire avec d'autres types d'enregistrements."
 
 #. type: Plain text
 #: Data-Processing.en.adoc:149
 msgid "Identifying country centroid data is currently not possible using GBIF filters, however, the R package CoordinateCleaner can be used for identifying and filtering for country centroids."
-msgstr ""
+msgstr "L'identification des données dérivées de centroïdes de pays n'est pas possible actuellement avec les filtres GBIF, cependant, le programme R CoordinateCleaner peut être utilisé pour identifier et filtrer les centroïdes de pays."
 
 #. type: Title ====
 #: Data-Processing.en.adoc:150
 #, no-wrap
 msgid "Points along the equator or prime meridian"
-msgstr ""
+msgstr "Points le long de l'équateur ou du premier méridien"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:154
@@ -543,23 +543,23 @@ msgstr ""
 #: Data-Processing.en.adoc:155
 #, no-wrap
 msgid "Uncertain location "
-msgstr ""
+msgstr "Localisation incertaine "
 
 #. type: Plain text
 #: Data-Processing.en.adoc:160
 msgid "Often you will want to be sure that the coordinates give a certain location and are not really 1000s of km away from where the organism was observed or collected.  There are two fields - coordinate precision and coordinateUncertaintyInMeters - in Darwin Core that you get with a SIMPLE CSV download. that you can use to filter by “uncertainty”.  However, these fields are not used very often by publishers who feel that their records are fairly certain (from a GPS) and we would recommend not filtering out missing values."
-msgstr ""
+msgstr "Souvent, vous voudrez être sûr que les coordonnées donnent un certain emplacement et ne sont pas réellement à des milliers de kilomètres de l'endroit où l'organisme a été observé ou collecté.  Il existe deux champs - coordinate precision et coordinateUncertaintyInMeters - dans Darwin Core que vous obtenez avec un téléchargement CSV SIMPLE. Vous pouvez les utiliser pour filtrer par \"incertitude\".  Cependant, ces champs ne sont pas très souvent utilisés par les éditeurs qui estiment que leurs enregistrements sont assez certains (à partir d'un GPS) et nous recommandons de ne pas écarter les valeurs manquantes."
 
 #. type: Plain text
 #: Data-Processing.en.adoc:165
 msgid "There are also a few “fake” values for coordinate uncertainty that you should be aware of.  These values are errors produced by geocoding software and do not represent real uncertainty values.  These \"fake\" values are 301, 3036, 999 and 9999.  In the case of the value 301, the uncertainty is often much-much greater than 301 and actually represents a country centroid."
-msgstr ""
+msgstr "Il existe également quelques valeurs \"fausses\" pour l'incertitude des coordonnées que vous devez connaître.  Ces valeurs sont des erreurs produites par les logiciels de géocodage et ne représentent pas de véritables valeurs d'incertitude.  Ces \"fausses\" valeurs sont 301, 3036, 999 et 9999.  Dans le cas de la valeur 301, l'incertitude est souvent beaucoup plus grande que 301 et représente en fait un centroïde de pays."
 
 #. type: Title ===
 #: Data-Processing.en.adoc:166
 #, no-wrap
 msgid "Gridded datasets"
-msgstr ""
+msgstr "Ensembles de données grillées"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:171
@@ -570,7 +570,7 @@ msgstr ""
 #: Data-Processing.en.adoc:172
 #, no-wrap
 msgid "img/web/gridSnap.gif"
-msgstr ""
+msgstr "img/web/gridSnap.gif"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:178
@@ -658,12 +658,12 @@ msgstr ""
 #: Data-Processing.en.adoc:209
 #, no-wrap
 msgid "Old Records"
-msgstr ""
+msgstr "Anciens enregistrements"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:212
 msgid "GBIF has many museum records that might be older than what is desired for some studies."
-msgstr ""
+msgstr "Le GBIF possède de nombreux enregistrements de musées qui pourraient être plus anciens que ce qui est souhaité pour certaines études."
 
 #. type: Title ===
 #: Data-Processing.en.adoc:213
@@ -876,7 +876,7 @@ msgstr ""
 #: keydocs.en.adoc:54
 #, no-wrap
 msgid "Digitization"
-msgstr ""
+msgstr "La numérisation"
 
 #. type: Plain text
 #: keydocs.en.adoc:57
