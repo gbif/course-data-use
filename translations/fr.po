@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: data-use\n"
 "POT-Creation-Date: 2021-10-22 12:53+0000\n"
-"PO-Revision-Date: 2021-10-22 22:05\n"
+"PO-Revision-Date: 2021-11-08 17:18\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -295,23 +295,23 @@ msgstr "En règle générale, pour la plupart des analyses, vous voulez des donn
 #: Data-Processing.en.adoc:34
 #, no-wrap
 msgid "Flags and Issues"
-msgstr ""
+msgstr "Signaux et Questions"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:39
 msgid "The GBIF network publishes datasets, integrating them into a common access system.  Here users can retrieve data through common search and download services.  During the indexation process over the raw data, GBIF adds issues and flags to records with common data quality problems.  These may contain useful information for you as a user to create fit-for-purpose datasets."
-msgstr ""
+msgstr "Le réseau GBIF publie des ensembles de données, les intégrant dans un système d'accès commun.  Les utilisateurs peuvent y récupérer des données par le biais de services communs de recherche et de téléchargement.  Au cours du processus d'indexation des données brutes, le GBIF ajoute des questions et des signaux aux enregistrements présentant des problèmes courants de qualité des données.  Ceux-ci peuvent contenir des informations utiles pour vous, en tant qu'utilisateur, afin de créer des ensembles de données adaptés."
 
 #. type: Target for macro image
 #: Data-Processing.en.adoc:40
 #, no-wrap
 msgid "img/web/workflow2.png"
-msgstr ""
+msgstr "img/web/workflow2.png"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:43
 msgid "Remarks are shown on the individual occurrence pages to explain the process done after interpretation:"
-msgstr ""
+msgstr "Des remarques sont indiquées sur les pages individuelles des occurrences pour expliquer le processus effectué après l'interprétation:"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:47
@@ -319,18 +319,20 @@ msgstr ""
 msgid "*Excluded means the original data couldn’t be interpreted, so is excluded in the interpreted fields.\n"
 "*Altered means the original data is modified in the interpretation process to be indexed in GBIF.org.\n"
 "*Inferred means the Using other record information the data indexed is inferred, if the original is empty.\n"
-msgstr ""
+msgstr "*Exclu signifie que les données originales n'ont pas pu être interprétées et sont donc exclues des champs interprétés.\n"
+"*Modifié signifie que les données originales sont modifiées dans le processus d'interprétation pour être indexées dans GBIF.org.\n"
+"*Inféré signifie que l'utilisation d'autres informations d'enregistrement des données indexées est inférée, si l'original est vide.\n"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:52
 msgid "Excluding all records with a particular issue is not currently possible with the search interface.  It is possible to filter all records you are not interested in with issues by selecting the particular issue and hitting the reverse button.  However, reversing will still only give you all other flagged occurrences and not issue-free records.  This is something that GBIF is working to improve. (at occurrence search)"
-msgstr ""
+msgstr "L'interface de recherche ne permet pas actuellement d'exclure tous les enregistrements comportant un problème particulier.  Il est possible de filtrer tous les enregistrements qui ne vous intéressent pas et qui comportent des problèmes en sélectionnant le problème en question et en cliquant sur le bouton d'inversion.  Cependant, l'inversion ne vous donnera que toutes les autres occurrences marquées et non les enregistrements sans problème.  Le GBIF s'efforce d'améliorer ce point. (sur la recherche d'occurrences)"
 
 #. type: Target for macro image
 #: Data-Processing.en.adoc:53
 #, no-wrap
 msgid "img/web/filtering.png"
-msgstr ""
+msgstr "img/web/filtering.png"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:56
@@ -341,12 +343,12 @@ msgstr ""
 #: Data-Processing.en.adoc:57
 #, no-wrap
 msgid "Data Processing Tools"
-msgstr ""
+msgstr "Outils de Traitement des Données"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:61
 msgid "While GBIF filters will allow for some data processing i.e. select only those data for download that fulfil certain criteria, it is highly recommended that you additional data processing and a range of tools are available.  Your choice of which tool you use will be based on personal access, familiarity and utility of each of the tools.  Tools that can be used for this are:"
-msgstr ""
+msgstr "Bien que les filtres GBIF permettent un certain traitement des données, par exemple de sélectionner uniquement les données qui répondent à certains critères pour les télécharger, il est fortement recommandé de procéder à un traitement supplémentaire des données et une gamme d'outils est disponible.  Le choix de l'outil que vous utiliserez sera basé sur l'accès personnel, la familiarité et l'utilité de ces derniers.  Les outils qui peuvent être utilisés à cette fin sont les suivants:"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:63
