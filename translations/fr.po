@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: data-use\n"
 "POT-Creation-Date: 2021-10-22 12:53+0000\n"
-"PO-Revision-Date: 2021-11-09 14:04\n"
+"PO-Revision-Date: 2021-11-09 15:01\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -559,7 +559,7 @@ msgstr "Il existe également quelques valeurs \"fausses\" pour l'incertitude des
 #: Data-Processing.en.adoc:166
 #, no-wrap
 msgid "Gridded datasets"
-msgstr "Ensembles de données grillées"
+msgstr "Jeux de données grillées"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:171
@@ -615,7 +615,7 @@ msgstr "Utilisez ce filtre avec prudence, car la plupart des enregistrements ne 
 #: Data-Processing.en.adoc:195
 #, no-wrap
 msgid "Basis of Record "
-msgstr "Source de l'enregistrement "
+msgstr "Basis of record "
 
 #. type: Plain text
 #: Data-Processing.en.adoc:198
@@ -655,7 +655,7 @@ msgstr "Machine Observation - Une sortie d'un processus d'observation de machine
 #. type: Plain text
 #: Data-Processing.en.adoc:208
 msgid "Basis or record should allow users to filter out those indidivuals in ex-situ collections such as zoos and botanic gardens or fossils as well as filter for those records based on whether the record is based on a specimen or an observation, which can support taxonomic validation.  You should note that, even though this can be a useful filter, data publishers do not always fill the basis of record field correctly, or, there may be nuances in the data that may not be immediately obvious to a user e.g. https://data-blog.gbif.org/post/living-specimen-to-preserved-specimen-understanding-basis-of-record/ and you should always double check your data before use."
-msgstr "La base de l'enregistrement devrait permettre aux utilisateurs de filtrer ces individus dans les collections ex situ telles que les zoos, les jardins botaniques ou les fossiles, ainsi que de filtrer ces enregistrements en fonction de la base ou de l'observation, qui peut supporter la validation taxonomique. Vous devriez noter que, même si cela peut être un filtre utile, les éditeurs de données ne remplissent pas toujours correctement le champ Basis of record, ou alors, il peut y avoir des nuances dans les données qui peuvent ne pas être immédiatement évidentes pour un utilisateur. . https://data-blog.gbif.org/post/living-specimen-to-preserved-specimen-understanding-basis-of-record/ et vous devriez toujours vérifier vos données avant de les utiliser."
+msgstr "Basis of record devrait permettre aux utilisateurs de filtrer ces individus dans les collections ex situ telles que les zoos, les jardins botaniques ou les fossiles, ainsi que de filtrer ces enregistrements en fonction de la base ou de l'observation, qui peut supporter la validation taxonomique. Vous devriez noter que, même si cela peut être un filtre utile, les éditeurs de données ne remplissent pas toujours correctement le champ Basis of record, ou alors, il peut y avoir des nuances dans les données qui peuvent ne pas être immédiatement évidentes pour un utilisateur. . https://data-blog.gbif.org/post/living-specimen-to-preserved-specimen-understanding-basis-of-record/ et vous devriez toujours vérifier vos données avant de les utiliser."
 
 #. type: Title ===
 #: Data-Processing.en.adoc:209
