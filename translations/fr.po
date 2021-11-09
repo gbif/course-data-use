@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: data-use\n"
 "POT-Creation-Date: 2021-10-22 12:53+0000\n"
-"PO-Revision-Date: 2021-11-09 09:13\n"
+"PO-Revision-Date: 2021-11-09 10:38\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -268,7 +268,7 @@ msgstr "img/web/Correctness.png"
 #. type: Plain text
 #: Data-Processing.en.adoc:24
 msgid "For instance, if we are studying plant biogeography in Indonesia, and want to do to a specific analysis for only one of the islands within the archipelago, then an appropriate question might be - Have localities on the island been correctly georeferenced?"
-msgstr "Par exemple, si nous étudions la biogéographie végétale en Indonésie, et veulons faire une analyse spécifique pour une seule des îles de l'archipel, alors une question appropriée pourrait être - Les localités de l'île ont-ils été correctement géoréférencés?"
+msgstr "Par exemple, si nous étudions la biogéographie végétale en Indonésie, et voulons faire une analyse spécifique pour une seule des îles de l'archipel, alors une question appropriée pourrait être - Les localités de l'île ont-ils été correctement géoréférencés?"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:26
@@ -295,12 +295,12 @@ msgstr "En règle générale, pour la plupart des analyses, vous voulez des donn
 #: Data-Processing.en.adoc:34
 #, no-wrap
 msgid "Flags and Issues"
-msgstr "Signaux et Questions"
+msgstr "Problèmes et drapeaux"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:39
 msgid "The GBIF network publishes datasets, integrating them into a common access system.  Here users can retrieve data through common search and download services.  During the indexation process over the raw data, GBIF adds issues and flags to records with common data quality problems.  These may contain useful information for you as a user to create fit-for-purpose datasets."
-msgstr "Le réseau GBIF publie des ensembles de données, les intégrant dans un système d'accès commun.  Les utilisateurs peuvent y récupérer des données par le biais de services communs de recherche et de téléchargement.  Au cours du processus d'indexation des données brutes, le GBIF ajoute des questions et des signaux aux enregistrements présentant des problèmes courants de qualité des données.  Ceux-ci peuvent contenir des informations utiles pour vous, en tant qu'utilisateur, afin de créer des ensembles de données adaptés."
+msgstr "Le réseau GBIF publie des ensembles de données, les intégrant dans un système d'accès commun.  Les utilisateurs peuvent y récupérer des données par le biais de services communs de recherche et de téléchargement.  Au cours du processus d'indexation des données brutes, le GBIF ajoute des problèmes et des drapeaux aux enregistrements présentant des problèmes courants de qualité des données.  Ceux-ci peuvent contenir des informations utiles pour vous, en tant qu'utilisateur, afin de créer des ensembles de données adaptés."
 
 #. type: Target for macro image
 #: Data-Processing.en.adoc:40
@@ -337,7 +337,7 @@ msgstr "img/web/filtering.png"
 #. type: Plain text
 #: Data-Processing.en.adoc:56
 msgid "A full overview of all issues and flags can be here: https://data-blog.gbif.org/post/issues-and-flags/"
-msgstr ""
+msgstr "Un aperçu complet de tous les problèmes et drapeaux peut être trouvé ici: https://data-blog.gbif.org/post/issues-and-flags/"
 
 #. type: Title ===
 #: Data-Processing.en.adoc:57
@@ -353,28 +353,28 @@ msgstr "Bien que les filtres GBIF permettent un certain traitement des données,
 #. type: Plain text
 #: Data-Processing.en.adoc:63
 msgid "Spreadsheet editing software e.g. Excel, Google Sheets (smaller datasets)"
-msgstr ""
+msgstr "Logiciel d'édition de feuilles de calcul par exemple Excel, Google Sheets (petits jeux de données)"
 
 #. type: Title ===
 #: Data-Processing.en.adoc:64 keydocs.en.adoc:96
 #, no-wrap
 msgid "OpenRefine"
-msgstr ""
+msgstr "OpenRefine"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:65
 msgid "R packages and scripts eg rgbif, CoordinateCleaner, scrubr and biogeo (automated data processing)"
-msgstr ""
+msgstr "Paquetages et scripts R, par exemple rgbif, CoordinateCleaner, scrubr et biogeo (traitement automatisé des données)"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:66
 msgid "Geographical Information Systems (GIS) e.g. ArcGIS, QGIS and MapInfo"
-msgstr ""
+msgstr "Systèmes d'information géographique (SIG), par exemple ArcGIS, QGIS et MapInfo"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:69
 msgid "It is always important to include a data visualisation step in your data processing so that you can identify anomalous data points that may have been missed during the processing stage.  For those processing in R, this can be done within R, however, with OpenRefine or spreadsheet editing sofware you may have to use GIS software or even tools such as Google Earth for data visualisation."
-msgstr ""
+msgstr "Il est toujours important d'inclure une étape de visualisation des données dans votre traitement des données afin de pouvoir identifier les points de données anormaux qui ont pu être manqués pendant l'étape de traitement.  Pour ceux qui traitent leurs données avec R, cette étape peut être réalisée dans R, mais avec OpenRefine ou un logiciel d'édition de feuilles de calcul, vous devrez peut-être utiliser un logiciel SIG ou alors des outils tels que Google Earth pour la visualisation des données."
 
 #. type: Title ==
 #: Data-Processing.en.adoc:70
@@ -453,24 +453,24 @@ msgstr "Nouveaux noms"
 #. type: Plain text
 #: Data-Processing.en.adoc:112
 msgid "There may be instances where the scientific name does not match any name in the GBIF backbone, perhaps because the species is newly described, or is not within a checklist used by GBIF to construct its backbone.  These names are flagged with the TAXON_MATCH_HIGHERRANK flag indicating that the scientific name has not been recognised but that the data point has matched at a higher taxonomic level eg. genus or family.  This flag can be used for identifying and filtering for these data.  When names have been misspelled or badly formatted, there is also a TAXON_MATCH_FUZZY flag that can be used for identifying and filtering names that can only match the taxonomic backbone using a fuzzy, non exact match."
-msgstr ""
+msgstr "Il peut arriver que le nom scientifique ne corresponde à aucun nom de l'ossature taxonomique du GBIF, peut-être parce que l'espèce est nouvellement décrite ou qu'elle ne figure pas dans une liste de contrôle utilisée par le GBIF pour construire son ossature.  Ces noms sont signalés par l'indicateur TAXON_MATCH_HIGHERRANK qui indique que le nom scientifique n'a pas été reconnu mais que la donnée a été appariée à un niveau taxonomique supérieur, par exemple le genre ou la famille.  Cet indicateur peut être utilisé pour identifier et filtrer ces données.  Lorsque les noms ont été mal orthographiés ou mal formatés, il existe également un indicateur TAXON_MATCH_FUZZY qui peut être utilisé pour identifier et filtrer les noms qui ne peuvent correspondre à l'ossature taxonomique qu'en utilisant une correspondance floue et non exacte."
 
 #. type: Title ==
 #: Data-Processing.en.adoc:113
 #, no-wrap
 msgid "Handling Data Quality"
-msgstr ""
+msgstr "Gérer la qualité des données"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:119
 msgid "Filtering the data allows you as a user to obtain the data that is most fit for purpose.  All searches have a set of filters that can be used for finding the data you need, and occurrence searches have a set of additional 'Advanced\" search filters for users that need to do more advanced filtering.  While filters may allow you to filter out data that may not be relevant, or be of lower quality for your purposes, additional filtering may be required either manually or programmaticially to deal with additional data quality issues that arise during the GBIF data publishing model.  Below are some common data filters that you as a user might consider to make the data more fit-for-purpose."
-msgstr ""
+msgstr "Le filtrage des données vous permet, en tant qu'utilisateur, d'obtenir les données les mieux adaptées à votre objectif.  Toutes les recherches disposent d'un ensemble de filtres qui peuvent être utilisés pour trouver les données dont vous avez besoin, et les recherches sur les occurrences disposent d'un ensemble de filtres de recherche \"avancés\" supplémentaires pour les utilisateurs qui ont besoin d'effectuer un filtrage plus poussé.  Bien que les filtres puissent vous permettre d'éliminer les données qui ne sont pas pertinentes ou qui sont de qualité insuffisante pour vos besoins, un filtrage supplémentaire peut être nécessaire, soit manuellement, soit par programmation, pour traiter les problèmes de qualité des données qui surviennent dans le modèle de publication des données du GBIF.  Vous trouverez ci-dessous quelques filtres de données courants que vous pouvez envisager en tant qu'utilisateur pour rendre les données plus adaptées à vos besoins."
 
 #. type: Title ===
 #: Data-Processing.en.adoc:120
 #, no-wrap
 msgid "Geospatial Filters & Issues"
-msgstr ""
+msgstr "Filtres et problèmes géospatiaux"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:123
@@ -480,37 +480,37 @@ msgstr "Les données peuvent être filtrées spatialement dans une recherche d'o
 #. type: Plain text
 #: Data-Processing.en.adoc:125
 msgid "Country or area/Continent - data is filtered by country and will include data within the Exclusive Economic Zone (EEZ)"
-msgstr ""
+msgstr "Pays ou zone/Continent - les données sont filtrées par pays et incluront des données dans la Zone Economique Exclusive (EEZ)"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:127
 msgid "Administrative area - this filter uses the GADM database https://gadm.org/data.html of administrative areas for all countries in the world to allow for GBIF removes common geospatial issues by default if you choose to have data with a location."
-msgstr ""
+msgstr "Zone administrative - ce filtre utilise la base de données GADM https://gadm.org/data. tml des zones administratives de tous les pays du monde pour permettre au GBIF de supprimer les problèmes géospatiaux communs par défaut si vous choisissez d'avoir des données avec une localisation."
 
 #. type: Plain text
 #: Data-Processing.en.adoc:130
 msgid "Location - this filter allows you to filter for data with coordinates and/or draw your own polygon shape filters or use a GeoJSON file to delimit your own shape filter.  If you filter for those data with coordinates, a number of geospatial issues associated with the data publishing workflow will be eliminated.  These are:"
-msgstr ""
+msgstr "Localisation - ce filtre vous permet de filtrer les données avec des coordonnées et/ou de dessiner vos propres polygones ou d'utiliser un fichier GeoJSON pour délimiter votre propre buffer. Si vous filtrez pour ces données avec des coordonnées, un certain nombre de problèmes géospatiaux associés à la publication des données seront éliminés. Parmi lesquels:"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:133
 msgid "Zero Coordinates- Coordinates are exactly (0,0) or what is sometimes called \"null island\".  Zero-zero coordinate is a very common geospatial issue. GBIF removes (0,0) when hasgeospatialissue is set to FALSE."
-msgstr ""
+msgstr "Zéro Coordonnées - Les coordonnées sont exactement (0,0) ou ce qui est parfois appelé \"l'île nulle\". La coordonnée zéro est une question géospatiale très courante. Le GBIF supprime (0,0) lorsque 'hasgeospatialissue' est paramétré sur FALSE."
 
 #. type: Plain text
 #: Data-Processing.en.adoc:136
 msgid "Country coordinate mis-match - Data publishers will often supply GBIF with a country code (US,TW,SE,JP…).  GBIF uses the two letter ISO 3166-1 alpha-2 coding system - https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2.  When a point does not fall within the country’s polygon or EEZ, but says that it should occur within the country, it gets flagged as having “country coordinate mis-match” and will be removed if data are filtered for locations."
-msgstr ""
+msgstr "Inadéquation des coordonnées du pays - Les éditeurs de données fourniront souvent au GBIF un code de pays (US,TW,SE,JP…). Le GBIF utilise le système de codage ISO 3166-1 alpha-2 à deux lettres - https://fr.wikipedia.org/wiki/ISO_3166-1_alpha-2. Lorsqu’un point ne fait pas partie du polygone ou de la ZEE, mais qu'il indique se situer dans le pays, il est signalé comme ayant « une incompatibilité des coordonnées du pays» et sera supprimé si les données sont filtrées pour leur localisation."
 
 #. type: Plain text
 #: Data-Processing.en.adoc:137
 msgid "Coordinate invalid - If GBIF is unable to interpret the coordinates i.e. the coordinates."
-msgstr ""
+msgstr "Coordonnée invalide - Si le GBIF est incapable d'interpréter les coordonnées."
 
 #. type: Plain text
 #: Data-Processing.en.adoc:138
 msgid "Coordinate invalid - The coordinates are outside of the range for decimal lat/lon values ((-90,90), (-180,180))."
-msgstr ""
+msgstr "Coordonnée invalide - Les coordonnées sont en dehors de l'intervalle pour les valeurs possibles de lat/lon décimales ((-90,90), (-180,180))."
 
 #. type: Title ====
 #: Data-Processing.en.adoc:139
@@ -537,7 +537,7 @@ msgstr "Points le long de l'équateur ou du premier méridien"
 #. type: Plain text
 #: Data-Processing.en.adoc:154
 msgid "Some publishers consider zero and NULL to be equivalent so that empty latitude and longitude fields for a record are given a zero value.  As a result, records end up being plotted along the equator and prime meridian lines."
-msgstr ""
+msgstr "Certains éditeurs considèrent que zéro et NULL sont équivalents ainsi les champs de latitude et de longitude vides pour un enregistrement reçoivent une valeur zéro. En conséquence, les records finissent par être tracés le long de l'équateur et des premières lignes méridiennes."
 
 #. type: Title ====
 #: Data-Processing.en.adoc:155
@@ -564,7 +564,7 @@ msgstr "Ensembles de données grillées"
 #. type: Plain text
 #: Data-Processing.en.adoc:171
 msgid "Gridded datasets are a known problem at GBIF.  Many datasets have equally-spaced points in a regular pattern.  These datasets are usually systematic national surveys or data taken from some atlas (“so-called rasterized collection designs”).  Georeferenced occurrences are snapped to a central point"
-msgstr ""
+msgstr "Les jeux de données en grillagés sont un problème connu sur GBIF. De nombreux jeux de données ont des points espacés de manière égale . Ces jeux de données sont généralement des enquêtes nationales systématiques ou des données obtenues à partir de certains atlas (« schémas de collecte matriciels »). Les occurrences géoréférencées sont positionnées sur un point central"
 
 #. type: Target for macro image
 #: Data-Processing.en.adoc:172
@@ -592,7 +592,7 @@ msgstr "Par défaut, les relevés de présence et d'absence sont affichés lorsq
 #: Data-Processing.en.adoc:185
 #, no-wrap
 msgid "Establishment Means"
-msgstr ""
+msgstr "Types d'implantations"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:191
@@ -674,29 +674,29 @@ msgstr "Doublons"
 #. type: Plain text
 #: Data-Processing.en.adoc:218
 msgid "Duplication of records can occur when several records of the same individal are made.  This can occur from for instance, a researcher depositing several specimens from an individual tree in herbaria around the world who all then publish these data on GBIF, or when an individual has been deposited in a natural history collection and the indidivual was also sampled for its DNA.  In this instance, there will be a record for the specimen in the collections and one for the DNA sequence."
-msgstr ""
+msgstr "La duplication des enregistrements peut se produire lorsque plusieurs enregistrements d'un même individu sont effectués.  Cela peut se produire, par exemple, lorsqu'un chercheur dépose plusieurs spécimens d'un même arbre dans des herbiers du monde entier qui publient ensuite ces données sur le GBIF, ou lorsqu'un individu a été déposé dans une collection d'histoire naturelle et que cet individu a également été échantillonné pour son ADN.  Dans ce cas, il y aura un enregistrement pour le spécimen dans les collections et un autre pour la séquence d'ADN."
 
 #. type: Plain text
 #: Data-Processing.en.adoc:223
 msgid "GBIF has recently introduces a clustering function in its advanced search that allows users to identify clusters of records i.e. records that appear to be derived from the same source.  This allows users to identify potential duplicated data and filter for these out of your download.  Note that if you filter out those records that are in a cluster, you will lose all records found within that cluster and will lose potentially useful data.  The filter may be better used to indicate the extent to which there is duplication in the dataset, or for indepedent donwloads of the clustered and non-clustered datasets for comparison."
-msgstr ""
+msgstr "Le GBIF a récemment introduit une fonction de regroupement dans sa recherche avancée qui permet aux utilisateurs d'identifier des groupes d'enregistrements, c'est-à-dire des enregistrements qui semblent provenir de la même source.  Cela permet aux utilisateurs d'identifier les données potentiellement dupliquées et de les filtrer lors du téléchargement.  Notez que si vous filtrez les enregistrements qui sont dans un groupe, vous perdrez tous les enregistrements trouvés dans ce groupe et vous perdrez des données potentiellement utiles.  Le filtre peut être mieux utilisé pour indiquer l'étendue de la duplication dans l'ensemble de données, ou pour des téléchargements indépendants des ensembles de données groupées et non groupées pour comparaison."
 
 #. type: Title ==
 #: keydocs.en.adoc:1
 #, no-wrap
 msgid "Key documentation"
-msgstr ""
+msgstr "Documents clés"
 
 #. type: Plain text
 #: keydocs.en.adoc:6
 msgid "The following references provide further detail on the topics covered in this course.  All links open in a new window/tab."
-msgstr ""
+msgstr "Les références suivantes fournissent plus de détails sur les sujets abordés dans ce cours. Tous les liens s'ouvrent dans une nouvelle fenêtre/onglet."
 
 #. type: Title ===
 #: keydocs.en.adoc:7
 #, no-wrap
 msgid "API"
-msgstr ""
+msgstr "API"
 
 #. type: Plain text
 #: keydocs.en.adoc:9
@@ -712,7 +712,7 @@ msgstr ""
 #: keydocs.en.adoc:11
 #, no-wrap
 msgid "Cloud Computing"
-msgstr ""
+msgstr "Cloud Computing"
 
 #. type: Plain text
 #: keydocs.en.adoc:13
@@ -728,7 +728,7 @@ msgstr ""
 #: keydocs.en.adoc:15
 #, no-wrap
 msgid "Darwin Core"
-msgstr ""
+msgstr "Darwin Core"
 
 #. type: Plain text
 #: keydocs.en.adoc:18
@@ -754,7 +754,7 @@ msgstr ""
 #: keydocs.en.adoc:22
 #, no-wrap
 msgid "Data publishing"
-msgstr ""
+msgstr "Publication de données"
 
 #. type: Plain text
 #: keydocs.en.adoc:25
@@ -840,12 +840,12 @@ msgstr ""
 #: keydocs.en.adoc:44
 #, no-wrap
 msgid "Data publishing: IPT"
-msgstr ""
+msgstr "Publication de données: IPT"
 
 #. type: Plain text
 #: keydocs.en.adoc:48
 msgid "http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0102623[The GBIF Integrated Publishing Toolkit: Facilitating the Efficient Publishing of Biodiversity Data on the Internet^] + Robertson et al. (2014)"
-msgstr ""
+msgstr "http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0102623[The GBIF Integrated Publishing Toolkit: Facilitating the Efficient Publishing of Biodiversity Data on the Internet^] + Robertson et al. (2014)"
 
 #. type: Plain text
 #: keydocs.en.adoc:49
@@ -860,12 +860,12 @@ msgstr ""
 #. type: Plain text
 #: keydocs.en.adoc:51
 msgid "http://idigbio.adobeconnect.com/p4dfquy4bsf/[IPT Install / Set up webinar^]"
-msgstr ""
+msgstr "http://idigbio.adobeconnect.com/p4dfquy4bsf/[Installation de l'IPT / Configuration du webinaire^]"
 
 #. type: Plain text
 #: keydocs.en.adoc:52
 msgid "https://vimeo.com/116142276[Installing the IPT video^]"
-msgstr ""
+msgstr "https://vimeo.com/116142276[Installation de l' IPT en vidéo^]"
 
 #. type: Plain text
 #: keydocs.en.adoc:53
@@ -907,7 +907,7 @@ msgstr ""
 #: keydocs.en.adoc:62
 #, no-wrap
 msgid "GBIF"
-msgstr ""
+msgstr "GBIF"
 
 #. type: Plain text
 #: keydocs.en.adoc:65
