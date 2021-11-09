@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: data-use\n"
 "POT-Creation-Date: 2021-10-22 12:53+0000\n"
-"PO-Revision-Date: 2021-11-09 13:02\n"
+"PO-Revision-Date: 2021-11-09 14:04\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -495,12 +495,12 @@ msgstr "Localisation - ce filtre vous permet de filtrer les données avec des co
 #. type: Plain text
 #: Data-Processing.en.adoc:133
 msgid "Zero Coordinates- Coordinates are exactly (0,0) or what is sometimes called \"null island\".  Zero-zero coordinate is a very common geospatial issue. GBIF removes (0,0) when hasgeospatialissue is set to FALSE."
-msgstr "Zéro Coordonnées - Les coordonnées sont exactement (0,0) ou ce qui est parfois appelé \"l'île nulle\". La coordonnée zéro est une question géospatiale très courante. Le GBIF supprime (0,0) lorsque 'hasgeospatialissue' est paramétré sur FALSE."
+msgstr "Zéro Coordonnées - Les coordonnées sont exactement (0,0) ou ce qui est parfois appelé \"l'île nulle\". La coordonnée zéro est un problème géospatiale très courant. Le GBIF supprime (0,0) lorsque 'hasgeospatialissue' est paramétré sur FALSE."
 
 #. type: Plain text
 #: Data-Processing.en.adoc:136
 msgid "Country coordinate mis-match - Data publishers will often supply GBIF with a country code (US,TW,SE,JP…).  GBIF uses the two letter ISO 3166-1 alpha-2 coding system - https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2.  When a point does not fall within the country’s polygon or EEZ, but says that it should occur within the country, it gets flagged as having “country coordinate mis-match” and will be removed if data are filtered for locations."
-msgstr "Inadéquation des coordonnées du pays - Les éditeurs de données fourniront souvent au GBIF un code de pays (US,TW,SE,JP…). Le GBIF utilise le système de codage ISO 3166-1 alpha-2 à deux lettres - https://fr.wikipedia.org/wiki/ISO_3166-1_alpha-2. Lorsqu’un point ne fait pas partie du polygone ou de la ZEE, mais qu'il indique se situer dans le pays, il est signalé comme ayant « une incompatibilité des coordonnées du pays» et sera supprimé si les données sont filtrées pour leur localisation."
+msgstr "Inadéquation des coordonnées du pays - Les éditeurs de données fourniront souvent au GBIF un code de pays (US,TW,SE,JP…). Le GBIF utilise le système de codage ISO 3166-1 alpha-2 à deux lettres - https://fr.wikipedia.org/wiki/ISO_3166-1_alpha-2. Lorsqu’un point ne fait pas partie du polygone ou de la ZEE, mais qu'il indique se situer dans le pays, il est signalé comme ayant «country coordinate mis-match» et sera supprimé si les données sont filtrées pour leur localisation."
 
 #. type: Plain text
 #: Data-Processing.en.adoc:137
@@ -1400,246 +1400,246 @@ msgstr "[[DP]]Publication des données"
 #. type: Plain text
 #: glossary.en.adoc:56
 msgid "With regards to GBIF we have a very specific definition of data publishing.  It refers to making biodiversity datasets publicly accessible and discoverable, in a standardized form, via an access point, typically a web address (a URL)."
-msgstr ""
+msgstr "En ce qui concerne le GBIF, nous avons une définition très spécifique de la publication des données. Il s'agit de rendre les jeux de données sur la biodiversité accessibles au public et découvrables, sous une forme normalisée, via un point d'accès, généralement une adresse web (une URL)."
 
 #. type: Labeled list
 #: glossary.en.adoc:57
 #, no-wrap
 msgid "[[resource]]Resource"
-msgstr ""
+msgstr "[[resource]]Ressource"
 
 #. type: Plain text
 #: glossary.en.adoc:58
 msgid "A Resource is the collective term used to refer to a particular dataset and its metadata once it has been uploaded to an IPT instance."
-msgstr ""
+msgstr "Une ressource est le terme utilisé pour désigner un jeu de données particulier et ses métadonnées une fois qu'il a été téléchargé dans une instance IPT."
 
 #. type: Labeled list
 #: glossary.en.adoc:59
 #, no-wrap
 msgid "[[TDWG]]TDWG"
-msgstr ""
+msgstr "[[TDWG]]TDWG"
 
 #. type: Plain text
 #: glossary.en.adoc:60
 msgid "Taxonomic Databases Working Group, now renamed Biodiversity Information Standards."
-msgstr ""
+msgstr "Groupe de travail sur les bases de données taxonomiques, maintenant renommé Standards d'information sur la biodiversité."
 
 #. type: Labeled list
 #: glossary.en.adoc:61
 #, no-wrap
 msgid "[[URN]]URN"
-msgstr ""
+msgstr "[[URN]]URN"
 
 #. type: Plain text
 #: glossary.en.adoc:62
 msgid "Uniform Resource Number"
-msgstr ""
+msgstr "Numéro de Ressource Uniforme"
 
 #. type: Labeled list
 #: glossary.en.adoc:63
 #, no-wrap
 msgid "[[UUID]]UUID"
-msgstr ""
+msgstr "[[UUID]]UUID"
 
 #. type: Plain text
 #: glossary.en.adoc:64
 msgid "Universally Unique Identifier"
-msgstr ""
+msgstr "Identifiant Universel Unique"
 
 #. type: Plain text
 #: glossary.en.adoc:65
 msgid "<<<"
-msgstr ""
+msgstr "<<<"
 
 #. type: Title ==
 #: acknowledgements.en.adoc:3
 #, no-wrap
 msgid "Acknowledgements "
-msgstr ""
+msgstr "Remerciements "
 
 #. type: Title ===
 #: acknowledgements.en.adoc:5
 #, no-wrap
 msgid "Course design and instruction"
-msgstr ""
+msgstr "Conception du cours et instruction"
 
 #. type: Plain text
 #: acknowledgements.en.adoc:9
 msgid "The success of this course depends heavily on the support provided to participants from GBIF's network of capacity enhancement mentors.  Visit the GBIF page on https://www.gbif.org/article/5SExsCfj7UaUkMCsuc6Oec/mentors-and-trainers[capacity enhancement mentoring^] to read more about these individuals and their contributions."
-msgstr ""
+msgstr "Le succès de ce cours dépend fortement du soutien apporté aux participants par le réseau des mentors en renforcement des capacités du GBIF. Visitez la page du GBIF sur https://www.gbif.org/article/5SExsCfj7UaUkMCsuc6Oec/mentors-and-trainers[mentorat pour le renforcement des capacités^] pour en savoir plus sur ces personnes et leurs contributions."
 
 #. type: Plain text
 #: acknowledgements.en.adoc:11
 msgid "The following individuals are recognized for their significant contributions to the course design, materials and instruction:"
-msgstr ""
+msgstr "Les personnes suivantes sont reconnues pour leurs contributions significatives à la conception, au matériel, et à l'enseignement du cours:"
 
 #. type: Plain text
 #: acknowledgements.en.adoc:13
 msgid "Nadine Bowles Newark"
-msgstr ""
+msgstr "Nadine Bowles Newark"
 
 #. type: Plain text
 #: acknowledgements.en.adoc:14
 msgid "Andrea Baquero"
-msgstr ""
+msgstr "Andrea Baquero"
 
 #. type: Plain text
 #: acknowledgements.en.adoc:15
 msgid "Kate Ingenloff"
-msgstr ""
+msgstr "Kate Ingenloff"
 
 #. type: Plain text
 #: acknowledgements.en.adoc:16
 msgid "Hannah Owens"
-msgstr ""
+msgstr "Hannah Owens"
 
 #. type: Plain text
 #: acknowledgements.en.adoc:17
 msgid "Melianie Raymond"
-msgstr ""
+msgstr "Mélianie Raymond"
 
 #. type: Plain text
 #: acknowledgements.en.adoc:18
 msgid "Andrew Rodrigues"
-msgstr ""
+msgstr "Andrew Rodrigues"
 
 #. type: Plain text
 #: acknowledgements.en.adoc:19
 msgid "Laura Anna Russell"
-msgstr ""
+msgstr "Laura Anne Russell"
 
 #. type: Plain text
 #: acknowledgements.en.adoc:20
 msgid "John Tayleur"
-msgstr ""
+msgstr "John Tayleur"
 
 #. type: Plain text
 #: acknowledgements.en.adoc:21
 msgid "John Waller"
-msgstr ""
+msgstr "John Waller"
 
 #. type: Plain text
 #: acknowledgements.en.adoc:23
 msgid "Special acknowledgement ..."
-msgstr ""
+msgstr "Remerciements particuliers ..."
 
 #. type: Title ===
 #: acknowledgements.en.adoc:24
 #, no-wrap
 msgid "Translators"
-msgstr ""
+msgstr "Traducteurs"
 
 #. type: Title ====
 #: acknowledgements.en.adoc:26
 #, no-wrap
 msgid "Spanish"
-msgstr ""
+msgstr "Espagnol"
 
 #. type: Plain text
 #: acknowledgements.en.adoc:28
 msgid "Anabela Plos"
-msgstr ""
+msgstr "Anabela Plos"
 
 #. type: Plain text
 #: acknowledgements.en.adoc:29
 msgid "Paula Zermoglio"
-msgstr ""
+msgstr "Paula Zermoglio"
 
 #. type: Title ====
 #: acknowledgements.en.adoc:30
 #, no-wrap
 msgid "French"
-msgstr ""
+msgstr "Français"
 
 #. type: Plain text
 #: acknowledgements.en.adoc:33
 msgid "Patricia Mergen"
-msgstr ""
+msgstr "Patricia Mergen"
 
 #. type: Plain text
 #: acknowledgements.en.adoc:34
 msgid "Anne Sophie Archambeau"
-msgstr ""
+msgstr "Anne Sophie Archambeau"
 
 #. type: Title ===
 #: acknowledgements.en.adoc:35
 #, no-wrap
 msgid "Resources"
-msgstr ""
+msgstr "Ressources"
 
 #. type: Plain text
 #: acknowledgements.en.adoc:38
 msgid "https://www.r-project.org/[R^]"
-msgstr ""
+msgstr "https://www.r-project.org/[R^]"
 
 #. type: Plain text
 #: acknowledgements.en.adoc:39
 msgid "https://wallaceecomod.github.io/vignettes/wallace_vignette.html[Wallace Ecological Niche Modelling Vignette^]"
-msgstr ""
+msgstr "https://wallaceecomod.github.io/vignettes/wallace_vignette.html[Vignette de modélisation de la niche écologique de Wallace^]"
 
 #. type: Plain text
 #: acknowledgements.en.adoc:40
 msgid "https://www.iucnredlist.org/[IUCN Red List of Threatened Species^]"
-msgstr ""
+msgstr "https://www.iucnredlist.org/[Liste rouge IUCN des espèces menacées^]"
 
 #. type: Title ==
 #: colophon.en.adoc:1
 #, no-wrap
 msgid "Colophon"
-msgstr ""
+msgstr "Colophon"
 
 #. type: Title ===
 #: colophon.en.adoc:3
 #, no-wrap
 msgid "Suggested citation"
-msgstr ""
+msgstr "Suggestion de citation"
 
 #. type: Plain text
 #: colophon.en.adoc:6
 msgid "GBIF Secretariat (2021) GBIF Biodiversity Data Use Course. 6th edition. GBIF Secretariat: Copenhagen. https://doi.org/10.35035/ce-xxxx-xxxx. [Date of course.]"
-msgstr ""
+msgstr "GBIF Secretariat (2021) Cours de mobilisation des données sur la biodiversité du GBIF. 12è édition. Secrétariat du GBIF: Copenhague. https://doi.org/10.35035/ce-xxxx-xxxx. [Date du cours.]"
 
 #. type: Title ===
 #: colophon.en.adoc:7
 #, no-wrap
 msgid "Contributors"
-msgstr ""
+msgstr "Contributeurs"
 
 #. type: Plain text
 #: colophon.en.adoc:10
 msgid "The _GBIF Biodiversity Data Use Course_ was originally developed as part of https://www.gbif.org/bid[Biodiversity Information Development^], a programme funded by the https://europa.eu[European Union^]. The original curriculum was created by Andrew Rodrigues, Hannah Owens and John Tayleur with additional contributions by GBIF trainers, mentors and students."
-msgstr ""
+msgstr "Le _Cours d'utilisation des données de biodiversité du GBIF_ a été développé à l'origine dans le cadre d'https://www.gbif.org/bid[Informations sur la Biodiversité pour le Développement^], un programme financé par l’https://europa.eu[Union européenne^]. Le programme initial a été créé par Andrew Rodrigues, Hannah Owens and John Tayleur, avec des contributions supplémentaires des formateurs, mentors et étudiants du GBIF."
 
 #. type: Title ===
 #: colophon.en.adoc:11
 #, no-wrap
 msgid "Licence"
-msgstr ""
+msgstr "Licence"
 
 #. type: Plain text
 #: colophon.en.adoc:14
 msgid "_Course Name_ is licensed under https://creativecommons.org/licenses/by/4.0[Creative Commons Attribution 4.0 Unported License]."
-msgstr ""
+msgstr "_Nom du Cours_ est sous licence https://creativecommons.org/licenses/by/4.0[Creative Commons Attribution 4.0 non déclarée]."
 
 #. type: Title ===
 #: colophon.en.adoc:15
 #, no-wrap
 msgid "Persistent URI"
-msgstr ""
+msgstr "URI permanent"
 
 #. type: Plain text
 #: colophon.en.adoc:18
 msgid "https://doi.org/10.35035/ce-xxxx-xxxx"
-msgstr ""
+msgstr "https://doi.org/10.35035/ce-xxxx-xxxx"
 
 #. type: Title ===
 #: colophon.en.adoc:19
 #, no-wrap
 msgid "Document control"
-msgstr ""
+msgstr "Contrôle du document"
 
 #. type: Plain text
 #: colophon.en.adoc:21
 msgid "Fifth edition, November 2021"
-msgstr ""
+msgstr "Cinquième édition, novembre 2021"
 
