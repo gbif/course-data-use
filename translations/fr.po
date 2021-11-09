@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: data-use\n"
 "POT-Creation-Date: 2021-10-22 12:53+0000\n"
-"PO-Revision-Date: 2021-11-09 11:37\n"
+"PO-Revision-Date: 2021-11-09 13:02\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -1188,7 +1188,7 @@ msgstr "Espèces sensibles"
 #. type: Plain text
 #: keydocs.en.adoc:154
 msgid "https://doi.org/10.15468/doc-5jp4-5g10[Current Best Practices for Generalizing Sensitive Species Occurrence Data^] + Arthur D. Chapman 2020."
-msgstr ""
+msgstr "https://doi.org/10.15468/doc-5jp4-5g10[Meilleures pratiques actuelles pour la généralisation des données d'occurrence des espèces sensibles^] + Arthur D. Chapman 2020."
 
 #. type: Title ===
 #: keydocs.en.adoc:155
@@ -1199,38 +1199,38 @@ msgstr "Taxonomie"
 #. type: Plain text
 #: keydocs.en.adoc:158
 msgid "https://data-blog.gbif.org/post/gbif-checklist-datasets-and-data-gaps/[GBIF checklist datasets and data gaps^]"
-msgstr ""
+msgstr "https://data-blog.gbif.org/post/gbif-checklist-datasets-and-data-gaps/[listes d'espèces du GBIF et déficits de données^]"
 
 #. type: Plain text
 #: keydocs.en.adoc:159
 msgid "https://www.gbif.org/tools/name-parser[GBIF Labs - Names Parser^]"
-msgstr ""
+msgstr "https://www.gbif.org/tools/name-parser[Laboratoires GBIF - Analyseur de noms^]"
 
 #. type: Plain text
 #: keydocs.en.adoc:160
 msgid "https://www.gbif.org/tools/species-lookup[GBIF Labs - Species Matching^]"
-msgstr ""
+msgstr "https://www.gbif.org/tools/species-lookup[Laboratoires GBIF - Correspondance d'espèces^]"
 
 #. type: Plain text
 #: keydocs.en.adoc:161
 msgid "http://resolver.globalnames.org/[Global Names Resolver^]"
-msgstr ""
+msgstr "http://resolver.globalnames.org/[Résolveur Global des Noms^]"
 
 #. type: Plain text
 #: keydocs.en.adoc:162
 msgid "https://obis.org/manual/namematching/[Marine Name Matching Strategy for taxonomic quality control^]"
-msgstr ""
+msgstr "https://obis.org/manual/namematching/[Stratégie de correspondance de nom d’espèces marines pour le contrôle de qualité taxonomique^]"
 
 #. type: Plain text
 #: keydocs.en.adoc:162
 msgid "http://match.taibif.tw/index.html[Nomenmatch^]"
-msgstr ""
+msgstr "http://match.taibif.tw/index.html[Nomenmatch^]"
 
 #. type: Title ==
 #: glossary.en.adoc:2
 #, no-wrap
 msgid "Glossary"
-msgstr ""
+msgstr "Glossaire"
 
 #. Glossaries are optional. Glossaries entries are an example of a style of AsciiDoc labelled lists.
 #. type: Labeled list
@@ -1242,160 +1242,160 @@ msgstr "[[ALA]]ALA"
 #. type: Plain text
 #: glossary.en.adoc:9
 msgid "Atlas of Living Australia.  The Australian node of GBIF, who developed an open source data portal now widely used within the GBIF community & partners for biodiversity national portals."
-msgstr ""
+msgstr "Atlas of Living Australia. Le nœud australien du GBIF, qui a développé un portail de données open source maintenant largement utilisé au sein de la communauté GBIF et des partenaires pour les portails nationaux sur la biodiversité."
 
 #. type: Labeled list
 #: glossary.en.adoc:10
 #, no-wrap
 msgid "[[API]]API"
-msgstr ""
+msgstr "[[API]]API"
 
 #. type: Plain text
 #: glossary.en.adoc:12
 msgid "Application Programming Interface.  A set of clearly defined methods of communication between various software components."
-msgstr ""
+msgstr "Interface de programmation d'applications. Un ensemble de méthodes de communication clairement définies entre différents composants logiciels."
 
 #. type: Labeled list
 #: glossary.en.adoc:13
 #, no-wrap
 msgid "[[BID]]BID"
-msgstr ""
+msgstr "[[BID]]BID"
 
 #. type: Plain text
 #: glossary.en.adoc:15
 msgid "Biodiversity Information for Development.  An EU funded project co-ordinated by GBIF whose aim is to increase data mobilization capacity in the Africa, Caribbean and Pacific regions."
-msgstr ""
+msgstr "Information sur la biodiversité pour le développement. Un projet financé par l'UE et coordonné par le GBIF, dont le but est d'accroître la capacité de mobilisation des données dans les régions d'Afrique, des Caraïbes et du Pacifique."
 
 #. type: Labeled list
 #: glossary.en.adoc:16
 #, no-wrap
 msgid "[[BIFA]]BIFA"
-msgstr ""
+msgstr "[[BIFA]]BIFA"
 
 #. type: Plain text
 #: glossary.en.adoc:17
 msgid "Biodiversity Fund for Asia."
-msgstr ""
+msgstr "Fonds pour la biodiversité en Asie."
 
 #. type: Labeled list
 #: glossary.en.adoc:18
 #, no-wrap
 msgid "[[CC]]CC Licences"
-msgstr ""
+msgstr "[[CC]]Licences CC"
 
 #. type: Plain text
 #: glossary.en.adoc:21
 msgid "Creative Commons.  These are a series of licenses set up by the Creative Commons organization that enable sharing and reuse of creativity and knowledge through the provision of free legal tools.  Three of them can be assigned to GBIF-shared datasets: CC0, CC BY and CC BY-NC."
-msgstr ""
+msgstr "Creative Commons. Il s'agit d'une série de licences mises en place par l'organisation Creative Commons qui permettent le partage et la réutilisation de la créativité et du savoir par la fourniture d'outils juridiques libres. Trois d'entre eux peuvent être assignés à des jeux de données partagés sur GBIF : CC0, CC BY et CC BY-NC."
 
 #. type: Labeled list
 #: glossary.en.adoc:22
 #, no-wrap
 msgid "[[vocab]]Controlled Vocabulary"
-msgstr ""
+msgstr "[[vocab]]Vocabulaire contrôlé"
 
 #. type: Plain text
 #: glossary.en.adoc:26
 msgid "This is a restricted set of terms that are used as possible values for a given field.  One can think of it as a lookup list or dropdown for a particular field.  For example the DwC field basisOfRecord should only contain one of these values: \"PreservedSpecimen\", \"FossilSpecimen\", \"LivingSpecimen\", \"HumanObservation\", \"MachineObservation\".  We would say that list of values is a controlled vocabulary for that field."
-msgstr ""
+msgstr "Il s'agit d'un ensemble restreint de termes qui sont utilisés comme valeurs possibles pour un champ donné. On peut voir cela comme une liste de recherche ou une liste déroulante pour un champ particulier. Par exemple, le champ DwC basisOfRecord ne devrait contenir qu'une de ces valeurs : \"PreservedSpecimen\", \"FossilSpecimen\", \"LivingSpecimen\", \"HumanObservation\", \"MachineObservation\". Nous dirons que la liste des valeurs est un vocabulaire contrôlé pour ce champ."
 
 #. type: Labeled list
 #: glossary.en.adoc:27
 #, no-wrap
 msgid "[[DwC]]DwC"
-msgstr ""
+msgstr "[[DwC]]DwC"
 
 #. type: Plain text
 #: glossary.en.adoc:29
 msgid "Darwin Core is a biodiversity data standard, maintained by TDWG & widely used within the GBIF community and partners.  It is a set of standardized terms (or field names) and their definitions, which are used to share biodiversity information."
-msgstr ""
+msgstr "Darwin Core est un standard de données sur la biodiversité, maintenu par le TDWG et largement utilisé au sein de la communauté et des partenaires du GBIF. Il s'agit d'un ensemble de termes normalisés (ou noms de champs) et de leurs définitions, qui sont utilisés pour partager des informations sur la biodiversité."
 
 #. type: Labeled list
 #: glossary.en.adoc:30
 #, no-wrap
 msgid "[[DOI]]DOI"
-msgstr ""
+msgstr "[[DOI]]DOI"
 
 #. type: Plain text
 #: glossary.en.adoc:32
 msgid "Digital Object Identifier.  A persistent identifier or handle used to uniquely identify objects. DOIs are in wide use mainly to identify academic, professional, and government information, such as journal articles, research reports and data sets, and official publications."
-msgstr ""
+msgstr "Identificateur d'objet numérique. Un identifiant ou une clef persistante utilisé pour identifier de manière unique les objets. Les DOI sont principalement utilisés pour identifier les informations académiques, professionnelles et gouvernementales, telles que les articles de revues, les rapports de recherche et les ensembles de données, ainsi que les publications officielles."
 
 #. type: Labeled list
 #: glossary.en.adoc:33
 #, no-wrap
 msgid "[[DwC-A]]DwC-A"
-msgstr ""
+msgstr "[[DwC-A]]DwC-A"
 
 #. type: Plain text
 #: glossary.en.adoc:36
 msgid "Darwin Core Archive.  A compressed (zipped) file containing all the information needed to share with GBIF, for a particular resource.  Each zip contains three types of files:"
-msgstr ""
+msgstr "Archive Darwin Core. Un fichier compressé (zippé) contenant toutes les informations nécessaires pour partager sur GBIF, pour une ressource particulière. Chaque zip contient trois types de fichiers:"
 
 #. type: Plain text
 #: glossary.en.adoc:37
 msgid "the actual data, in one or more text files: occurrence.txt/event.txt/measurmentoffact.txt etc"
-msgstr ""
+msgstr "les données elles-mêmes, dans un ou plusieurs fichiers texte: occurrence.txt/event.txt/measurmentoffact.txt etc"
 
 #. type: Plain text
 #: glossary.en.adoc:38
 msgid "a mapping file: rtf.xml"
-msgstr ""
+msgstr "un fichier de mappage: rtf.xml"
 
 #. type: Plain text
 #: glossary.en.adoc:41
 msgid "a metadata (EML) file: eml.xml When you publish using the IPT, it creates a Darwin Core Archive, which is shared with GBIF.  Also, when you download data from the GBIF website you can choose a DwC-A format as well."
-msgstr ""
+msgstr "un fichier de métadonnées (EML) : eml.xml Lorsque vous publiez avec l'IPT, il crée une archive Darwin Core qui est partagée avec GBIF. En outre, lorsque vous téléchargez des données à partir du site Web du GBIF, vous pouvez également choisir un format DwC-A."
 
 #. type: Labeled list
 #: glossary.en.adoc:42
 #, no-wrap
 msgid "[[GUID]]GUID"
-msgstr ""
+msgstr "[[GUID]]GUID"
 
 #. type: Plain text
 #: glossary.en.adoc:43
 msgid "Globally Unique IDentifier"
-msgstr ""
+msgstr "Identificateur Globalement Unique"
 
 #. type: Labeled list
 #: glossary.en.adoc:44
 #, no-wrap
 msgid "[[IPT]]IPT"
-msgstr ""
+msgstr "[[IPT]]IPT"
 
 #. type: Plain text
 #: glossary.en.adoc:48
 msgid "Integrated Publishing Toolkit.  It is a free and open source web application (software) for publishing biodiversity data.  The software itself lives on a server (either at your institution or elsewhere) that must have access to the internet 24/7.  It is used to create and handle Darwin Core Archive files that can be shared and used by anyone including GBIF."
-msgstr ""
+msgstr "Le Kit de Publication Intégré est une application web libre et open source (logiciel) pour la publication des données sur la biodiversité. Le logiciel lui-même est hébergé sur un serveur (que ce soit dans votre institution ou ailleurs) qui doit avoir accès à Internet 24/7. Il est utilisé pour créer et gérer des fichiers d'Archives Darwin Core qui peuvent être partagés et utilisés par toute personne inclus dans le GBIF."
 
 #. type: Labeled list
 #: glossary.en.adoc:49
 #, no-wrap
 msgid "[[loan]]Loan"
-msgstr ""
+msgstr "[[loan]]Prêt"
 
 #. type: Plain text
 #: glossary.en.adoc:50
 msgid "In the context of natural history collections, this is the procedure of lending specimens between institutions."
-msgstr ""
+msgstr "Dans le contexte des collections d'histoire naturelle, il s'agit de la procédure de prêt de spécimens entre institutions."
 
 #. type: Labeled list
 #: glossary.en.adoc:51
 #, no-wrap
 msgid "[[LSID]]LSID"
-msgstr ""
+msgstr "[[LSID]]LSID"
 
 #. type: Plain text
 #: glossary.en.adoc:53
 msgid "Life Sciences Identifier.  They are persistent, globally unique identifiers for biological objects."
-msgstr ""
+msgstr "Identificateur des sciences de la vie. Ils sont des identifiants persistants et uniques au niveau mondial pour les objets biologiques."
 
 #. type: Labeled list
 #: glossary.en.adoc:54
 #, no-wrap
 msgid "[[DP]]Data Publishing"
-msgstr ""
+msgstr "[[DP]]Publication des données"
 
 #. type: Plain text
 #: glossary.en.adoc:56
