@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: data-use\n"
 "POT-Creation-Date: 2021-10-22 12:53+0000\n"
-"PO-Revision-Date: 2021-11-08 18:24\n"
+"PO-Revision-Date: 2021-11-09 08:17\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -581,12 +581,12 @@ msgstr ""
 #: Data-Processing.en.adoc:179
 #, no-wrap
 msgid "Absence records"
-msgstr ""
+msgstr "Relevés d'absence"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:184
 msgid "By default, both presence and absence records are shown when you search www.gbif.org.  Absence records confirm that a species was not found at a specific locality when that area was surveyed and this information can be useful in, for example, developing ecological niche models.  However, you may only be interested in presence records and in this instance you can filter for only presence records using the Occurrence Status filter."
-msgstr ""
+msgstr "Par défaut, les relevés de présence et d'absence sont affichés lorsque vous faites une recherche sur www.gbif.org. Les relevés d'absence confirment qu'une espèce n'a pas été trouvée dans une localité spécifique qui a été échantillonnée et que cette information peut être utile, par exemple, pour le développement de modèles de niche écologique. Cependant, vous pourriez n'être intéressé que par les enregistrements de présence et dans ce but vous pouvez filtrer pour garder seulement les enregistrements de présence en utilisant le filtre statut d'occurrence."
 
 #. type: Title ====
 #: Data-Processing.en.adoc:185
