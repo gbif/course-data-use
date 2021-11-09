@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: data-use\n"
 "POT-Creation-Date: 2021-10-22 12:53+0000\n"
-"PO-Revision-Date: 2021-11-09 08:17\n"
+"PO-Revision-Date: 2021-11-09 09:13\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -380,75 +380,75 @@ msgstr ""
 #: Data-Processing.en.adoc:70
 #, no-wrap
 msgid "Handling Taxonomic Uncertainty"
-msgstr ""
+msgstr "Gérer l'incertitude taxonomique"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:73
 msgid "Uncertainty surrounding the taxonomy of a data point can arise for several reasons:"
-msgstr ""
+msgstr "L'incertitude entourant la taxonomie d'une donnée peut survenir pour plusieurs raisons:"
 
 #. type: Title ===
 #: Data-Processing.en.adoc:75 Data-Processing.en.adoc:78
 #, no-wrap
 msgid "Species mis-identification"
-msgstr ""
+msgstr "Mauvaise identification de l'espèce"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:76
 msgid "Synoynmy"
-msgstr ""
+msgstr "Synonymie"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:77
 msgid "Novel names"
-msgstr ""
+msgstr "Nouveaux noms"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:83
 msgid "Species identification is a complex process, with species typically described from a certain set of characters identified in a published species description and linked to a type specimen held within a scientific collection that be used for validation of species identification.  Where taxa are very similar or a set of complex traits are required for correct identification, specific taxonomic expertise may be required that data publishers may not possess leading to a mis-identification of a species.  As users, you must have a clear understanding of how taxonomic determinations for your interest group are made:"
-msgstr ""
+msgstr "L'identification des espèces est un processus complexe, avec des espèces typiquement décrites à partir d'un certain ensemble de caractères identifiés dans une description publiée et liée à un spécimen-type qui appartient à une collection scientifique et qui sera utilisée pour valider l'identification des espèces. Lorsque les taxons sont très similaires ou qu'un ensemble de traits complexes sont requis pour une identification correcte, une expertise taxonomique spécifique que les éditeurs de données ne possèdent pas peut être requise, menant à une identification erronée d'une espèce. En tant qu'utilisateurs, vous devez avoir une compréhension claire de la façon dont les décisions taxinomiques pour votre groupe d'intérêt sont faites:"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:85
 msgid "What are the characters used for defining the species?"
-msgstr ""
+msgstr "Quels sont les caractères utilisés pour définir les espèces ?"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:86
 msgid "Are these characters easily confused or captured when the species is observed or collected?"
-msgstr ""
+msgstr "Ces caractères sont-ils facilement confondus ou capturés lorsque l'espèce est observée ou collectée?"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:87
 msgid "Are there related species that could be easily confused with the species you are interested in?"
-msgstr ""
+msgstr "Y a-t-il des espèces connexes qui pourraient facilement être confondues avec les espèces qui vous intéressent?"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:90
 msgid "If you think that there is a risk that species may be incorrectly identified, you can take a conservative approach to the data you use and only use those data linked to specimens in collections where taxonomic validation would be possible and eliminate other data sources.  Another approach may be to use associated data such as collector information, media, DNA sequences etc to validate the taxonomic determination."
-msgstr ""
+msgstr "Si vous pensez qu'il y a un risque que l'espèce ne soit pas identifiée de manière correcte, vous pouvez adopter une approche prudente avec les données que vous utilisez, et utiliser uniquement les données liées à des spécimens dans des collections où la validation taxonomique serait possible et en éliminant d'autres sources de données. Une autre approche peut être d'utiliser des données associées telles que des informations sur le collecteur, les médias, les séquences d'ADN, etc. pour valider la détermination taxonomique."
 
 #. type: Title ===
 #: Data-Processing.en.adoc:91
 #, no-wrap
 msgid "Synonymy "
-msgstr ""
+msgstr "Synonymie "
 
 #. type: Plain text
 #: Data-Processing.en.adoc:98
 msgid "Synonymy can arise when the same species has been described several times and a new name is given to the species each time it is described, or, when there is a change in the taxonomy of a species, for example, a species is moved from one genus to another.  Only one species name can be accepted, and other names are what we call synonyms.  These synonyms may still be in use to a lesser or greater extent and you should be sure when getting data from GBIF to obtain data for the taxonomic name you need.  GBIF's taxonomic backbone differentiates between accepted scientific names and synonyms, and unique identifiers in the form of taxon keys.  Species searches https://www.gbif.org/species/search allow for filtering for accepted names and synonyms and taxon keys can be used for programmatic searches of GBIF."
-msgstr ""
+msgstr "La synonymie peut survenir lorsque la même espèce a été décrite plusieurs fois et qu'un nouveau nom est donné à l'espèce chaque fois qu'elle est décrite, ou, lorsqu'il y a un changement dans la taxonomie d'une espèce, par exemple, une espèce est déplacée d'un genre à l'autre. Un seul nom d'espèce peut être accepté, et d'autres noms sont ce que nous appelons des synonymes. Ces synonymes peuvent toujours être utilisés dans une  mesure variable et vous devez être sûr que lorsque vous récoltez des données depuis GBIF d'obtenir des données pour le nom taxonomique dont vous avez besoin. La colonne vertébrale taxonomique du GBIF différencie les noms scientifiques et les synonymes acceptés, et les identifiants uniques sous la forme de clés de taxon. Les recherches sur les espèces https://www.gbif.org/species/search permettent de filtrer les noms acceptés, les synonymes et les clés de taxon qui peuvent être utilisés pour les recherches programmatiques sur GBIF."
 
 #. type: Plain text
 #: Data-Processing.en.adoc:105
 msgid "Taxon Keys Scientific names can be messy.  If you are accessing GBIF-mediated data programatically as opposed to via the website, taxon keys provide an effective way for defining searches based on taxonomy.  Taxon keys are issued at the species, genus family, order, phylum and kingdom level.  Unique identifiers are issued to accepted names with synonyms of those accepted names issued the same identifier.  So, it may make sense to sort out the species by their unique taxon keys provided during the indexation of the dataset by GIBF."
-msgstr ""
+msgstr "Clés de taxons. Les noms scientifiques peuvent être désordonnés.  Si vous accédez aux données du GBIF via un programme plutôt que par le site Web, les clés taxonomiques constituent un moyen efficace de définir des recherches basées sur la taxonomie.  Les clés taxonomiques sont émises au niveau de l'espèce, du genre, de la famille, de l'ordre, du phylum et du royaume.  Des identifiants uniques sont attribués aux noms acceptés et les synonymes de ces noms acceptés reçoivent le même identifiant.  Il peut donc être utile de trier les espèces en fonction de leurs clés taxonomiques uniques fournies lors de l'indexation du jeu de données par le GIBF."
 
 #. type: Title ===
 #: Data-Processing.en.adoc:106
 #, no-wrap
 msgid "New names"
-msgstr ""
+msgstr "Nouveaux noms"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:112
@@ -575,7 +575,7 @@ msgstr "img/web/gridSnap.gif"
 #. type: Plain text
 #: Data-Processing.en.adoc:178
 msgid "Most publishers of gridded datasets actually fill in one of the following columns: coordinateuncertaintyinmeters, coordinateprecision, footprintwkt So filtering by these columns can be a good way to remove gridded datasets.  The R package Coordinate cleaner also has a function for removing gridded datasets.  GBIF has an experimental API for identifying datasets which exhibit a certain about of \"griddyness\". You can read more here: https://data-blog.gbif.org/post/finding-gridded-datasets/"
-msgstr ""
+msgstr "La plupart des éditeurs de jeux de données dérivés de grids remplissent en fait l'une des colonnes suivantes : coordinateuncertaintyinmeters, coordinateprecision, footprintwkt. Ainsi, filtrer ces colonnes peut être une bonne manière de retirer les jeux de données grillagées. Le package R Coordinate cleaner a également une fonction pour supprimer les jeux de données grillagées. Le GBIF a une API expérimentale pour identifier les jeux de données qui exposent un certain niveau de \"grillagement\". Vous pouvez en lire plus ici: https://data-blog.gbif.org/post/finding-gridded-datasets/"
 
 #. type: Title ====
 #: Data-Processing.en.adoc:179
@@ -606,13 +606,13 @@ msgstr ""
 #. type: Plain text
 #: Data-Processing.en.adoc:194
 msgid "Use this filter cautiously, however, as most records do not contain this information and so would be exluded from a search with this filter on.  We would recommend to use the information within the Establishement Means term for filtering after download."
-msgstr ""
+msgstr "Utilisez ce filtre avec prudence, car la plupart des enregistrements ne contiennent pas cette information et seraient donc exclus d'une recherche avec ce filtre. Nous vous recommandons d'utiliser l'information dans Establishment Means pour le filtrage après le téléchargement."
 
 #. type: Title ===
 #: Data-Processing.en.adoc:195
 #, no-wrap
 msgid "Basis of Record "
-msgstr ""
+msgstr "Source de l'enregistrement "
 
 #. type: Plain text
 #: Data-Processing.en.adoc:198
@@ -637,17 +637,17 @@ msgstr ""
 #. type: Plain text
 #: Data-Processing.en.adoc:203
 msgid "Material Citation - A reference to, or citation of, one, a part of, or multiple specimens in scholarly publications, for example, a citation of a physical specimen from a scientifci collection in taxonomic treatment in a scientiufic publication or an occurrence mentioned in a field note book."
-msgstr ""
+msgstr "Material Citation - Une référence à, ou une citation d'une partie, d'un, ou de plusieurs spécimens dans des publications scientifiques, par exemple, une citation d'un spécimen physique dans une collection scientifique, un traitement taxonomique dans une publication scientifique, ou une occurrence mentionnée dans un carnet de terrain."
 
 #. type: Plain text
 #: Data-Processing.en.adoc:204
 msgid "Human Observation - an output of human observation process eg. evidence of an occurrence taken from field notes or literature or a records of an occurence without physical evidence nor evidence captured with a machine."
-msgstr ""
+msgstr "Human Observation - le résultat d'un processus d'observation humaine, par exemple, la preuve d'une occurrence prise à partir de notes de terrain ou de la littérature, ou encore un enregistrement d'une occurrence sans preuve physique ni preuve capturée par une machine."
 
 #. type: Plain text
 #: Data-Processing.en.adoc:205
 msgid "Machine Observation - An output of a machine observation process for example a photograph, a video, an audio recording, a remote sensing image or an occurrence record based on telemetry."
-msgstr ""
+msgstr "Machine Observation - Une sortie d'un processus d'observation de machine, par exemple, une photographie, une vidéo, un enregistrement audio, une image à distance ou un enregistrement d'occurrence basé sur la télémétrie."
 
 #. type: Plain text
 #: Data-Processing.en.adoc:208
@@ -669,7 +669,7 @@ msgstr "Le GBIF possède de nombreux enregistrements de musées qui pourraient �
 #: Data-Processing.en.adoc:213
 #, no-wrap
 msgid "Duplicates"
-msgstr ""
+msgstr "Doublons"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:218
