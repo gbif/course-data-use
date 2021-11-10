@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: data-use\n"
 "POT-Creation-Date: 2021-10-22 12:53+0000\n"
-"PO-Revision-Date: 2021-11-10 15:05\n"
+"PO-Revision-Date: 2021-11-10 16:23\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -118,54 +118,54 @@ msgstr "Audiencia"
 #. type: Plain text
 #: description.en.adoc:34
 msgid "This course is designed for individuals who work as researchers or technicians in biodiversity research or policy institutions.  The instruction provided is particularly useful for those who have a need or desire to use GBIF-mediated data in their own research or analyses."
-msgstr ""
+msgstr "Este curso está diseñado para personas que trabajan como investigadores o técnicos en investigación sobre biodiversidad o instituciones de políticas. La instrucción proporcionada es particularmente útil para aquellos que tienen la necesidad o el deseo de utilizar datos mediados por GBIF en su propia investigación o análisis."
 
 #. type: Title ===
 #: description.en.adoc:35
 #, no-wrap
 msgid "Prerequisites"
-msgstr ""
+msgstr "Prerequisitos"
 
 #. type: Plain text
 #: description.en.adoc:38
 msgid "https://docs.gbif.org/course-introduction-to-gbif/[Introduction to GBIF course]"
-msgstr ""
+msgstr "https://docs.gbif.org/course-introduction-to-gbif/[Introducción al curso GBIF]"
 
 #. type: Plain text
 #: description.en.adoc:40
 msgid "Additionally, to make best use of the activities around this course, the participants should possess the following skills and knowledge:"
-msgstr ""
+msgstr "Además, para hacer un mejor uso de las actividades en torno a este curso, los participantes deben poseer las siguientes habilidades y conocimientos:"
 
 #. type: Plain text
 #: description.en.adoc:42
 msgid "Basic skills in computer and internet use, and, in particular, in the use of spreadsheets."
-msgstr ""
+msgstr "Competencias básicas en el uso de computadoras e Internet y, en particular, en el uso de hojas de cálculo."
 
 #. type: Plain text
 #: description.en.adoc:43
 msgid "Basic understanding of computer-based geographical and statistical analysis tools e.g. GIS and R, and may have already run analyses using these tools."
-msgstr ""
+msgstr "Conocimiento básico de herramientas de análisis geográfico y estadístico basadas en computadoras, por ejemplo SIG y R, y puede haber ejecutado análisis utilizando estas herramientas."
 
 #. type: Plain text
 #: description.en.adoc:44
 msgid "Basic knowledge about geography and biodiversity informatics: geography and mapping concepts, basic taxonomy and nomenclature rules."
-msgstr ""
+msgstr "Conocimiento básico sobre geografía e informática sobre biodiversidad: conceptos de geografía y mapeo, taxonomía básica y reglas de nomenclatura."
 
 #. type: Plain text
 #: description.en.adoc:45
 msgid "Willingness to disseminate the knowledge learned in the workshop with partners and collaborators in your project by adapting the biodiversity data use training materials to specific contexts and languages while maintaining their instructional value."
-msgstr ""
+msgstr "La voluntad de diseminar el conocimiento aprendido en el taller con socios y colaboradores en su proyecto adaptando los datos sobre biodiversidad a contextos específicos e idiomas, manteniendo al mismo tiempo su valor educativo."
 
 #. type: Plain text
 #: description.en.adoc:46
 msgid "A good command of English. While efforts are made to provide materials in other languages, instruction/videos will be in English."
-msgstr ""
+msgstr "Un buen dominio del inglés. Aunque se hace un esfuerzo por proporcionar materiales en otros idiomas, la información/los videos serán en inglés."
 
 #. type: Title ===
 #: description.en.adoc:47
 #, no-wrap
 msgid "Learning objectives"
-msgstr ""
+msgstr "Objetivos de aprendizaje"
 
 #. type: Plain text
 #: description.en.adoc:50
