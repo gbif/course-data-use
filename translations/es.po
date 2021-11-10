@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: data-use\n"
 "POT-Creation-Date: 2021-10-22 12:53+0000\n"
-"PO-Revision-Date: 2021-10-22 20:01\n"
+"PO-Revision-Date: 2021-11-10 15:05\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -30,7 +30,7 @@ msgstr "Secretariado de GBIF <training@gbif.org>"
 #. type: Plain text
 #: index.en.adoc:17
 msgid "languageLinks:combined[]"
-msgstr ""
+msgstr "languageLinks:combined[]"
 
 #. type: Plain text
 #: index.en.adoc:23
@@ -40,7 +40,7 @@ msgstr "Di Marco M, Ferrier S, Harwood TD, Hoskins AJ y Watson JEM (2019) Las á
 #. type: Plain text
 #: index.en.adoc:25
 msgid "image::img/web/Data USe Cover.png[align=center,width=640,height=360]"
-msgstr ""
+msgstr "image::img/web/Data Use Cover.png[align=centro,width=640,height=360]"
 
 #. type: Title ==
 #: description.en.adoc:2
@@ -87,33 +87,33 @@ msgstr "Procesamiento de datos"
 #. type: delimited block *
 #: description.en.adoc:22
 msgid "Processing a GBIF-mediated dataset and making it “fit-for-purpose”"
-msgstr ""
+msgstr "Procesando un conjunto de datos mediados por GBIF y haciéndolo “apto para un propósito”"
 
 #. type: delimited block *
 #: description.en.adoc:24
 msgid "Introduction to running and interpreting a basic ecological model to determine the distribution of a species"
-msgstr ""
+msgstr "Introducción al funcionamiento e interpretación de un modelo ecológico básico para determinar la distribución de una especie"
 
 #. type: delimited block *
 #: description.en.adoc:25
 msgid "Exploring niche modeling under different environmental conditions"
-msgstr ""
+msgstr "Explorando el modelado de nicho bajo diferentes condiciones ambientales"
 
 #. type: delimited block *
 #: description.en.adoc:27
 msgid "Using GBIF-mediated data for creating species distribution maps using IUCN mapping standards"
-msgstr ""
+msgstr "Utilizando datos mediados por GBIF, para crear mapas de distribución de especies utilizando estándares de mapeo de IUCN"
 
 #. type: delimited block *
 #: description.en.adoc:28
 msgid "Using GBIF-mediated data for assessing species conservation status using the IUCN Red List Categories and Criteria"
-msgstr ""
+msgstr "Utilizando datos mediados por GBIF, para evaluar el estado de conservación de especies utilizando las Categorías y Criterios de la Lista Roja de la UICN"
 
 #. type: Title ===
 #: description.en.adoc:31
 #, no-wrap
 msgid "Audience"
-msgstr ""
+msgstr "Audiencia"
 
 #. type: Plain text
 #: description.en.adoc:34
