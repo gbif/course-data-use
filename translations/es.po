@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: data-use\n"
 "POT-Creation-Date: 2021-10-22 12:53+0000\n"
-"PO-Revision-Date: 2021-11-11 14:44\n"
+"PO-Revision-Date: 2021-11-11 15:45\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -210,33 +210,33 @@ msgstr "Identificar áreas de incertidumbre en la proyección"
 #. type: Plain text
 #: description.en.adoc:58
 msgid "Develop a communication strategy and convincing arguments for the integration of biodiversity into decision making processes"
-msgstr ""
+msgstr "Desarrollar una estrategia de comunicación y argumentos convincentes para la integración de la biodiversidad en los procesos de toma de decisiones"
 
 #. type: Plain text
 #: description.en.adoc:59
 msgid "Apply criterion B of the IUCN Categories and Criteria for the assessment of a species conservation status using a fit-for purpose dataset"
-msgstr ""
+msgstr "Aplicar el criterio B de las Categorías y Criterios de la UICN para la evaluación del estado de conservación de una especie utilizando un conjunto de datos adecuado"
 
 #. type: Plain text
 #: description.en.adoc:60
 msgid "Apply IUCN mapping protocols for the production of Red List species distribution maps"
-msgstr ""
+msgstr "Aplicar los protocolos de mapeo de IUCN para la producción de mapas de distribución de especies de la Lista Roja"
 
 #. type: Title ===
 #: description.en.adoc:61
 #, no-wrap
 msgid "Certification"
-msgstr ""
+msgstr "Certificación"
 
 #. type: Plain text
 #: description.en.adoc:62
 msgid "Certificates in the form of digital badges will be issued to participants that successfuly complete a use case assignment.  There are several use cases and you should complete the ones that are of most relevance to your work or that interest you."
-msgstr ""
+msgstr "Se emitirán certificados, en forma de insignias digitales, a los participantes que completen con éxito la asignación de casos de uso. Hay varios casos de uso y usted debe completar los más relevantes para su trabajo o que le interesen."
 
 #. type: Plain text
 #: Data-Processing.en.adoc:5
 msgid "In the data processing module, you will familiarize yourself with the concept of fit-for purpose datasets and some commonly used data filters that you may want to consider for creating your own fit-for-purpose dataset."
-msgstr ""
+msgstr "En el módulo de procesamiento de datos, se familiarizará con el concepto de conjuntos de datos aptos para uso y algunos filtros de datos comúnmente utilizados que puede querer considerar para crear su propio conjunto de datos apto para el uso."
 
 #. type: Title ==
 #: Data-Processing.en.adoc:6
