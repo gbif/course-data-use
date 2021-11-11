@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: data-use\n"
 "POT-Creation-Date: 2021-10-22 12:53+0000\n"
-"PO-Revision-Date: 2021-11-10 16:23\n"
+"PO-Revision-Date: 2021-11-11 14:44\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -170,42 +170,42 @@ msgstr "Objetivos de aprendizaje"
 #. type: Plain text
 #: description.en.adoc:50
 msgid "Access GBIF mediated data through a range of access points"
-msgstr ""
+msgstr "Acceda a los datos mediados por GBIF a través de un rango de puntos de acceso"
 
 #. type: Plain text
 #: description.en.adoc:51
 msgid "Understand common data quality issues in GBIF downloads that may affect data use"
-msgstr ""
+msgstr "Entender problemas comunes de calidad de datos en las descargas de GBIF que pueden afectar al uso de datos"
 
 #. type: Plain text
 #: description.en.adoc:52
 msgid "Apply data processing routines on GBIF downloads to create fit for purpose datasets"
-msgstr ""
+msgstr "Aplicar rutinas de procesamiento de datos en las descargas de GBIF para crear conjuntos de datos adecuados para el uso"
 
 #. type: Plain text
 #: description.en.adoc:53
 msgid "Learn the difference between fundamental and realized niches"
-msgstr ""
+msgstr "Aprende la diferencia entre nichos fundamentales y realizados"
 
 #. type: Plain text
 #: description.en.adoc:54
 msgid "Explain how to delimit a training region"
-msgstr ""
+msgstr "Explica cómo delimitar una región de entrenamiento"
 
 #. type: Plain text
 #: description.en.adoc:55
 msgid "Generate a simple niche model"
-msgstr ""
+msgstr "Generar un modelo de nicho simple"
 
 #. type: Plain text
 #: description.en.adoc:56
 msgid "Explain niche model results"
-msgstr ""
+msgstr "Explicar los resultados del modelo nicho"
 
 #. type: Plain text
 #: description.en.adoc:57
 msgid "Identify areas of uncertainty in projection"
-msgstr ""
+msgstr "Identificar áreas de incertidumbre en la proyección"
 
 #. type: Plain text
 #: description.en.adoc:58
