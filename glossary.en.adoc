@@ -1,5 +1,5 @@
 [glossary]
-== Glossary
+= Glossary
 
 //Glossaries are optional. Glossaries entries are an example of a style of AsciiDoc labelled lists.
 
