@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-11-14 12:09+0000\n"
+"POT-Creation-Date: 2021-11-14 12:11+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -481,7 +481,7 @@ msgstr ""
 msgid "Spreadsheet editing software e.g. Excel, Google Sheets (smaller datasets)"
 msgstr ""
 
-#. type: Title ===
+#. type: Title ==
 #: Data-Processing.en.adoc:67 keydocs.en.adoc:96
 #, no-wrap
 msgid "OpenRefine"
@@ -1025,7 +1025,7 @@ msgid ""
 "this course.  All links open in a new window/tab."
 msgstr ""
 
-#. type: Title ===
+#. type: Title ==
 #: keydocs.en.adoc:7
 #, no-wrap
 msgid "API"
@@ -1045,7 +1045,7 @@ msgid ""
 "want to know about the GBIF Species API^]"
 msgstr ""
 
-#. type: Title ===
+#. type: Title ==
 #: keydocs.en.adoc:11
 #, no-wrap
 msgid "Cloud Computing"
@@ -1065,7 +1065,7 @@ msgid ""
 "tutorial^]"
 msgstr ""
 
-#. type: Title ===
+#. type: Title ==
 #: keydocs.en.adoc:15
 #, no-wrap
 msgid "Darwin Core"
@@ -1093,7 +1093,7 @@ msgid ""
 "registered with GBIF^]"
 msgstr ""
 
-#. type: Title ===
+#. type: Title ==
 #: keydocs.en.adoc:22
 #, no-wrap
 msgid "Data publishing"
@@ -1213,7 +1213,7 @@ msgid ""
 "data papers^]"
 msgstr ""
 
-#. type: Title ===
+#. type: Title ==
 #: keydocs.en.adoc:44
 #, no-wrap
 msgid "Data publishing: IPT"
@@ -1256,7 +1256,7 @@ msgstr ""
 msgid "https://youtu.be/eDH9IoTrMVE[IPT in Practice demonstration video^]"
 msgstr ""
 
-#. type: Title ===
+#. type: Title ==
 #: keydocs.en.adoc:54
 #, no-wrap
 msgid "Digitization"
@@ -1297,7 +1297,7 @@ msgid ""
 "10-step guide to managing images with your biodiversity data^]"
 msgstr ""
 
-#. type: Title ===
+#. type: Title ==
 #: keydocs.en.adoc:62
 #, no-wrap
 msgid "GBIF"
@@ -1331,7 +1331,7 @@ msgid ""
 "(2019)."
 msgstr ""
 
-#. type: Title ===
+#. type: Title ==
 #: keydocs.en.adoc:71
 #, no-wrap
 msgid "Georeferencing"
@@ -1364,7 +1364,7 @@ msgstr ""
 msgid "http://georeferencing.org/[Georeferencing resources^]"
 msgstr ""
 
-#. type: Title ===
+#. type: Title ==
 #: keydocs.en.adoc:81
 #, no-wrap
 msgid "Invasive Species"
@@ -1382,7 +1382,7 @@ msgstr ""
 msgid "https://osf.io/7dpgr/[TrIAS - Tracking Invasive Alien Species^]"
 msgstr ""
 
-#. type: Title ===
+#. type: Title ==
 #: keydocs.en.adoc:86
 #, no-wrap
 msgid "Living Atlases"
@@ -1398,7 +1398,7 @@ msgstr ""
 msgid "http://www.gbif.org/resource/82847[ALA key technical documentation^]"
 msgstr ""
 
-#. type: Title ===
+#. type: Title ==
 #: keydocs.en.adoc:91
 #, no-wrap
 msgid "Miscellaneous"
@@ -1491,7 +1491,7 @@ msgid ""
 "code. Olly Griffin July 2019."
 msgstr ""
 
-#. type: Title ===
+#. type: Title ==
 #: keydocs.en.adoc:118
 #, no-wrap
 msgid "Planning/Collaboration"
@@ -1527,7 +1527,7 @@ msgstr ""
 msgid "https://github.com/[GitHub^]"
 msgstr ""
 
-#. type: Title ===
+#. type: Title ==
 #: keydocs.en.adoc:127
 #, no-wrap
 msgid "Quality"
@@ -1569,7 +1569,7 @@ msgid ""
 "for Recording Localities in Field Notes^]"
 msgstr ""
 
-#. type: Title ===
+#. type: Title ==
 #: keydocs.en.adoc:138
 #, no-wrap
 msgid "R "
@@ -1634,7 +1634,7 @@ msgstr ""
 msgid "https://data-blog.gbif.org/post/not-a-bird/[Not a bird download^]"
 msgstr ""
 
-#. type: Title ===
+#. type: Title ==
 #: keydocs.en.adoc:150
 #, no-wrap
 msgid "Sensitive species"
@@ -1647,7 +1647,7 @@ msgid ""
 "Generalizing Sensitive Species Occurrence Data^] + Arthur D. Chapman 2020."
 msgstr ""
 
-#. type: Title ===
+#. type: Title ==
 #: keydocs.en.adoc:155
 #, no-wrap
 msgid "Taxonomy"
