@@ -1,4 +1,4 @@
-== Key documentation
+= Key documentation
 
 [NOTE.objectives]
 The following references provide further detail on the topics covered in this course. 
