@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-11-14 12:00+0000\n"
+"POT-Creation-Date: 2021-11-14 12:05+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1012,7 +1012,7 @@ msgid ""
 "datasets for comparison."
 msgstr ""
 
-#. type: Title ==
+#. type: Title =
 #: keydocs.en.adoc:1
 #, no-wrap
 msgid "Key documentation"
@@ -1687,7 +1687,7 @@ msgstr ""
 msgid "http://match.taibif.tw/index.html[Nomenmatch^]"
 msgstr ""
 
-#. type: Title ==
+#. type: Title =
 #: glossary.en.adoc:2
 #, no-wrap
 msgid "Glossary"
