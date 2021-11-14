@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-10-22 12:53+0000\n"
+"POT-Creation-Date: 2021-11-14 12:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -412,19 +412,31 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: Data-Processing.en.adoc:47
+#: Data-Processing.en.adoc:45
 #, no-wrap
 msgid ""
 "*Excluded means the original data couldn’t be interpreted, so is excluded in "
 "the interpreted fields.\n"
+msgstr ""
+
+#. type: Plain text
+#: Data-Processing.en.adoc:47
+#, no-wrap
+msgid ""
 "*Altered means the original data is modified in the interpretation process "
 "to be indexed in GBIF.org.\n"
+msgstr ""
+
+#. type: Plain text
+#: Data-Processing.en.adoc:49
+#, no-wrap
+msgid ""
 "*Inferred means the Using other record information the data indexed is "
 "inferred, if the original is empty.\n"
 msgstr ""
 
 #. type: Plain text
-#: Data-Processing.en.adoc:52
+#: Data-Processing.en.adoc:55
 msgid ""
 "Excluding all records with a particular issue is not currently possible with "
 "the search interface.  It is possible to filter all records you are not "
@@ -435,26 +447,26 @@ msgid ""
 msgstr ""
 
 #. type: Target for macro image
-#: Data-Processing.en.adoc:53
+#: Data-Processing.en.adoc:56
 #, no-wrap
 msgid "img/web/filtering.png"
 msgstr ""
 
 #. type: Plain text
-#: Data-Processing.en.adoc:56
+#: Data-Processing.en.adoc:59
 msgid ""
 "A full overview of all issues and flags can be here: "
 "https://data-blog.gbif.org/post/issues-and-flags/"
 msgstr ""
 
 #. type: Title ===
-#: Data-Processing.en.adoc:57
+#: Data-Processing.en.adoc:60
 #, no-wrap
 msgid "Data Processing Tools"
 msgstr ""
 
 #. type: Plain text
-#: Data-Processing.en.adoc:61
+#: Data-Processing.en.adoc:64
 msgid ""
 "While GBIF filters will allow for some data processing i.e. select only "
 "those data for download that fulfil certain criteria, it is highly "
@@ -465,30 +477,30 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: Data-Processing.en.adoc:63
+#: Data-Processing.en.adoc:66
 msgid "Spreadsheet editing software e.g. Excel, Google Sheets (smaller datasets)"
 msgstr ""
 
 #. type: Title ===
-#: Data-Processing.en.adoc:64 keydocs.en.adoc:96
+#: Data-Processing.en.adoc:67 keydocs.en.adoc:96
 #, no-wrap
 msgid "OpenRefine"
 msgstr ""
 
 #. type: Plain text
-#: Data-Processing.en.adoc:65
+#: Data-Processing.en.adoc:68
 msgid ""
 "R packages and scripts eg rgbif, CoordinateCleaner, scrubr and biogeo "
 "(automated data processing)"
 msgstr ""
 
 #. type: Plain text
-#: Data-Processing.en.adoc:66
+#: Data-Processing.en.adoc:69
 msgid "Geographical Information Systems (GIS) e.g. ArcGIS, QGIS and MapInfo"
 msgstr ""
 
 #. type: Plain text
-#: Data-Processing.en.adoc:69
+#: Data-Processing.en.adoc:72
 msgid ""
 "It is always important to include a data visualisation step in your data "
 "processing so that you can identify anomalous data points that may have been "
@@ -499,36 +511,36 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: Data-Processing.en.adoc:70
+#: Data-Processing.en.adoc:73
 #, no-wrap
 msgid "Handling Taxonomic Uncertainty"
 msgstr ""
 
 #. type: Plain text
-#: Data-Processing.en.adoc:73
+#: Data-Processing.en.adoc:76
 msgid ""
 "Uncertainty surrounding the taxonomy of a data point can arise for several "
 "reasons:"
 msgstr ""
 
 #. type: Title ===
-#: Data-Processing.en.adoc:75 Data-Processing.en.adoc:78
+#: Data-Processing.en.adoc:78 Data-Processing.en.adoc:81
 #, no-wrap
 msgid "Species mis-identification"
 msgstr ""
 
 #. type: Plain text
-#: Data-Processing.en.adoc:76
+#: Data-Processing.en.adoc:79
 msgid "Synoynmy"
 msgstr ""
 
 #. type: Plain text
-#: Data-Processing.en.adoc:77
+#: Data-Processing.en.adoc:80
 msgid "Novel names"
 msgstr ""
 
 #. type: Plain text
-#: Data-Processing.en.adoc:83
+#: Data-Processing.en.adoc:86
 msgid ""
 "Species identification is a complex process, with species typically "
 "described from a certain set of characters identified in a published species "
@@ -542,26 +554,26 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: Data-Processing.en.adoc:85
+#: Data-Processing.en.adoc:88
 msgid "What are the characters used for defining the species?"
 msgstr ""
 
 #. type: Plain text
-#: Data-Processing.en.adoc:86
+#: Data-Processing.en.adoc:89
 msgid ""
 "Are these characters easily confused or captured when the species is "
 "observed or collected?"
 msgstr ""
 
 #. type: Plain text
-#: Data-Processing.en.adoc:87
+#: Data-Processing.en.adoc:90
 msgid ""
 "Are there related species that could be easily confused with the species you "
 "are interested in?"
 msgstr ""
 
 #. type: Plain text
-#: Data-Processing.en.adoc:90
+#: Data-Processing.en.adoc:93
 msgid ""
 "If you think that there is a risk that species may be incorrectly "
 "identified, you can take a conservative approach to the data you use and "
@@ -572,13 +584,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ===
-#: Data-Processing.en.adoc:91
+#: Data-Processing.en.adoc:94
 #, no-wrap
 msgid "Synonymy "
 msgstr ""
 
 #. type: Plain text
-#: Data-Processing.en.adoc:98
+#: Data-Processing.en.adoc:101
 msgid ""
 "Synonymy can arise when the same species has been described several times "
 "and a new name is given to the species each time it is described, or, when "
@@ -594,7 +606,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: Data-Processing.en.adoc:105
+#: Data-Processing.en.adoc:108
 msgid ""
 "Taxon Keys Scientific names can be messy.  If you are accessing "
 "GBIF-mediated data programatically as opposed to via the website, taxon keys "
@@ -607,13 +619,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ===
-#: Data-Processing.en.adoc:106
+#: Data-Processing.en.adoc:109
 #, no-wrap
 msgid "New names"
 msgstr ""
 
 #. type: Plain text
-#: Data-Processing.en.adoc:112
+#: Data-Processing.en.adoc:115
 msgid ""
 "There may be instances where the scientific name does not match any name in "
 "the GBIF backbone, perhaps because the species is newly described, or is not "
@@ -628,13 +640,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: Data-Processing.en.adoc:113
+#: Data-Processing.en.adoc:116
 #, no-wrap
 msgid "Handling Data Quality"
 msgstr ""
 
 #. type: Plain text
-#: Data-Processing.en.adoc:119
+#: Data-Processing.en.adoc:122
 msgid ""
 "Filtering the data allows you as a user to obtain the data that is most fit "
 "for purpose.  All searches have a set of filters that can be used for "
@@ -649,27 +661,27 @@ msgid ""
 msgstr ""
 
 #. type: Title ===
-#: Data-Processing.en.adoc:120
+#: Data-Processing.en.adoc:123
 #, no-wrap
 msgid "Geospatial Filters & Issues"
 msgstr ""
 
 #. type: Plain text
-#: Data-Processing.en.adoc:123
+#: Data-Processing.en.adoc:126
 msgid ""
 "The data can be filtered spatially in an occurrrence search in one of 3 "
 "ways:"
 msgstr ""
 
 #. type: Plain text
-#: Data-Processing.en.adoc:125
+#: Data-Processing.en.adoc:128
 msgid ""
 "Country or area/Continent - data is filtered by country and will include "
 "data within the Exclusive Economic Zone (EEZ)"
 msgstr ""
 
 #. type: Plain text
-#: Data-Processing.en.adoc:127
+#: Data-Processing.en.adoc:130
 msgid ""
 "Administrative area - this filter uses the GADM database "
 "https://gadm.org/data.html of administrative areas for all countries in the "
@@ -678,7 +690,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: Data-Processing.en.adoc:130
+#: Data-Processing.en.adoc:133
 msgid ""
 "Location - this filter allows you to filter for data with coordinates and/or "
 "draw your own polygon shape filters or use a GeoJSON file to delimit your "
@@ -688,7 +700,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: Data-Processing.en.adoc:133
+#: Data-Processing.en.adoc:136
 msgid ""
 "Zero Coordinates- Coordinates are exactly (0,0) or what is sometimes called "
 "\"null island\".  Zero-zero coordinate is a very common geospatial "
@@ -696,7 +708,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: Data-Processing.en.adoc:136
+#: Data-Processing.en.adoc:139
 msgid ""
 "Country coordinate mis-match - Data publishers will often supply GBIF with a "
 "country code (US,TW,SE,JP…).  GBIF uses the two letter ISO 3166-1 alpha-2 "
@@ -708,27 +720,27 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: Data-Processing.en.adoc:137
+#: Data-Processing.en.adoc:140
 msgid ""
 "Coordinate invalid - If GBIF is unable to interpret the coordinates i.e. the "
 "coordinates."
 msgstr ""
 
 #. type: Plain text
-#: Data-Processing.en.adoc:138
+#: Data-Processing.en.adoc:141
 msgid ""
 "Coordinate invalid - The coordinates are outside of the range for decimal "
 "lat/lon values ((-90,90), (-180,180))."
 msgstr ""
 
 #. type: Title ====
-#: Data-Processing.en.adoc:139
+#: Data-Processing.en.adoc:142
 #, no-wrap
 msgid "Country centroids"
 msgstr ""
 
 #. type: Plain text
-#: Data-Processing.en.adoc:147
+#: Data-Processing.en.adoc:150
 msgid ""
 "Country centroids are where the observation is pinned to the centre of the "
 "country instead of where the taxon was observed or recorded.  Country "
@@ -745,7 +757,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: Data-Processing.en.adoc:149
+#: Data-Processing.en.adoc:152
 msgid ""
 "Identifying country centroid data is currently not possible using GBIF "
 "filters, however, the R package CoordinateCleaner can be used for "
@@ -753,13 +765,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ====
-#: Data-Processing.en.adoc:150
+#: Data-Processing.en.adoc:153
 #, no-wrap
 msgid "Points along the equator or prime meridian"
 msgstr ""
 
 #. type: Plain text
-#: Data-Processing.en.adoc:154
+#: Data-Processing.en.adoc:157
 msgid ""
 "Some publishers consider zero and NULL to be equivalent so that empty "
 "latitude and longitude fields for a record are given a zero value.  As a "
@@ -768,13 +780,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ====
-#: Data-Processing.en.adoc:155
+#: Data-Processing.en.adoc:158
 #, no-wrap
 msgid "Uncertain location "
 msgstr ""
 
 #. type: Plain text
-#: Data-Processing.en.adoc:160
+#: Data-Processing.en.adoc:163
 msgid ""
 "Often you will want to be sure that the coordinates give a certain location "
 "and are not really 1000s of km away from where the organism was observed or "
@@ -787,7 +799,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: Data-Processing.en.adoc:165
+#: Data-Processing.en.adoc:168
 msgid ""
 "There are also a few “fake” values for coordinate uncertainty that you "
 "should be aware of.  These values are errors produced by geocoding software "
@@ -797,13 +809,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ===
-#: Data-Processing.en.adoc:166
+#: Data-Processing.en.adoc:169
 #, no-wrap
 msgid "Gridded datasets"
 msgstr ""
 
 #. type: Plain text
-#: Data-Processing.en.adoc:171
+#: Data-Processing.en.adoc:174
 msgid ""
 "Gridded datasets are a known problem at GBIF.  Many datasets have "
 "equally-spaced points in a regular pattern.  These datasets are usually "
@@ -813,13 +825,13 @@ msgid ""
 msgstr ""
 
 #. type: Target for macro image
-#: Data-Processing.en.adoc:172
+#: Data-Processing.en.adoc:175
 #, no-wrap
 msgid "img/web/gridSnap.gif"
 msgstr ""
 
 #. type: Plain text
-#: Data-Processing.en.adoc:178
+#: Data-Processing.en.adoc:181
 msgid ""
 "Most publishers of gridded datasets actually fill in one of the following "
 "columns: coordinateuncertaintyinmeters, coordinateprecision, footprintwkt So "
@@ -831,13 +843,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ====
-#: Data-Processing.en.adoc:179
+#: Data-Processing.en.adoc:182
 #, no-wrap
 msgid "Absence records"
 msgstr ""
 
 #. type: Plain text
-#: Data-Processing.en.adoc:184
+#: Data-Processing.en.adoc:187
 msgid ""
 "By default, both presence and absence records are shown when you search "
 "www.gbif.org.  Absence records confirm that a species was not found at a "
@@ -848,13 +860,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ====
-#: Data-Processing.en.adoc:185
+#: Data-Processing.en.adoc:188
 #, no-wrap
 msgid "Establishment Means"
 msgstr ""
 
 #. type: Plain text
-#: Data-Processing.en.adoc:191
+#: Data-Processing.en.adoc:194
 #, no-wrap
 msgid ""
 "The Darwin Core term establishmentMeans identifies the process by which the "
@@ -872,7 +884,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: Data-Processing.en.adoc:194
+#: Data-Processing.en.adoc:197
 msgid ""
 "Use this filter cautiously, however, as most records do not contain this "
 "information and so would be exluded from a search with this filter on.  We "
@@ -881,34 +893,34 @@ msgid ""
 msgstr ""
 
 #. type: Title ===
-#: Data-Processing.en.adoc:195
+#: Data-Processing.en.adoc:198
 #, no-wrap
 msgid "Basis of Record "
 msgstr ""
 
 #. type: Plain text
-#: Data-Processing.en.adoc:198
+#: Data-Processing.en.adoc:201
 msgid ""
 "Basis of record is a Darwin Core term that refers to the specific nature of "
 "the record and can refer to one of 6 classes:"
 msgstr ""
 
 #. type: Plain text
-#: Data-Processing.en.adoc:200
+#: Data-Processing.en.adoc:203
 msgid ""
 "Living Specimen - a specimen that is alive, for example, a living plant in a "
 "botanical garden or a living animal in a zoo."
 msgstr ""
 
 #. type: Plain text
-#: Data-Processing.en.adoc:201
+#: Data-Processing.en.adoc:204
 msgid ""
 "Preserved Specimen - a speciment that has been preserved, for example, a "
 "plant on an herbarium shett or a cataloged lot of fish in a jar."
 msgstr ""
 
 #. type: Plain text
-#: Data-Processing.en.adoc:202
+#: Data-Processing.en.adoc:205
 msgid ""
 "Fossil Specimen - a preserved specimen that is a fossil, for example, a body "
 "fossil, a coprolite, a gastrolith, an ichnofossil or a piece of petrified "
@@ -916,7 +928,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: Data-Processing.en.adoc:203
+#: Data-Processing.en.adoc:206
 msgid ""
 "Material Citation - A reference to, or citation of, one, a part of, or "
 "multiple specimens in scholarly publications, for example, a citation of a "
@@ -925,7 +937,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: Data-Processing.en.adoc:204
+#: Data-Processing.en.adoc:207
 msgid ""
 "Human Observation - an output of human observation process eg. evidence of "
 "an occurrence taken from field notes or literature or a records of an "
@@ -933,7 +945,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: Data-Processing.en.adoc:205
+#: Data-Processing.en.adoc:208
 msgid ""
 "Machine Observation - An output of a machine observation process for example "
 "a photograph, a video, an audio recording, a remote sensing image or an "
@@ -941,7 +953,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: Data-Processing.en.adoc:208
+#: Data-Processing.en.adoc:211
 msgid ""
 "Basis or record should allow users to filter out those indidivuals in "
 "ex-situ collections such as zoos and botanic gardens or fossils as well as "
@@ -956,26 +968,26 @@ msgid ""
 msgstr ""
 
 #. type: Title ===
-#: Data-Processing.en.adoc:209
+#: Data-Processing.en.adoc:212
 #, no-wrap
 msgid "Old Records"
 msgstr ""
 
 #. type: Plain text
-#: Data-Processing.en.adoc:212
+#: Data-Processing.en.adoc:215
 msgid ""
 "GBIF has many museum records that might be older than what is desired for "
 "some studies."
 msgstr ""
 
 #. type: Title ===
-#: Data-Processing.en.adoc:213
+#: Data-Processing.en.adoc:216
 #, no-wrap
 msgid "Duplicates"
 msgstr ""
 
 #. type: Plain text
-#: Data-Processing.en.adoc:218
+#: Data-Processing.en.adoc:221
 msgid ""
 "Duplication of records can occur when several records of the same individal "
 "are made.  This can occur from for instance, a researcher depositing several "
@@ -987,7 +999,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: Data-Processing.en.adoc:223
+#: Data-Processing.en.adoc:226
 msgid ""
 "GBIF has recently introduces a clustering function in its advanced search "
 "that allows users to identify clusters of records i.e. records that appear "
