@@ -42,8 +42,11 @@ image::img/web/workflow2.png[align=center,width=640,height=360]
 Remarks are shown on the individual occurrence pages to explain the process done after interpretation:
 
 *Excluded means the original data couldn’t be interpreted, so is excluded in the interpreted fields.
+
 *Altered means the original data is modified in the interpretation process to be indexed in GBIF.org.
+
 *Inferred means the Using other record information the data indexed is inferred, if the original is empty.
+
 
 Excluding all records with a particular issue is not currently possible with the search interface. 
 It is possible to filter all records you are not interested in with issues by selecting the particular issue and hitting the reverse button. 
