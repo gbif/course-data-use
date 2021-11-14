@@ -4,22 +4,22 @@
 The following references provide further detail on the topics covered in this course. 
 All links open in a new window/tab.
 
-=== API
+== API
 * https://data-blog.gbif.org/post/gbif-api-beginners-guide/[GBIF API beginners guide^]
 * https://data-blog.gbif.org/post/gbif-species-api/[(Almost) everything you want to know about the GBIF Species API^]
 
-=== Cloud Computing
+== Cloud Computing
 * https://data-blog.gbif.org/post/microsoft-azure-and-gbif/[GBIF and Apache-Spark on Microsoft Azure tutorial^]
 * https://data-blog.gbif.org/post/aws-and-gbif/[GBIF and Apache-Spark on AWS tutorial^]
 
-=== Darwin Core
+== Darwin Core
 
 * https://dwc.tdwg.org/terms/[Darwin Core Terms: A quick reference guide^]
 * https://dwc.tdwg.org/simple/[Simple DarwinCore^]
 * https://github.com/tdwg/dwc-qa[Darwin Core Questions & Answers^]
 * https://tools.gbif.org/dwca-validator/extensions.do[Darwin Core extensions registered with GBIF^]
 
-=== Data publishing
+== Data publishing
 
 * https://www.gbif.org/publishing-data[Quick guide to publishing data through GBIF^]
 * https://github.com/gbif/ipt/wiki/howToPublish[How to publish biodiversity data through GBIF.org^]
@@ -41,7 +41,7 @@ Anders F. Andersson, Andrew Bissett, Anders G. Finstad, Frode Fossøy, Marie Gro
 * https://www.gbif.org/data-papers[Data papers^]
 * https://www.gbif.org/resource/search?contentType=literature&topics=DATA_PAPER&relevance=GBIF_PUBLISHED[Published data papers^]
 
-=== Data publishing: IPT
+== Data publishing: IPT
 
 * http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0102623[The GBIF Integrated Publishing Toolkit: Facilitating the Efficient Publishing of Biodiversity Data on the Internet^] +
 Robertson et al. (2014)
@@ -51,7 +51,7 @@ Robertson et al. (2014)
 * https://vimeo.com/116142276[Installing the IPT video^]
 * https://youtu.be/eDH9IoTrMVE[IPT in Practice demonstration video^]
 
-=== Digitization
+== Digitization
 
 * https://www.idigbio.org/wiki/index.php/Digitization_Resources[iDigBio Digitization Resources^]
 * https://www.idigbio.org/wiki/index.php/Collections_Digitization_Workflows[iDigBio Collections Digitization Workflows^]
@@ -59,7 +59,7 @@ Robertson et al. (2014)
 * https://www.idigbio.org/wiki/index.php/Specimen_Image_Capture[iDigBio specimen image capture guide^]
 * http://www.canadensys.net/publication/multimedia-publication-guide[Canadensys 10-step guide to managing images with your biodiversity data^]
 
-=== GBIF
+== GBIF
 
 * https://www.gbif.org/what-is-gbif[What is GBIF^]
 * https://www.gbif.org/strategic-plan[Strategic Plan^]
@@ -68,7 +68,7 @@ Robertson et al. (2014)
 * https://doi.org/10.15468/doc-z79c-sa53[Establishing an Effective GBIF Participant Node: Concepts and general considerations^] +
 GBIF Secretariat (2019).
 
-=== Georeferencing
+== Georeferencing
 
 * https://doi.org/10.15468/doc-gg7h-s853[Georeferencing Best Practices^] +
 Arthur D. Chapman & John R. Wieczorek (2020).
@@ -78,22 +78,22 @@ Paula F. Zermoglio, Arthur D. Chapman, John R. Wieczorek, Maria Celeste Luna & D
 David A. Bloom, John R. Wieczorek & Paula F. Zermoglio (2020).
 * http://georeferencing.org/[Georeferencing resources^]
 
-=== Invasive Species
+== Invasive Species
 
 * http://www.griis.org/about.php[GRISS - Global Register of Introduced and Invasive Species^]
 * https://osf.io/7dpgr/[TrIAS - Tracking Invasive Alien Species^]
 
-=== Living Atlases
+== Living Atlases
 
 * https://living-atlases.gbif.org/[Living Atlases^]
 * http://www.gbif.org/resource/82847[ALA key technical documentation^]
 
-=== Miscellaneous
+== Miscellaneous
 
 * http://vertnet.org/resources/downloadsinexcelguide.html[VertNet Guide to opening text files in Excel^]
 * http://vertnet.org/resources/datalicensingguide.html[VertNet data licensing guide^]
 
-=== OpenRefine
+== OpenRefine
 
 * https://github.com/OpenRefine/OpenRefine/wiki[OpenRefine documentation^]
 * https://github.com/OpenRefine/OpenRefine/wiki/Understanding-Regular-Expressions[OpenRefine regular expressions^]
@@ -115,7 +115,7 @@ Desmet and Brosens 2016 TDWG.
 * https://git-og.github.io/EasyOpenRedList/[EasyOpen Redlist^] +
 Querying the IUCN Red List, using a species list, OpenRefine, and some pre-written code. Olly Griffin July 2019.
 
-=== Planning/Collaboration
+== Planning/Collaboration
 
 * http://www.agilenutshell.com/[Agile^]
 * https://www.scrum.org/resources/what-is-scrum[What is SCRUM^]
@@ -124,7 +124,7 @@ Querying the IUCN Red List, using a species list, OpenRefine, and some pre-writt
 * https://scrumguide.com/[Scrum Guide^]
 * https://github.com/[GitHub^]
 
-=== Quality
+== Quality
 
 * https://www.gbif.org/document/80509/principles-of-data-quality[Principles of Data Quality^] +
 Arthur Chapman 2005.
@@ -135,7 +135,7 @@ DataOne 2014.
 * https://www.w3.org/International/questions/qa-what-is-encoding[Character encoding for beginners^]
 * http://mvz.berkeley.edu/Locality_Field_Recording_Notebooks.html[MVZ Guide for Recording Localities in Field Notes^]
 
-=== R 
+== R 
 
 * https://cran.r-project.org/doc/manuals/r-release/R-intro.pdf[Introduction to R Manual^]
 * https://cran.r-project.org/web/packages/rgbif/rgbif.pdf[rgbif Manual^]
@@ -147,12 +147,12 @@ DataOne 2014.
 * https://data-blog.gbif.org/post/shapefiles/[Using shapefiles on GBIF data with R^]
 * https://data-blog.gbif.org/post/not-a-bird/[Not a bird download^]
 
-=== Sensitive species
+== Sensitive species
 
 * https://doi.org/10.15468/doc-5jp4-5g10[Current Best Practices for Generalizing Sensitive Species Occurrence Data^] +
 Arthur D. Chapman 2020.
 
-=== Taxonomy
+== Taxonomy
 
 * https://data-blog.gbif.org/post/gbif-checklist-datasets-and-data-gaps/[GBIF checklist datasets and data gaps^]
 * https://www.gbif.org/tools/name-parser[GBIF Labs - Names Parser^]
