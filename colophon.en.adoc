@@ -2,7 +2,7 @@
 
 === Suggested citation
 
-GBIF Secretariat (2021) GBIF Biodiversity Data Use Course. 6th edition. GBIF Secretariat: Copenhagen. https://doi.org/10.35035/ce-xxxx-xxxx. [Date of course.]
+GBIF Secretariat (2021) GBIF Biodiversity Data Use Course. 6th edition. GBIF Secretariat: Copenhagen. https://doi.org/10.15468/ce-wkk4-2w26. [Date of course.]
 
 === Contributors
 
@@ -14,7 +14,7 @@ _Course Name_ is licensed under https://creativecommons.org/licenses/by/4.0[Crea
 
 === Persistent URI
 
-https://doi.org/10.35035/ce-xxxx-xxxx
+https://doi.org/10.15468/ce-wkk4-2w26
 
 === Document control
 
