@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: data-use\n"
-"POT-Creation-Date: 2021-11-14 12:13+0000\n"
-"PO-Revision-Date: 2021-11-14 12:20\n"
+"POT-Creation-Date: 2021-11-23 10:18+0000\n"
+"PO-Revision-Date: 2021-11-23 10:24\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -1601,7 +1601,7 @@ msgstr ""
 
 #. type: Plain text
 #: colophon.en.adoc:6
-msgid "GBIF Secretariat (2021) GBIF Biodiversity Data Use Course. 6th edition. GBIF Secretariat: Copenhagen. https://doi.org/10.35035/ce-xxxx-xxxx. [Date of course.]"
+msgid "GBIF Secretariat (2021) GBIF Biodiversity Data Use Course. 6th edition. GBIF Secretariat: Copenhagen. https://doi.org/10.15468/ce-wkk4-2w26. [Date of course.]"
 msgstr ""
 
 #. type: Title ===
@@ -1634,7 +1634,7 @@ msgstr ""
 
 #. type: Plain text
 #: colophon.en.adoc:18
-msgid "https://doi.org/10.35035/ce-xxxx-xxxx"
+msgid "https://doi.org/10.15468/ce-wkk4-2w26"
 msgstr ""
 
 #. type: Title ===
