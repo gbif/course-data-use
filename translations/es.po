@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: data-use\n"
 "POT-Creation-Date: 2021-11-23 10:18+0000\n"
-"PO-Revision-Date: 2021-11-25 00:39\n"
+"PO-Revision-Date: 2021-11-25 01:39\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -848,7 +848,7 @@ msgstr ""
 #: keydocs.en.adoc:45
 #, no-wrap
 msgid "Data publishing: IPT"
-msgstr ""
+msgstr "Publicación de datos: IPT"
 
 #. type: Plain text
 #: keydocs.en.adoc:49
