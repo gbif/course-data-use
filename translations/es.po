@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: data-use\n"
 "POT-Creation-Date: 2021-11-23 10:18+0000\n"
-"PO-Revision-Date: 2021-11-25 01:39\n"
+"PO-Revision-Date: 2021-11-25 08:26\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -247,12 +247,12 @@ msgstr ""
 #. type: Plain text
 #: Data-Processing.en.adoc:12
 msgid "Almost always you will want to post-process your GBIF download in some way to fit your purposes.  Sometimes you will have to make difficult judgement calls for your particular use-case.  Whenever you are dealing with thousands or millions of records, you will never quite know the true quality of the source data.  It is important to keep in mind that you are always just mitigating data quality issues, not eliminating them."
-msgstr ""
+msgstr "Casi siempre querrá pos-procesar su descarga de GBIF de alguna manera que se ajuste a sus propósitos. A veces, tendrá que hacer juicios difíciles para su caso de uso particular. Siempre que esté tratando con miles o millones de registros, nunca sabrá la verdadera calidad de los datos de origen. Es importante tener en cuenta que siempre está mitigando los problemas de calidad de los datos, no eliminándolos."
 
 #. type: Plain text
 #: Data-Processing.en.adoc:18
 msgid "The data that we get in GBIF download, will contain data from a range of sources and the data will likely vary in its correctness and consistency.  Correctness and consistency are two ways of documenting data errors and are measures of data quality.  These are measures of how well the data gatherer was able to capture the true value being investigated.  The nature of GBIF's data publication workflow means that the correctness and consistency of the data can vary dependent on the data publishers and the source of the data.  Knowing these properties of the data you have, will help you to understand the ways in which you can and cannot clean, validate and process the data."
-msgstr ""
+msgstr "Los datos que obtenemos en la descarga de GBIF contendrán datos de una variedad de fuentes y es probable que los datos varíen en su exactitud y consistencia. La exactitud y la coherencia son dos formas de documentar los errores de datos y son medidas de la calidad de los datos. Estas son medidas de qué tan bien el recolector de datos pudo capturar el valor real que se estaba investigando. La naturaleza del flujo de trabajo de publicación de datos de GBIF significa que la exactitud y consistencia de los datos pueden variar según los publicadores y la fuente de los datos. Conocer estas propiedades de los datos le ayudará a comprender las formas en las que puede y no puede limpiar, validar y procesar los datos."
 
 #. type: Plain text
 #: Data-Processing.en.adoc:20
