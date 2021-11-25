@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: data-use\n"
 "POT-Creation-Date: 2021-11-23 10:18+0000\n"
-"PO-Revision-Date: 2021-11-23 10:24\n"
+"PO-Revision-Date: 2021-11-25 00:39\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -456,7 +456,7 @@ msgstr ""
 #: Data-Processing.en.adoc:109
 #, no-wrap
 msgid "New names"
-msgstr ""
+msgstr "Nombres nuevos"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:115
@@ -762,7 +762,7 @@ msgstr ""
 #: keydocs.en.adoc:23
 #, no-wrap
 msgid "Data publishing"
-msgstr ""
+msgstr "Publicación de datos"
 
 #. type: Plain text
 #: keydocs.en.adoc:26
