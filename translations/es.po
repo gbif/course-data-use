@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: data-use\n"
 "POT-Creation-Date: 2021-11-23 10:18+0000\n"
-"PO-Revision-Date: 2021-11-25 08:26\n"
+"PO-Revision-Date: 2021-11-29 11:55\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -257,45 +257,45 @@ msgstr "Los datos que obtenemos en la descarga de GBIF contendrán datos de una 
 #. type: Plain text
 #: Data-Processing.en.adoc:20
 msgid "Correctness (Accuracy) - closeness of measured values, observations or estimates to the real or true value e.g. has the species been identified correctly or the collection locality been identified correctly."
-msgstr ""
+msgstr "Exactitud (precisión) - proximidad de los valores, observaciones o estimaciones medidas al valor real o verdadero, ej.: se ha identificado correctamente la especie o la localidad de la colección."
 
 #. type: Target for macro image
 #: Data-Processing.en.adoc:21
 #, no-wrap
 msgid "img/web/Correctness.png"
-msgstr ""
+msgstr "img/web/Exactitud.png"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:24
 msgid "For instance, if we are studying plant biogeography in Indonesia, and want to do to a specific analysis for only one of the islands within the archipelago, then an appropriate question might be - Have localities on the island been correctly georeferenced?"
-msgstr ""
+msgstr "Por ejemplo, si estamos estudiando biogeografía de plantas en Indonesia, y queremos realizar un análisis específico para sólo una de las islas del archipiélago, entonces una pregunta apropiada podría ser - ¿Las localidades de la isla han sido correctamente georreferenciadas?"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:26
 msgid "Consistency (Precision) - level of resolution of the data e.g. precision of coordinates, taxonomic determination."
-msgstr ""
+msgstr "Consistencia (Precisión) - nivel de resolución de los datos, ej.: precisión de las coordenadas, determinación taxonómica."
 
 #. type: Target for macro image
 #: Data-Processing.en.adoc:27
 #, no-wrap
 msgid "img/web/Consistency.png"
-msgstr ""
+msgstr "img/web/Consistencia.png"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:30
 msgid "In the Indonesian example, an appropriate question might be - Does the uncertainty in the coordinate estimate allow for the occurrence record to not be on the island?"
-msgstr ""
+msgstr "En el ejemplo indonesio, una pregunta apropiada podría ser: ¿La incertidumbre en la estimación de las coordenadas permite al registro de presencia no estar ubicado en la isla?"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:33
 msgid "As a general rule, for most analyses you want highly accurate data although the level of precision may vary dependent on your analysis.  GBIF can help you to determine the accuracy and precision of the data through, for example, filters and issue flags, however, you must always double-check!"
-msgstr ""
+msgstr "Por regla general, para la mayoría de análisis se desean datos muy precisos aunque el nivel de precisión pueda variar dependiendo del análisis. GBIF puede ayudar a determinar la precisión de los datos, por ejemplo, mediante filtros y avisos, sin embargo, ¡siempre es necesario hacer doble comprobación!"
 
 #. type: Title ==
 #: Data-Processing.en.adoc:34
 #, no-wrap
 msgid "Flags and Issues"
-msgstr ""
+msgstr "Avisos e Incidencias"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:39
