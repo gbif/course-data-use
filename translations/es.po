@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: data-use\n"
 "POT-Creation-Date: 2021-11-23 10:18+0000\n"
-"PO-Revision-Date: 2021-11-29 11:55\n"
+"PO-Revision-Date: 2021-11-29 12:51\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -242,7 +242,7 @@ msgstr "En el módulo de procesamiento de datos, se familiarizará con el concep
 #: Data-Processing.en.adoc:6
 #, no-wrap
 msgid "Fit for purpose data"
-msgstr ""
+msgstr "Datos aptos para propósitos específicos"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:12
@@ -300,152 +300,152 @@ msgstr "Avisos e Incidencias"
 #. type: Plain text
 #: Data-Processing.en.adoc:39
 msgid "The GBIF network publishes datasets, integrating them into a common access system.  Here users can retrieve data through common search and download services.  During the indexation process over the raw data, GBIF adds issues and flags to records with common data quality problems.  These may contain useful information for you as a user to create fit-for-purpose datasets."
-msgstr ""
+msgstr "La red de GBIF publica conjuntos de datos, integrándolos en un sistema de acceso común. Aquí los usuarios pueden obtener datos a través de servicios de búsqueda y descarga comunes. Durante el proceso de indexación de los datos en bruto, GBIF incluye incidencias y avisos para los registros con problemas comunes de calidad de datos. Éstos pueden contener información útil para usuarios para crear conjuntos de datos aptos para propósitos específicos."
 
 #. type: Target for macro image
 #: Data-Processing.en.adoc:40
 #, no-wrap
 msgid "img/web/workflow2.png"
-msgstr ""
+msgstr "img/web/FlujoDeTrabajo2.png"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:43
 msgid "Remarks are shown on the individual occurrence pages to explain the process done after interpretation:"
-msgstr ""
+msgstr "Las observaciones se muestran en las páginas de los registros individuales para explicar el proceso realizado después de la interpretación:"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:45
 #, no-wrap
 msgid "*Excluded means the original data couldn’t be interpreted, so is excluded in the interpreted fields.\n"
-msgstr ""
+msgstr "*Excluido* - cuando los datos originales no pudieron ser interpretados, por lo cual se excluyen en los campos interpretados.\n"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:47
 #, no-wrap
 msgid "*Altered means the original data is modified in the interpretation process to be indexed in GBIF.org.\n"
-msgstr ""
+msgstr "*Alterado* - cuando los datos originales son modificados en el proceso de interpretación para ser indexados en GBIF.org.\n"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:49
 #, no-wrap
 msgid "*Inferred means the Using other record information the data indexed is inferred, if the original is empty.\n"
-msgstr ""
+msgstr "*Inferido* - cuando mediante el uso de otra información asociada al registro se puede inferir el dato indexado, en caso de que el original esté vacío.\n"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:55
 msgid "Excluding all records with a particular issue is not currently possible with the search interface.  It is possible to filter all records you are not interested in with issues by selecting the particular issue and hitting the reverse button.  However, reversing will still only give you all other flagged occurrences and not issue-free records.  This is something that GBIF is working to improve. (at occurrence search)"
-msgstr ""
+msgstr "Excluir todos los registros con un problema en particular no es posible actualmente con la interfaz de búsqueda. Es posible filtrar por tema todos los registros que no interesen seleccionando el tema en particular y haciendo clic en el botón inverso. Sin embargo, la inversión sólo mostrará registros con incidencias y no aquellos que estén libres de problemas. GBIF está trabajando para mejorar este asunto. (en búsqueda de registros de presencia)"
 
 #. type: Target for macro image
 #: Data-Processing.en.adoc:56
 #, no-wrap
 msgid "img/web/filtering.png"
-msgstr ""
+msgstr "img/web/filtrar.png"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:59
 msgid "A full overview of all issues and flags can be here: https://data-blog.gbif.org/post/issues-and-flags/"
-msgstr ""
+msgstr "Un resumen completo de todas las incidencias y avisos puede encontrase estar aquí: https://data-blog.gbif.org/post/issues-and-flags/"
 
 #. type: Title ===
 #: Data-Processing.en.adoc:60
 #, no-wrap
 msgid "Data Processing Tools"
-msgstr ""
+msgstr "Herramientas de Procesado de los Datos"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:64
 msgid "While GBIF filters will allow for some data processing i.e. select only those data for download that fulfil certain criteria, it is highly recommended that you additional data processing and a range of tools are available.  Your choice of which tool you use will be based on personal access, familiarity and utility of each of the tools.  Tools that can be used for this are:"
-msgstr ""
+msgstr "Mientras que los filtros de GBIF permiten algunos procesamientos de datos, ej.: seleccionar para la descarga sólo aquellos datos que cumplan ciertos criterios, se recomienda realizar procesamientos adicionales de datos para lo que existe una amplia gama de herramientas disponibles. La elección de la herramienta a utilizar estará basada en el acceso personal, la familiaridad y la utilidad de cada una de estas herramientas. Las herramientas que pueden ser utilizadas para este fin son:"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:66
 msgid "Spreadsheet editing software e.g. Excel, Google Sheets (smaller datasets)"
-msgstr ""
+msgstr "Programas de edición de hojas de cálculo, ej.: Excel, Google Sheets (conjuntos de datos pequeños)"
 
 #. type: Title ==
 #: Data-Processing.en.adoc:67 keydocs.en.adoc:97
 #, no-wrap
 msgid "OpenRefine"
-msgstr ""
+msgstr "OpenRefine"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:68
 msgid "R packages and scripts eg rgbif, CoordinateCleaner, scrubr and biogeo (automated data processing)"
-msgstr ""
+msgstr "Paquetes y códigos de R, ej.: rgbif, CoordinateCleaner, scrubr y biogeo (procesamiento automático de datos)"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:69
 msgid "Geographical Information Systems (GIS) e.g. ArcGIS, QGIS and MapInfo"
-msgstr ""
+msgstr "Sistemas de Información Geográfica (GIS), ej.: ArcGIS, QGIS y MapInfo"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:72
 msgid "It is always important to include a data visualisation step in your data processing so that you can identify anomalous data points that may have been missed during the processing stage.  For those processing in R, this can be done within R, however, with OpenRefine or spreadsheet editing sofware you may have to use GIS software or even tools such as Google Earth for data visualisation."
-msgstr ""
+msgstr "Siempre es importante incluir un paso de visualización de datos en el procesamiento de datos para poder identificar puntos de datos anómalos que pueden haberse perdido durante la fase de procesamiento. Para aquellos que procesan en R, esto puede hacerse con el mismo R, sin embargo, con OpenRefine o con programas de edición de hojas de cálculo es posible que tenga que utilizar programas de SIG o incluso herramientas como Google Earth para la visualización de los datos."
 
 #. type: Title ==
 #: Data-Processing.en.adoc:73
 #, no-wrap
 msgid "Handling Taxonomic Uncertainty"
-msgstr ""
+msgstr "Manejo de la Incertidumbre Taxonómica"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:76
 msgid "Uncertainty surrounding the taxonomy of a data point can arise for several reasons:"
-msgstr ""
+msgstr "La incertidumbre en torno a la taxonomía de un punto de datos puede surgir por varios motivos:"
 
 #. type: Title ===
 #: Data-Processing.en.adoc:78 Data-Processing.en.adoc:81
 #, no-wrap
 msgid "Species mis-identification"
-msgstr ""
+msgstr "Identificación errónea de la especie"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:79
 msgid "Synoynmy"
-msgstr ""
+msgstr "Sinonimia"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:80
 msgid "Novel names"
-msgstr ""
+msgstr "Nombres nuevos"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:86
 msgid "Species identification is a complex process, with species typically described from a certain set of characters identified in a published species description and linked to a type specimen held within a scientific collection that be used for validation of species identification.  Where taxa are very similar or a set of complex traits are required for correct identification, specific taxonomic expertise may be required that data publishers may not possess leading to a mis-identification of a species.  As users, you must have a clear understanding of how taxonomic determinations for your interest group are made:"
-msgstr ""
+msgstr "La identificación de especies es un proceso complejo, con especies típicamente descritas desde un determinado conjunto de caracteres identificados en una descripción publicada de una especie y enlazadas a un espécimen tipo alojado en una colección científica que se utiliza para validar la identificación de especies. Cuando los taxones son muy similares o un conjunto de rasgos complejos son requeridos para la correcta identificación, pueden requerirse conocimientos taxonómicos específicos que los gestores de datos puede que no posean lo que puede llevar a una identificación errónea de una especie. Como usuarios, debe comprender claramente cómo se hacen las determinaciones taxonómicas para su grupo de interés:"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:88
 msgid "What are the characters used for defining the species?"
-msgstr ""
+msgstr "¿Cuáles son los caracteres utilizados para definir la especie?"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:89
 msgid "Are these characters easily confused or captured when the species is observed or collected?"
-msgstr ""
+msgstr "¿Son estos caracteres fácilmente confundibles u obtenidos cuando se observa o colecta la especie?"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:90
 msgid "Are there related species that could be easily confused with the species you are interested in?"
-msgstr ""
+msgstr "¿Existen especies relacionadas que podrían confundirse fácilmente con la especie de interés?"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:93
 msgid "If you think that there is a risk that species may be incorrectly identified, you can take a conservative approach to the data you use and only use those data linked to specimens in collections where taxonomic validation would be possible and eliminate other data sources.  Another approach may be to use associated data such as collector information, media, DNA sequences etc to validate the taxonomic determination."
-msgstr ""
+msgstr "Si cree que existe riesgo de que la especie se haya identificado incorrectamente, puede tomar un enfoque conservador sobre los datos que utiliza y usar solo aquellos datos vinculados a especímenes en colecciones donde la validación taxonómica sería posible y eliminar otras fuentes de datos. Otro enfoque puede ser utilizar datos asociados como por ejemplo información sobre la colecta, medios, secuencias de ADN, etc. para validar la determinación taxonómica."
 
 #. type: Title ===
 #: Data-Processing.en.adoc:94
 #, no-wrap
 msgid "Synonymy "
-msgstr ""
+msgstr "Sinonimia "
 
 #. type: Plain text
 #: Data-Processing.en.adoc:101
 msgid "Synonymy can arise when the same species has been described several times and a new name is given to the species each time it is described, or, when there is a change in the taxonomy of a species, for example, a species is moved from one genus to another.  Only one species name can be accepted, and other names are what we call synonyms.  These synonyms may still be in use to a lesser or greater extent and you should be sure when getting data from GBIF to obtain data for the taxonomic name you need.  GBIF's taxonomic backbone differentiates between accepted scientific names and synonyms, and unique identifiers in the form of taxon keys.  Species searches https://www.gbif.org/species/search allow for filtering for accepted names and synonyms and taxon keys can be used for programmatic searches of GBIF."
-msgstr ""
+msgstr "La sinónima puede darse cuando la misma especie ha sido descrita varias veces y se da un nuevo nombre a las especies cada vez que se describe, o, cuando se produce un cambio en la taxonomía de una especie, por ejemplo, una especie se traslada de un género a otro. Sólo se puede aceptar un nombre para la especie, y los otros nombres son lo que llamamos sinónimos. Estos sinónimos pueden estar en uso en menor o mayor medida y hay asegurarse al obtener datos de GBIF que éstos se obtienen con el nombre taxonómico que se necesita. El backbone taxonómico de GBIF diferencia entre nombres científicos aceptados y sinónimos, e identificadores únicos en forma de claves taxonómicas. Las búsquedas por especies https://www.gbif.org/species/search permiten filtrar nombres aceptados y sinónimos y las claves taxonómicas pueden utilizarse para búsquedas a través de APIs de GBIF."
 
 #. type: Plain text
 #: Data-Processing.en.adoc:108
