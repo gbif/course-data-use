@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: data-use\n"
 "POT-Creation-Date: 2021-11-23 10:18+0000\n"
-"PO-Revision-Date: 2021-11-29 12:51\n"
+"PO-Revision-Date: 2021-11-29 13:51\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -450,7 +450,7 @@ msgstr "La sinónima puede darse cuando la misma especie ha sido descrita varias
 #. type: Plain text
 #: Data-Processing.en.adoc:108
 msgid "Taxon Keys Scientific names can be messy.  If you are accessing GBIF-mediated data programatically as opposed to via the website, taxon keys provide an effective way for defining searches based on taxonomy.  Taxon keys are issued at the species, genus family, order, phylum and kingdom level.  Unique identifiers are issued to accepted names with synonyms of those accepted names issued the same identifier.  So, it may make sense to sort out the species by their unique taxon keys provided during the indexation of the dataset by GIBF."
-msgstr ""
+msgstr "Los nombres Científicos de las Claves Taxonómicas pueden estar desordenados. Si está accediendo mediante APIs a datos publicados a través de GBIF, y no a través del sitio web, las claves taxonómicas proporcionan una manera efectiva para definir las búsquedas basadas en la taxonomía. Las claves taxonómicas se generan a nivel de especie, género, familia, orden, filo y reino. Los identificadores únicos se generados para los nombres aceptados con sinónimos de aquellos nombres aceptados generados por el mismo identificador. Por lo tanto, puede tener sentido ordenar las especies por sus claves taxonómicas únicas proporcionadas por GBIF durante la indexación del conjunto de datos."
 
 #. type: Title ===
 #: Data-Processing.en.adoc:109
@@ -461,49 +461,49 @@ msgstr "Nombres nuevos"
 #. type: Plain text
 #: Data-Processing.en.adoc:115
 msgid "There may be instances where the scientific name does not match any name in the GBIF backbone, perhaps because the species is newly described, or is not within a checklist used by GBIF to construct its backbone.  These names are flagged with the TAXON_MATCH_HIGHERRANK flag indicating that the scientific name has not been recognised but that the data point has matched at a higher taxonomic level eg. genus or family.  This flag can be used for identifying and filtering for these data.  When names have been misspelled or badly formatted, there is also a TAXON_MATCH_FUZZY flag that can be used for identifying and filtering names that can only match the taxonomic backbone using a fuzzy, non exact match."
-msgstr ""
+msgstr "Puede haber casos en los que el nombre científico no coincida con ningún nombre del backbone de GBIF, quizás porque la especie se ha descrito recientemente, o no se encuentra en el listado de especies utilizado por GBIF para construir su backbone. Estos nombres están señalados con el marcador TAXON_MATCH_HIGHERRANK que indica que el nombre científico no ha sido reconocido pero que el registro ha coincidido con un nivel taxonómico superior como por ejemplo el género o la familia. Este marcador puede utilizarse para identificar y filtrar estos datos. Cuando los nombres incluyen errores ortográficos o un formato erróneo, también existe el marcador TAXON_MATCH_FUZZY que puede ser usado para identificar y filtrar nombres que sólo coinciden de manera aproximada con la taxonomía del backbone, siendo una coincidencia no exacta."
 
 #. type: Title ==
 #: Data-Processing.en.adoc:116
 #, no-wrap
 msgid "Handling Data Quality"
-msgstr ""
+msgstr "Manejo de la Calidad de los Datos"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:122
 msgid "Filtering the data allows you as a user to obtain the data that is most fit for purpose.  All searches have a set of filters that can be used for finding the data you need, and occurrence searches have a set of additional 'Advanced\" search filters for users that need to do more advanced filtering.  While filters may allow you to filter out data that may not be relevant, or be of lower quality for your purposes, additional filtering may be required either manually or programmaticially to deal with additional data quality issues that arise during the GBIF data publishing model.  Below are some common data filters that you as a user might consider to make the data more fit-for-purpose."
-msgstr ""
+msgstr "Filtrar los datos permite al usuario obtener los datos más apropiados para un propósito específico. Todas las búsquedas incluyen un conjunto de filtros que pueden ser usados para encontrar los datos que se necesita, y las búsquedas de registros de presencia presentan un conjunto adicional de filtros de búsqueda 'Avanzada' para los usuarios que necesitan hacer un filtrado más avanzado. Mientras que los filtros permiten el filtrado de datos que pueden ser no relevantes, o de menor calidad para sus propósitos, el filtrado adicional puede ser utilizado tanto de forma manual como a través de APIs para abordar problemas adicionales de calidad de los datos que surgen durante el proceso de publicación de datos GBIF. A continuación, se muestran algunos filtros comunes de datos que como usuario podría considerar para hacer los datos más adecuados para su finalidad específica."
 
 #. type: Title ===
 #: Data-Processing.en.adoc:123
 #, no-wrap
 msgid "Geospatial Filters & Issues"
-msgstr ""
+msgstr "Filtros e Incidencias Geoespaciales"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:126
 msgid "The data can be filtered spatially in an occurrrence search in one of 3 ways:"
-msgstr ""
+msgstr "Los datos pueden ser filtrados espacialmente en una búsqueda por registros de presencia en una de las siguientes 3 maneras:"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:128
 msgid "Country or area/Continent - data is filtered by country and will include data within the Exclusive Economic Zone (EEZ)"
-msgstr ""
+msgstr "País o área/Continente - los datos son filtrados por país e incluyen datos de la Zona Económica Exclusiva (EEZ, por sus siglas en inglés)"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:130
 msgid "Administrative area - this filter uses the GADM database https://gadm.org/data.html of administrative areas for all countries in the world to allow for GBIF removes common geospatial issues by default if you choose to have data with a location."
-msgstr ""
+msgstr "Área administrativa - este filtro utiliza la base de datos GADM https://gadm.org/data.html de áreas administrativas para todos los países del mundo permitiendo a GBIF eliminar incidencias geoespaciales comunes por defecto si se elige obtener datos con una localización."
 
 #. type: Plain text
 #: Data-Processing.en.adoc:133
 msgid "Location - this filter allows you to filter for data with coordinates and/or draw your own polygon shape filters or use a GeoJSON file to delimit your own shape filter.  If you filter for those data with coordinates, a number of geospatial issues associated with the data publishing workflow will be eliminated.  These are:"
-msgstr ""
+msgstr "Localización - este filtro permite el filtrado de datos con coordenadas y/o dibujar filtros con forma de polígonos o utilizar un archivo GeoJSON para delimitar el filtro de forma. Si se filtran esos datos con coordenadas, se eliminará un buen número de incidencias geoespaciales asociadas con el flujo de publicación de datos. Éstas son:"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:136
 msgid "Zero Coordinates- Coordinates are exactly (0,0) or what is sometimes called \"null island\".  Zero-zero coordinate is a very common geospatial issue. GBIF removes (0,0) when hasgeospatialissue is set to FALSE."
-msgstr ""
+msgstr "Coordinadas Cero - Las coordenadas son exactamente (0,0) o lo que algunas veces se conoce como \"isla nula\". Las coordenadas cero-cero es una incidencia geoespacial muy común. GBIF elimina (0,0) cuando hasgeospatialissue es marcado como FALSO."
 
 #. type: Plain text
 #: Data-Processing.en.adoc:139
