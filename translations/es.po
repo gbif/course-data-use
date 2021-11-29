@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: data-use\n"
 "POT-Creation-Date: 2021-11-23 10:18+0000\n"
-"PO-Revision-Date: 2021-11-29 13:51\n"
+"PO-Revision-Date: 2021-11-29 14:53\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -508,17 +508,17 @@ msgstr "Coordinadas Cero - Las coordenadas son exactamente (0,0) o lo que alguna
 #. type: Plain text
 #: Data-Processing.en.adoc:139
 msgid "Country coordinate mis-match - Data publishers will often supply GBIF with a country code (US,TW,SE,JP…).  GBIF uses the two letter ISO 3166-1 alpha-2 coding system - https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2.  When a point does not fall within the country’s polygon or EEZ, but says that it should occur within the country, it gets flagged as having “country coordinate mis-match” and will be removed if data are filtered for locations."
-msgstr ""
+msgstr "Coordenadas incorrectas de país - Los publicadores de datos a menudo incluyen en GBIF un código de país (US, TW, SE, JP,...). GBIF utiliza el sistema de codificación de dos letras ISO 3166-1 alpha-2 https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2. Cuando un punto no cae en el polígono de un país o de la EEZ pero indica que debería caer en el país, éste será marcado como \"coordenadas incorrectas de país\" y será eliminado si los datos son filtrados por localizaciones."
 
 #. type: Plain text
 #: Data-Processing.en.adoc:140
 msgid "Coordinate invalid - If GBIF is unable to interpret the coordinates i.e. the coordinates."
-msgstr ""
+msgstr "Coordenadas inválidas - Si GBIF es incapaz de interpretar las coordenadas, ej.: las coordenadas."
 
 #. type: Plain text
 #: Data-Processing.en.adoc:141
 msgid "Coordinate invalid - The coordinates are outside of the range for decimal lat/lon values ((-90,90), (-180,180))."
-msgstr ""
+msgstr "Coordenadas inválidas - Las coordenadas se ubican fuera del rango decimal de valores de latitud/longitud ((-90,90), (-180,180))."
 
 #. type: Title ====
 #: Data-Processing.en.adoc:142
