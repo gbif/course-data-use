@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: data-use\n"
 "POT-Creation-Date: 2021-11-23 10:18+0000\n"
-"PO-Revision-Date: 2021-11-30 10:34\n"
+"PO-Revision-Date: 2021-11-30 11:48\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -529,67 +529,67 @@ msgstr "Centroides de país"
 #. type: Plain text
 #: Data-Processing.en.adoc:150
 msgid "Country centroids are where the observation is pinned to the centre of the country instead of where the taxon was observed or recorded.  Country centroids are usually records that have been retrospectively given a lat-lon value based on a textual description of where the original record was located.  Geocoding software uses gazetteers, geographical dictionaries or directories used in conjunction with a map or atlas, to attribute coordinates to place names.  So, if the record simply says “Brazil”, some publishers will put the record in the center of Brazil.  Similarly if the record simply says “Texas” or “Paris” the record will go in the center of those regions.  This is almost exclusively a feature of museum data (PRESERVED_SPECIMEN), but it can also happen with other types of records as well."
-msgstr ""
+msgstr "Los centroides de país hacen referencia al lugar donde la observación se fija en el centro del país en lugar de donde fue observado o colectado el taxón. Los centroides de país normalmente son registros a los que se les otorga un valor de latitud-longitud basado en una descripción textual sobre dónde se localizó el registro original. Los programas de geocodificación utilizan índices de toponimios (nomenclátores), diccionarios geográficos o directorios en conjunto con un mapa o atlas para atribuir coordenadas a los nombres de los lugares. Así pues, si el registro simplemente dice \"Brasil\", algunos publicadores colocarán el registro en el centro de Brasil. De manera similar, si el registro dice \"Texas\" o \"París\", el registro irá en el centro de esas regiones. Esta es una característica casi exclusiva de datos de museo (PRESERVED_SPECIMEN) pero también puede darse con otro tipo de registros."
 
 #. type: Plain text
 #: Data-Processing.en.adoc:152
 msgid "Identifying country centroid data is currently not possible using GBIF filters, however, the R package CoordinateCleaner can be used for identifying and filtering for country centroids."
-msgstr ""
+msgstr "Actualmente, la identificación de los centroides de país no es posible mediante el uso de los filtros de GBIF, sin embargo, el paquete R CoordinateCleaner se puede utilizar para identificar y filtrar por centroides de país."
 
 #. type: Title ====
 #: Data-Processing.en.adoc:153
 #, no-wrap
 msgid "Points along the equator or prime meridian"
-msgstr ""
+msgstr "Puntos a lo largo del ecuador o meridiano principal"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:157
 msgid "Some publishers consider zero and NULL to be equivalent so that empty latitude and longitude fields for a record are given a zero value.  As a result, records end up being plotted along the equator and prime meridian lines."
-msgstr ""
+msgstr "Algunos publicadores consideran que cero y NULL son equivalentes para que los campos vacíos de latitud y longitud de un registro tengan un valor cero. Como resultado, los registros terminan siendo trazados a lo largo del ecuador y las líneas meridianas principales."
 
 #. type: Title ====
 #: Data-Processing.en.adoc:158
 #, no-wrap
 msgid "Uncertain location "
-msgstr ""
+msgstr "Localización incierta "
 
 #. type: Plain text
 #: Data-Processing.en.adoc:163
 msgid "Often you will want to be sure that the coordinates give a certain location and are not really 1000s of km away from where the organism was observed or collected.  There are two fields - coordinate precision and coordinateUncertaintyInMeters - in Darwin Core that you get with a SIMPLE CSV download. that you can use to filter by “uncertainty”.  However, these fields are not used very often by publishers who feel that their records are fairly certain (from a GPS) and we would recommend not filtering out missing values."
-msgstr ""
+msgstr "A menudo, querremos estar seguros de que las coordenadas hacen referencia a un lugar determinado y no que éstas están en realidad a miles de kilómetros de donde se observó o colectó el organismo. Hay dos campos - precisión de coordenadas y coordinateUncertainyInMeters - en Darwin Core que obtienes descargando un CSV SIMPLE y que puedes usar para filtrar por “incertidumbre”. Sin embargo, estos campos no son muy utilizados por los publicadores ya que consideran que sus registros son bastante precisos (de un GPS) y, por tanto, recomendamos no eliminar del filtrado los valores faltantes."
 
 #. type: Plain text
 #: Data-Processing.en.adoc:168
 msgid "There are also a few “fake” values for coordinate uncertainty that you should be aware of.  These values are errors produced by geocoding software and do not represent real uncertainty values.  These \"fake\" values are 301, 3036, 999 and 9999.  In the case of the value 301, the uncertainty is often much-much greater than 301 and actually represents a country centroid."
-msgstr ""
+msgstr "También hay algunos valores “falsos” de incertidumbre de coordenadas que deben tenerse en cuenta. Estos valores son errores generados por los programas de geocodificación y no representan valores reales de incertidumbre. Estos valores \"falsos\" son 301, 3036, 999 y 9999. En el caso del valor 301, la incertidumbre es a menudo muchísimo mayor que 301 y en realidad representa un centroide de país."
 
 #. type: Title ===
 #: Data-Processing.en.adoc:169
 #, no-wrap
 msgid "Gridded datasets"
-msgstr ""
+msgstr "Conjuntos de datos en cuadrícula"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:174
 msgid "Gridded datasets are a known problem at GBIF.  Many datasets have equally-spaced points in a regular pattern.  These datasets are usually systematic national surveys or data taken from some atlas (“so-called rasterized collection designs”).  Georeferenced occurrences are snapped to a central point"
-msgstr ""
+msgstr "Los conjuntos de datos en cuadrícula son un problema conocido en GBIF. Muchos conjuntos de datos incluyen puntos con una separación idéntica entre ellos que siguen un patrón regular. Estos conjuntos de datos suelen ser encuestas nacionales sistemáticas o datos tomados de algún atlas (los llamados \"diseños de colecta rasterizada\"). Los registros de presencia referenciados se colocan en un punto central"
 
 #. type: Target for macro image
 #: Data-Processing.en.adoc:175
 #, no-wrap
 msgid "img/web/gridSnap.gif"
-msgstr ""
+msgstr "img/web/gridSnap.gif"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:181
 msgid "Most publishers of gridded datasets actually fill in one of the following columns: coordinateuncertaintyinmeters, coordinateprecision, footprintwkt So filtering by these columns can be a good way to remove gridded datasets.  The R package Coordinate cleaner also has a function for removing gridded datasets.  GBIF has an experimental API for identifying datasets which exhibit a certain about of \"griddyness\". You can read more here: https://data-blog.gbif.org/post/finding-gridded-datasets/"
-msgstr ""
+msgstr "La mayoría de los publicadores de conjuntos de datos en cuadrícula realmente rellenan una de las siguientes columnas: coordinateuncertaintyinmeters, coordinateprecision, footprintwkt. Así pues, el filtrado en base a estas columnas puede ser una buena manera de eliminar los conjuntos de datos en cuadrícula de nuestra búsqueda. El paquete R Coordinate cleaner también incluye una función para eliminar conjuntos de datos en cuadrícula. GBIF tiene una API experimental para identificar conjuntos de datos que muestran cierto grado de \"cuadriculez\". Puedes leer más sobre el tema aquí: https://data-blog.gbif.org/post/finding-gridded-datasets/"
 
 #. type: Title ====
 #: Data-Processing.en.adoc:182
 #, no-wrap
 msgid "Absence records"
-msgstr ""
+msgstr "Registros de ausencia"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:187
