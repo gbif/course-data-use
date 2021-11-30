@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: data-use\n"
 "POT-Creation-Date: 2021-11-23 10:18+0000\n"
-"PO-Revision-Date: 2021-11-30 11:48\n"
+"PO-Revision-Date: 2021-11-30 12:48\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -594,13 +594,13 @@ msgstr "Registros de ausencia"
 #. type: Plain text
 #: Data-Processing.en.adoc:187
 msgid "By default, both presence and absence records are shown when you search www.gbif.org.  Absence records confirm that a species was not found at a specific locality when that area was surveyed and this information can be useful in, for example, developing ecological niche models.  However, you may only be interested in presence records and in this instance you can filter for only presence records using the Occurrence Status filter."
-msgstr ""
+msgstr "De forma predeterminada, los registros de presencia y ausencia se muestran al buscar en www.gbif.org. Los registros de ausencia confirman que una especie no fue encontrada en una localidad específica cuando se muestreó ese área y esta información puede ser útil en, por ejemplo, el desarrollo de modelos de nicho ecológico. Sin embargo, puede darse el caso que solo interese quedarse con los registros de presencia, para lo que se puede filtrar solo en base a ese tipo de registro utilizando el filtro Occurrence Status."
 
 #. type: Title ====
 #: Data-Processing.en.adoc:188
 #, no-wrap
 msgid "Establishment Means"
-msgstr ""
+msgstr "Medios de establecimiento"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:194
@@ -609,80 +609,83 @@ msgid "The Darwin Core term establishmentMeans identifies the process by which t
 "As such, it can serve as a useful filtering tool for identifying records that are outside of a species native range with accepted terms for this field being native, nativeReintroduced, introduced, introducedAssistedColonisation, vagrant and uncertain.  \n"
 "Currently, GBIF records can be searched using the older vocabulary terms native, introduced, naturalized, native, managed and uncertain -   https://rs.gbif.org/vocabulary/gbif/establishment_means.xml, and these will be updated in late 2022. \n"
 "In some instances, removing “MANAGED” records will remove zoo records.\n"
-msgstr ""
+msgstr "El término “establishmentMeans” del Darwin Core identifica el proceso mediante el cual los individuos biológicos representados en el registro se establecieron en el lugar. \n"
+"Como tal, puede servir como herramienta de filtrado útil para identificar registros que están fuera del rango nativo de una especie, siendo los términos aceptados para este campo native, nativeReintroduced, introduced, introducedAssistedColonization, vagrant y uncertain.  \n"
+"Actualmente, los registros de GBIF se pueden buscar utilizando los términos del vocabulario anterior nativa, introducida, naturalizada, nativa, gestionada e incierto - https://rs.gbif. rg/vocabulary/gbif/establishment_means.xml, y estos serán actualizados a finales de 2022. \n"
+"En algunos casos, la eliminación de registros \"MANAGED\" eliminará registros de zoos.\n"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:197
 msgid "Use this filter cautiously, however, as most records do not contain this information and so would be exluded from a search with this filter on.  We would recommend to use the information within the Establishement Means term for filtering after download."
-msgstr ""
+msgstr "Utilice este filtro con precaución, ya que como la mayoría de registros no contienen esta información se excluirán de la búsqueda si este filtro está activado. Recomendamos utilizar la información del término Medios de Estabilización para filtrar después de la descarga."
 
 #. type: Title ===
 #: Data-Processing.en.adoc:198
 #, no-wrap
 msgid "Basis of Record "
-msgstr ""
+msgstr "Base del Registro "
 
 #. type: Plain text
 #: Data-Processing.en.adoc:201
 msgid "Basis of record is a Darwin Core term that refers to the specific nature of the record and can refer to one of 6 classes:"
-msgstr ""
+msgstr "La base del registro es un término Darwin Core que se refiere a la naturaleza específica del registro y puede referirse a una estas 6 clases:"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:203
 msgid "Living Specimen - a specimen that is alive, for example, a living plant in a botanical garden or a living animal in a zoo."
-msgstr ""
+msgstr "Espécimen Vivo - un espécimen que está vivo, por ejemplo, una planta viva en un jardín botánico o un animal vivo en un zoo."
 
 #. type: Plain text
 #: Data-Processing.en.adoc:204
 msgid "Preserved Specimen - a speciment that has been preserved, for example, a plant on an herbarium shett or a cataloged lot of fish in a jar."
-msgstr ""
+msgstr "Espécimen Conservado - un espécimen que ha sido conservado, por ejemplo, una planta en un pliego de herbario o un lote catalogado de peces en un tarro."
 
 #. type: Plain text
 #: Data-Processing.en.adoc:205
 msgid "Fossil Specimen - a preserved specimen that is a fossil, for example, a body fossil, a coprolite, a gastrolith, an ichnofossil or a piece of petrified tree."
-msgstr ""
+msgstr "Espécimen Fósil - un espécimen conservado que es un fósil, por ejemplo, un cuerpo fósil, un coprolito, un gastrolito, un ictofósil o un trozo de árbol petrificado."
 
 #. type: Plain text
 #: Data-Processing.en.adoc:206
 msgid "Material Citation - A reference to, or citation of, one, a part of, or multiple specimens in scholarly publications, for example, a citation of a physical specimen from a scientifci collection in taxonomic treatment in a scientiufic publication or an occurrence mentioned in a field note book."
-msgstr ""
+msgstr "Cita de Material - Una referencia a, o cita de, uno, una parte de, o múltiples especímenes en publicaciones científicas, por ejemplo, una cita de un espécimen físico de una colección científica en un tratamiento taxonómico o en una publicación científica o un registro de presencia mencionado en un cuaderno de campo."
 
 #. type: Plain text
 #: Data-Processing.en.adoc:207
 msgid "Human Observation - an output of human observation process eg. evidence of an occurrence taken from field notes or literature or a records of an occurence without physical evidence nor evidence captured with a machine."
-msgstr ""
+msgstr "Observación Humana - el resultado de un proceso de observación humana, ej.: evidencia de un registro tomado de notas de campo o literatura, o un registro sin evidencia física ni tomada por una máquina."
 
 #. type: Plain text
 #: Data-Processing.en.adoc:208
 msgid "Machine Observation - An output of a machine observation process for example a photograph, a video, an audio recording, a remote sensing image or an occurrence record based on telemetry."
-msgstr ""
+msgstr "Observación realizada por una Máquina - el resultado de un proceso de observación de una máquina como por ejemplo una fotografía, un vídeo, una grabación de audio, una imagen de control remoto o un registro de presencia basado en telemetría."
 
 #. type: Plain text
 #: Data-Processing.en.adoc:211
 msgid "Basis or record should allow users to filter out those indidivuals in ex-situ collections such as zoos and botanic gardens or fossils as well as filter for those records based on whether the record is based on a specimen or an observation, which can support taxonomic validation.  You should note that, even though this can be a useful filter, data publishers do not always fill the basis of record field correctly, or, there may be nuances in the data that may not be immediately obvious to a user e.g. https://data-blog.gbif.org/post/living-specimen-to-preserved-specimen-understanding-basis-of-record/ and you should always double check your data before use."
-msgstr ""
+msgstr "La base del registro debería permitir a los usuarios filtrar los individuos de colecciones ex-situ tales como zoos y jardines botánicos o los fósiles, así como filtrar aquellos registros en función de si son un espécimen o una observación, que pueden estar sujetos a validación taxonómica. Hay que tener en cuenta que, aunque este puede ser un filtro útil, los publicadores de datos no siempre rellenan correctamente el campo base del registro, o, puede haber matices en los datos que pueden no ser tan obvios un usuario, ej.: https://data-blog.gbif.org/post/living-specimen-to-preserved-specimen-understanding-basis-of-record/ y siempre se deberá hacer una doble comprobación de los datos antes de su uso."
 
 #. type: Title ===
 #: Data-Processing.en.adoc:212
 #, no-wrap
 msgid "Old Records"
-msgstr ""
+msgstr "Registros Antiguos"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:215
 msgid "GBIF has many museum records that might be older than what is desired for some studies."
-msgstr ""
+msgstr "GBIF tiene muchos registros de museos que podrían ser más antiguos que lo deseado para algunos estudios."
 
 #. type: Title ===
 #: Data-Processing.en.adoc:216
 #, no-wrap
 msgid "Duplicates"
-msgstr ""
+msgstr "Duplicados"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:221
 msgid "Duplication of records can occur when several records of the same individal are made.  This can occur from for instance, a researcher depositing several specimens from an individual tree in herbaria around the world who all then publish these data on GBIF, or when an individual has been deposited in a natural history collection and the indidivual was also sampled for its DNA.  In this instance, there will be a record for the specimen in the collections and one for the DNA sequence."
-msgstr ""
+msgstr "La duplicación de registros puede ocurrir cuando se hacen varios registros para un mismo individuo. Esto puede ocurrir, por ejemplo, cuando un investigador deposita varios especímenes del individuo de un árbol en herbarios de todo el mundo que a su vez publican esos datos en GBIF, o cuando un individuo ha sido depositado en una colección de historia natural y el individuo también fue muestreado por su ADN. En este caso, habrá un registro del espécimen en las colecciones y otro para su secuencia de ADN."
 
 #. type: Plain text
 #: Data-Processing.en.adoc:226
