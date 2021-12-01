@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: data-use\n"
 "POT-Creation-Date: 2021-11-23 10:18+0000\n"
-"PO-Revision-Date: 2021-12-01 09:56\n"
+"PO-Revision-Date: 2021-12-01 11:09\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -835,7 +835,7 @@ msgstr "https://github.com/gbif/ipt/wiki/BestPracticesSamplingEventData[Buenas p
 #. type: Plain text
 #: keydocs.en.adoc:42
 msgid "https://data-blog.gbif.org/post/gbif-multimedia/[Sharing images, sounds and videos on GBIF^]"
-msgstr "https://data-blog.gbif.org/post/gbif-multimedia/[Compartir imágenes, sonidos y videos en GBIF^]"
+msgstr "https://data-blog.gbif.org/post/gbif-multimedia/[Compartiendo imágenes, sonidos y videos en GBIF^]"
 
 #. type: Plain text
 #: keydocs.en.adoc:43
@@ -1007,7 +1007,7 @@ msgstr "http://www.gbif.org/resource/82847[Documentación técnica clave de ALA^
 #: keydocs.en.adoc:92
 #, no-wrap
 msgid "Miscellaneous"
-msgstr "Variado"
+msgstr "Misceláneo"
 
 #. type: Plain text
 #: keydocs.en.adoc:95
@@ -1375,7 +1375,7 @@ msgstr "[[IPT]]IPT"
 #. type: Plain text
 #: glossary.en.adoc:48
 msgid "Integrated Publishing Toolkit.  It is a free and open source web application (software) for publishing biodiversity data.  The software itself lives on a server (either at your institution or elsewhere) that must have access to the internet 24/7.  It is used to create and handle Darwin Core Archive files that can be shared and used by anyone including GBIF."
-msgstr "Herramienta de Publicación Integrada. Es una aplicación web (software) gratuita y de código abierto para publicar datos de biodiversidad. El software en sí se aloja en un servidor (ya sea en su institución o en otro lugar) que debe tener acceso a Internet las 24 horas del día, los 7 días de la semana. Se utiliza para crear y gestionar archivos de Darwin Core que pueden ser compartidos y utilizados por cualquier persona, incluido GBIF."
+msgstr "Integrated Publishing Toolkit. Es una aplicación web (software) gratuita y de código abierto para publicar datos de biodiversidad. El software en sí se aloja en un servidor (ya sea en su institución o en otro lugar) que debe tener acceso a Internet las 24 horas del día, los 7 días de la semana. Se utiliza para crear y gestionar archivos de Darwin Core que pueden ser compartidos y utilizados por cualquier persona, incluido GBIF."
 
 #. type: Labeled list
 #: glossary.en.adoc:49
@@ -1519,7 +1519,7 @@ msgstr "Laura Anne Russell"
 #. type: Plain text
 #: acknowledgements.en.adoc:20
 msgid "John Tayleur"
-msgstr "Juan Tayleur"
+msgstr "John Tayleur"
 
 #. type: Plain text
 #: acknowledgements.en.adoc:21
