@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: data-use\n"
 "POT-Creation-Date: 2021-11-23 10:18+0000\n"
-"PO-Revision-Date: 2021-11-30 14:16\n"
+"PO-Revision-Date: 2021-12-01 09:00\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -1207,45 +1207,45 @@ msgstr "Taxonomía"
 #. type: Plain text
 #: keydocs.en.adoc:159
 msgid "https://data-blog.gbif.org/post/gbif-checklist-datasets-and-data-gaps/[GBIF checklist datasets and data gaps^]"
-msgstr ""
+msgstr "https://data-blog.gbif.org/post/gbif-checklist-datasets-and-data-gaps/[Conjuntos de datos de listados de especies de GBIF y vacío de datos^]"
 
 #. type: Plain text
 #: keydocs.en.adoc:160
 msgid "https://www.gbif.org/tools/name-parser[GBIF Labs - Names Parser^]"
-msgstr ""
+msgstr "https://www.gbif.org/tools/name-parser[GBIF Labs - Names Parser^]"
 
 #. type: Plain text
 #: keydocs.en.adoc:161
 msgid "https://www.gbif.org/tools/species-lookup[GBIF Labs - Species Matching^]"
-msgstr ""
+msgstr "https://www.gbif.org/tools/species-lookup[GBIF Labs - Species Matching^]"
 
 #. type: Plain text
 #: keydocs.en.adoc:162
 msgid "http://resolver.globalnames.org/[Global Names Resolver^]"
-msgstr ""
+msgstr "http://resolver.globalnames.org/[Global Names Resolver^]"
 
 #. type: Plain text
 #: keydocs.en.adoc:163
 msgid "https://obis.org/manual/namematching/[Marine Name Matching Strategy for taxonomic quality control^]"
-msgstr ""
+msgstr "https://obis.org/manual/namematching/[Estrategia de Asignación de Nombres Marinos para controles de calidad de taxonomía^]"
 
 #. type: Plain text
 #: keydocs.en.adoc:163
 msgid "http://match.taibif.tw/index.html[Nomenmatch^]"
-msgstr ""
+msgstr "http://match.taibif.tw/index.html[Nomenmatch^]"
 
 #. type: Title =
 #: glossary.en.adoc:2
 #, no-wrap
 msgid "Glossary"
-msgstr ""
+msgstr "Glosario"
 
 #. Glossaries are optional. Glossaries entries are an example of a style of AsciiDoc labelled lists.
 #. type: Labeled list
 #: glossary.en.adoc:7
 #, no-wrap
 msgid "[[ALA]]ALA"
-msgstr ""
+msgstr "[[ALA]]ALA"
 
 #. type: Plain text
 #: glossary.en.adoc:9
