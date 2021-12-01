@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: data-use\n"
 "POT-Creation-Date: 2021-11-23 10:18+0000\n"
-"PO-Revision-Date: 2021-12-01 11:09\n"
+"PO-Revision-Date: 2021-12-01 12:07\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -263,7 +263,7 @@ msgstr "Exactitud (precisión) - proximidad de los valores, observaciones o esti
 #: Data-Processing.en.adoc:21
 #, no-wrap
 msgid "img/web/Correctness.png"
-msgstr "img/web/Exactitud.png"
+msgstr "img/web/Correctness.png"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:24
@@ -340,7 +340,7 @@ msgstr "Excluir todos los registros con un problema en particular no es posible 
 #: Data-Processing.en.adoc:56
 #, no-wrap
 msgid "img/web/filtering.png"
-msgstr "img/web/filtrar.png"
+msgstr "img/web/filtering.png"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:59
@@ -351,7 +351,7 @@ msgstr "Un resumen completo de todas las incidencias y avisos puede encontrase e
 #: Data-Processing.en.adoc:60
 #, no-wrap
 msgid "Data Processing Tools"
-msgstr "Herramientas de Procesado de los Datos"
+msgstr "Herramientas de Procesamiento de los Datos"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:64
@@ -450,7 +450,7 @@ msgstr "La sinónima puede darse cuando la misma especie ha sido descrita varias
 #. type: Plain text
 #: Data-Processing.en.adoc:108
 msgid "Taxon Keys Scientific names can be messy.  If you are accessing GBIF-mediated data programatically as opposed to via the website, taxon keys provide an effective way for defining searches based on taxonomy.  Taxon keys are issued at the species, genus family, order, phylum and kingdom level.  Unique identifiers are issued to accepted names with synonyms of those accepted names issued the same identifier.  So, it may make sense to sort out the species by their unique taxon keys provided during the indexation of the dataset by GIBF."
-msgstr "Los nombres Científicos de las Claves Taxonómicas pueden estar desordenados. Si está accediendo mediante APIs a datos publicados a través de GBIF, y no a través del sitio web, las claves taxonómicas proporcionan una manera efectiva para definir las búsquedas basadas en la taxonomía. Las claves taxonómicas se generan a nivel de especie, género, familia, orden, filo y reino. Los identificadores únicos se generados para los nombres aceptados con sinónimos de aquellos nombres aceptados generados por el mismo identificador. Por lo tanto, puede tener sentido ordenar las especies por sus claves taxonómicas únicas proporcionadas por GBIF durante la indexación del conjunto de datos."
+msgstr "Claves Taxonómicas Los nombres científicos pueden estar desordenados. Si está accediendo mediante APIs a datos publicados a través de GBIF, y no a través del sitio web, las claves taxonómicas proporcionan una manera efectiva para definir las búsquedas basadas en la taxonomía. Las claves taxonómicas se generan a nivel de especie, género, familia, orden, filo y reino. Los identificadores únicos se generados para los nombres aceptados con sinónimos de aquellos nombres aceptados generados por el mismo identificador. Por lo tanto, puede tener sentido ordenar las especies por sus claves taxonómicas únicas proporcionadas por GBIF durante la indexación del conjunto de datos."
 
 #. type: Title ===
 #: Data-Processing.en.adoc:109
@@ -1430,7 +1430,7 @@ msgstr "[[TDWG]]TDWG"
 #. type: Plain text
 #: glossary.en.adoc:60
 msgid "Taxonomic Databases Working Group, now renamed Biodiversity Information Standards."
-msgstr "Grupo de Trabajo sobre Bases de Datos Taxonómicas, ahora renombrado Biodiversity Information Standards (Estándares de Información sobre Biodiversidad)."
+msgstr "Taxonomic Databases Working Group, ahora renombrado Biodiversity Information Standards."
 
 #. type: Labeled list
 #: glossary.en.adoc:61
