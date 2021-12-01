@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: data-use\n"
 "POT-Creation-Date: 2021-11-23 10:18+0000\n"
-"PO-Revision-Date: 2021-12-01 09:00\n"
+"PO-Revision-Date: 2021-12-01 09:56\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -35,12 +35,12 @@ msgstr "languageLinks:combined[]"
 #. type: Plain text
 #: index.en.adoc:23
 msgid "Di Marco M, Ferrier S, Harwood TD, Hoskins AJ and Watson JEM (2019) Wilderness areas halve the extinction risk of terrestrial biodiversity. Nature. Springer Science and Business Media LLC 573(7775): 582–585. Available at: https://doi.org/10.1038/s41586-019-1567-7"
-msgstr "Di Marco M, Ferrier S, Harwood TD, Hoskins AJ y Watson JEM (2019) Las áreas naturales reducen a la mitad el riesgo de extinción de la biodiversidad terrestre. Nature. Springer Science and Business Media LLC 573(7775): 582–585. Disponible en: https://doi.org/10.1038/s41586-019-1567-7"
+msgstr "Di Marco M, Ferrier S, Harwood TD, Hoskins AJ and Watson JEM (2019) Wilderness areas halve the extinction risk of terrestrial biodiversity. Nature. Springer Science and Business Media LLC 573(7775): 582–585. Available at: https://doi.org/10.1038/s41586-019-1567-7"
 
 #. type: Plain text
 #: index.en.adoc:25
 msgid "image::img/web/Data USe Cover.png[align=center,width=640,height=360]"
-msgstr "image::img/web/Data Use Cover.png[align=centro,width=640,height=360]"
+msgstr "image::img/web/Data Use Cover.png[align=center,width=640,height=360]"
 
 #. type: Title ==
 #: description.en.adoc:2
@@ -1250,335 +1250,335 @@ msgstr "[[ALA]]ALA"
 #. type: Plain text
 #: glossary.en.adoc:9
 msgid "Atlas of Living Australia.  The Australian node of GBIF, who developed an open source data portal now widely used within the GBIF community & partners for biodiversity national portals."
-msgstr ""
+msgstr "Atlas of Living Australia.  El nodo australiano de GBIF, que desarrolló un portal de datos de código abierto ampliamente utilizado en la actualidad por la comunidad y socios de GBIF para portales nacionales de biodiversidad."
 
 #. type: Labeled list
 #: glossary.en.adoc:10
 #, no-wrap
 msgid "[[API]]API"
-msgstr ""
+msgstr "[[API]]API"
 
 #. type: Plain text
 #: glossary.en.adoc:12
 msgid "Application Programming Interface.  A set of clearly defined methods of communication between various software components."
-msgstr ""
+msgstr "Interfaz de programación de aplicaciones. Un conjunto de métodos de comunicación claramente definidos entre varios componentes de software."
 
 #. type: Labeled list
 #: glossary.en.adoc:13
 #, no-wrap
 msgid "[[BID]]BID"
-msgstr ""
+msgstr "[[BID]]BID"
 
 #. type: Plain text
 #: glossary.en.adoc:15
 msgid "Biodiversity Information for Development.  An EU funded project co-ordinated by GBIF whose aim is to increase data mobilization capacity in the Africa, Caribbean and Pacific regions."
-msgstr ""
+msgstr "Información sobre Biodiversidad para el Desarrollo. Un proyecto financiado por la UE y coordinado por GBIF cuyo objetivo es aumentar la capacidad de movilización de datos en las regiones de África, el Caribe y el Pacífico."
 
 #. type: Labeled list
 #: glossary.en.adoc:16
 #, no-wrap
 msgid "[[BIFA]]BIFA"
-msgstr ""
+msgstr "[[BIFA]]BIFA"
 
 #. type: Plain text
 #: glossary.en.adoc:17
 msgid "Biodiversity Fund for Asia."
-msgstr ""
+msgstr "Fondo para la Diversidad Biológica de Asia."
 
 #. type: Labeled list
 #: glossary.en.adoc:18
 #, no-wrap
 msgid "[[CC]]CC Licences"
-msgstr ""
+msgstr "[[CC]]Licencias CC"
 
 #. type: Plain text
 #: glossary.en.adoc:21
 msgid "Creative Commons.  These are a series of licenses set up by the Creative Commons organization that enable sharing and reuse of creativity and knowledge through the provision of free legal tools.  Three of them can be assigned to GBIF-shared datasets: CC0, CC BY and CC BY-NC."
-msgstr ""
+msgstr "Creative Commons. Se trata de una serie de licencias establecidas por la organización Creative Commons que permiten compartir y reutilizar la creatividad y el conocimiento mediante la provisión de herramientas legales gratuitas. Tres de ellas se pueden asignar a conjuntos de datos compartidos por GBIF: CC0, CC BY y CC BY-NC."
 
 #. type: Labeled list
 #: glossary.en.adoc:22
 #, no-wrap
 msgid "[[vocab]]Controlled Vocabulary"
-msgstr ""
+msgstr "[[vocab]]Vocabulario controlado"
 
 #. type: Plain text
 #: glossary.en.adoc:26
 msgid "This is a restricted set of terms that are used as possible values for a given field.  One can think of it as a lookup list or dropdown for a particular field.  For example the DwC field basisOfRecord should only contain one of these values: \"PreservedSpecimen\", \"FossilSpecimen\", \"LivingSpecimen\", \"HumanObservation\", \"MachineObservation\".  We would say that list of values is a controlled vocabulary for that field."
-msgstr ""
+msgstr "Se trata de un conjunto restringido de términos que se utilizan como valores posibles para un campo determinado. Uno puede pensar en ello como una lista de búsqueda o un menú desplegable para un campo en particular. Por ejemplo, el campo DwC basisOfRecord solo debe contener uno de estos valores: \"PreservedSpecimen\", \"FossilSpecimen\", \"LivingSpecimen\", \"HumanObservation\", \"MachineObservation\". Diríamos que la lista de valores es un vocabulario controlado para ese campo."
 
 #. type: Labeled list
 #: glossary.en.adoc:27
 #, no-wrap
 msgid "[[DwC]]DwC"
-msgstr ""
+msgstr "[[DwC]]DwC"
 
 #. type: Plain text
 #: glossary.en.adoc:29
 msgid "Darwin Core is a biodiversity data standard, maintained by TDWG & widely used within the GBIF community and partners.  It is a set of standardized terms (or field names) and their definitions, which are used to share biodiversity information."
-msgstr ""
+msgstr "Darwin Core es un estándar de datos de biodiversidad, mantenido por TDWG y ampliamente utilizado dentro de la comunidad y socios de GBIF. Es un conjunto de términos estandarizados (o nombres de campo) y sus definiciones, que se utilizan para compartir información sobre biodiversidad."
 
 #. type: Labeled list
 #: glossary.en.adoc:30
 #, no-wrap
 msgid "[[DOI]]DOI"
-msgstr ""
+msgstr "[[DOI]]DOI"
 
 #. type: Plain text
 #: glossary.en.adoc:32
 msgid "Digital Object Identifier.  A persistent identifier or handle used to uniquely identify objects. DOIs are in wide use mainly to identify academic, professional, and government information, such as journal articles, research reports and data sets, and official publications."
-msgstr ""
+msgstr "Digital Object Identifier. Identificador persistente o resolutor que se utiliza para identificar objetos de forma única. Los DOI se utilizan principalmente para identificar información académica, profesional y gubernamental, como artículos de revistas, informes de investigación y conjuntos de datos, y publicaciones oficiales."
 
 #. type: Labeled list
 #: glossary.en.adoc:33
 #, no-wrap
 msgid "[[DwC-A]]DwC-A"
-msgstr ""
+msgstr "[[DwC-A]]DwC-A"
 
 #. type: Plain text
 #: glossary.en.adoc:36
 msgid "Darwin Core Archive.  A compressed (zipped) file containing all the information needed to share with GBIF, for a particular resource.  Each zip contains three types of files:"
-msgstr ""
+msgstr "Archivo Darwin Core. Un archivo comprimido (zip) que contiene toda la información necesaria para compartir con GBIF, para un recurso en particular. Cada zip contiene tres tipos de archivos:"
 
 #. type: Plain text
 #: glossary.en.adoc:37
 msgid "the actual data, in one or more text files: occurrence.txt/event.txt/measurmentoffact.txt etc"
-msgstr ""
+msgstr "los datos reales, en uno o más archivos de texto: ooccurrence.txt/event.txt/measurmentoffact.txt, etc."
 
 #. type: Plain text
 #: glossary.en.adoc:38
 msgid "a mapping file: rtf.xml"
-msgstr ""
+msgstr "un archivo de mapeo: rtf.xml"
 
 #. type: Plain text
 #: glossary.en.adoc:41
 msgid "a metadata (EML) file: eml.xml When you publish using the IPT, it creates a Darwin Core Archive, which is shared with GBIF.  Also, when you download data from the GBIF website you can choose a DwC-A format as well."
-msgstr ""
+msgstr "un archivo de metadatos (EML): eml.xml Cuando publica utilizando el IPT, crea un Archivo de Darwin Core, que se comparte con GBIF. Además, cuando descarga datos del sitio web de GBIF, también puede elegir un formato DwC-A."
 
 #. type: Labeled list
 #: glossary.en.adoc:42
 #, no-wrap
 msgid "[[GUID]]GUID"
-msgstr ""
+msgstr "[[GUID]]GUID"
 
 #. type: Plain text
 #: glossary.en.adoc:43
 msgid "Globally Unique IDentifier"
-msgstr ""
+msgstr "Identificador Global Único"
 
 #. type: Labeled list
 #: glossary.en.adoc:44
 #, no-wrap
 msgid "[[IPT]]IPT"
-msgstr ""
+msgstr "[[IPT]]IPT"
 
 #. type: Plain text
 #: glossary.en.adoc:48
 msgid "Integrated Publishing Toolkit.  It is a free and open source web application (software) for publishing biodiversity data.  The software itself lives on a server (either at your institution or elsewhere) that must have access to the internet 24/7.  It is used to create and handle Darwin Core Archive files that can be shared and used by anyone including GBIF."
-msgstr ""
+msgstr "Herramienta de Publicación Integrada. Es una aplicación web (software) gratuita y de código abierto para publicar datos de biodiversidad. El software en sí se aloja en un servidor (ya sea en su institución o en otro lugar) que debe tener acceso a Internet las 24 horas del día, los 7 días de la semana. Se utiliza para crear y gestionar archivos de Darwin Core que pueden ser compartidos y utilizados por cualquier persona, incluido GBIF."
 
 #. type: Labeled list
 #: glossary.en.adoc:49
 #, no-wrap
 msgid "[[loan]]Loan"
-msgstr ""
+msgstr "[[loan]]Préstamo"
 
 #. type: Plain text
 #: glossary.en.adoc:50
 msgid "In the context of natural history collections, this is the procedure of lending specimens between institutions."
-msgstr ""
+msgstr "En el contexto de las colecciones de historia natural, este es el procedimiento de préstamo de especímenes entre instituciones."
 
 #. type: Labeled list
 #: glossary.en.adoc:51
 #, no-wrap
 msgid "[[LSID]]LSID"
-msgstr ""
+msgstr "[[LSID]]LSID"
 
 #. type: Plain text
 #: glossary.en.adoc:53
 msgid "Life Sciences Identifier.  They are persistent, globally unique identifiers for biological objects."
-msgstr ""
+msgstr "Life Sciences Identifier. Son identificadores persistentes, globales y únicos para objetos biológicos."
 
 #. type: Labeled list
 #: glossary.en.adoc:54
 #, no-wrap
 msgid "[[DP]]Data Publishing"
-msgstr ""
+msgstr "[[DP]]Publicación de datos"
 
 #. type: Plain text
 #: glossary.en.adoc:56
 msgid "With regards to GBIF we have a very specific definition of data publishing.  It refers to making biodiversity datasets publicly accessible and discoverable, in a standardized form, via an access point, typically a web address (a URL)."
-msgstr ""
+msgstr "Con respecto a GBIF, tenemos una definición muy específica de publicación de datos. Se refiere a lograr que los conjuntos de datos de biodiversidad sean accesibles y reconocibles públicamente, en una forma estandarizada, a través de un punto de acceso, generalmente una dirección web (una URL)."
 
 #. type: Labeled list
 #: glossary.en.adoc:57
 #, no-wrap
 msgid "[[resource]]Resource"
-msgstr ""
+msgstr "[[resource]]Recurso"
 
 #. type: Plain text
 #: glossary.en.adoc:58
 msgid "A Resource is the collective term used to refer to a particular dataset and its metadata once it has been uploaded to an IPT instance."
-msgstr ""
+msgstr "Un Recurso es el término colectivo utilizado para referirse a un conjunto de datos en particular y sus metadatos una vez que se ha cargado a una infraestructura de IPT."
 
 #. type: Labeled list
 #: glossary.en.adoc:59
 #, no-wrap
 msgid "[[TDWG]]TDWG"
-msgstr ""
+msgstr "[[TDWG]]TDWG"
 
 #. type: Plain text
 #: glossary.en.adoc:60
 msgid "Taxonomic Databases Working Group, now renamed Biodiversity Information Standards."
-msgstr ""
+msgstr "Grupo de Trabajo sobre Bases de Datos Taxonómicas, ahora renombrado Biodiversity Information Standards (Estándares de Información sobre Biodiversidad)."
 
 #. type: Labeled list
 #: glossary.en.adoc:61
 #, no-wrap
 msgid "[[URN]]URN"
-msgstr ""
+msgstr "[[URN]]URN"
 
 #. type: Plain text
 #: glossary.en.adoc:62
 msgid "Uniform Resource Number"
-msgstr ""
+msgstr "Número de Recurso Uniforme"
 
 #. type: Labeled list
 #: glossary.en.adoc:63
 #, no-wrap
 msgid "[[UUID]]UUID"
-msgstr ""
+msgstr "[[UUID]]UUID"
 
 #. type: Plain text
 #: glossary.en.adoc:64
 msgid "Universally Unique Identifier"
-msgstr ""
+msgstr "Identificador Universalmente Único"
 
 #. type: Plain text
 #: glossary.en.adoc:65
 msgid "<<<"
-msgstr ""
+msgstr "<<<"
 
 #. type: Title ==
 #: acknowledgements.en.adoc:3
 #, no-wrap
 msgid "Acknowledgements "
-msgstr ""
+msgstr "Agradecimientos "
 
 #. type: Title ===
 #: acknowledgements.en.adoc:5
 #, no-wrap
 msgid "Course design and instruction"
-msgstr ""
+msgstr "Diseño del curso e instrucción"
 
 #. type: Plain text
 #: acknowledgements.en.adoc:9
 msgid "The success of this course depends heavily on the support provided to participants from GBIF's network of capacity enhancement mentors.  Visit the GBIF page on https://www.gbif.org/article/5SExsCfj7UaUkMCsuc6Oec/mentors-and-trainers[capacity enhancement mentoring^] to read more about these individuals and their contributions."
-msgstr ""
+msgstr "El éxito de este curso depende en gran medida del apoyo brindado a los participantes de la red de mentores de mejora de capacidad de GBIF. Visite la página de GBIF en https://www.gbif.org/article/5SExsCfj7UaUkMCsuc6Oec/mentors-and-trainers[tutorización sobre mejora de capacidad^] para leer más sobre estas personas y sus contribuciones."
 
 #. type: Plain text
 #: acknowledgements.en.adoc:11
 msgid "The following individuals are recognized for their significant contributions to the course design, materials and instruction:"
-msgstr ""
+msgstr "Los siguientes individuos son reconocidos por sus contribuciones significativas al diseño, materiales e instrucción del curso:"
 
 #. type: Plain text
 #: acknowledgements.en.adoc:13
 msgid "Nadine Bowles Newark"
-msgstr ""
+msgstr "Nadine Bowles Newark"
 
 #. type: Plain text
 #: acknowledgements.en.adoc:14
 msgid "Andrea Baquero"
-msgstr ""
+msgstr "Andrea Baquero"
 
 #. type: Plain text
 #: acknowledgements.en.adoc:15
 msgid "Kate Ingenloff"
-msgstr ""
+msgstr "Kate Ingenloff"
 
 #. type: Plain text
 #: acknowledgements.en.adoc:16
 msgid "Hannah Owens"
-msgstr ""
+msgstr "Hannah Owens"
 
 #. type: Plain text
 #: acknowledgements.en.adoc:17
 msgid "Melianie Raymond"
-msgstr ""
+msgstr "Mélianie Raymond"
 
 #. type: Plain text
 #: acknowledgements.en.adoc:18
 msgid "Andrew Rodrigues"
-msgstr ""
+msgstr "Andrew Rodrigues"
 
 #. type: Plain text
 #: acknowledgements.en.adoc:19
 msgid "Laura Anna Russell"
-msgstr ""
+msgstr "Laura Anne Russell"
 
 #. type: Plain text
 #: acknowledgements.en.adoc:20
 msgid "John Tayleur"
-msgstr ""
+msgstr "Juan Tayleur"
 
 #. type: Plain text
 #: acknowledgements.en.adoc:21
 msgid "John Waller"
-msgstr ""
+msgstr "John Waller"
 
 #. type: Plain text
 #: acknowledgements.en.adoc:23
 msgid "Special acknowledgement ..."
-msgstr ""
+msgstr "Agradecimientos especiales..."
 
 #. type: Title ===
 #: acknowledgements.en.adoc:24
 #, no-wrap
 msgid "Translators"
-msgstr ""
+msgstr "Traductores"
 
 #. type: Title ====
 #: acknowledgements.en.adoc:26
 #, no-wrap
 msgid "Spanish"
-msgstr ""
+msgstr "Español"
 
 #. type: Plain text
 #: acknowledgements.en.adoc:28
 msgid "Anabela Plos"
-msgstr ""
+msgstr "Anabela Plos"
 
 #. type: Plain text
 #: acknowledgements.en.adoc:29
 msgid "Paula Zermoglio"
-msgstr ""
+msgstr "Paula Zermoglio"
 
 #. type: Title ====
 #: acknowledgements.en.adoc:30
 #, no-wrap
 msgid "French"
-msgstr ""
+msgstr "Francés"
 
 #. type: Plain text
 #: acknowledgements.en.adoc:33
 msgid "Patricia Mergen"
-msgstr ""
+msgstr "Patricia Mergen"
 
 #. type: Plain text
 #: acknowledgements.en.adoc:34
 msgid "Anne Sophie Archambeau"
-msgstr ""
+msgstr "Anne Sophie Archambeau"
 
 #. type: Title ===
 #: acknowledgements.en.adoc:35
 #, no-wrap
 msgid "Resources"
-msgstr ""
+msgstr "Recursos"
 
 #. type: Plain text
 #: acknowledgements.en.adoc:38
 msgid "https://www.r-project.org/[R^]"
-msgstr ""
+msgstr "https://www.r-project.org/[R^]"
 
 #. type: Plain text
 #: acknowledgements.en.adoc:39
@@ -1588,19 +1588,19 @@ msgstr ""
 #. type: Plain text
 #: acknowledgements.en.adoc:40
 msgid "https://www.iucnredlist.org/[IUCN Red List of Threatened Species^]"
-msgstr ""
+msgstr "https://www.iucnredlist.org/[Lista Roja de Especies Amenazadas de la UICN^]"
 
 #. type: Title ==
 #: colophon.en.adoc:1
 #, no-wrap
 msgid "Colophon"
-msgstr ""
+msgstr "Colofón"
 
 #. type: Title ===
 #: colophon.en.adoc:3
 #, no-wrap
 msgid "Suggested citation"
-msgstr ""
+msgstr "Cita sugerida"
 
 #. type: Plain text
 #: colophon.en.adoc:6
@@ -1611,43 +1611,43 @@ msgstr ""
 #: colophon.en.adoc:7
 #, no-wrap
 msgid "Contributors"
-msgstr ""
+msgstr "Colaboradores"
 
 #. type: Plain text
 #: colophon.en.adoc:10
 msgid "The _GBIF Biodiversity Data Use Course_ was originally developed as part of https://www.gbif.org/bid[Biodiversity Information Development^], a programme funded by the https://europa.eu[European Union^]. The original curriculum was created by Andrew Rodrigues, Hannah Owens and John Tayleur with additional contributions by GBIF trainers, mentors and students."
-msgstr ""
+msgstr "El _Curso de Uso de Datos sobre Biodiversidad de GBIF_ se desarrolló originalmente como parte de https://www.gbif.org/bid[Información de Biodiversidad para el Desarrollo^], un programa financiado por la https://europa.eu[Unión Europea^]. El plan de estudios original fue creado por Andrew Rodrigues, Hannah Owens y John Tayleur, con contribuciones adicionales de formadores, mentores y estudiantes de GBIF."
 
 #. type: Title ===
 #: colophon.en.adoc:11
 #, no-wrap
 msgid "Licence"
-msgstr ""
+msgstr "Licencia"
 
 #. type: Plain text
 #: colophon.en.adoc:14
 msgid "_Course Name_ is licensed under https://creativecommons.org/licenses/by/4.0[Creative Commons Attribution 4.0 Unported License]."
-msgstr ""
+msgstr "_Curso de Uso de Datos sobre Biodiversidad de GBIF_ posee la licencia https://creativecommons.org/licenses/by/4.0[Creative Commons Atribución 4.0]."
 
 #. type: Title ===
 #: colophon.en.adoc:15
 #, no-wrap
 msgid "Persistent URI"
-msgstr ""
+msgstr "URI persistente"
 
 #. type: Plain text
 #: colophon.en.adoc:18
 msgid "https://doi.org/10.15468/ce-wkk4-2w26"
-msgstr ""
+msgstr "https://doi.org/10.15468/ce-wkk4-2w26"
 
 #. type: Title ===
 #: colophon.en.adoc:19
 #, no-wrap
 msgid "Document control"
-msgstr ""
+msgstr "Control de documentos"
 
 #. type: Plain text
 #: colophon.en.adoc:21
 msgid "Fifth edition, November 2021"
-msgstr ""
+msgstr "Quinta edición, noviembre 2021"
 
