@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: data-use\n"
-"POT-Creation-Date: 2021-11-23 10:18+0000\n"
-"PO-Revision-Date: 2021-11-23 10:24\n"
+"POT-Creation-Date: 2021-12-07 13:42+0000\n"
+"PO-Revision-Date: 2021-12-07 14:08\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -33,14 +33,15 @@ msgid "languageLinks:combined[]"
 msgstr "languageLinks:combined[]"
 
 #. type: Plain text
-#: index.en.adoc:23
+#: index.en.adoc:23 colophon.en.adoc:25
 msgid "Di Marco M, Ferrier S, Harwood TD, Hoskins AJ and Watson JEM (2019) Wilderness areas halve the extinction risk of terrestrial biodiversity. Nature. Springer Science and Business Media LLC 573(7775): 582–585. Available at: https://doi.org/10.1038/s41586-019-1567-7"
 msgstr "Di Marco M, Ferrier S, Harwood TD, Hoskins AJ and Watson JEM (2019) Wilderness areas halve the extinction risk of terrestrial biodiversity. Nature. Springer Science and Business Media LLC 573(7775): 582–585. Available at: https://doi.org/10.1038/s41586-019-1567-7"
 
-#. type: Plain text
-#: index.en.adoc:25
-msgid "image::img/web/Data USe Cover.png[align=center,width=640,height=360]"
-msgstr "image::img/web/Data USe Cover.png[align=center,width=640,height=360]"
+#. type: Target for macro image
+#: index.en.adoc:24
+#, no-wrap
+msgid "img/web/Data_use_cover.png"
+msgstr ""
 
 #. type: Title ==
 #: description.en.adoc:2
@@ -1647,7 +1648,13 @@ msgid "Document control"
 msgstr "Contrôle du document"
 
 #. type: Plain text
-#: colophon.en.adoc:21
+#: colophon.en.adoc:22
 msgid "Fifth edition, November 2021"
 msgstr "Cinquième édition, novembre 2021"
+
+#. type: Title ===
+#: colophon.en.adoc:23
+#, no-wrap
+msgid "Cover image"
+msgstr ""
 
