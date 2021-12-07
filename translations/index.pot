@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-12-07 13:41+0000\n"
+"POT-Creation-Date: 2021-12-07 13:42+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,7 +33,7 @@ msgid "languageLinks:combined[]"
 msgstr ""
 
 #. type: Plain text
-#: index.en.adoc:23
+#: index.en.adoc:23 colophon.en.adoc:25
 msgid ""
 "Di Marco M, Ferrier S, Harwood TD, Hoskins AJ and Watson JEM (2019) "
 "Wilderness areas halve the extinction risk of terrestrial "
@@ -2173,6 +2173,12 @@ msgid "Document control"
 msgstr ""
 
 #. type: Plain text
-#: colophon.en.adoc:21
+#: colophon.en.adoc:22
 msgid "Fifth edition, November 2021"
+msgstr ""
+
+#. type: Title ===
+#: colophon.en.adoc:23
+#, no-wrap
+msgid "Cover image"
 msgstr ""
