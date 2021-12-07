@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-11-23 10:18+0000\n"
+"POT-Creation-Date: 2021-12-07 13:35+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -41,9 +41,10 @@ msgid ""
 "582–585. Available at: https://doi.org/10.1038/s41586-019-1567-7"
 msgstr ""
 
-#. type: Plain text
-#: index.en.adoc:25
-msgid "image::img/web/Data USe Cover.png[align=center,width=640,height=360]"
+#. type: Target for macro image
+#: index.en.adoc:24
+#, no-wrap
+msgid "img/web/photo.png"
 msgstr ""
 
 #. type: Title ==
