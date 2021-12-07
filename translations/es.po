@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: data-use\n"
-"POT-Creation-Date: 2021-11-14 12:13+0000\n"
-"PO-Revision-Date: 2021-11-14 12:20\n"
+"POT-Creation-Date: 2021-11-23 10:18+0000\n"
+"PO-Revision-Date: 2021-12-01 12:07\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -35,12 +35,12 @@ msgstr "languageLinks:combined[]"
 #. type: Plain text
 #: index.en.adoc:23
 msgid "Di Marco M, Ferrier S, Harwood TD, Hoskins AJ and Watson JEM (2019) Wilderness areas halve the extinction risk of terrestrial biodiversity. Nature. Springer Science and Business Media LLC 573(7775): 582–585. Available at: https://doi.org/10.1038/s41586-019-1567-7"
-msgstr "Di Marco M, Ferrier S, Harwood TD, Hoskins AJ y Watson JEM (2019) Las áreas naturales reducen a la mitad el riesgo de extinción de la biodiversidad terrestre. Nature. Springer Science and Business Media LLC 573(7775): 582–585. Disponible en: https://doi.org/10.1038/s41586-019-1567-7"
+msgstr "Di Marco M, Ferrier S, Harwood TD, Hoskins AJ and Watson JEM (2019) Wilderness areas halve the extinction risk of terrestrial biodiversity. Nature. Springer Science and Business Media LLC 573(7775): 582–585. Available at: https://doi.org/10.1038/s41586-019-1567-7"
 
 #. type: Plain text
 #: index.en.adoc:25
 msgid "image::img/web/Data USe Cover.png[align=center,width=640,height=360]"
-msgstr "image::img/web/Data Use Cover.png[align=centro,width=640,height=360]"
+msgstr "image::img/web/Data Use Cover.png[align=center,width=640,height=360]"
 
 #. type: Title ==
 #: description.en.adoc:2
@@ -242,365 +242,365 @@ msgstr "En el módulo de procesamiento de datos, se familiarizará con el concep
 #: Data-Processing.en.adoc:6
 #, no-wrap
 msgid "Fit for purpose data"
-msgstr ""
+msgstr "Datos aptos para propósitos específicos"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:12
 msgid "Almost always you will want to post-process your GBIF download in some way to fit your purposes.  Sometimes you will have to make difficult judgement calls for your particular use-case.  Whenever you are dealing with thousands or millions of records, you will never quite know the true quality of the source data.  It is important to keep in mind that you are always just mitigating data quality issues, not eliminating them."
-msgstr ""
+msgstr "Casi siempre querrá pos-procesar su descarga de GBIF de alguna manera que se ajuste a sus propósitos. A veces, tendrá que hacer juicios difíciles para su caso de uso particular. Siempre que esté tratando con miles o millones de registros, nunca sabrá la verdadera calidad de los datos de origen. Es importante tener en cuenta que siempre está mitigando los problemas de calidad de los datos, no eliminándolos."
 
 #. type: Plain text
 #: Data-Processing.en.adoc:18
 msgid "The data that we get in GBIF download, will contain data from a range of sources and the data will likely vary in its correctness and consistency.  Correctness and consistency are two ways of documenting data errors and are measures of data quality.  These are measures of how well the data gatherer was able to capture the true value being investigated.  The nature of GBIF's data publication workflow means that the correctness and consistency of the data can vary dependent on the data publishers and the source of the data.  Knowing these properties of the data you have, will help you to understand the ways in which you can and cannot clean, validate and process the data."
-msgstr ""
+msgstr "Los datos que obtenemos en la descarga de GBIF contendrán datos de una variedad de fuentes y es probable que los datos varíen en su exactitud y consistencia. La exactitud y la coherencia son dos formas de documentar los errores de datos y son medidas de la calidad de los datos. Estas son medidas de qué tan bien el recolector de datos pudo capturar el valor real que se estaba investigando. La naturaleza del flujo de trabajo de publicación de datos de GBIF significa que la exactitud y consistencia de los datos pueden variar según los publicadores y la fuente de los datos. Conocer estas propiedades de los datos le ayudará a comprender las formas en las que puede y no puede limpiar, validar y procesar los datos."
 
 #. type: Plain text
 #: Data-Processing.en.adoc:20
 msgid "Correctness (Accuracy) - closeness of measured values, observations or estimates to the real or true value e.g. has the species been identified correctly or the collection locality been identified correctly."
-msgstr ""
+msgstr "Exactitud (precisión) - proximidad de los valores, observaciones o estimaciones medidas al valor real o verdadero, ej.: se ha identificado correctamente la especie o la localidad de la colección."
 
 #. type: Target for macro image
 #: Data-Processing.en.adoc:21
 #, no-wrap
 msgid "img/web/Correctness.png"
-msgstr ""
+msgstr "img/web/Correctness.png"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:24
 msgid "For instance, if we are studying plant biogeography in Indonesia, and want to do to a specific analysis for only one of the islands within the archipelago, then an appropriate question might be - Have localities on the island been correctly georeferenced?"
-msgstr ""
+msgstr "Por ejemplo, si estamos estudiando biogeografía de plantas en Indonesia, y queremos realizar un análisis específico para sólo una de las islas del archipiélago, entonces una pregunta apropiada podría ser - ¿Las localidades de la isla han sido correctamente georreferenciadas?"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:26
 msgid "Consistency (Precision) - level of resolution of the data e.g. precision of coordinates, taxonomic determination."
-msgstr ""
+msgstr "Consistencia (Precisión) - nivel de resolución de los datos, ej.: precisión de las coordenadas, determinación taxonómica."
 
 #. type: Target for macro image
 #: Data-Processing.en.adoc:27
 #, no-wrap
 msgid "img/web/Consistency.png"
-msgstr ""
+msgstr "img/web/Consistencia.png"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:30
 msgid "In the Indonesian example, an appropriate question might be - Does the uncertainty in the coordinate estimate allow for the occurrence record to not be on the island?"
-msgstr ""
+msgstr "En el ejemplo indonesio, una pregunta apropiada podría ser: ¿La incertidumbre en la estimación de las coordenadas permite al registro de presencia no estar ubicado en la isla?"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:33
 msgid "As a general rule, for most analyses you want highly accurate data although the level of precision may vary dependent on your analysis.  GBIF can help you to determine the accuracy and precision of the data through, for example, filters and issue flags, however, you must always double-check!"
-msgstr ""
+msgstr "Por regla general, para la mayoría de análisis se desean datos muy precisos aunque el nivel de precisión pueda variar dependiendo del análisis. GBIF puede ayudar a determinar la precisión de los datos, por ejemplo, mediante filtros y avisos, sin embargo, ¡siempre es necesario hacer doble comprobación!"
 
 #. type: Title ==
 #: Data-Processing.en.adoc:34
 #, no-wrap
 msgid "Flags and Issues"
-msgstr ""
+msgstr "Avisos e Incidencias"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:39
 msgid "The GBIF network publishes datasets, integrating them into a common access system.  Here users can retrieve data through common search and download services.  During the indexation process over the raw data, GBIF adds issues and flags to records with common data quality problems.  These may contain useful information for you as a user to create fit-for-purpose datasets."
-msgstr ""
+msgstr "La red de GBIF publica conjuntos de datos, integrándolos en un sistema de acceso común. Aquí los usuarios pueden obtener datos a través de servicios de búsqueda y descarga comunes. Durante el proceso de indexación de los datos en bruto, GBIF incluye incidencias y avisos para los registros con problemas comunes de calidad de datos. Éstos pueden contener información útil para usuarios para crear conjuntos de datos aptos para propósitos específicos."
 
 #. type: Target for macro image
 #: Data-Processing.en.adoc:40
 #, no-wrap
 msgid "img/web/workflow2.png"
-msgstr ""
+msgstr "img/web/FlujoDeTrabajo2.png"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:43
 msgid "Remarks are shown on the individual occurrence pages to explain the process done after interpretation:"
-msgstr ""
+msgstr "Las observaciones se muestran en las páginas de los registros individuales para explicar el proceso realizado después de la interpretación:"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:45
 #, no-wrap
 msgid "*Excluded means the original data couldn’t be interpreted, so is excluded in the interpreted fields.\n"
-msgstr ""
+msgstr "*Excluido* - cuando los datos originales no pudieron ser interpretados, por lo cual se excluyen en los campos interpretados.\n"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:47
 #, no-wrap
 msgid "*Altered means the original data is modified in the interpretation process to be indexed in GBIF.org.\n"
-msgstr ""
+msgstr "*Alterado* - cuando los datos originales son modificados en el proceso de interpretación para ser indexados en GBIF.org.\n"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:49
 #, no-wrap
 msgid "*Inferred means the Using other record information the data indexed is inferred, if the original is empty.\n"
-msgstr ""
+msgstr "*Inferido* - cuando mediante el uso de otra información asociada al registro se puede inferir el dato indexado, en caso de que el original esté vacío.\n"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:55
 msgid "Excluding all records with a particular issue is not currently possible with the search interface.  It is possible to filter all records you are not interested in with issues by selecting the particular issue and hitting the reverse button.  However, reversing will still only give you all other flagged occurrences and not issue-free records.  This is something that GBIF is working to improve. (at occurrence search)"
-msgstr ""
+msgstr "Excluir todos los registros con un problema en particular no es posible actualmente con la interfaz de búsqueda. Es posible filtrar por tema todos los registros que no interesen seleccionando el tema en particular y haciendo clic en el botón inverso. Sin embargo, la inversión sólo mostrará registros con incidencias y no aquellos que estén libres de problemas. GBIF está trabajando para mejorar este asunto. (en búsqueda de registros de presencia)"
 
 #. type: Target for macro image
 #: Data-Processing.en.adoc:56
 #, no-wrap
 msgid "img/web/filtering.png"
-msgstr ""
+msgstr "img/web/filtering.png"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:59
 msgid "A full overview of all issues and flags can be here: https://data-blog.gbif.org/post/issues-and-flags/"
-msgstr ""
+msgstr "Un resumen completo de todas las incidencias y avisos puede encontrase estar aquí: https://data-blog.gbif.org/post/issues-and-flags/"
 
 #. type: Title ===
 #: Data-Processing.en.adoc:60
 #, no-wrap
 msgid "Data Processing Tools"
-msgstr ""
+msgstr "Herramientas de Procesamiento de los Datos"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:64
 msgid "While GBIF filters will allow for some data processing i.e. select only those data for download that fulfil certain criteria, it is highly recommended that you additional data processing and a range of tools are available.  Your choice of which tool you use will be based on personal access, familiarity and utility of each of the tools.  Tools that can be used for this are:"
-msgstr ""
+msgstr "Mientras que los filtros de GBIF permiten algunos procesamientos de datos, ej.: seleccionar para la descarga sólo aquellos datos que cumplan ciertos criterios, se recomienda realizar procesamientos adicionales de datos para lo que existe una amplia gama de herramientas disponibles. La elección de la herramienta a utilizar estará basada en el acceso personal, la familiaridad y la utilidad de cada una de estas herramientas. Las herramientas que pueden ser utilizadas para este fin son:"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:66
 msgid "Spreadsheet editing software e.g. Excel, Google Sheets (smaller datasets)"
-msgstr ""
+msgstr "Programas de edición de hojas de cálculo, ej.: Excel, Google Sheets (conjuntos de datos pequeños)"
 
 #. type: Title ==
 #: Data-Processing.en.adoc:67 keydocs.en.adoc:97
 #, no-wrap
 msgid "OpenRefine"
-msgstr ""
+msgstr "OpenRefine"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:68
 msgid "R packages and scripts eg rgbif, CoordinateCleaner, scrubr and biogeo (automated data processing)"
-msgstr ""
+msgstr "Paquetes y códigos de R, ej.: rgbif, CoordinateCleaner, scrubr y biogeo (procesamiento automático de datos)"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:69
 msgid "Geographical Information Systems (GIS) e.g. ArcGIS, QGIS and MapInfo"
-msgstr ""
+msgstr "Sistemas de Información Geográfica (GIS), ej.: ArcGIS, QGIS y MapInfo"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:72
 msgid "It is always important to include a data visualisation step in your data processing so that you can identify anomalous data points that may have been missed during the processing stage.  For those processing in R, this can be done within R, however, with OpenRefine or spreadsheet editing sofware you may have to use GIS software or even tools such as Google Earth for data visualisation."
-msgstr ""
+msgstr "Siempre es importante incluir un paso de visualización de datos en el procesamiento de datos para poder identificar puntos de datos anómalos que pueden haberse perdido durante la fase de procesamiento. Para aquellos que procesan en R, esto puede hacerse con el mismo R, sin embargo, con OpenRefine o con programas de edición de hojas de cálculo es posible que tenga que utilizar programas de SIG o incluso herramientas como Google Earth para la visualización de los datos."
 
 #. type: Title ==
 #: Data-Processing.en.adoc:73
 #, no-wrap
 msgid "Handling Taxonomic Uncertainty"
-msgstr ""
+msgstr "Manejo de la Incertidumbre Taxonómica"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:76
 msgid "Uncertainty surrounding the taxonomy of a data point can arise for several reasons:"
-msgstr ""
+msgstr "La incertidumbre en torno a la taxonomía de un punto de datos puede surgir por varios motivos:"
 
 #. type: Title ===
 #: Data-Processing.en.adoc:78 Data-Processing.en.adoc:81
 #, no-wrap
 msgid "Species mis-identification"
-msgstr ""
+msgstr "Identificación errónea de la especie"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:79
 msgid "Synoynmy"
-msgstr ""
+msgstr "Sinonimia"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:80
 msgid "Novel names"
-msgstr ""
+msgstr "Nombres nuevos"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:86
 msgid "Species identification is a complex process, with species typically described from a certain set of characters identified in a published species description and linked to a type specimen held within a scientific collection that be used for validation of species identification.  Where taxa are very similar or a set of complex traits are required for correct identification, specific taxonomic expertise may be required that data publishers may not possess leading to a mis-identification of a species.  As users, you must have a clear understanding of how taxonomic determinations for your interest group are made:"
-msgstr ""
+msgstr "La identificación de especies es un proceso complejo, con especies típicamente descritas desde un determinado conjunto de caracteres identificados en una descripción publicada de una especie y enlazadas a un espécimen tipo alojado en una colección científica que se utiliza para validar la identificación de especies. Cuando los taxones son muy similares o un conjunto de rasgos complejos son requeridos para la correcta identificación, pueden requerirse conocimientos taxonómicos específicos que los gestores de datos puede que no posean lo que puede llevar a una identificación errónea de una especie. Como usuarios, debe comprender claramente cómo se hacen las determinaciones taxonómicas para su grupo de interés:"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:88
 msgid "What are the characters used for defining the species?"
-msgstr ""
+msgstr "¿Cuáles son los caracteres utilizados para definir la especie?"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:89
 msgid "Are these characters easily confused or captured when the species is observed or collected?"
-msgstr ""
+msgstr "¿Son estos caracteres fácilmente confundibles u obtenidos cuando se observa o colecta la especie?"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:90
 msgid "Are there related species that could be easily confused with the species you are interested in?"
-msgstr ""
+msgstr "¿Existen especies relacionadas que podrían confundirse fácilmente con la especie de interés?"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:93
 msgid "If you think that there is a risk that species may be incorrectly identified, you can take a conservative approach to the data you use and only use those data linked to specimens in collections where taxonomic validation would be possible and eliminate other data sources.  Another approach may be to use associated data such as collector information, media, DNA sequences etc to validate the taxonomic determination."
-msgstr ""
+msgstr "Si cree que existe riesgo de que la especie se haya identificado incorrectamente, puede tomar un enfoque conservador sobre los datos que utiliza y usar solo aquellos datos vinculados a especímenes en colecciones donde la validación taxonómica sería posible y eliminar otras fuentes de datos. Otro enfoque puede ser utilizar datos asociados como por ejemplo información sobre la colecta, medios, secuencias de ADN, etc. para validar la determinación taxonómica."
 
 #. type: Title ===
 #: Data-Processing.en.adoc:94
 #, no-wrap
 msgid "Synonymy "
-msgstr ""
+msgstr "Sinonimia "
 
 #. type: Plain text
 #: Data-Processing.en.adoc:101
 msgid "Synonymy can arise when the same species has been described several times and a new name is given to the species each time it is described, or, when there is a change in the taxonomy of a species, for example, a species is moved from one genus to another.  Only one species name can be accepted, and other names are what we call synonyms.  These synonyms may still be in use to a lesser or greater extent and you should be sure when getting data from GBIF to obtain data for the taxonomic name you need.  GBIF's taxonomic backbone differentiates between accepted scientific names and synonyms, and unique identifiers in the form of taxon keys.  Species searches https://www.gbif.org/species/search allow for filtering for accepted names and synonyms and taxon keys can be used for programmatic searches of GBIF."
-msgstr ""
+msgstr "La sinónima puede darse cuando la misma especie ha sido descrita varias veces y se da un nuevo nombre a las especies cada vez que se describe, o, cuando se produce un cambio en la taxonomía de una especie, por ejemplo, una especie se traslada de un género a otro. Sólo se puede aceptar un nombre para la especie, y los otros nombres son lo que llamamos sinónimos. Estos sinónimos pueden estar en uso en menor o mayor medida y hay asegurarse al obtener datos de GBIF que éstos se obtienen con el nombre taxonómico que se necesita. El backbone taxonómico de GBIF diferencia entre nombres científicos aceptados y sinónimos, e identificadores únicos en forma de claves taxonómicas. Las búsquedas por especies https://www.gbif.org/species/search permiten filtrar nombres aceptados y sinónimos y las claves taxonómicas pueden utilizarse para búsquedas a través de APIs de GBIF."
 
 #. type: Plain text
 #: Data-Processing.en.adoc:108
 msgid "Taxon Keys Scientific names can be messy.  If you are accessing GBIF-mediated data programatically as opposed to via the website, taxon keys provide an effective way for defining searches based on taxonomy.  Taxon keys are issued at the species, genus family, order, phylum and kingdom level.  Unique identifiers are issued to accepted names with synonyms of those accepted names issued the same identifier.  So, it may make sense to sort out the species by their unique taxon keys provided during the indexation of the dataset by GIBF."
-msgstr ""
+msgstr "Claves Taxonómicas Los nombres científicos pueden estar desordenados. Si está accediendo mediante APIs a datos publicados a través de GBIF, y no a través del sitio web, las claves taxonómicas proporcionan una manera efectiva para definir las búsquedas basadas en la taxonomía. Las claves taxonómicas se generan a nivel de especie, género, familia, orden, filo y reino. Los identificadores únicos se generados para los nombres aceptados con sinónimos de aquellos nombres aceptados generados por el mismo identificador. Por lo tanto, puede tener sentido ordenar las especies por sus claves taxonómicas únicas proporcionadas por GBIF durante la indexación del conjunto de datos."
 
 #. type: Title ===
 #: Data-Processing.en.adoc:109
 #, no-wrap
 msgid "New names"
-msgstr ""
+msgstr "Nombres nuevos"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:115
 msgid "There may be instances where the scientific name does not match any name in the GBIF backbone, perhaps because the species is newly described, or is not within a checklist used by GBIF to construct its backbone.  These names are flagged with the TAXON_MATCH_HIGHERRANK flag indicating that the scientific name has not been recognised but that the data point has matched at a higher taxonomic level eg. genus or family.  This flag can be used for identifying and filtering for these data.  When names have been misspelled or badly formatted, there is also a TAXON_MATCH_FUZZY flag that can be used for identifying and filtering names that can only match the taxonomic backbone using a fuzzy, non exact match."
-msgstr ""
+msgstr "Puede haber casos en los que el nombre científico no coincida con ningún nombre del backbone de GBIF, quizás porque la especie se ha descrito recientemente, o no se encuentra en el listado de especies utilizado por GBIF para construir su backbone. Estos nombres están señalados con el marcador TAXON_MATCH_HIGHERRANK que indica que el nombre científico no ha sido reconocido pero que el registro ha coincidido con un nivel taxonómico superior como por ejemplo el género o la familia. Este marcador puede utilizarse para identificar y filtrar estos datos. Cuando los nombres incluyen errores ortográficos o un formato erróneo, también existe el marcador TAXON_MATCH_FUZZY que puede ser usado para identificar y filtrar nombres que sólo coinciden de manera aproximada con la taxonomía del backbone, siendo una coincidencia no exacta."
 
 #. type: Title ==
 #: Data-Processing.en.adoc:116
 #, no-wrap
 msgid "Handling Data Quality"
-msgstr ""
+msgstr "Manejo de la Calidad de los Datos"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:122
 msgid "Filtering the data allows you as a user to obtain the data that is most fit for purpose.  All searches have a set of filters that can be used for finding the data you need, and occurrence searches have a set of additional 'Advanced\" search filters for users that need to do more advanced filtering.  While filters may allow you to filter out data that may not be relevant, or be of lower quality for your purposes, additional filtering may be required either manually or programmaticially to deal with additional data quality issues that arise during the GBIF data publishing model.  Below are some common data filters that you as a user might consider to make the data more fit-for-purpose."
-msgstr ""
+msgstr "Filtrar los datos permite al usuario obtener los datos más apropiados para un propósito específico. Todas las búsquedas incluyen un conjunto de filtros que pueden ser usados para encontrar los datos que se necesita, y las búsquedas de registros de presencia presentan un conjunto adicional de filtros de búsqueda 'Avanzada' para los usuarios que necesitan hacer un filtrado más avanzado. Mientras que los filtros permiten el filtrado de datos que pueden ser no relevantes, o de menor calidad para sus propósitos, el filtrado adicional puede ser utilizado tanto de forma manual como a través de APIs para abordar problemas adicionales de calidad de los datos que surgen durante el proceso de publicación de datos GBIF. A continuación, se muestran algunos filtros comunes de datos que como usuario podría considerar para hacer los datos más adecuados para su finalidad específica."
 
 #. type: Title ===
 #: Data-Processing.en.adoc:123
 #, no-wrap
 msgid "Geospatial Filters & Issues"
-msgstr ""
+msgstr "Filtros e Incidencias Geoespaciales"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:126
 msgid "The data can be filtered spatially in an occurrrence search in one of 3 ways:"
-msgstr ""
+msgstr "Los datos pueden ser filtrados espacialmente en una búsqueda por registros de presencia en una de las siguientes 3 maneras:"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:128
 msgid "Country or area/Continent - data is filtered by country and will include data within the Exclusive Economic Zone (EEZ)"
-msgstr ""
+msgstr "País o área/Continente - los datos son filtrados por país e incluyen datos de la Zona Económica Exclusiva (EEZ, por sus siglas en inglés)"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:130
 msgid "Administrative area - this filter uses the GADM database https://gadm.org/data.html of administrative areas for all countries in the world to allow for GBIF removes common geospatial issues by default if you choose to have data with a location."
-msgstr ""
+msgstr "Área administrativa - este filtro utiliza la base de datos GADM https://gadm.org/data.html de áreas administrativas para todos los países del mundo permitiendo a GBIF eliminar incidencias geoespaciales comunes por defecto si se elige obtener datos con una localización."
 
 #. type: Plain text
 #: Data-Processing.en.adoc:133
 msgid "Location - this filter allows you to filter for data with coordinates and/or draw your own polygon shape filters or use a GeoJSON file to delimit your own shape filter.  If you filter for those data with coordinates, a number of geospatial issues associated with the data publishing workflow will be eliminated.  These are:"
-msgstr ""
+msgstr "Localización - este filtro permite el filtrado de datos con coordenadas y/o dibujar filtros con forma de polígonos o utilizar un archivo GeoJSON para delimitar el filtro de forma. Si se filtran esos datos con coordenadas, se eliminará un buen número de incidencias geoespaciales asociadas con el flujo de publicación de datos. Éstas son:"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:136
 msgid "Zero Coordinates- Coordinates are exactly (0,0) or what is sometimes called \"null island\".  Zero-zero coordinate is a very common geospatial issue. GBIF removes (0,0) when hasgeospatialissue is set to FALSE."
-msgstr ""
+msgstr "Coordinadas Cero - Las coordenadas son exactamente (0,0) o lo que algunas veces se conoce como \"isla nula\". Las coordenadas cero-cero es una incidencia geoespacial muy común. GBIF elimina (0,0) cuando hasgeospatialissue es marcado como FALSO."
 
 #. type: Plain text
 #: Data-Processing.en.adoc:139
 msgid "Country coordinate mis-match - Data publishers will often supply GBIF with a country code (US,TW,SE,JP…).  GBIF uses the two letter ISO 3166-1 alpha-2 coding system - https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2.  When a point does not fall within the country’s polygon or EEZ, but says that it should occur within the country, it gets flagged as having “country coordinate mis-match” and will be removed if data are filtered for locations."
-msgstr ""
+msgstr "Coordenadas incorrectas de país - Los publicadores de datos a menudo incluyen en GBIF un código de país (US, TW, SE, JP,...). GBIF utiliza el sistema de codificación de dos letras ISO 3166-1 alpha-2 https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2. Cuando un punto no cae en el polígono de un país o de la EEZ pero indica que debería caer en el país, éste será marcado como \"coordenadas incorrectas de país\" y será eliminado si los datos son filtrados por localizaciones."
 
 #. type: Plain text
 #: Data-Processing.en.adoc:140
 msgid "Coordinate invalid - If GBIF is unable to interpret the coordinates i.e. the coordinates."
-msgstr ""
+msgstr "Coordenadas inválidas - Si GBIF es incapaz de interpretar las coordenadas, ej.: las coordenadas."
 
 #. type: Plain text
 #: Data-Processing.en.adoc:141
 msgid "Coordinate invalid - The coordinates are outside of the range for decimal lat/lon values ((-90,90), (-180,180))."
-msgstr ""
+msgstr "Coordenadas inválidas - Las coordenadas se ubican fuera del rango decimal de valores de latitud/longitud ((-90,90), (-180,180))."
 
 #. type: Title ====
 #: Data-Processing.en.adoc:142
 #, no-wrap
 msgid "Country centroids"
-msgstr ""
+msgstr "Centroides de país"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:150
 msgid "Country centroids are where the observation is pinned to the centre of the country instead of where the taxon was observed or recorded.  Country centroids are usually records that have been retrospectively given a lat-lon value based on a textual description of where the original record was located.  Geocoding software uses gazetteers, geographical dictionaries or directories used in conjunction with a map or atlas, to attribute coordinates to place names.  So, if the record simply says “Brazil”, some publishers will put the record in the center of Brazil.  Similarly if the record simply says “Texas” or “Paris” the record will go in the center of those regions.  This is almost exclusively a feature of museum data (PRESERVED_SPECIMEN), but it can also happen with other types of records as well."
-msgstr ""
+msgstr "Los centroides de país hacen referencia al lugar donde la observación se fija en el centro del país en lugar de donde fue observado o colectado el taxón. Los centroides de país normalmente son registros a los que se les otorga un valor de latitud-longitud basado en una descripción textual sobre dónde se localizó el registro original. Los programas de geocodificación utilizan índices de toponimios (nomenclátores), diccionarios geográficos o directorios en conjunto con un mapa o atlas para atribuir coordenadas a los nombres de los lugares. Así pues, si el registro simplemente dice \"Brasil\", algunos publicadores colocarán el registro en el centro de Brasil. De manera similar, si el registro dice \"Texas\" o \"París\", el registro irá en el centro de esas regiones. Esta es una característica casi exclusiva de datos de museo (PRESERVED_SPECIMEN) pero también puede darse con otro tipo de registros."
 
 #. type: Plain text
 #: Data-Processing.en.adoc:152
 msgid "Identifying country centroid data is currently not possible using GBIF filters, however, the R package CoordinateCleaner can be used for identifying and filtering for country centroids."
-msgstr ""
+msgstr "Actualmente, la identificación de los centroides de país no es posible mediante el uso de los filtros de GBIF, sin embargo, el paquete R CoordinateCleaner se puede utilizar para identificar y filtrar por centroides de país."
 
 #. type: Title ====
 #: Data-Processing.en.adoc:153
 #, no-wrap
 msgid "Points along the equator or prime meridian"
-msgstr ""
+msgstr "Puntos a lo largo del ecuador o meridiano principal"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:157
 msgid "Some publishers consider zero and NULL to be equivalent so that empty latitude and longitude fields for a record are given a zero value.  As a result, records end up being plotted along the equator and prime meridian lines."
-msgstr ""
+msgstr "Algunos publicadores consideran que cero y NULL son equivalentes para que los campos vacíos de latitud y longitud de un registro tengan un valor cero. Como resultado, los registros terminan siendo trazados a lo largo del ecuador y las líneas meridianas principales."
 
 #. type: Title ====
 #: Data-Processing.en.adoc:158
 #, no-wrap
 msgid "Uncertain location "
-msgstr ""
+msgstr "Localización incierta "
 
 #. type: Plain text
 #: Data-Processing.en.adoc:163
 msgid "Often you will want to be sure that the coordinates give a certain location and are not really 1000s of km away from where the organism was observed or collected.  There are two fields - coordinate precision and coordinateUncertaintyInMeters - in Darwin Core that you get with a SIMPLE CSV download. that you can use to filter by “uncertainty”.  However, these fields are not used very often by publishers who feel that their records are fairly certain (from a GPS) and we would recommend not filtering out missing values."
-msgstr ""
+msgstr "A menudo, querremos estar seguros de que las coordenadas hacen referencia a un lugar determinado y no que éstas están en realidad a miles de kilómetros de donde se observó o colectó el organismo. Hay dos campos - precisión de coordenadas y coordinateUncertainyInMeters - en Darwin Core que obtienes descargando un CSV SIMPLE y que puedes usar para filtrar por “incertidumbre”. Sin embargo, estos campos no son muy utilizados por los publicadores ya que consideran que sus registros son bastante precisos (de un GPS) y, por tanto, recomendamos no eliminar del filtrado los valores faltantes."
 
 #. type: Plain text
 #: Data-Processing.en.adoc:168
 msgid "There are also a few “fake” values for coordinate uncertainty that you should be aware of.  These values are errors produced by geocoding software and do not represent real uncertainty values.  These \"fake\" values are 301, 3036, 999 and 9999.  In the case of the value 301, the uncertainty is often much-much greater than 301 and actually represents a country centroid."
-msgstr ""
+msgstr "También hay algunos valores “falsos” de incertidumbre de coordenadas que deben tenerse en cuenta. Estos valores son errores generados por los programas de geocodificación y no representan valores reales de incertidumbre. Estos valores \"falsos\" son 301, 3036, 999 y 9999. En el caso del valor 301, la incertidumbre es a menudo muchísimo mayor que 301 y en realidad representa un centroide de país."
 
 #. type: Title ===
 #: Data-Processing.en.adoc:169
 #, no-wrap
 msgid "Gridded datasets"
-msgstr ""
+msgstr "Conjuntos de datos en cuadrícula"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:174
 msgid "Gridded datasets are a known problem at GBIF.  Many datasets have equally-spaced points in a regular pattern.  These datasets are usually systematic national surveys or data taken from some atlas (“so-called rasterized collection designs”).  Georeferenced occurrences are snapped to a central point"
-msgstr ""
+msgstr "Los conjuntos de datos en cuadrícula son un problema conocido en GBIF. Muchos conjuntos de datos incluyen puntos con una separación idéntica entre ellos que siguen un patrón regular. Estos conjuntos de datos suelen ser encuestas nacionales sistemáticas o datos tomados de algún atlas (los llamados \"diseños de colecta rasterizada\"). Los registros de presencia referenciados se colocan en un punto central"
 
 #. type: Target for macro image
 #: Data-Processing.en.adoc:175
 #, no-wrap
 msgid "img/web/gridSnap.gif"
-msgstr ""
+msgstr "img/web/gridSnap.gif"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:181
 msgid "Most publishers of gridded datasets actually fill in one of the following columns: coordinateuncertaintyinmeters, coordinateprecision, footprintwkt So filtering by these columns can be a good way to remove gridded datasets.  The R package Coordinate cleaner also has a function for removing gridded datasets.  GBIF has an experimental API for identifying datasets which exhibit a certain about of \"griddyness\". You can read more here: https://data-blog.gbif.org/post/finding-gridded-datasets/"
-msgstr ""
+msgstr "La mayoría de los publicadores de conjuntos de datos en cuadrícula realmente rellenan una de las siguientes columnas: coordinateuncertaintyinmeters, coordinateprecision, footprintwkt. Así pues, el filtrado en base a estas columnas puede ser una buena manera de eliminar los conjuntos de datos en cuadrícula de nuestra búsqueda. El paquete R Coordinate cleaner también incluye una función para eliminar conjuntos de datos en cuadrícula. GBIF tiene una API experimental para identificar conjuntos de datos que muestran cierto grado de \"cuadriculez\". Puedes leer más sobre el tema aquí: https://data-blog.gbif.org/post/finding-gridded-datasets/"
 
 #. type: Title ====
 #: Data-Processing.en.adoc:182
 #, no-wrap
 msgid "Absence records"
-msgstr ""
+msgstr "Registros de ausencia"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:187
 msgid "By default, both presence and absence records are shown when you search www.gbif.org.  Absence records confirm that a species was not found at a specific locality when that area was surveyed and this information can be useful in, for example, developing ecological niche models.  However, you may only be interested in presence records and in this instance you can filter for only presence records using the Occurrence Status filter."
-msgstr ""
+msgstr "De forma predeterminada, los registros de presencia y ausencia se muestran al buscar en www.gbif.org. Los registros de ausencia confirman que una especie no fue encontrada en una localidad específica cuando se muestreó ese área y esta información puede ser útil en, por ejemplo, el desarrollo de modelos de nicho ecológico. Sin embargo, puede darse el caso que solo interese quedarse con los registros de presencia, para lo que se puede filtrar solo en base a ese tipo de registro utilizando el filtro Occurrence Status."
 
 #. type: Title ====
 #: Data-Processing.en.adoc:188
 #, no-wrap
 msgid "Establishment Means"
-msgstr ""
+msgstr "Medios de establecimiento"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:194
@@ -609,180 +609,183 @@ msgid "The Darwin Core term establishmentMeans identifies the process by which t
 "As such, it can serve as a useful filtering tool for identifying records that are outside of a species native range with accepted terms for this field being native, nativeReintroduced, introduced, introducedAssistedColonisation, vagrant and uncertain.  \n"
 "Currently, GBIF records can be searched using the older vocabulary terms native, introduced, naturalized, native, managed and uncertain -   https://rs.gbif.org/vocabulary/gbif/establishment_means.xml, and these will be updated in late 2022. \n"
 "In some instances, removing “MANAGED” records will remove zoo records.\n"
-msgstr ""
+msgstr "El término “establishmentMeans” del Darwin Core identifica el proceso mediante el cual los individuos biológicos representados en el registro se establecieron en el lugar. \n"
+"Como tal, puede servir como herramienta de filtrado útil para identificar registros que están fuera del rango nativo de una especie, siendo los términos aceptados para este campo native, nativeReintroduced, introduced, introducedAssistedColonization, vagrant y uncertain.  \n"
+"Actualmente, los registros de GBIF se pueden buscar utilizando los términos del vocabulario anterior nativa, introducida, naturalizada, nativa, gestionada e incierto - https://rs.gbif. rg/vocabulary/gbif/establishment_means.xml, y estos serán actualizados a finales de 2022. \n"
+"En algunos casos, la eliminación de registros \"MANAGED\" eliminará registros de zoos.\n"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:197
 msgid "Use this filter cautiously, however, as most records do not contain this information and so would be exluded from a search with this filter on.  We would recommend to use the information within the Establishement Means term for filtering after download."
-msgstr ""
+msgstr "Utilice este filtro con precaución, ya que como la mayoría de registros no contienen esta información se excluirán de la búsqueda si este filtro está activado. Recomendamos utilizar la información del término Medios de Estabilización para filtrar después de la descarga."
 
 #. type: Title ===
 #: Data-Processing.en.adoc:198
 #, no-wrap
 msgid "Basis of Record "
-msgstr ""
+msgstr "Base del Registro "
 
 #. type: Plain text
 #: Data-Processing.en.adoc:201
 msgid "Basis of record is a Darwin Core term that refers to the specific nature of the record and can refer to one of 6 classes:"
-msgstr ""
+msgstr "La base del registro es un término Darwin Core que se refiere a la naturaleza específica del registro y puede referirse a una estas 6 clases:"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:203
 msgid "Living Specimen - a specimen that is alive, for example, a living plant in a botanical garden or a living animal in a zoo."
-msgstr ""
+msgstr "Espécimen Vivo - un espécimen que está vivo, por ejemplo, una planta viva en un jardín botánico o un animal vivo en un zoo."
 
 #. type: Plain text
 #: Data-Processing.en.adoc:204
 msgid "Preserved Specimen - a speciment that has been preserved, for example, a plant on an herbarium shett or a cataloged lot of fish in a jar."
-msgstr ""
+msgstr "Espécimen Conservado - un espécimen que ha sido conservado, por ejemplo, una planta en un pliego de herbario o un lote catalogado de peces en un tarro."
 
 #. type: Plain text
 #: Data-Processing.en.adoc:205
 msgid "Fossil Specimen - a preserved specimen that is a fossil, for example, a body fossil, a coprolite, a gastrolith, an ichnofossil or a piece of petrified tree."
-msgstr ""
+msgstr "Espécimen Fósil - un espécimen conservado que es un fósil, por ejemplo, un cuerpo fósil, un coprolito, un gastrolito, un ictofósil o un trozo de árbol petrificado."
 
 #. type: Plain text
 #: Data-Processing.en.adoc:206
 msgid "Material Citation - A reference to, or citation of, one, a part of, or multiple specimens in scholarly publications, for example, a citation of a physical specimen from a scientifci collection in taxonomic treatment in a scientiufic publication or an occurrence mentioned in a field note book."
-msgstr ""
+msgstr "Cita de Material - Una referencia a, o cita de, uno, una parte de, o múltiples especímenes en publicaciones científicas, por ejemplo, una cita de un espécimen físico de una colección científica en un tratamiento taxonómico o en una publicación científica o un registro de presencia mencionado en un cuaderno de campo."
 
 #. type: Plain text
 #: Data-Processing.en.adoc:207
 msgid "Human Observation - an output of human observation process eg. evidence of an occurrence taken from field notes or literature or a records of an occurence without physical evidence nor evidence captured with a machine."
-msgstr ""
+msgstr "Observación Humana - el resultado de un proceso de observación humana, ej.: evidencia de un registro tomado de notas de campo o literatura, o un registro sin evidencia física ni tomada por una máquina."
 
 #. type: Plain text
 #: Data-Processing.en.adoc:208
 msgid "Machine Observation - An output of a machine observation process for example a photograph, a video, an audio recording, a remote sensing image or an occurrence record based on telemetry."
-msgstr ""
+msgstr "Observación realizada por una Máquina - el resultado de un proceso de observación de una máquina como por ejemplo una fotografía, un vídeo, una grabación de audio, una imagen de control remoto o un registro de presencia basado en telemetría."
 
 #. type: Plain text
 #: Data-Processing.en.adoc:211
 msgid "Basis or record should allow users to filter out those indidivuals in ex-situ collections such as zoos and botanic gardens or fossils as well as filter for those records based on whether the record is based on a specimen or an observation, which can support taxonomic validation.  You should note that, even though this can be a useful filter, data publishers do not always fill the basis of record field correctly, or, there may be nuances in the data that may not be immediately obvious to a user e.g. https://data-blog.gbif.org/post/living-specimen-to-preserved-specimen-understanding-basis-of-record/ and you should always double check your data before use."
-msgstr ""
+msgstr "La base del registro debería permitir a los usuarios filtrar los individuos de colecciones ex-situ tales como zoos y jardines botánicos o los fósiles, así como filtrar aquellos registros en función de si son un espécimen o una observación, que pueden estar sujetos a validación taxonómica. Hay que tener en cuenta que, aunque este puede ser un filtro útil, los publicadores de datos no siempre rellenan correctamente el campo base del registro, o, puede haber matices en los datos que pueden no ser tan obvios un usuario, ej.: https://data-blog.gbif.org/post/living-specimen-to-preserved-specimen-understanding-basis-of-record/ y siempre se deberá hacer una doble comprobación de los datos antes de su uso."
 
 #. type: Title ===
 #: Data-Processing.en.adoc:212
 #, no-wrap
 msgid "Old Records"
-msgstr ""
+msgstr "Registros Antiguos"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:215
 msgid "GBIF has many museum records that might be older than what is desired for some studies."
-msgstr ""
+msgstr "GBIF tiene muchos registros de museos que podrían ser más antiguos que lo deseado para algunos estudios."
 
 #. type: Title ===
 #: Data-Processing.en.adoc:216
 #, no-wrap
 msgid "Duplicates"
-msgstr ""
+msgstr "Duplicados"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:221
 msgid "Duplication of records can occur when several records of the same individal are made.  This can occur from for instance, a researcher depositing several specimens from an individual tree in herbaria around the world who all then publish these data on GBIF, or when an individual has been deposited in a natural history collection and the indidivual was also sampled for its DNA.  In this instance, there will be a record for the specimen in the collections and one for the DNA sequence."
-msgstr ""
+msgstr "La duplicación de registros puede ocurrir cuando se hacen varios registros para un mismo individuo. Esto puede ocurrir, por ejemplo, cuando un investigador deposita varios especímenes del individuo de un árbol en herbarios de todo el mundo que a su vez publican esos datos en GBIF, o cuando un individuo ha sido depositado en una colección de historia natural y el individuo también fue muestreado por su ADN. En este caso, habrá un registro del espécimen en las colecciones y otro para su secuencia de ADN."
 
 #. type: Plain text
 #: Data-Processing.en.adoc:226
 msgid "GBIF has recently introduces a clustering function in its advanced search that allows users to identify clusters of records i.e. records that appear to be derived from the same source.  This allows users to identify potential duplicated data and filter for these out of your download.  Note that if you filter out those records that are in a cluster, you will lose all records found within that cluster and will lose potentially useful data.  The filter may be better used to indicate the extent to which there is duplication in the dataset, or for indepedent donwloads of the clustered and non-clustered datasets for comparison."
-msgstr ""
+msgstr "GBIF ha introducido recientemente una función de agrupación en su búsqueda avanzada que permite a los usuarios identificar grupos de registros, p. ej. registros que parecen proceder de la misma fuente. Esto permite a los usuarios identificar posibles datos duplicados y filtrarlos para excluirlos de la descarga. Tenga en cuenta que si filtra los registros que están en un grupo, perderá todos los registros encontrados en ese grupo y perderá datos potencialmente útiles. El filtro puede usarse mejor para indicar hasta qué punto hay duplicidad en el conjunto de datos, o para descargas independientes de los conjuntos de datos en grupo y sin agrupar a modo de comparación."
 
 #. type: Title =
 #: keydocs.en.adoc:2
 #, no-wrap
 msgid "Key documentation"
-msgstr ""
+msgstr "Documentación clave"
 
 #. type: Plain text
 #: keydocs.en.adoc:7
 msgid "The following references provide further detail on the topics covered in this course.  All links open in a new window/tab."
-msgstr ""
+msgstr "Las siguientes referencias proporcionan más detalles sobre tratados en este curso. Todos los enlaces se abren en una nueva ventana/pestaña."
 
 #. type: Title ==
 #: keydocs.en.adoc:8
 #, no-wrap
 msgid "API"
-msgstr ""
+msgstr "API"
 
 #. type: Plain text
 #: keydocs.en.adoc:10
 msgid "https://data-blog.gbif.org/post/gbif-api-beginners-guide/[GBIF API beginners guide^]"
-msgstr ""
+msgstr "https://data-blog.gbif.org/post/gbif-api-beginners-guide/[Guía para principiantes sobre APIs de GBIF^]"
 
 #. type: Plain text
 #: keydocs.en.adoc:11
 msgid "https://data-blog.gbif.org/post/gbif-species-api/[(Almost) everything you want to know about the GBIF Species API^]"
-msgstr ""
+msgstr "https://data-blog.gbif.org/post/gbif-species-api/[(Casi) todo lo que necesitas saber sobre las APIs de especies de GBIF^]"
 
 #. type: Title ==
 #: keydocs.en.adoc:12
 #, no-wrap
 msgid "Cloud Computing"
-msgstr ""
+msgstr "Computación en la Nube"
 
 #. type: Plain text
 #: keydocs.en.adoc:14
 msgid "https://data-blog.gbif.org/post/microsoft-azure-and-gbif/[GBIF and Apache-Spark on Microsoft Azure tutorial^]"
-msgstr ""
+msgstr "https://data-blog.gbif.org/post/microsoft-azure-and-gbif/[Tutorial sobre GBIF y Apache-Spark en Microsoft Azure^]"
 
 #. type: Plain text
 #: keydocs.en.adoc:15
 msgid "https://data-blog.gbif.org/post/aws-and-gbif/[GBIF and Apache-Spark on AWS tutorial^]"
-msgstr ""
+msgstr "https://data-blog.gbif.org/post/aws-and-gbif/[Tutorial sobre GBIF y Apache-Spark en AWS^]"
 
 #. type: Title ==
 #: keydocs.en.adoc:16
 #, no-wrap
 msgid "Darwin Core"
-msgstr ""
+msgstr "Darwin Core"
 
 #. type: Plain text
 #: keydocs.en.adoc:19
 msgid "https://dwc.tdwg.org/terms/[Darwin Core Terms: A quick reference guide^]"
-msgstr ""
+msgstr "https://dwc.tdwg.org/terms/[Términos Darwin Core: Una guía rápida de referencia^]"
 
 #. type: Plain text
 #: keydocs.en.adoc:20
 msgid "https://dwc.tdwg.org/simple/[Simple DarwinCore^]"
-msgstr ""
+msgstr "https://dwc.tdwg.org/simple/[DarwinCore Simple^]"
 
 #. type: Plain text
 #: keydocs.en.adoc:21
 msgid "https://github.com/tdwg/dwc-qa[Darwin Core Questions & Answers^]"
-msgstr ""
+msgstr "https://github.com/tdwg/dwc-qa[Preguntas & Respuestas sobre Darwin Core^]"
 
 #. type: Plain text
 #: keydocs.en.adoc:22
 msgid "https://tools.gbif.org/dwca-validator/extensions.do[Darwin Core extensions registered with GBIF^]"
-msgstr ""
+msgstr "https://tools.gbif.org/dwca-validator/extensions.do[Extensiones Darwin Core registradas con GBIF^]"
 
 #. type: Title ==
 #: keydocs.en.adoc:23
 #, no-wrap
 msgid "Data publishing"
-msgstr ""
+msgstr "Publicación de datos"
 
 #. type: Plain text
 #: keydocs.en.adoc:26
 msgid "https://www.gbif.org/publishing-data[Quick guide to publishing data through GBIF^]"
-msgstr ""
+msgstr "https://www.gbif.org/publishing-data[Guía rápida para publicar datos a través de GBIF^]"
 
 #. type: Plain text
 #: keydocs.en.adoc:27
 msgid "https://github.com/gbif/ipt/wiki/howToPublish[How to publish biodiversity data through GBIF.org^]"
-msgstr ""
+msgstr "https://github.com/gbif/ipt/wiki/howToPublish[Cómo publicar datos de biodiversidad a través de GBIF.org^]"
 
 #. type: Plain text
 #: keydocs.en.adoc:28
 msgid "https://www.gbif.org/become-a-publisher[Become a data publisher with GBIF^]"
-msgstr ""
+msgstr "https://github.com/gbif/ipt/wiki/howToPublish[Cómo publicar datos de biodiversidad a través de GBIF.org^]"
 
 #. type: Plain text
 #: keydocs.en.adoc:30
 msgid "https://doi.org/10.35035/doc-5xdm-8762[Best Practices for Publishing Biodiversity Data from Environmental Impact Assessments^] + GBIF Secretariat & IAIA: International Association for Impact Assessment (2020)."
-msgstr ""
+msgstr "https://doi.org/10.35035/doc-5xdm-8762[Buenas Prácticas en la Publicación de Datos de Biodiversidad de Evaluaciones de Impacto Ambiental^] + Secretariado de GBIF & IAIA: International Association for Impact Assessment (2020)."
 
 #. type: Plain text
 #: keydocs.en.adoc:32
@@ -797,58 +800,58 @@ msgstr ""
 #. type: Plain text
 #: keydocs.en.adoc:35
 msgid "https://www.gbif.org/dataset-classes[Classes of datasets supported by GBIF^]"
-msgstr ""
+msgstr "https://www.gbif.org/dataset-classes[Tipos de juegos de datos soportados por GBIF^]"
 
 #. type: Plain text
 #: keydocs.en.adoc:36
 msgid "https://www.gbif.org/data-quality-requirements[GBIF data quality requirements for publishing^]"
-msgstr ""
+msgstr "https://www.gbif.org/data-quality-requirements[Requisitos de calidad de datos de GBIF para su publicación^]"
 
 #. type: Plain text
 #: keydocs.en.adoc:37
 msgid "https://www.gbif.org/news/82363/new-approaches-to-data-licensing-and-endorsement[GBIF data licenses^]"
-msgstr ""
+msgstr "https://www.gbif.org/news/82363/new-approaches-to-data-licensing-and-endorsement[licencia de datos de GBIF^]"
 
 #. type: Plain text
 #: keydocs.en.adoc:38
 msgid "https://github.com/gbif/ipt/wiki/checklistData#templates[Checklist core templates^]"
-msgstr ""
+msgstr "https://github.com/gbif/ipt/wiki/checklistData#templates[Modelos de listas de especies centrales^]"
 
 #. type: Plain text
 #: keydocs.en.adoc:39
 msgid "https://github.com/gbif/ipt/wiki/occurrenceData#templates[Occurrence core templates^]"
-msgstr ""
+msgstr "https://github.com/gbif/ipt/wiki/occurrenceData#templates[Modelos de Registros de Presencia centrales^]"
 
 #. type: Plain text
 #: keydocs.en.adoc:40
 msgid "https://github.com/gbif/ipt/wiki/samplingEventData#templates[Sampling event core templates^]"
-msgstr ""
+msgstr "https://github.com/gbif/ipt/wiki/samplingEventData#templates[Modelos de eventos de muestreo centrales^]"
 
 #. type: Plain text
 #: keydocs.en.adoc:41
 msgid "https://github.com/gbif/ipt/wiki/BestPracticesSamplingEventData[Sampling event data best practices^]"
-msgstr ""
+msgstr "https://github.com/gbif/ipt/wiki/BestPracticesSamplingEventData[Buenas prácticas con datos de eventos de muestreo^]"
 
 #. type: Plain text
 #: keydocs.en.adoc:42
 msgid "https://data-blog.gbif.org/post/gbif-multimedia/[Sharing images, sounds and videos on GBIF^]"
-msgstr ""
+msgstr "https://data-blog.gbif.org/post/gbif-multimedia/[Compartiendo imágenes, sonidos y videos en GBIF^]"
 
 #. type: Plain text
 #: keydocs.en.adoc:43
 msgid "https://www.gbif.org/data-papers[Data papers^]"
-msgstr ""
+msgstr "https://www.gbif.org/data-papers[Artículos de Datos^]"
 
 #. type: Plain text
 #: keydocs.en.adoc:44
 msgid "https://www.gbif.org/resource/search?contentType=literature&topics=DATA_PAPER&relevance=GBIF_PUBLISHED[Published data papers^]"
-msgstr ""
+msgstr "https://www.gbif.org/resource/search?contentType=literature&topics=DATA_PAPER&relevance=GBIF_PUBLISHED[Artículos de datos publicados^]"
 
 #. type: Title ==
 #: keydocs.en.adoc:45
 #, no-wrap
 msgid "Data publishing: IPT"
-msgstr ""
+msgstr "Publicación de datos: IPT"
 
 #. type: Plain text
 #: keydocs.en.adoc:49
@@ -858,84 +861,84 @@ msgstr ""
 #. type: Plain text
 #: keydocs.en.adoc:50
 msgid "https://github.com/gbif/ipt/wiki/PublisherProfiles[To install IPT or not to install IPT^]"
-msgstr ""
+msgstr "https://github.com/gbif/ipt/wiki/PublisherProfiles[Instalar el IPT o no instalarlo^]"
 
 #. type: Plain text
 #: keydocs.en.adoc:51
 msgid "https://github.com/gbif/ipt/wiki/dataHostingCentres[IPT data hosting centres^]"
-msgstr ""
+msgstr "https://github.com/gbif/ipt/wiki/dataHostingCentres[Centros de alojamiento de datos del IPT^]"
 
 #. type: Plain text
 #: keydocs.en.adoc:52
 msgid "http://idigbio.adobeconnect.com/p4dfquy4bsf/[IPT Install / Set up webinar^]"
-msgstr ""
+msgstr "http://idigbio.adobeconnect.com/p4dfquy4bsf/[Webinar sobre la Instalación del IPT^]"
 
 #. type: Plain text
 #: keydocs.en.adoc:53
 msgid "https://vimeo.com/116142276[Installing the IPT video^]"
-msgstr ""
+msgstr "https://vimeo.com/116142276[Vídeo sobre la instalación del IPT^]"
 
 #. type: Plain text
 #: keydocs.en.adoc:54
 msgid "https://youtu.be/eDH9IoTrMVE[IPT in Practice demonstration video^]"
-msgstr ""
+msgstr "https://youtu.be/eDH9IoTrMVE[Vídeo tutorial sobre el uso del IPT^]"
 
 #. type: Title ==
 #: keydocs.en.adoc:55
 #, no-wrap
 msgid "Digitization"
-msgstr ""
+msgstr "Digitalización"
 
 #. type: Plain text
 #: keydocs.en.adoc:58
 msgid "https://www.idigbio.org/wiki/index.php/Digitization_Resources[iDigBio Digitization Resources^]"
-msgstr ""
+msgstr "https://www.idigbio.org/wiki/index.php/Digitization_Resources[Recursos de Digitalización de iDigBio^]"
 
 #. type: Plain text
 #: keydocs.en.adoc:59
 msgid "https://www.idigbio.org/wiki/index.php/Collections_Digitization_Workflows[iDigBio Collections Digitization Workflows^]"
-msgstr ""
+msgstr "https://www.idigbio.org/wiki/index.php/Collections_Digitization_Workflows[Flujos de Trabajo en la Digitalización de Colecciones de iDigBio^]"
 
 #. type: Plain text
 #: keydocs.en.adoc:60
 msgid "https://www.idigbio.org/wiki/index.php/Digitization_Workflows_and_Protocols[iDigBio Digitization Workflows and Protocols^]"
-msgstr ""
+msgstr "https://www.idigbio.org/wiki/index.php/Digitization_Workflows_and_Protocols[Protocolos y Flujos de Trabajo en la Digitalización de Colecciones de iDigBio^]"
 
 #. type: Plain text
 #: keydocs.en.adoc:61
 msgid "https://www.idigbio.org/wiki/index.php/Specimen_Image_Capture[iDigBio specimen image capture guide^]"
-msgstr ""
+msgstr "https://www.idigbio.org/wiki/index.php/Specimen_Image_Capture[Guía de captación de imágenes de especímenes de iDigBio^]"
 
 #. type: Plain text
 #: keydocs.en.adoc:62
 msgid "http://www.canadensys.net/publication/multimedia-publication-guide[Canadensys 10-step guide to managing images with your biodiversity data^]"
-msgstr ""
+msgstr "http://www.canadensys.net/publication/multimedia-publication-guide[Guía en 10 pasos de Canadensys para gestionar imágenes con tus datos de biodiversidad^]"
 
 #. type: Title ==
 #: keydocs.en.adoc:63
 #, no-wrap
 msgid "GBIF"
-msgstr ""
+msgstr "GBIF"
 
 #. type: Plain text
 #: keydocs.en.adoc:66
 msgid "https://www.gbif.org/what-is-gbif[What is GBIF^]"
-msgstr ""
+msgstr "https://www.gbif.org/what-is-gbif[Qué es GBIF^]"
 
 #. type: Plain text
 #: keydocs.en.adoc:67
 msgid "https://www.gbif.org/strategic-plan[Strategic Plan^]"
-msgstr ""
+msgstr "https://www.gbif.org/strategic-plan[Plan Estratégico^]"
 
 #. type: Plain text
 #: keydocs.en.adoc:68
 msgid "https://www.gbif.org/become-member[Become a member^]"
-msgstr ""
+msgstr "https://www.gbif.org/become-member[Ser miembro de GBIF^]"
 
 #. type: Plain text
 #: keydocs.en.adoc:69
 msgid "https://www.gbif.org/science-review[Science Review^]"
-msgstr ""
+msgstr "https://www.gbif.org/science-review[Revisión Científica^]"
 
 #. type: Plain text
 #: keydocs.en.adoc:71
@@ -946,7 +949,7 @@ msgstr ""
 #: keydocs.en.adoc:72
 #, no-wrap
 msgid "Georeferencing"
-msgstr ""
+msgstr "Georreferenciación"
 
 #. type: Plain text
 #: keydocs.en.adoc:76
@@ -966,65 +969,65 @@ msgstr ""
 #. type: Plain text
 #: keydocs.en.adoc:81
 msgid "http://georeferencing.org/[Georeferencing resources^]"
-msgstr ""
+msgstr "http://georeferencing.org/[Recursos de georreferenciación^]"
 
 #. type: Title ==
 #: keydocs.en.adoc:82
 #, no-wrap
 msgid "Invasive Species"
-msgstr ""
+msgstr "Especies Invasoras"
 
 #. type: Plain text
 #: keydocs.en.adoc:85
 msgid "http://www.griis.org/about.php[GRISS - Global Register of Introduced and Invasive Species^]"
-msgstr ""
+msgstr "http://www.griis.org/about.php[GRISS - Registro Mundial de Especies Invasoras e Introducidas^]"
 
 #. type: Plain text
 #: keydocs.en.adoc:86
 msgid "https://osf.io/7dpgr/[TrIAS - Tracking Invasive Alien Species^]"
-msgstr ""
+msgstr "https://osf.io/7dpgr/[TrIAS - Monitoreo de Especies Exóticas Invasoras^]"
 
 #. type: Title ==
 #: keydocs.en.adoc:87
 #, no-wrap
 msgid "Living Atlases"
-msgstr ""
+msgstr "Living Atlases"
 
 #. type: Plain text
 #: keydocs.en.adoc:90
 msgid "https://living-atlases.gbif.org/[Living Atlases^]"
-msgstr ""
+msgstr "https://living-atlases.gbif.org/[Living Atlases^]"
 
 #. type: Plain text
 #: keydocs.en.adoc:91
 msgid "http://www.gbif.org/resource/82847[ALA key technical documentation^]"
-msgstr ""
+msgstr "http://www.gbif.org/resource/82847[Documentación técnica clave de ALA^]"
 
 #. type: Title ==
 #: keydocs.en.adoc:92
 #, no-wrap
 msgid "Miscellaneous"
-msgstr ""
+msgstr "Misceláneo"
 
 #. type: Plain text
 #: keydocs.en.adoc:95
 msgid "http://vertnet.org/resources/downloadsinexcelguide.html[VertNet Guide to opening text files in Excel^]"
-msgstr ""
+msgstr "http://vertnet.org/resources/downloadsinexcelguide.html[Guía de VertNet para abrir archivos de texto en Excel^]"
 
 #. type: Plain text
 #: keydocs.en.adoc:96
 msgid "http://vertnet.org/resources/datalicensingguide.html[VertNet data licensing guide^]"
-msgstr ""
+msgstr "http://vertnet.org/resources/datalicensingguide.html[Guía de VertNet para las licencias de datos^]"
 
 #. type: Plain text
 #: keydocs.en.adoc:100
 msgid "https://github.com/OpenRefine/OpenRefine/wiki[OpenRefine documentation^]"
-msgstr ""
+msgstr "https://github.com/OpenRefine/OpenRefine/wiki[Documentación OpenRefine^]"
 
 #. type: Plain text
 #: keydocs.en.adoc:101
 msgid "https://github.com/OpenRefine/OpenRefine/wiki/Understanding-Regular-Expressions[OpenRefine regular expressions^]"
-msgstr ""
+msgstr "https://github.com/OpenRefine/OpenRefine/wiki/Understanding-Regular-Expressions[Expresiones comunes de OpenRefine^]"
 
 #. type: Plain text
 #: keydocs.en.adoc:103
@@ -1070,43 +1073,43 @@ msgstr ""
 #: keydocs.en.adoc:119
 #, no-wrap
 msgid "Planning/Collaboration"
-msgstr ""
+msgstr "Planificación/Colaboración"
 
 #. type: Plain text
 #: keydocs.en.adoc:122
 msgid "http://www.agilenutshell.com/[Agile^]"
-msgstr ""
+msgstr "http://www.agilenutshell.com/[Agile^]"
 
 #. type: Plain text
 #: keydocs.en.adoc:123
 msgid "https://www.scrum.org/resources/what-is-scrum[What is SCRUM^]"
-msgstr ""
+msgstr "https://www.scrum.org/resources/what-is-scrum[Qué es SCRUM^]"
 
 #. type: Plain text
 #: keydocs.en.adoc:124
 msgid "https://www.atlassian.com/agile/scrum[SCRUM Framework^]"
-msgstr ""
+msgstr "https://www.atlassian.com/agile/scrum[Marco de trabajo de SCRUM^]"
 
 #. type: Plain text
 #: keydocs.en.adoc:125
 msgid "https://www.atlassian.com/agile/kanban[Kanban methodology^]"
-msgstr ""
+msgstr "https://www.atlassian.com/agile/kanban[Metodología Kanban^]"
 
 #. type: Plain text
 #: keydocs.en.adoc:126
 msgid "https://scrumguide.com/[Scrum Guide^]"
-msgstr ""
+msgstr "https://scrumguide.com/[Guía Scrum^]"
 
 #. type: Plain text
 #: keydocs.en.adoc:127
 msgid "https://github.com/[GitHub^]"
-msgstr ""
+msgstr "https://github.com/[GitHub^]"
 
 #. type: Title ==
 #: keydocs.en.adoc:128
 #, no-wrap
 msgid "Quality"
-msgstr ""
+msgstr "Calidad"
 
 #. type: Plain text
 #: keydocs.en.adoc:132
@@ -1126,58 +1129,58 @@ msgstr ""
 #. type: Plain text
 #: keydocs.en.adoc:137
 msgid "https://www.w3.org/International/questions/qa-what-is-encoding[Character encoding for beginners^]"
-msgstr ""
+msgstr "https://www.w3.org/International/questions/qa-what-is-encoding[Codificación de caracteres para principiantes^]"
 
 #. type: Plain text
 #: keydocs.en.adoc:138
 msgid "http://mvz.berkeley.edu/Locality_Field_Recording_Notebooks.html[MVZ Guide for Recording Localities in Field Notes^]"
-msgstr ""
+msgstr "http://mvz.berkeley.edu/Locality_Field_Recording_Notebooks.html[Guide MVZ para Registrar Localidades en Notas de Campo^]"
 
 #. type: Title ==
 #: keydocs.en.adoc:139
 #, no-wrap
 msgid "R "
-msgstr ""
+msgstr "R "
 
 #. type: Plain text
 #: keydocs.en.adoc:142
 msgid "https://cran.r-project.org/doc/manuals/r-release/R-intro.pdf[Introduction to R Manual^]"
-msgstr ""
+msgstr "https://cran.r-project.org/doc/manuals/r-release/R-intro.pdf[Introducción al Manual de R^]"
 
 #. type: Plain text
 #: keydocs.en.adoc:143
 msgid "https://cran.r-project.org/web/packages/rgbif/rgbif.pdf[rgbif Manual^]"
-msgstr ""
+msgstr "https://cran.r-project.org/web/packages/rgbif/rgbif.pdf[Manual sobre rgbif^]"
 
 #. type: Plain text
 #: keydocs.en.adoc:144
 msgid "http://th.archive.ubuntu.com/pub/pub/cran/web/packages/CoordinateCleaner/CoordinateCleaner.pdf[CoordinateCleaner Manual^]"
-msgstr ""
+msgstr "http://th.archive.ubuntu.com/pub/pub/cran/web/packages/CoordinateCleaner/CoordinateCleaner.pdf[Manual sobre CoordinateCleaner^]"
 
 #. type: Plain text
 #: keydocs.en.adoc:145
 msgid "https://data-blog.gbif.org/post/downloading-long-species-lists-on-gbif/[Downloading occurrences from a long list of species in R and Python^]"
-msgstr ""
+msgstr "https://data-blog.gbif.org/post/downloading-long-species-lists-on-gbif/[Descarga de registros desde una lista larga de especies en R y Python^]"
 
 #. type: Plain text
 #: keydocs.en.adoc:146
 msgid "https://data-blog.gbif.org/post/gbif-filtering-guide/[Common things to look out for when post-processing GBIF downloads^]"
-msgstr ""
+msgstr "https://data-blog.gbif.org/post/gbif-filtering-guide/[Cosas comunes a tener en cuenta cuando procesemos datos de GBIF tras la descarga^]"
 
 #. type: Plain text
 #: keydocs.en.adoc:147
 msgid "https://data-blog.gbif.org/post/finding-gridded-datasets/[Finding gridded datasets^] & https://data-blog.gbif.org/post/gridded-datasets-update/[Gridded Datasets Update^]"
-msgstr ""
+msgstr "https://data-blog.gbif.org/post/finding-gridded-datasets/[Encontrar Conjuntos de Datos en Cuadrícula^] & https://data-blog.gbif.org/post/gridded-datasets-update/[Cargar Conjuntos de Datos en Cuadrícula^]"
 
 #. type: Plain text
 #: keydocs.en.adoc:148
 msgid "https://data-blog.gbif.org/post/country-centroids/[Country centroids^]"
-msgstr ""
+msgstr "https://data-blog.gbif.org/post/country-centroids/[Centroides de país^]"
 
 #. type: Plain text
 #: keydocs.en.adoc:149
 msgid "https://data-blog.gbif.org/post/shapefiles/[Using shapefiles on GBIF data with R^]"
-msgstr ""
+msgstr "https://data-blog.gbif.org/post/shapefiles/[Utilizar shapefiles en datos de GBIF con R^]"
 
 #. type: Plain text
 #: keydocs.en.adoc:150
@@ -1188,7 +1191,7 @@ msgstr ""
 #: keydocs.en.adoc:151
 #, no-wrap
 msgid "Sensitive species"
-msgstr ""
+msgstr "Especies sensibles"
 
 #. type: Plain text
 #: keydocs.en.adoc:155
@@ -1199,383 +1202,383 @@ msgstr ""
 #: keydocs.en.adoc:156
 #, no-wrap
 msgid "Taxonomy"
-msgstr ""
+msgstr "Taxonomía"
 
 #. type: Plain text
 #: keydocs.en.adoc:159
 msgid "https://data-blog.gbif.org/post/gbif-checklist-datasets-and-data-gaps/[GBIF checklist datasets and data gaps^]"
-msgstr ""
+msgstr "https://data-blog.gbif.org/post/gbif-checklist-datasets-and-data-gaps/[Conjuntos de datos de listados de especies de GBIF y vacío de datos^]"
 
 #. type: Plain text
 #: keydocs.en.adoc:160
 msgid "https://www.gbif.org/tools/name-parser[GBIF Labs - Names Parser^]"
-msgstr ""
+msgstr "https://www.gbif.org/tools/name-parser[GBIF Labs - Names Parser^]"
 
 #. type: Plain text
 #: keydocs.en.adoc:161
 msgid "https://www.gbif.org/tools/species-lookup[GBIF Labs - Species Matching^]"
-msgstr ""
+msgstr "https://www.gbif.org/tools/species-lookup[GBIF Labs - Species Matching^]"
 
 #. type: Plain text
 #: keydocs.en.adoc:162
 msgid "http://resolver.globalnames.org/[Global Names Resolver^]"
-msgstr ""
+msgstr "http://resolver.globalnames.org/[Global Names Resolver^]"
 
 #. type: Plain text
 #: keydocs.en.adoc:163
 msgid "https://obis.org/manual/namematching/[Marine Name Matching Strategy for taxonomic quality control^]"
-msgstr ""
+msgstr "https://obis.org/manual/namematching/[Estrategia de Asignación de Nombres Marinos para controles de calidad de taxonomía^]"
 
 #. type: Plain text
 #: keydocs.en.adoc:163
 msgid "http://match.taibif.tw/index.html[Nomenmatch^]"
-msgstr ""
+msgstr "http://match.taibif.tw/index.html[Nomenmatch^]"
 
 #. type: Title =
 #: glossary.en.adoc:2
 #, no-wrap
 msgid "Glossary"
-msgstr ""
+msgstr "Glosario"
 
 #. Glossaries are optional. Glossaries entries are an example of a style of AsciiDoc labelled lists.
 #. type: Labeled list
 #: glossary.en.adoc:7
 #, no-wrap
 msgid "[[ALA]]ALA"
-msgstr ""
+msgstr "[[ALA]]ALA"
 
 #. type: Plain text
 #: glossary.en.adoc:9
 msgid "Atlas of Living Australia.  The Australian node of GBIF, who developed an open source data portal now widely used within the GBIF community & partners for biodiversity national portals."
-msgstr ""
+msgstr "Atlas of Living Australia.  El nodo australiano de GBIF, que desarrolló un portal de datos de código abierto ampliamente utilizado en la actualidad por la comunidad y socios de GBIF para portales nacionales de biodiversidad."
 
 #. type: Labeled list
 #: glossary.en.adoc:10
 #, no-wrap
 msgid "[[API]]API"
-msgstr ""
+msgstr "[[API]]API"
 
 #. type: Plain text
 #: glossary.en.adoc:12
 msgid "Application Programming Interface.  A set of clearly defined methods of communication between various software components."
-msgstr ""
+msgstr "Interfaz de programación de aplicaciones. Un conjunto de métodos de comunicación claramente definidos entre varios componentes de software."
 
 #. type: Labeled list
 #: glossary.en.adoc:13
 #, no-wrap
 msgid "[[BID]]BID"
-msgstr ""
+msgstr "[[BID]]BID"
 
 #. type: Plain text
 #: glossary.en.adoc:15
 msgid "Biodiversity Information for Development.  An EU funded project co-ordinated by GBIF whose aim is to increase data mobilization capacity in the Africa, Caribbean and Pacific regions."
-msgstr ""
+msgstr "Información sobre Biodiversidad para el Desarrollo. Un proyecto financiado por la UE y coordinado por GBIF cuyo objetivo es aumentar la capacidad de movilización de datos en las regiones de África, el Caribe y el Pacífico."
 
 #. type: Labeled list
 #: glossary.en.adoc:16
 #, no-wrap
 msgid "[[BIFA]]BIFA"
-msgstr ""
+msgstr "[[BIFA]]BIFA"
 
 #. type: Plain text
 #: glossary.en.adoc:17
 msgid "Biodiversity Fund for Asia."
-msgstr ""
+msgstr "Fondo para la Diversidad Biológica de Asia."
 
 #. type: Labeled list
 #: glossary.en.adoc:18
 #, no-wrap
 msgid "[[CC]]CC Licences"
-msgstr ""
+msgstr "[[CC]]Licencias CC"
 
 #. type: Plain text
 #: glossary.en.adoc:21
 msgid "Creative Commons.  These are a series of licenses set up by the Creative Commons organization that enable sharing and reuse of creativity and knowledge through the provision of free legal tools.  Three of them can be assigned to GBIF-shared datasets: CC0, CC BY and CC BY-NC."
-msgstr ""
+msgstr "Creative Commons. Se trata de una serie de licencias establecidas por la organización Creative Commons que permiten compartir y reutilizar la creatividad y el conocimiento mediante la provisión de herramientas legales gratuitas. Tres de ellas se pueden asignar a conjuntos de datos compartidos por GBIF: CC0, CC BY y CC BY-NC."
 
 #. type: Labeled list
 #: glossary.en.adoc:22
 #, no-wrap
 msgid "[[vocab]]Controlled Vocabulary"
-msgstr ""
+msgstr "[[vocab]]Vocabulario controlado"
 
 #. type: Plain text
 #: glossary.en.adoc:26
 msgid "This is a restricted set of terms that are used as possible values for a given field.  One can think of it as a lookup list or dropdown for a particular field.  For example the DwC field basisOfRecord should only contain one of these values: \"PreservedSpecimen\", \"FossilSpecimen\", \"LivingSpecimen\", \"HumanObservation\", \"MachineObservation\".  We would say that list of values is a controlled vocabulary for that field."
-msgstr ""
+msgstr "Se trata de un conjunto restringido de términos que se utilizan como valores posibles para un campo determinado. Uno puede pensar en ello como una lista de búsqueda o un menú desplegable para un campo en particular. Por ejemplo, el campo DwC basisOfRecord solo debe contener uno de estos valores: \"PreservedSpecimen\", \"FossilSpecimen\", \"LivingSpecimen\", \"HumanObservation\", \"MachineObservation\". Diríamos que la lista de valores es un vocabulario controlado para ese campo."
 
 #. type: Labeled list
 #: glossary.en.adoc:27
 #, no-wrap
 msgid "[[DwC]]DwC"
-msgstr ""
+msgstr "[[DwC]]DwC"
 
 #. type: Plain text
 #: glossary.en.adoc:29
 msgid "Darwin Core is a biodiversity data standard, maintained by TDWG & widely used within the GBIF community and partners.  It is a set of standardized terms (or field names) and their definitions, which are used to share biodiversity information."
-msgstr ""
+msgstr "Darwin Core es un estándar de datos de biodiversidad, mantenido por TDWG y ampliamente utilizado dentro de la comunidad y socios de GBIF. Es un conjunto de términos estandarizados (o nombres de campo) y sus definiciones, que se utilizan para compartir información sobre biodiversidad."
 
 #. type: Labeled list
 #: glossary.en.adoc:30
 #, no-wrap
 msgid "[[DOI]]DOI"
-msgstr ""
+msgstr "[[DOI]]DOI"
 
 #. type: Plain text
 #: glossary.en.adoc:32
 msgid "Digital Object Identifier.  A persistent identifier or handle used to uniquely identify objects. DOIs are in wide use mainly to identify academic, professional, and government information, such as journal articles, research reports and data sets, and official publications."
-msgstr ""
+msgstr "Digital Object Identifier. Identificador persistente o resolutor que se utiliza para identificar objetos de forma única. Los DOI se utilizan principalmente para identificar información académica, profesional y gubernamental, como artículos de revistas, informes de investigación y conjuntos de datos, y publicaciones oficiales."
 
 #. type: Labeled list
 #: glossary.en.adoc:33
 #, no-wrap
 msgid "[[DwC-A]]DwC-A"
-msgstr ""
+msgstr "[[DwC-A]]DwC-A"
 
 #. type: Plain text
 #: glossary.en.adoc:36
 msgid "Darwin Core Archive.  A compressed (zipped) file containing all the information needed to share with GBIF, for a particular resource.  Each zip contains three types of files:"
-msgstr ""
+msgstr "Archivo Darwin Core. Un archivo comprimido (zip) que contiene toda la información necesaria para compartir con GBIF, para un recurso en particular. Cada zip contiene tres tipos de archivos:"
 
 #. type: Plain text
 #: glossary.en.adoc:37
 msgid "the actual data, in one or more text files: occurrence.txt/event.txt/measurmentoffact.txt etc"
-msgstr ""
+msgstr "los datos reales, en uno o más archivos de texto: ooccurrence.txt/event.txt/measurmentoffact.txt, etc."
 
 #. type: Plain text
 #: glossary.en.adoc:38
 msgid "a mapping file: rtf.xml"
-msgstr ""
+msgstr "un archivo de mapeo: rtf.xml"
 
 #. type: Plain text
 #: glossary.en.adoc:41
 msgid "a metadata (EML) file: eml.xml When you publish using the IPT, it creates a Darwin Core Archive, which is shared with GBIF.  Also, when you download data from the GBIF website you can choose a DwC-A format as well."
-msgstr ""
+msgstr "un archivo de metadatos (EML): eml.xml Cuando publica utilizando el IPT, crea un Archivo de Darwin Core, que se comparte con GBIF. Además, cuando descarga datos del sitio web de GBIF, también puede elegir un formato DwC-A."
 
 #. type: Labeled list
 #: glossary.en.adoc:42
 #, no-wrap
 msgid "[[GUID]]GUID"
-msgstr ""
+msgstr "[[GUID]]GUID"
 
 #. type: Plain text
 #: glossary.en.adoc:43
 msgid "Globally Unique IDentifier"
-msgstr ""
+msgstr "Identificador Global Único"
 
 #. type: Labeled list
 #: glossary.en.adoc:44
 #, no-wrap
 msgid "[[IPT]]IPT"
-msgstr ""
+msgstr "[[IPT]]IPT"
 
 #. type: Plain text
 #: glossary.en.adoc:48
 msgid "Integrated Publishing Toolkit.  It is a free and open source web application (software) for publishing biodiversity data.  The software itself lives on a server (either at your institution or elsewhere) that must have access to the internet 24/7.  It is used to create and handle Darwin Core Archive files that can be shared and used by anyone including GBIF."
-msgstr ""
+msgstr "Integrated Publishing Toolkit. Es una aplicación web (software) gratuita y de código abierto para publicar datos de biodiversidad. El software en sí se aloja en un servidor (ya sea en su institución o en otro lugar) que debe tener acceso a Internet las 24 horas del día, los 7 días de la semana. Se utiliza para crear y gestionar archivos de Darwin Core que pueden ser compartidos y utilizados por cualquier persona, incluido GBIF."
 
 #. type: Labeled list
 #: glossary.en.adoc:49
 #, no-wrap
 msgid "[[loan]]Loan"
-msgstr ""
+msgstr "[[loan]]Préstamo"
 
 #. type: Plain text
 #: glossary.en.adoc:50
 msgid "In the context of natural history collections, this is the procedure of lending specimens between institutions."
-msgstr ""
+msgstr "En el contexto de las colecciones de historia natural, este es el procedimiento de préstamo de especímenes entre instituciones."
 
 #. type: Labeled list
 #: glossary.en.adoc:51
 #, no-wrap
 msgid "[[LSID]]LSID"
-msgstr ""
+msgstr "[[LSID]]LSID"
 
 #. type: Plain text
 #: glossary.en.adoc:53
 msgid "Life Sciences Identifier.  They are persistent, globally unique identifiers for biological objects."
-msgstr ""
+msgstr "Life Sciences Identifier. Son identificadores persistentes, globales y únicos para objetos biológicos."
 
 #. type: Labeled list
 #: glossary.en.adoc:54
 #, no-wrap
 msgid "[[DP]]Data Publishing"
-msgstr ""
+msgstr "[[DP]]Publicación de datos"
 
 #. type: Plain text
 #: glossary.en.adoc:56
 msgid "With regards to GBIF we have a very specific definition of data publishing.  It refers to making biodiversity datasets publicly accessible and discoverable, in a standardized form, via an access point, typically a web address (a URL)."
-msgstr ""
+msgstr "Con respecto a GBIF, tenemos una definición muy específica de publicación de datos. Se refiere a lograr que los conjuntos de datos de biodiversidad sean accesibles y reconocibles públicamente, en una forma estandarizada, a través de un punto de acceso, generalmente una dirección web (una URL)."
 
 #. type: Labeled list
 #: glossary.en.adoc:57
 #, no-wrap
 msgid "[[resource]]Resource"
-msgstr ""
+msgstr "[[resource]]Recurso"
 
 #. type: Plain text
 #: glossary.en.adoc:58
 msgid "A Resource is the collective term used to refer to a particular dataset and its metadata once it has been uploaded to an IPT instance."
-msgstr ""
+msgstr "Un Recurso es el término colectivo utilizado para referirse a un conjunto de datos en particular y sus metadatos una vez que se ha cargado a una infraestructura de IPT."
 
 #. type: Labeled list
 #: glossary.en.adoc:59
 #, no-wrap
 msgid "[[TDWG]]TDWG"
-msgstr ""
+msgstr "[[TDWG]]TDWG"
 
 #. type: Plain text
 #: glossary.en.adoc:60
 msgid "Taxonomic Databases Working Group, now renamed Biodiversity Information Standards."
-msgstr ""
+msgstr "Taxonomic Databases Working Group, ahora renombrado Biodiversity Information Standards."
 
 #. type: Labeled list
 #: glossary.en.adoc:61
 #, no-wrap
 msgid "[[URN]]URN"
-msgstr ""
+msgstr "[[URN]]URN"
 
 #. type: Plain text
 #: glossary.en.adoc:62
 msgid "Uniform Resource Number"
-msgstr ""
+msgstr "Número de Recurso Uniforme"
 
 #. type: Labeled list
 #: glossary.en.adoc:63
 #, no-wrap
 msgid "[[UUID]]UUID"
-msgstr ""
+msgstr "[[UUID]]UUID"
 
 #. type: Plain text
 #: glossary.en.adoc:64
 msgid "Universally Unique Identifier"
-msgstr ""
+msgstr "Identificador Universalmente Único"
 
 #. type: Plain text
 #: glossary.en.adoc:65
 msgid "<<<"
-msgstr ""
+msgstr "<<<"
 
 #. type: Title ==
 #: acknowledgements.en.adoc:3
 #, no-wrap
 msgid "Acknowledgements "
-msgstr ""
+msgstr "Agradecimientos "
 
 #. type: Title ===
 #: acknowledgements.en.adoc:5
 #, no-wrap
 msgid "Course design and instruction"
-msgstr ""
+msgstr "Diseño del curso e instrucción"
 
 #. type: Plain text
 #: acknowledgements.en.adoc:9
 msgid "The success of this course depends heavily on the support provided to participants from GBIF's network of capacity enhancement mentors.  Visit the GBIF page on https://www.gbif.org/article/5SExsCfj7UaUkMCsuc6Oec/mentors-and-trainers[capacity enhancement mentoring^] to read more about these individuals and their contributions."
-msgstr ""
+msgstr "El éxito de este curso depende en gran medida del apoyo brindado a los participantes de la red de mentores de mejora de capacidad de GBIF. Visite la página de GBIF en https://www.gbif.org/article/5SExsCfj7UaUkMCsuc6Oec/mentors-and-trainers[tutorización sobre mejora de capacidad^] para leer más sobre estas personas y sus contribuciones."
 
 #. type: Plain text
 #: acknowledgements.en.adoc:11
 msgid "The following individuals are recognized for their significant contributions to the course design, materials and instruction:"
-msgstr ""
+msgstr "Los siguientes individuos son reconocidos por sus contribuciones significativas al diseño, materiales e instrucción del curso:"
 
 #. type: Plain text
 #: acknowledgements.en.adoc:13
 msgid "Nadine Bowles Newark"
-msgstr ""
+msgstr "Nadine Bowles Newark"
 
 #. type: Plain text
 #: acknowledgements.en.adoc:14
 msgid "Andrea Baquero"
-msgstr ""
+msgstr "Andrea Baquero"
 
 #. type: Plain text
 #: acknowledgements.en.adoc:15
 msgid "Kate Ingenloff"
-msgstr ""
+msgstr "Kate Ingenloff"
 
 #. type: Plain text
 #: acknowledgements.en.adoc:16
 msgid "Hannah Owens"
-msgstr ""
+msgstr "Hannah Owens"
 
 #. type: Plain text
 #: acknowledgements.en.adoc:17
 msgid "Melianie Raymond"
-msgstr ""
+msgstr "Mélianie Raymond"
 
 #. type: Plain text
 #: acknowledgements.en.adoc:18
 msgid "Andrew Rodrigues"
-msgstr ""
+msgstr "Andrew Rodrigues"
 
 #. type: Plain text
 #: acknowledgements.en.adoc:19
 msgid "Laura Anna Russell"
-msgstr ""
+msgstr "Laura Anne Russell"
 
 #. type: Plain text
 #: acknowledgements.en.adoc:20
 msgid "John Tayleur"
-msgstr ""
+msgstr "John Tayleur"
 
 #. type: Plain text
 #: acknowledgements.en.adoc:21
 msgid "John Waller"
-msgstr ""
+msgstr "John Waller"
 
 #. type: Plain text
 #: acknowledgements.en.adoc:23
 msgid "Special acknowledgement ..."
-msgstr ""
+msgstr "Agradecimientos especiales..."
 
 #. type: Title ===
 #: acknowledgements.en.adoc:24
 #, no-wrap
 msgid "Translators"
-msgstr ""
+msgstr "Traductores"
 
 #. type: Title ====
 #: acknowledgements.en.adoc:26
 #, no-wrap
 msgid "Spanish"
-msgstr ""
+msgstr "Español"
 
 #. type: Plain text
 #: acknowledgements.en.adoc:28
 msgid "Anabela Plos"
-msgstr ""
+msgstr "Anabela Plos"
 
 #. type: Plain text
 #: acknowledgements.en.adoc:29
 msgid "Paula Zermoglio"
-msgstr ""
+msgstr "Paula Zermoglio"
 
 #. type: Title ====
 #: acknowledgements.en.adoc:30
 #, no-wrap
 msgid "French"
-msgstr ""
+msgstr "Francés"
 
 #. type: Plain text
 #: acknowledgements.en.adoc:33
 msgid "Patricia Mergen"
-msgstr ""
+msgstr "Patricia Mergen"
 
 #. type: Plain text
 #: acknowledgements.en.adoc:34
 msgid "Anne Sophie Archambeau"
-msgstr ""
+msgstr "Anne Sophie Archambeau"
 
 #. type: Title ===
 #: acknowledgements.en.adoc:35
 #, no-wrap
 msgid "Resources"
-msgstr ""
+msgstr "Recursos"
 
 #. type: Plain text
 #: acknowledgements.en.adoc:38
 msgid "https://www.r-project.org/[R^]"
-msgstr ""
+msgstr "https://www.r-project.org/[R^]"
 
 #. type: Plain text
 #: acknowledgements.en.adoc:39
@@ -1585,66 +1588,66 @@ msgstr ""
 #. type: Plain text
 #: acknowledgements.en.adoc:40
 msgid "https://www.iucnredlist.org/[IUCN Red List of Threatened Species^]"
-msgstr ""
+msgstr "https://www.iucnredlist.org/[Lista Roja de Especies Amenazadas de la UICN^]"
 
 #. type: Title ==
 #: colophon.en.adoc:1
 #, no-wrap
 msgid "Colophon"
-msgstr ""
+msgstr "Colofón"
 
 #. type: Title ===
 #: colophon.en.adoc:3
 #, no-wrap
 msgid "Suggested citation"
-msgstr ""
+msgstr "Cita sugerida"
 
 #. type: Plain text
 #: colophon.en.adoc:6
-msgid "GBIF Secretariat (2021) GBIF Biodiversity Data Use Course. 6th edition. GBIF Secretariat: Copenhagen. https://doi.org/10.35035/ce-xxxx-xxxx. [Date of course.]"
+msgid "GBIF Secretariat (2021) GBIF Biodiversity Data Use Course. 6th edition. GBIF Secretariat: Copenhagen. https://doi.org/10.15468/ce-wkk4-2w26. [Date of course.]"
 msgstr ""
 
 #. type: Title ===
 #: colophon.en.adoc:7
 #, no-wrap
 msgid "Contributors"
-msgstr ""
+msgstr "Colaboradores"
 
 #. type: Plain text
 #: colophon.en.adoc:10
 msgid "The _GBIF Biodiversity Data Use Course_ was originally developed as part of https://www.gbif.org/bid[Biodiversity Information Development^], a programme funded by the https://europa.eu[European Union^]. The original curriculum was created by Andrew Rodrigues, Hannah Owens and John Tayleur with additional contributions by GBIF trainers, mentors and students."
-msgstr ""
+msgstr "El _Curso de Uso de Datos sobre Biodiversidad de GBIF_ se desarrolló originalmente como parte de https://www.gbif.org/bid[Información de Biodiversidad para el Desarrollo^], un programa financiado por la https://europa.eu[Unión Europea^]. El plan de estudios original fue creado por Andrew Rodrigues, Hannah Owens y John Tayleur, con contribuciones adicionales de formadores, mentores y estudiantes de GBIF."
 
 #. type: Title ===
 #: colophon.en.adoc:11
 #, no-wrap
 msgid "Licence"
-msgstr ""
+msgstr "Licencia"
 
 #. type: Plain text
 #: colophon.en.adoc:14
 msgid "_Course Name_ is licensed under https://creativecommons.org/licenses/by/4.0[Creative Commons Attribution 4.0 Unported License]."
-msgstr ""
+msgstr "_Curso de Uso de Datos sobre Biodiversidad de GBIF_ posee la licencia https://creativecommons.org/licenses/by/4.0[Creative Commons Atribución 4.0]."
 
 #. type: Title ===
 #: colophon.en.adoc:15
 #, no-wrap
 msgid "Persistent URI"
-msgstr ""
+msgstr "URI persistente"
 
 #. type: Plain text
 #: colophon.en.adoc:18
-msgid "https://doi.org/10.35035/ce-xxxx-xxxx"
-msgstr ""
+msgid "https://doi.org/10.15468/ce-wkk4-2w26"
+msgstr "https://doi.org/10.15468/ce-wkk4-2w26"
 
 #. type: Title ===
 #: colophon.en.adoc:19
 #, no-wrap
 msgid "Document control"
-msgstr ""
+msgstr "Control de documentos"
 
 #. type: Plain text
 #: colophon.en.adoc:21
 msgid "Fifth edition, November 2021"
-msgstr ""
+msgstr "Quinta edición, noviembre 2021"
 
