@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-12-07 13:42+0000\n"
+"POT-Creation-Date: 2021-12-08 10:49+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -341,7 +341,7 @@ msgstr ""
 #. type: Target for macro image
 #: Data-Processing.en.adoc:21
 #, no-wrap
-msgid "img/web/Correctness.png"
+msgid "img/web/Correctness.svg"
 msgstr ""
 
 #. type: Plain text
@@ -363,7 +363,7 @@ msgstr ""
 #. type: Target for macro image
 #: Data-Processing.en.adoc:27
 #, no-wrap
-msgid "img/web/Consistency.png"
+msgid "img/web/Consistency.svg"
 msgstr ""
 
 #. type: Plain text
