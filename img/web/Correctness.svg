@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   id="svg2"
+   width="264.6857"
+   height="131.2"
+   viewBox="0 0 264.6857 131.2">
+  <metadata
+     id="metadata8">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs6">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1102">
+      <rect
+         style="opacity:0.401567;fill:#0000ff;fill-rule:evenodd"
+         id="rect1104"
+         width="264.6857"
+         height="131.2"
+         x="0"
+         y="0" />
+    </clipPath>
+  </defs>
+  <g
+     id="g10">
+    <g
+       id="g1100"
+       clip-path="url(#clipPath1102)">
+      <circle
+         style="fill:#aa0000"
+         id="path853"
+         cx="132.34285"
+         cy="65.599998"
+         r="128.45779" />
+      <circle
+         style="fill:#ffffff"
+         id="path851"
+         cx="132.34285"
+         cy="65.599998"
+         r="112.69292" />
+      <circle
+         style="fill:#aa0000"
+         id="path847"
+         cx="132.34285"
+         cy="65.599998"
+         r="102.55078" />
+      <circle
+         style="fill:#ffffff"
+         id="path845"
+         cx="132.34285"
+         cy="65.599998"
+         r="86.176041" />
+      <circle
+         style="fill:#aa0000"
+         id="path843"
+         cx="132.34285"
+         cy="65.599998"
+         r="76.025246" />
+      <circle
+         style="fill:#ffffff"
+         id="path841"
+         cx="132.34285"
+         cy="65.599998"
+         r="60.242825" />
+      <circle
+         style="fill:#aa0000"
+         id="path839"
+         cx="132.34285"
+         cy="65.599998"
+         r="49.310616" />
+      <circle
+         style="fill:#000000"
+         id="path855"
+         cx="120.93356"
+         cy="25.70183"
+         r="7.2592068" />
+      <circle
+         style="fill:#000000"
+         id="circle857"
+         cx="75.740425"
+         cy="72.99469"
+         r="7.2592068" />
+      <circle
+         style="fill:#000000"
+         id="circle859"
+         cx="182.55217"
+         cy="66.856461"
+         r="7.2592068" />
+      <circle
+         style="fill:#000000"
+         id="circle861"
+         cx="105.55284"
+         cy="117.5319"
+         r="7.2592068" />
+    </g>
+  </g>
+</svg>

@@ -18,13 +18,13 @@ Knowing these properties of the data you have, will help you to understand the w
 
 * Correctness (Accuracy) - closeness of measured values, observations or estimates to the real or true value e.g. has the species been identified correctly or the collection locality been identified correctly.
 
-image::img/web/Correctness.png[align=center,width=640,height=360]
+image::img/web/Correctness.svg[align=center,width=640,height=360]
 
 For instance, if we are studying plant biogeography in Indonesia, and want to do to a specific analysis for only one of the islands within the archipelago, then an appropriate question might be - Have localities on the island been correctly georeferenced?
 
 * Consistency (Precision) - level of resolution of the data e.g. precision of coordinates, taxonomic determination.
 
-image::img/web/Consistency.png[align=center,width=640,height=360]
+image::img/web/Consistency.svg[align=center,width=640,height=360]
 
 In the Indonesian example, an appropriate question might be - Does the uncertainty in the coordinate estimate allow for the occurrence record to not be on the island?
 
