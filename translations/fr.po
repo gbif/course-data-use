@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: data-use\n"
-"POT-Creation-Date: 2021-12-07 13:42+0000\n"
-"PO-Revision-Date: 2021-12-07 14:08\n"
+"POT-Creation-Date: 2021-12-08 10:49+0000\n"
+"PO-Revision-Date: 2021-12-08 11:08\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -263,8 +263,8 @@ msgstr "Justesse (Précision) - proximité des valeurs mesurées, des observatio
 #. type: Target for macro image
 #: Data-Processing.en.adoc:21
 #, no-wrap
-msgid "img/web/Correctness.png"
-msgstr "img/web/Correctness.png"
+msgid "img/web/Correctness.svg"
+msgstr ""
 
 #. type: Plain text
 #: Data-Processing.en.adoc:24
@@ -279,8 +279,8 @@ msgstr "Cohérence (Précision) - niveau de résolution des données, par exempl
 #. type: Target for macro image
 #: Data-Processing.en.adoc:27
 #, no-wrap
-msgid "img/web/Consistency.png"
-msgstr "img/web/Consistency.png"
+msgid "img/web/Consistency.svg"
+msgstr ""
 
 #. type: Plain text
 #: Data-Processing.en.adoc:30
