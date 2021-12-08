@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: data-use\n"
-"POT-Creation-Date: 2021-12-07 13:42+0000\n"
-"PO-Revision-Date: 2021-12-07 14:08\n"
+"POT-Creation-Date: 2021-12-08 10:49+0000\n"
+"PO-Revision-Date: 2021-12-08 11:08\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -263,8 +263,8 @@ msgstr "Exactitud (precisión) - proximidad de los valores, observaciones o esti
 #. type: Target for macro image
 #: Data-Processing.en.adoc:21
 #, no-wrap
-msgid "img/web/Correctness.png"
-msgstr "img/web/Correctness.png"
+msgid "img/web/Correctness.svg"
+msgstr ""
 
 #. type: Plain text
 #: Data-Processing.en.adoc:24
@@ -279,8 +279,8 @@ msgstr "Consistencia (Precisión) - nivel de resolución de los datos, ej.: prec
 #. type: Target for macro image
 #: Data-Processing.en.adoc:27
 #, no-wrap
-msgid "img/web/Consistency.png"
-msgstr "img/web/Consistency.png"
+msgid "img/web/Consistency.svg"
+msgstr ""
 
 #. type: Plain text
 #: Data-Processing.en.adoc:30
