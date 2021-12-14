@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-12-08 10:49+0000\n"
+"POT-Creation-Date: 2021-12-14 12:39+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1577,40 +1577,52 @@ msgid "R "
 msgstr ""
 
 #. type: Plain text
+#: keydocs.en.adoc:141
+msgid ""
+"https://datacarpentry.org/R-ecology-lesson/[Data Carpentry-Data Analysis and "
+"Visualization in R for Ecologists^]"
+msgstr ""
+
+#. type: Plain text
 #: keydocs.en.adoc:142
+msgid "https://www.datacamp.com/[Datacamp- Range of courses in R, Python and SQL^]"
+msgstr ""
+
+#. type: Plain text
+#: keydocs.en.adoc:143
 msgid ""
 "https://cran.r-project.org/doc/manuals/r-release/R-intro.pdf[Introduction to "
 "R Manual^]"
 msgstr ""
 
 #. type: Plain text
-#: keydocs.en.adoc:143
+#: keydocs.en.adoc:144
 msgid "https://cran.r-project.org/web/packages/rgbif/rgbif.pdf[rgbif Manual^]"
 msgstr ""
 
 #. type: Plain text
-#: keydocs.en.adoc:144
+#: keydocs.en.adoc:145
 msgid ""
 "http://th.archive.ubuntu.com/pub/pub/cran/web/packages/CoordinateCleaner/CoordinateCleaner.pdf[CoordinateCleaner "
 "Manual^]"
 msgstr ""
 
 #. type: Plain text
-#: keydocs.en.adoc:145
+#: keydocs.en.adoc:146
 msgid ""
 "https://data-blog.gbif.org/post/downloading-long-species-lists-on-gbif/[Downloading "
 "occurrences from a long list of species in R and Python^]"
 msgstr ""
 
 #. type: Plain text
-#: keydocs.en.adoc:146
+#: keydocs.en.adoc:147
 msgid ""
 "https://data-blog.gbif.org/post/gbif-filtering-guide/[Common things to look "
 "out for when post-processing GBIF downloads^]"
 msgstr ""
 
 #. type: Plain text
-#: keydocs.en.adoc:147
+#: keydocs.en.adoc:148
 msgid ""
 "https://data-blog.gbif.org/post/finding-gridded-datasets/[Finding gridded "
 "datasets^] & "
@@ -1619,72 +1631,72 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: keydocs.en.adoc:148
+#: keydocs.en.adoc:149
 msgid "https://data-blog.gbif.org/post/country-centroids/[Country centroids^]"
 msgstr ""
 
 #. type: Plain text
-#: keydocs.en.adoc:149
+#: keydocs.en.adoc:150
 msgid ""
 "https://data-blog.gbif.org/post/shapefiles/[Using shapefiles on GBIF data "
 "with R^]"
 msgstr ""
 
 #. type: Plain text
-#: keydocs.en.adoc:150
+#: keydocs.en.adoc:151
 msgid "https://data-blog.gbif.org/post/not-a-bird/[Not a bird download^]"
 msgstr ""
 
 #. type: Title ==
-#: keydocs.en.adoc:151
+#: keydocs.en.adoc:152
 #, no-wrap
 msgid "Sensitive species"
 msgstr ""
 
 #. type: Plain text
-#: keydocs.en.adoc:155
+#: keydocs.en.adoc:156
 msgid ""
 "https://doi.org/10.15468/doc-5jp4-5g10[Current Best Practices for "
 "Generalizing Sensitive Species Occurrence Data^] + Arthur D. Chapman 2020."
 msgstr ""
 
 #. type: Title ==
-#: keydocs.en.adoc:156
+#: keydocs.en.adoc:157
 #, no-wrap
 msgid "Taxonomy"
 msgstr ""
 
 #. type: Plain text
-#: keydocs.en.adoc:159
+#: keydocs.en.adoc:160
 msgid ""
 "https://data-blog.gbif.org/post/gbif-checklist-datasets-and-data-gaps/[GBIF "
 "checklist datasets and data gaps^]"
 msgstr ""
 
 #. type: Plain text
-#: keydocs.en.adoc:160
+#: keydocs.en.adoc:161
 msgid "https://www.gbif.org/tools/name-parser[GBIF Labs - Names Parser^]"
 msgstr ""
 
 #. type: Plain text
-#: keydocs.en.adoc:161
+#: keydocs.en.adoc:162
 msgid "https://www.gbif.org/tools/species-lookup[GBIF Labs - Species Matching^]"
 msgstr ""
 
 #. type: Plain text
-#: keydocs.en.adoc:162
+#: keydocs.en.adoc:163
 msgid "http://resolver.globalnames.org/[Global Names Resolver^]"
 msgstr ""
 
 #. type: Plain text
-#: keydocs.en.adoc:163
+#: keydocs.en.adoc:164
 msgid ""
 "https://obis.org/manual/namematching/[Marine Name Matching Strategy for "
 "taxonomic quality control^]"
 msgstr ""
 
 #. type: Plain text
-#: keydocs.en.adoc:163
+#: keydocs.en.adoc:164
 msgid "http://match.taibif.tw/index.html[Nomenmatch^]"
 msgstr ""
 
