@@ -139,7 +139,7 @@ DataOne 2014.
 == R 
 * https://datacarpentry.org/R-ecology-lesson/[Data Carpentry-Data Analysis and Visualization in R for Ecologists^]
 * https://www.datacamp.com/[Datacamp- Range of courses in R, Python and SQL^]
-* https://cran.r-project.org/doc/manuals/r-release/R- intro.pdf[Introduction to R Manual^]
+* https://cran.r-project.org/doc/manuals/r-release/R-intro.pdf[Introduction to R Manual^]
 * https://cran.r-project.org/web/packages/rgbif/rgbif.pdf[rgbif Manual^]
 * http://th.archive.ubuntu.com/pub/pub/cran/web/packages/CoordinateCleaner/CoordinateCleaner.pdf[CoordinateCleaner Manual^]
 * https://data-blog.gbif.org/post/downloading-long-species-lists-on-gbif/[Downloading occurrences from a long list of species in R and Python^]
