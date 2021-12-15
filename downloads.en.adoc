@@ -5,11 +5,11 @@ All files for the course may be downloaded from this page.
 === Presentations
 PDF versions of the accompanying presentation can be found below.
 
-link:../exercise-data/Biodiversity_Data_USe_Processing.pptx.pdf[Data Processing - ENGLISH,opts=download]
+link:../exercise-data/Biodiversity_Data_Use_Processing.pptx.pdf[Data Processing - ENGLISH,opts=download]
 
-link:../exercise-data/SPANISH_Biodiversity_Data_USe_Processing.pptx.pdf[El procesamiento de datos - ESPAÑOL,opts=download]
+link:../exercise-data/SPANISH_Biodiversity_Data_Use_Processing.pptx.pdf[El procesamiento de datos - ESPAÑOL,opts=download]
 
-link:../exercise-data/Biodiversity_Data_USe_Processing_FR.pdf[Le traitement de données - FRANÇAIS,opts=download]
+link:../exercise-data/Biodiversity_Data_Use_Processing_FR.pdf[Le traitement de données - FRANÇAIS,opts=download]
 
 === Exercise data
 This link:../exercise-data/Exercise_materials_data_processing.zip[compressed file,opts=download] (ZIP 7 KB) contains the exercise data. 
