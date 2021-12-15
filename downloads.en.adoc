@@ -5,14 +5,14 @@ Or if you prefer, all files are linked individually throughout the course as the
 The video files are embedded throughout the course, as well, and play from YouTube. Subtitles are available when playing from YouTube for most videos. 
 If you have difficulty accessing the embedded videos, please download the mp4 files to play them locally on your computer.
 
-=== Videos
-The videos are narrated in English. Subtitles are not available for the downloaded videos.
+=== Presentations
+PDF versions of the accompanying presentation can be found below.
 
-link:../videos/linkname.zip[linkname.zip,opts=download] (??.? MB)
+link:../exercise-data/Biodiversity_Data_USe_Processing.pptx.pdf[Data Processing - ENGLISH,opts=download]
+
+link:../exercise-data/SPANISH_Biodiversity_Data_USe_Processing.pptx.pdf[Procesamiento de datos - ESPAÑOL,opts=download]
+
+link:../exercise-data/Biodiversity_Data_USe_Processing_FR.pdf[Le traitement de données - FRANÇAIS,opts=download]
 
 === Exercise data
-This link:../exercise-data/ExerciseData.zip[compressed file,opts=download] (ZIP ??.? MB) contains the exercise data. 
-
-=== Exercise sheets
-This link:../course-docs/ExerciseSheets.zip[compressed file,opts=download] (ZIP ?.? MB) contains the exercise sheet(s). 
-The exercises sheets are written in English and should be completed in English.
+This link:../exercise-data/Exercise_materials_data_processing.zip[compressed file,opts=download] (ZIP 7 KB) contains the exercise data. 
