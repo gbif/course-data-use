@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: data-use\n"
 "POT-Creation-Date: 2021-12-14 12:39+0000\n"
-"PO-Revision-Date: 2021-12-14 12:41\n"
+"PO-Revision-Date: 2021-12-15 16:07\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -318,13 +318,13 @@ msgstr "Des remarques sont indiquées sur les pages individuelles des occurrence
 #: Data-Processing.en.adoc:45
 #, no-wrap
 msgid "*Excluded means the original data couldn’t be interpreted, so is excluded in the interpreted fields.\n"
-msgstr ""
+msgstr "*Exclues signifie que les données originales n'ont pas pu être interprétées, donc elles sont exclues des champs interprétés.\n"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:47
 #, no-wrap
 msgid "*Altered means the original data is modified in the interpretation process to be indexed in GBIF.org.\n"
-msgstr ""
+msgstr "*Modifiée signifie que les données originales ont été modifiées lors du processus d'interprétation afin d'être indexée sur GBIF.org.\n"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:49
