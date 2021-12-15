@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: data-use\n"
 "POT-Creation-Date: 2021-12-14 12:39+0000\n"
-"PO-Revision-Date: 2021-12-15 16:07\n"
+"PO-Revision-Date: 2021-12-15 16:57\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -41,7 +41,7 @@ msgstr "Di Marco M, Ferrier S, Harwood TD, Hoskins AJ and Watson JEM (2019) Wild
 #: index.en.adoc:24
 #, no-wrap
 msgid "img/web/Data_use_cover.png"
-msgstr ""
+msgstr "img/web/Data_use_cover.png"
 
 #. type: Title ==
 #: description.en.adoc:2
@@ -264,7 +264,7 @@ msgstr "Justesse (Précision) - proximité des valeurs mesurées, des observatio
 #: Data-Processing.en.adoc:21
 #, no-wrap
 msgid "img/web/Correctness.svg"
-msgstr ""
+msgstr "img/web/Correctness.svg"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:24
@@ -280,7 +280,7 @@ msgstr "Cohérence (Précision) - niveau de résolution des données, par exempl
 #: Data-Processing.en.adoc:27
 #, no-wrap
 msgid "img/web/Consistency.svg"
-msgstr ""
+msgstr "img/web/Consistency.svg"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:30
@@ -1616,7 +1616,7 @@ msgstr "Suggestion de citation"
 #. type: Plain text
 #: colophon.en.adoc:6
 msgid "GBIF Secretariat (2021) GBIF Biodiversity Data Use Course. 6th edition. GBIF Secretariat: Copenhagen. https://doi.org/10.15468/ce-wkk4-2w26. [Date of course.]"
-msgstr ""
+msgstr "GBIF Secretariat (2021) GBIF Biodiversity Data Use Course. 6th edition. GBIF Secretariat: Copenhagen. https://doi.org/10.15468/ce-wkk4-2w26. [Date du cours.]"
 
 #. type: Title ===
 #: colophon.en.adoc:7
@@ -1649,7 +1649,7 @@ msgstr "URI permanent"
 #. type: Plain text
 #: colophon.en.adoc:18
 msgid "https://doi.org/10.15468/ce-wkk4-2w26"
-msgstr ""
+msgstr "https://doi.org/10.15468/ce-wkk4-2w26"
 
 #. type: Title ===
 #: colophon.en.adoc:19
@@ -1666,5 +1666,5 @@ msgstr "Cinquième édition, novembre 2021"
 #: colophon.en.adoc:23
 #, no-wrap
 msgid "Cover image"
-msgstr ""
+msgstr "Image de couverture"
 
