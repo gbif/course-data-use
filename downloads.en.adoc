@@ -7,7 +7,7 @@ PDF versions of the accompanying presentation can be found below.
 
 link:../exercise-data/Biodiversity_Data_USe_Processing.pptx.pdf[Data Processing - ENGLISH,opts=download]
 
-link:../exercise-data/SPANISH_Biodiversity_Data_USe_Processing.pptx.pdf[Procesamiento de datos - ESPAÑOL,opts=download]
+link:../exercise-data/SPANISH_Biodiversity_Data_USe_Processing.pptx.pdf[El procesamiento de datos - ESPAÑOL,opts=download]
 
 link:../exercise-data/Biodiversity_Data_USe_Processing_FR.pdf[Le traitement de données - FRANÇAIS,opts=download]
 
