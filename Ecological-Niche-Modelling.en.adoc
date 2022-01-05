@@ -20,8 +20,7 @@ Modelling approaches allow for the inference of a species without the need for e
 In this video (07:14), you will review the different concepts of a niche.
 
 [.responsive-video]
-video::662201339/9952af4f7a[vimeo]
-
+video::662201339[vimeo]
 
 
 
