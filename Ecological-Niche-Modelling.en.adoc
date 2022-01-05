@@ -4,6 +4,8 @@
 This module will introduce you to the basic concepts and terminology associated with developing your own ecological niche models.  
 By the end of the module, you should be able to understand what it is you are modelling and the different approaches available for developing your model, what kind of data you will need to model ecological niches, and how you can assess the quality of the models you produce. You will finish with an introduction on how to you can project your models into novel environments.
 
+[#img-Intorduction]
+Carlos-Júnior LA, Barbosa NP, Moulton TP, Creed JC. Ecological Niche Model used to examine the distribution of an invasive, non-indigenous coral. Mar Environ Res. 2015 Feb;103:115-24. doi: 10.1016/j.marenvres.2014.10.004. Epub 2014 Oct 28. PMID: 25465286.
 image::img/web/ENM_australia.png[align=center,width=640,height=360]
 
 == What is an ecological niche model?
