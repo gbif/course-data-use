@@ -21,7 +21,7 @@ video::662201339/9952af4f7a[vimeo]
 
 
 
-*Uses*
+===*Uses*
 Beyond defining the limits of a species niche, ecological niche models have a number of practical uses including:
 
 * The designation of protected areas - comparisons of protected area coverage and niche models of interest species can identify gaps in protected areas coverage that merit increased protection.   
@@ -32,7 +32,7 @@ By stacking niche models for different species, we can also identify areas where
 
 * Climate change mitigation - using models to define the characteristics of a species' niche, we can then predict the availability of suitable habitat under different climate scenarios and thus infer the impacts of climate change e.g. Aguilar et al. 2015
 
-*Commonly used algorithms*
+== Commonly used algorithms
 
 Algorithms to develop ecological niche models can be divided into three categories: presence-only, presence-background and presence-absence.  
 
@@ -95,7 +95,7 @@ The tables below give examples of how these data can be classified.
 |Wind (UV), radiation
 |=== 
 
-*Common sources of data*
+===*Common sources of data*
 
 * WorldClim (Terrestrial)
 * EarthEnv  (Terrestrial and Freshwater)
@@ -158,7 +158,7 @@ This is done through two key factors: feature classes and the regularization mul
 Feature classes determine the shape of available modeled relationships in environmental space and the more feature classes chosen, the higher the potential for model complexity. The regularization multiplier penalizes complexity to a greater degree, with higher values leading to simpler models with fewer variables.  
 For these reasons, evaluating model performance and estimating optimal model complexity constitute important elements of a niche/distributional modeling for examples simultaneously varying the feature classes allowed and the regularization multiplers applied to each of them. Phillips, S.J., & Dudík, M. (2008). Modeling of species distributions with Maxent: new extensions and a comprehensive evaluation. Ecography. 31: 161-175. 
 
-*Model Evaluation*
+===*Model Evaluation*
 
 You will have to assess the model's precision and significance — that is, whether the model can correctly predict independent presence (or absence) data and whether the model prediction is better than null expectations. 
 Outputs for your model will include variable response curves and a number of statistics that can be used for assessing the performance of your model.
@@ -231,7 +231,7 @@ We can also project into the past and the future, for example:
 * to hindcast distributions in the case of determining paleodistributions of modern taxa for identifying refugia e.g. Peterson and Nyári, 2007
 * to forecast species distributions to identify range shifts due to cliamte change e.g. Wang et al., 2016.
 
-*The Big Caveat*
+===*The Big Caveat*
 
 Models are built using a specific set of occurrence data and environmental data and we do not know how our model will behave in new environments. 
 Transferring a model across space and/or time may lead to extrapolation if the projected environments are novel relative to training environments.
@@ -243,7 +243,7 @@ Extrapolate - extend the response curve based on trends obtained from calibratio
 
 It is left to the user whether they want their model to clamp or not. 
 
-*Projection Uncertainty*
+===*Projection Uncertainty*
 
 MESS: Multivariate Environmental Suitability Surface is a measure of the similarity between the new environments and those in the training sample.  They allow modelers to identify areas of model extrapolation in novel environments. It measures the similarity of any given point to a reference set of points, with respect to the chosen predictor variables. It reports the closeness of the point to the distribution of reference points, gives negative values for dissimilar points and maps these values across the whole prediction region. The map below is an example of a MESS with areas in red on the map highlighting areas of model extrapolation where into potentially unsuitable environments for the species.
 
