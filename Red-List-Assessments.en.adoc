@@ -7,7 +7,7 @@ This module does not cover the entirety of the Red List assessment process but f
 
 == IUCN Red List of Threatened Species
 
-The International Union for Conservation of Nature (IUCN) Red List of Threatened Species provides a robust and transparent framework in the form of the IUCN Red List Categories and Criteria for estimating the risk of extinction of  all species across all systems -  marine, terrestrial and freshwater.
+The International Union for Conservation of Nature (IUCN) Red List of Threatened Species provides a robust and transparent framework in the form of the link:https://www.iucnredlist.org/resources/categories-and-criteria[IUCN Red List Categories and Criteria] for estimating the risk of extinction of  all species across all systems -  marine, terrestrial and freshwater.
 It is an internationally recognised standard that can be applied at a global, regional and national level and is acknowledged as a key tool for assessing progress towards achieving bodiversity targets as set out in the Convention on Biological Diversity. 
 
 image::img/web/Red_list.png[align=center,width=640,height=360]
@@ -47,7 +47,16 @@ image::img/web/redlistprocess.png[align=center,width=640,height=360]
 
 === Global vs National Red List Assessments
 
-The IUCN Red List of Categories and Criteria were developed for applying at a global level i.e. to take into account a species entire global distribution that may cross internation borders. However, you may want to asses the extinction risk of a species at a regional, national or local level and in these instances you may want to use the * https://www.gbif.org/publishing-data[Guidelines for Application of IUCN Red List Criteria at Regional and National Levels^]
+The IUCN Red List of Categories and Criteria were developed for applying at a global level i.e. to take into account a species entire global distribution that may cross internation borders. However, you may want to asses the extinction risk of a species at a regional, national or local level and in these instances you may want to use the link:https://www.gbif.org/publishing-data[Guidelines for Application of IUCN Red List Criteria at Regional and National Levels^], an adaptation of the global Categories and Criteria that provide additional guidance on:
+
+- Deciding on which species should be assessed at a regional, national or local level
+- Additional criteria for assessments at a regional, national and a local level
+- Asessing breeding vs non-breeding species at a regional, national and a local level
+- Assessing species at a regional, national and a local level with information for the species across its global distribution.
+
+It should be noted that regional, national or local assessments of species that are endemic to those regions are, by default, global assessments and no additional regional correction is needed. 
+
+It is important to realise that while these guidelines are in place to assist with these regional and national assessments, national and regional red lists may not have followed the IUCN guidelines for assessing species.  For more information about national Red Lists published by countries around the world, see the link:https://www.nationalredlist.org/[National Red List] website.
 
 
 == GBIF-mediated data and Red List assessments 
@@ -72,8 +81,8 @@ It is measured by overlaying a 2x2 km grid and counting the number of occupied c
 
 image::img/web/AOO.png[align=center,width=640,height=360]
 
-Both these metrics require georeferenced locality data and GBIF-medaited data can be used for calculating both EOO and AOO of species.  
-A number of tools have been developed for calculating these measurement including ArcGIS toolboxes, the R package red and GeoCat.  
+Both these metrics require georeferenced locality data and GBIF-mediated data can be used for calculating both EOO and AOO of species.  
+A number of tools have been developed for calculating these measurements including ArcGIS toolboxes, the R package red and GeoCat.  
 The latter provides users with little programming or GIS experience, the ability to take GBIF-mediated data and calculate EOO and AOO measurements.  
 In the following video, we provide you with an overview of how this tool works.   
 
@@ -83,8 +92,8 @@ All species assessments should be accompanied by a distribution map.
 Species maps are included on the Red List for several reasons. 
 Primarily, the maps provide a visual representation of the species’ distribution, so people can see where the species is found and help to identify priority areas for conservation and inform conservation policy. 
 Different mapping standards are applied for different taxonomic groups and for whether the species is terrestrial, marine or freshwater. 
-Full guidance on the application of these standards can be found at https://www.iucnredlist.org/resources/mappingstandards
-n 
+Full guidance on the application of these standards can be found on the link:https://www.iucnredlist.org/resources/mappingstandards[IUCN Mapping Standards] webpage.
+
 image::img/web/Red_list_maps.png[align=center,width=640,height=360]
 
 image::img/web/Maps_taxonomic.png[align=center,width=640,height=360]
@@ -97,4 +106,4 @@ The limits of distribution are determined by using known occurrences of the spec
 === Minimum Documentation
 Assessors should provide with their maps, whether they are points, polygons or a combination of both, a set of accompanying attributes i.e. data attached to points and polygons. 
 Some of these attributes are required as part of minimum documentation supporting assessments and these attribute fields have been mapped to Darwin Core terms to highlight those fields in your GBIF downloads that can be used to fulfil minimum documentation requirements when submitting your red list assessments. 
-A full overview of these minimum documentation requirements and mapped Darwin Core fields can be found, respectively, in the mapping standards guidelines and as a downloadable Excel file at https://www.iucnredlist.org/resources/mappingstandards. 
+A full overview of these minimum documentation requirements and mapped Darwin Core fields can be found, respectively, in the mapping standards guidelines and as a downloadable Excel file on the link:https://www.iucnredlist.org/resources/mappingstandards[IUCN Mapping Standards] webpage. 
