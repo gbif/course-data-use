@@ -49,7 +49,7 @@ Presence-absence algorithms need a set of localities where the organism occurs (
 Absence data is limited in availability and is of questionable quality, as it is difficult to confirm the absence of a species from a particular area. To overcome the issues, presence-background models simulate absence data by generating random points (i.e., fake absence data) across the study area to be able to use presence-absence algorithms. Because the background corresponds to the study area, calibration of these algorithms is highly sensitive to variations in the extent of the study area extent selected. A popular ecological niche modeling algorithm using this approach is Maxent, and wll will focus on this algorithm throughout this course.
 
 [#img-Pseudoabsences]
-Elith, J., Phillips, S.J., Hastie, T., Dudík, M., Chee, Y.E. and Yates, C.J. (2011), A statistical explanation of MaxEnt for ecologists. Diversity and Distributions, 17: 43-57. https://doi.org/10.1111/j.1472-4642.2010.00725.x
+.Elith, J., Phillips, S.J., Hastie, T., Dudík, M., Chee, Y.E. and Yates, C.J. (2011), A statistical explanation of MaxEnt for ecologists. Diversity and Distributions, 17: 43-57. https://doi.org/10.1111/j.1472-4642.2010.00725.x
 image::img/web/maxent.gif[align=center,width=640,height=360]
 
 
