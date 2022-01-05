@@ -2,8 +2,8 @@
 = Assessing the conservation status of a species 
 [NOTE.objectives]
 This module will introduce you to the basic concepts and terminology associated with assessing the conservation status of a species using the IUCN Red List Categories and Criteria.  
-By the end of the module, you should understand what the conceptual framework of the IUCN Red List of Categories and Criteria and how you can apply them using GBIF-mediated data.
-This module does not cover the entirety of the Red List assessment process but focuses on how GBIF-mediated data can be used within these processes. For a comlete training you should complete the link:https://www.conservationtraining.org/course/index.php?categoryid=23[online IUCN Red List training course]. This will also provide the additional information you will need for completing the use case associated the use case if you will not be attending a GBIF training workshop.
+By the end of the module, you should understand  the conceptual framework of the IUCN Red List of Categories and Criteria and how you can apply them using GBIF-mediated data.
+This module does not cover the entirety of the Red List assessment process but focuses on how GBIF-mediated data can be used within these processes. For a complete training you should complete the link:https://www.conservationtraining.org/course/index.php?categoryid=23[online IUCN Red List training course]. This will also provide the additional information you will need for completing the use case associated with this module, if you will not be attending a GBIF training workshop.
 
 == IUCN Red List of Threatened Species
 
@@ -45,6 +45,11 @@ Assessments coming to the IUCN Red List Unit from within IUCN should already hav
 
 image::img/web/redlistprocess.png[align=center,width=640,height=360]
 
+=== Global vs National Red List Assessments
+
+The IUCN Red List of Categories and Criteria were developed for applying at a global level i.e. to take into account a species entire global distribution that may cross internation borders. However, you may want to asses the extinction risk of a species at a regional, national or local level and in these instances you may want to use the * https://www.gbif.org/publishing-data[Guidelines for Application of IUCN Red List Criteria at Regional and National Levels^]
+
+
 == GBIF-mediated data and Red List assessments 
 
 Key to the Red List assessment process is data and the Categories and Criteria allow for the use of data of heterogenous quality within an assessment. These data can be observations, estimations, projections, inferences or suspicions. 
@@ -79,7 +84,7 @@ Species maps are included on the Red List for several reasons.
 Primarily, the maps provide a visual representation of the species’ distribution, so people can see where the species is found and help to identify priority areas for conservation and inform conservation policy. 
 Different mapping standards are applied for different taxonomic groups and for whether the species is terrestrial, marine or freshwater. 
 Full guidance on the application of these standards can be found at https://www.iucnredlist.org/resources/mappingstandards
-
+n 
 image::img/web/Red_list_maps.png[align=center,width=640,height=360]
 
 image::img/web/Maps_taxonomic.png[align=center,width=640,height=360]
