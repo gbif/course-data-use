@@ -1,4 +1,6 @@
 [multipage-level=2]
+:figure-caption!:
+
 = Ecological Niche Models
 [NOTE.objectives]
 This module will introduce you to the basic concepts and terminology associated with developing your own ecological niche models.  
