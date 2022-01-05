@@ -32,6 +32,8 @@ include::downloads.en.adoc[]
 
 include::Data-Processing.en.adoc[]
 
+include::Ecological-Niche-Modelling.en.adoc[]
+
 include::keydocs.en.adoc[]
 
 include::glossary.en.adoc[]
