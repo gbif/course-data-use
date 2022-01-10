@@ -1,7 +1,7 @@
 [multipage-level=2] 
-= Use Case 2 - IUCN Red List Assessments
+= Use Case - Red List Assessment
 [NOTE.activity]
-Use Case 2 is a practice use case for the data processing and assessing conservation status modules. 
+This Use Case is a practice use case for the data processing and assessing conservation status using the IUCN Categories and Criteria modules. 
 Please note that this use case is fictitious and built for instructional purposes using data downloaded from www.gbif.org.  Any reference to countries and structures/organisations, real or otherwise, within those countries are used merely to facilitate the use of the data and do not reflect the reality within those countries.  
 
 === Scenario
