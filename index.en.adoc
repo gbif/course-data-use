@@ -36,6 +36,8 @@ include::Ecological-Niche-Modelling.en.adoc[]
 
 include::Red-List-Assessments.en.adoc[]
 
+include::Use-Case-2.en.adoc[]
+
 include::keydocs.en.adoc[]
 
 include::glossary.en.adoc[]
