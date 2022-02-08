@@ -102,7 +102,7 @@ Polygon maps, commonly referred to as “limits of distribution” or “field g
 The taxon may not be distributed equally within that polygon or occur everywhere within that polygon.
 These limits of distribution are determined by using known occurrences of the species, along with knowledge of habitat preferences, remaining suitable habitat, elevation limits, and other expert knowledge of the species and its range. 
 
-=== Minimum Documentation
+==== Minimum Documentation
 Assessors should provide with their maps, whether they are points, polygons or a combination of both, a set of accompanying attributes i.e. data attached to points and polygons. 
 Some of these attributes are required as part of minimum documentation supporting assessments.
 A full overview of these minimum documentation requirements can be found in the mapping standards guidelines on the link:https://www.iucnredlist.org/resources/mappingstandards[IUCN Mapping Standards] webpage. 
