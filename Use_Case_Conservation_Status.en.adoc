@@ -1,8 +1,8 @@
 [multipage-level=2] 
 = Use Case - Red List Assessment
 [NOTE.activity]
-This Use Case is a practice use case for the data processing and assessing conservation status using the IUCN Categories and Criteria modules. 
-Please note that this use case is fictitious and built for instructional purposes using data downloaded from www.gbif.org.  Any reference to countries and structures/organisations, real or otherwise, within those countries are used merely to facilitate the use of the data and do not reflect the reality within those countries.  
+This Use Case is a practice use case for the data processing and assessing conservation status using the IUCN Categories and Criteria module. 
+Please note that this use case is fictitious and built for instructional purposes only.  Any reference to countries and structures/organisations, real or otherwise, within those countries are used merely to facilitate the use of the data and may not reflect the reality within those countries.  
 
 === Scenario
 
@@ -12,7 +12,7 @@ image::img/web/Brachypelma.jpg[align=center,width=640,height=360]
 
 Mexico is a mega-diverse country with high numbers of species and high levels of endemism across all taxonomic groups.
 The government is committed to assessing the conservation status of all its species and has agreed to develop a national red list applying IUCN Categories and Criteria to all vertebrate and invertebrate taxonomic groups by the year 2030. 
-As part of this process, they have started the assessment of arachnid groups and are now assessing the conservation status of all species within the family Theraposidae – the tarantulas.  
+As part of this process, they have started the assessment of arachnid groups and are now assessing the conservation status of all species within the family Theraphosidae – the tarantulas.  
 
 National and international arachnid specialists have come together at a Mexican arachnid red list workshop and they will now be assessing the conservation status of the tarantula species Brachypelma smithi (F.O.Pickard-Cambridge, 1897) and Aphonopelma anax (Chamberlin, 1940).  
 Assessors want to use GBIF-mediated data to assess the species using Criterion B and provide maps that comply to IUCN documentation requirements. 
