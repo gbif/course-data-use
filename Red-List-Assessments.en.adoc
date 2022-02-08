@@ -35,18 +35,7 @@ image::img/web/iunccategories.png[align=center,width=640,height=360]
 
 All criteria shoudl be applied to a taxon during an assessment and it is the criterion with the highest threat category that is used as the final Red List assessment.
 
-=== Red List assessment process 
-
-Assessments that are to be integrated into the global IUCN Red List of Threatened Species can come from coordinated efforts within the IUCN network e.g. link:https://www.iucn.org/commissions/ssc-groups[IUCN Species Survival Commission Specialist Groups] or from other processes such as the development of national Red Lists, if there are species that are being assessed that are endemic to that country. National Red Listing processes may differ from those prescribed by IUCN, but ANY assessment to be submitted to the global IUCN Red List of Threatened Species will have to go throught the following stages:
-
-* Assessment - Assessors are experts who have sufficient knowledge of a taxon to be able to apply the criteria in an informed way, these experts can come from within the IUCN network such as the link:https://www.iucn.org/commissions/ssc-groups[IUCN Species Survival Commission Specialist Groups] or from national or regional taxonomic experts.
-
-* Review -  Reviewers of global assessments are generally from the network of Red List Authorities (RLAs), which are mostly IUCN Specialist Groups, but where there are gaps, other organisations act as RLAs (e.g., Project Seahorse, BirdLife International, etc) and agree that they are appropriate based on all data currently available for the species. 
-Assessments coming to the IUCN Red List Unit from within IUCN should already have been through the review process (the RLAs nest within the SGs). Assessments coming from outside the IUCN network need to go through the peer review process.
-
-image::img/web/redlistprocess.png[align=center,width=640,height=360]
-
-=== Global vs National Red List Assessments
+== Global vs National Red List Assessments
 
 The IUCN Red List of Categories and Criteria were developed for applying at a global level i.e. to take into account a species entire global distribution that may cross international borders. The majority of species currently on the link:https://www.iucnredlist.org/[IUCN Red List] are global assessments. However, species can be assessed at a regional, national or local level and for these, assessors should use the link:https://www.gbif.org/publishing-data[Guidelines for Application of IUCN Red List Criteria at Regional and National Levels^], an adaptation of the global Categories and Criteria. These regional guidelines provide additional guidance on:
 
@@ -59,7 +48,7 @@ It should be noted that regional, national or local assessments of species that 
 
 It is important to realise that while these guidelines are in place to assist with regional and national assessments, national and regional red lists may not have followed the IUCN guidelines for assessing species.  For more information about national Red Lists published by countries around the world, see the link:https://www.nationalredlist.org/[National Red List] website.
 
-==== Red List assessment process 
+=== Red List assessment process 
 
 Assessments that are to be integrated into the global IUCN Red List of Threatened Species can come from coordinated efforts within the IUCN network e.g. link:https://www.iucn.org/commissions/ssc-groups[IUCN Species Survival Commission Specialist Groups] or from other processes such as the development of national Red Lists, if there are species that are being assessed that are endemic to that country. National Red Listing processes may differ from those prescribed by IUCN, but ANY assessment to be submitted to the global IUCN Red List of Threatened Species will have to go throught the following stages:
 
