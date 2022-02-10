@@ -32,8 +32,6 @@ include::downloads.en.adoc[]
 
 include::Data-Processing.en.adoc[]
 
-include::Ecological-Niche-Modelling.en.adoc[]
-
 include::Red-List-Assessments.en.adoc[]
 
 include::Use_Case_Conservation_Status.en.adoc[]
