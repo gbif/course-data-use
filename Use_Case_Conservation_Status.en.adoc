@@ -14,7 +14,7 @@ Mexico is a mega-diverse country with high numbers of species and high levels of
 The government is committed to assessing the conservation status of all its species and has agreed to develop a national red list applying IUCN Categories and Criteria to all vertebrate and invertebrate taxonomic groups by the year 2030. 
 As part of this process, they have started the assessment of arachnid groups and are now assessing the conservation status of all species within the family Theraphosidae – the tarantulas.  
 
-National and international arachnid specialists have come together at a Mexican arachnid red list workshop and they will now be assessing the conservation status of the tarantula species Brachypelma smithi (F.O.Pickard-Cambridge, 1897) and Aphonopelma anax (Chamberlin, 1940).  
+National and international arachnid specialists have come together at a Mexican arachnid red list workshop and they will now be assessing the conservation status of the tarantula species _Brachypelma smithi_ (F.O.Pickard-Cambridge, 1897) and _Aphonopelma anax_ (Chamberlin, 1940).  
 Assessors want to use GBIF-mediated data to assess the species using Criterion B and provide maps that comply to IUCN documentation requirements. 
 
 Description
