@@ -4,7 +4,7 @@
 This Use Case is a practice use case for the data processing and assessing conservation status using the IUCN Categories and Criteria module. 
 Please note that this use case is fictitious and built for instructional purposes only.  Any reference to countries and structures/organisations, real or otherwise, within those countries are used merely to facilitate the use of the data and may not reflect the reality within those countries.  
 
-=== Scenario
+== Scenario
 
 image::img/web/Brachypelma.jpg[align=center,width=640,height=360]
 
@@ -33,41 +33,9 @@ They live in burrows that can be created by themselves or modifying suitable hab
 They have slow growth rates and live for several years before maturing – females can live up to 40 years while males rarely live over 2 years once they have matured. 
 The species is common across its range and although there has been increasing urban and agricultural development across its range in both the USA and Mexico, the extent of this development is limited to only a small portion of the species entire range.
 
-=== Exercise 1 - Data Processing 
+=== Exercise - Applying IUCN Red List Criterion B
 
-You should download datasets from www.gbif.org for Brachypelma smithi  and Aphonopelma anax. There is a step-by-step guide or R markdown document provided to you to guide you through this exercise
-
-Q1.  What are the taxonkeys for each of the species and what is the taxonomic status of each species?
-
-Q2.  In what format did you download the data and how what are the unique properties of this type of download?
-
-Q3.  What are the DOIs of your downloads?
-
-Q4. What are the following key data quality processing steps did you use for cleaning both datasets?  For each requirement, what is your justification?
-
-* Default geospatial issues
-* Absence records
-* Fossils and living specimens
-* Establishment Means
-* Old records
-* Uncertain location 
-* Bad default values for coordinate uncertainty
-* Points along the Equator or prime meridian
-* Country centroids
-* Duplicate removal
-* Outliers
-* Metagenomics
-* Outside Native ranges
-* Gridded datasets
-* Automated identifications
-
-Q5. What additional data processing steps might you want to validate taxonomic identification of species?
-
-Q6. As these will be national red list assessments, what additional data processing step will be required for the non-endemic Aphonopelma anax dataset?
-
-=== Exercise 2 - Applying IUCN Red List Criterion B
-
-In this exercise, you will calculate the Extent of Occurrence and Area of Occupancy for Brachypelma smithi and Aphonopelma anax using GeoCat - www.geocat.kew.org  and then do Red List assessments for the species.  Remember Aphonopelma anax will be a national assessment and not a global assessment.
+In this exercise, you will calculate the Extent of Occurrence and Area of Occupancy for Brachypelma smithi and Aphonopelma anax using GeoCat - www.geocat.kew.org  and then do Red List assessments for the species.  For the purposes of this exercise, we will apply the global IUCN Categories and Crtieria to both species across their range in Mexico. In reality, the regional Categories and Criteria should be applied as these are national assessments.  
 
 [cols="1,1,1"]
 |===
@@ -137,21 +105,4 @@ _Aphonopelma anax_ (Chamberlin, 1940)
 2+|
 |===
 
-=== Exercise 3 - Producing a Species Distribution Map
-
-In this exercise, you will create a species distribution map for Brachypelma smithi and Aphonopelma anax applying IUCN mapping standards. Please use the step-by-step guide to guide you through this exercise. Note: For assessments that are accompanied by points only, it is recommended, if possible and appropriate, that a polygon map representing the distribution is also provided. 
-
-Q1. Provide the point attributes table in line with IUCN mapping standards for Brachypelma smithi and Aphonopelma anax including core, recommended and optional fields for the species distribution map using the processed GBIF data download for this species
-
-
-Q2. Using the Nature Conservancy Terrestrial Ecosystems dataset provided, what might be appropriate ecosystems to base a polygon map of the limits of a taxon´s distribution for both species?
-
-
-Q3. If these were freshwater species, what would be an appropriate GIS layer to use for creating polygon maps?
-
-
-Q4. Provide a polygon map for each of the species.
-
-
-Q5. What would be appropriate citations for the use of these data?
 
