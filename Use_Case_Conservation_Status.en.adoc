@@ -33,7 +33,7 @@ They live in burrows that can be created by themselves or modifying suitable hab
 They have slow growth rates and live for several years before maturing – females can live up to 40 years while males rarely live over 2 years once they have matured. 
 The species is common across its range and although there has been increasing urban and agricultural development across its range in both the USA and Mexico, the extent of this development is limited to only a small portion of the species entire range.
 
-=== Exercise - Applying IUCN Red List Criterion B
+== Exercise - Applying IUCN Red List Criterion B
 
 In this exercise, you will calculate the Extent of Occurrence and Area of Occupancy for Brachypelma smithi and Aphonopelma anax using GeoCat - www.geocat.kew.org  and then do Red List assessments for the species.  For the purposes of this exercise, we will apply the global IUCN Categories and Crtieria to both species across their range in Mexico. In reality, the regional Categories and Criteria should be applied as these are national assessments.  
 
