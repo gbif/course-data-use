@@ -37,7 +37,7 @@ All criteria shoudl be applied to a taxon during an assessment and it is the cri
 
 == Global vs National Red List Assessments
 
-The IUCN Red List of Categories and Criteria were developed for applying at a global level i.e. to take into account a species entire global distribution that may cross international borders. The majority of species currently on the link:https://www.iucnredlist.org/[IUCN Red List] are global assessments. However, species can be assessed at a regional, national or local level and for these, assessors should use the link:https://www.gbif.org/publishing-data[Guidelines for Application of IUCN Red List Criteria at Regional and National Levels^], an adaptation of the global Categories and Criteria. These regional guidelines provide additional guidance on:
+The IUCN Red List of Categories and Criteria were developed for applying at a global level i.e. to take into account a species entire global distribution that may cross international borders. The majority of species currently on the link:https://www.iucnredlist.org/[IUCN Red List] are global assessments. However, species can be assessed at a regional, national or local level and for these, assessors should use the link:https://www.iucnredlist.org/resources/regionalguidelines[Guidelines for Application of IUCN Red List Criteria at Regional and National Levels^], an adaptation of the global Categories and Criteria. These regional guidelines provide additional guidance on:
 
 - Deciding on which species should be assessed at a regional, national or local level
 - Additional categories for assessments at a regional, national and a local level
