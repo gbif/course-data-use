@@ -9,7 +9,7 @@ For a complete training you should complete the link:https://www.conservationtra
 == IUCN Red List of Threatened Species
 
 The International Union for Conservation of Nature (IUCN) Red List of Threatened Species provides a robust and transparent framework in the form of the link:https://www.iucnredlist.org/resources/categories-and-criteria[IUCN Red List Categories and Criteria] for estimating the risk of extinction of all taxa (excluding microorganisms and taxa below subspecies) across all systems -  marine, terrestrial and freshwater.
-It is an internationally recognised standard that can be applied at global, regional and national scales and is acknowledged as a key tool for assessing progress towards achieving bodiversity targets as set out in the Convention on Biological Diversity. 
+It is an internationally recognised standard that can be applied at global, regional and national scales and is acknowledged as a key tool for assessing progress towards achieving biodiversity targets as set out in the Convention on Biological Diversity. 
 
 image::img/web/Red_list.png[align=center,width=640,height=360]
 
