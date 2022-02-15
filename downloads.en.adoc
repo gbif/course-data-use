@@ -29,7 +29,7 @@ link:../exercise-data/RL-2001-001-2nd-Fr.pdf[Catégories et Critères de la List
 
 ==== Red List Guidelines
 
-link:../exercise-data/RedListGuidelines (1).pdf[Guidelines for Using the Red List Categories and Criteria version 15 - ENGLISH,opts=download]
+link:../exercise-data/RedListGuidelines.pdf[Guidelines for Using the Red List Categories and Criteria version 15 - ENGLISH,opts=download]
 
 link:../exercise-data/RedListGuidelines_SP.pdf[Directrices de uso de las Categorías y Criterios de la Lista Roja de la UICN Versión 14 - ESPAÑOL,opts=download]
 
@@ -37,7 +37,7 @@ link:../exercise-data/RedListGuidelines_FR.pdf[Lignes directrices pour l’utili
 
 ==== Criteria Summary Sheet
 
-link:../exercise-data/summary_sheet_en_web (2).pdf[Criteria summary sheet - ENGLISH,opts=download]
+link:../exercise-data/summary_sheet_en_web.pdf[Criteria summary sheet - ENGLISH,opts=download]
 
 link:../exercise-data/summary_sheet_es_web.pdf[Resumen de los Criterios - ESPAÑOL,opts=download]
 
