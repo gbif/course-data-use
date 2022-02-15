@@ -37,7 +37,7 @@ link:../exercise-data/RedListGuidelines_FR.pdf[Lignes directrices pour l’utili
 
 ==== Criteria Summary Sheet
 
-link:../exercise-data/summary_sheet_en_web(2).pdf[Criteria summary sheet - ENGLISH,opts=download]
+link:../exercise-data/summary_sheet_en_web (2).pdf[Criteria summary sheet - ENGLISH,opts=download]
 
 link:../exercise-data/summary_sheet_es_web.pdf[Resumen de los Criterios - ESPAÑOL,opts=download]
 
