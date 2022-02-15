@@ -3,9 +3,9 @@
 
 All files for the course may be downloaded from this page. 
 
-=== Data Processing
+== Data Processing
 
-==== Presentations
+== Presentations
 PDF versions of the accompanying presentation can be found below.
 
 link:../exercise-data/Biodiversity_Data_Use_Processing.pptx.pdf[Data Processing - ENGLISH,opts=download]
@@ -14,12 +14,12 @@ link:../exercise-data/SPANISH_Biodiversity_Data_Use_Processing.pptx.pdf[El proce
 
 link:../exercise-data/Biodiversity_Data_Use_Processing_FR.pdf[Le traitement de données - FRANÇAIS,opts=download]
 
-==== Exercise data
+== Exercise data
 This link:../exercise-data/Exercise_materials_data_processing.zip[compressed file,opts=download] (ZIP 7 KB) contains the exercise data. 
 
-=== Assessing the Conservation Status of a Species
+== Assessing the Conservation Status of a Species
 
-==== IUCN Red List Categories and Criteria
+== IUCN Red List Categories and Criteria
 
 link:../exercise-data/RL-2001-001-2nd.pdf[IUCN Red List Categories and Criteria v3.1 - ENGLISH,opts=download]
 
@@ -27,7 +27,7 @@ link:../exercise-data/RL-2001-001-2nd-Es.pdf[Categorías y Criterios de la Lista
 
 link:../exercise-data/RL-2001-001-2nd-Fr.pdf[Catégories et Critères de la Liste Rouge de l'UICN v3.1 - FRANÇAIS,opts=download]
 
-==== Red List Guidelines
+== Red List Guidelines
 
 link:../exercise-data/RedListGuidelines.pdf[Guidelines for Using the Red List Categories and Criteria version 15 - ENGLISH,opts=download]
 
@@ -35,7 +35,7 @@ link:../exercise-data/RedListGuidelines_SP.pdf[Directrices de uso de las Categor
 
 link:../exercise-data/RedListGuidelines_FR.pdf[Lignes directrices pour l’utilisation des Catégories et Critères de la Liste rouge de l’UICN Version 14 - Français,opts=download]
 
-==== Criteria Summary Sheet
+== Criteria Summary Sheet
 
 link:../exercise-data/summary_sheet_en_web.pdf[Criteria summary sheet - ENGLISH,opts=download]
 
@@ -43,7 +43,7 @@ link:../exercise-data/summary_sheet_es_web.pdf[Resumen de los Criterios - ESPAÑ
 
 link:../exercise-data/summary_sheet_fr_web.pdf[Résumé des Critères - FRANÇAIS,opts=download]
 
-==== Mapping Standards
+== Mapping Standards
 
 link:../exercise-data/Mapping_Standards_Version_1.19_2021.pdf[Mapping Standards - ENGLISH,opts=download]
 
@@ -51,7 +51,7 @@ link:../exercise-data/IUCN_Standard_attributes_for_spatial_data_v1.19_2021.xlsx[
 
 link:../exercise-data/Mapping_attribute_codes_v1.19_2021.pdf[Attribute codes for Presence, Origin and Seasonality - ENGLISH,opts=download]
 
-==== Regional and National Levels Guidelines
+== Regional and National Levels Guidelines
 
 link:../exercise-data/RL-2012-002.pdf[Guidelines for application of IUCN Red List Criteria at Regional and National Levels Version 4 - ENGLISH,opts=download]
 
