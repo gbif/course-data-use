@@ -29,7 +29,7 @@ link:../exercise-data/RL-2001-001-2nd-Fr.pdf[Catégories et Critères de la List
 
 ==== Red List Guidelines
 
-link:../exercise-data/RedListGuidelines(1).pdf[Guidelines for Using the Red List Categories and Criteria version 15 - ENGLISH,opts=download]
+link:../exercise-data/RedListGuidelines (1).pdf[Guidelines for Using the Red List Categories and Criteria version 15 - ENGLISH,opts=download]
 
 link:../exercise-data/RedListGuidelines_SP.pdf[Directrices de uso de las Categorías y Criterios de la Lista Roja de la UICN Versión 14 - ESPAÑOL,opts=download]
 
@@ -49,7 +49,7 @@ link:../exercise-data/Mapping_Standards_Version_1.19_2021.pdf[Mapping Standards 
 
 link:../exercise-data/IUCN_Standard_attributes_for_spatial_data_v1.19_2021.xlsx[Standard Attributes for Spatial Data - ENGLISH,opts=download]
 
-link:../exercise-data/Mapping_attribute_codes_v1.19_2021.pdf[Attribute codes for Presence, Origin and Seasonality- ENGLISH,opts=download]
+link:../exercise-data/Mapping_attribute_codes_v1.19_2021.pdf[Attribute codes for Presence, Origin and Seasonality - ENGLISH,opts=download]
 
 ==== Regional and National Levels Guidelines
 
