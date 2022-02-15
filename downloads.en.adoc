@@ -20,11 +20,11 @@ This link:../exercise-data/Exercise_materials_data_processing.zip[compressed fil
 
 ==== IUCN Red List Categories and Criteria
 
-link:../exercise-data/RL-2001-001-2nd.pdf[IUCN Red List Categories and Criteria v3.1- ENGLISH,opts=download]
+link:../exercise-data/RL-2001-001-2nd.pdf[IUCN Red List Categories and Criteria v3.1 - ENGLISH,opts=download]
 
-link:../exercise-data/RL-2001-001-2nd-Es.pdf[Categorías y Criterios de la Lista Roja de la UICN v3.1- ESPAÑOL,opts=download]
+link:../exercise-data/RL-2001-001-2nd-Es.pdf[Categorías y Criterios de la Lista Roja de la UICN v3.1 - ESPAÑOL,opts=download]
 
-link:../exercise-data/RL-2001-001-2nd-Es.pdf[Catégories et Critères de la Liste Rouge de l'UICN v3.1- FRANÇAIS,opts=download]
+link:../exercise-data/RL-2001-001-2nd-Fr.pdf[Catégories et Critères de la Liste Rouge de l'UICN v3.1 - FRANÇAIS,opts=download]
 
 ==== Red List Guidelines
 
@@ -40,7 +40,7 @@ link:../exercise-data/summary_sheet_en_web(2).pdf[Criteria summary sheet - ENGLI
 
 link:../exercise-data/summary_sheet_es_web.pdf[Resumen de los Criterios - ESPAÑOL,opts=download]
 
-link:../exercise-data/summary_sheet_es_web.pdf[Résumé des Critères - FRANÇAIS,opts=download]
+link:../exercise-data/summary_sheet_fr_web.pdf[Résumé des Critères - FRANÇAIS,opts=download]
 
 ==== Mapping Standards
 
@@ -49,3 +49,11 @@ link:../exercise-data/Mapping_Standards_Version_1.19_2021.pdf[Mapping Standards 
 link:../exercise-data/IUCN_Standard_attributes_for_spatial_data_v1.19_2021.xlsx[Standard Attributes for Spatial Data - ENGLISH,opts=download]
 
 link:../exercise-data/Mapping_attribute_codes_v1.19_2021.pdf[Attribute codes for Presence, Origin and Seasonality- ENGLISH,opts=download]
+
+==== Regional and National Levels Guidelines
+
+link:../exercise-data/RL-2012-002.pdf[Guidelines for application of IUCN Red List Criteria at Regional and National Levels Version 4 - ENGLISH,opts=download]
+
+link:../exercise-data/RL-2012-002-Es.pdf[Directrices para el uso de los Criterios de la Lista Roja de la UICN a nivel regional y nacional Versión 4 - ESPAÑOL,opts=download]
+
+link:../exercise-data/RL-2012-002-Fr.pdf[Lignes directrices pour l’application des Critères de la Liste rouge de l’UICN aux niveaux régional et national Version 4. - FRANÇAIS,opts=download]
