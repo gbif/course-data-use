@@ -1,5 +1,5 @@
 [multipage-level=2]
-== Files for download
+= Files for download
 
 All files for the course may be downloaded from this page. 
 
