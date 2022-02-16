@@ -19,6 +19,10 @@ This link:../exercise-data/Exercise_materials_data_processing.zip[compressed fil
 
 == Assessing the Conservation Status of a Species
 
+*Presentation*
+
+link:../exercise-data/BID_2022_Red_List_Presentation_EN.pdf[GBIF-mediated data and the IUCN Red List Categories and Criteria - ENGLISH,opts=download]
+
 *IUCN Red List Categories and Criteria*
 
 link:../exercise-data/RL-2001-001-2nd.pdf[IUCN Red List Categories and Criteria v3.1 - ENGLISH,opts=download]
