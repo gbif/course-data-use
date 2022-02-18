@@ -126,8 +126,6 @@ Querying the IUCN Red List, using a species list, OpenRefine, and some pre-writt
 * https://github.com/[GitHub^]
 
 == Red List Assessments
-* https://www.iucnredlist.org/resources/spatialtoolsanddata[Spatial Tools and Data for Red List Assessments] +
-Includes brief overviews of some tools developed to aid mapping of spatial data and estimation of Red List metrics such as EOO and AOO, plus developer information, links to help files, support networks and associated research publications.
 
 * *IUCN Red List Categories and Criteria*
 ** link:../exercise-data/RL-2001-001-2nd.pdf[IUCN Red List Categories and Criteria v3.1 - ENGLISH,opts=download]
@@ -154,6 +152,10 @@ Includes brief overviews of some tools developed to aid mapping of spatial data 
 ** link:../exercise-data/RL-2012-002-Es.pdf[Directrices para el uso de los Criterios de la Lista Roja de la UICN a nivel regional y nacional Versión 4 - ESPAÑOL,opts=download]
 ** link:../exercise-data/RL-2012-002-Fr.pdf[Lignes directrices pour l’application des Critères de la Liste rouge de l’UICN aux niveaux régional et national Version 4. - FRANÇAIS,opts=download]
 
+* https://www.iucnredlist.org/resources/spatialtoolsanddata[Spatial Tools and Data for Red List Assessments] +
+Includes brief overviews of some tools developed to aid mapping of spatial data and estimation of Red List metrics such as EOO and AOO, plus developer information, links to help files, support networks and associated research publications.
+* https://www.iucnredlist.org/resources/supporting-information-guidelines[Supporting information guidelines] +
+The Documentation Standards and Consistency Checks for IUCN Red List Assessments and Species Accounts (also known as the Supporting Information Guidelines) provides guidance on the required and recommended supporting information for Red List assessments. It also provides guidance on the writing style and format that should be used for all IUCN Red List assessments.
 
 == Quality
 
