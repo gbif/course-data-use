@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: data-use\n"
-"POT-Creation-Date: 2022-02-18 09:25+0000\n"
-"PO-Revision-Date: 2022-02-18 09:39\n"
+"POT-Creation-Date: 2022-02-18 09:55+0000\n"
+"PO-Revision-Date: 2022-02-18 10:00\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -1114,265 +1114,270 @@ msgstr ""
 
 #. type: Plain text
 #: keydocs.en.adoc:131
-msgid "https://www.iucnredlist.org/resources/spatialtoolsanddata[Spatial Tools and Data for Red List Assessments] + Includes brief overviews of some tools developed to aid mapping of spatial data and estimation of Red List metrics such as EOO and AOO, plus developer information, links to help files, support networks and associated research publications."
-msgstr ""
-
-#. type: Plain text
-#: keydocs.en.adoc:133
 #, no-wrap
 msgid "*IUCN Red List Categories and Criteria*\n"
 msgstr ""
 
 #. type: Plain text
-#: keydocs.en.adoc:134
+#: keydocs.en.adoc:132
 #, no-wrap
 msgid "link:../exercise-data/RL-2001-001-2nd.pdf[IUCN Red List Categories and Criteria v3.1 - ENGLISH,opts=download]\n"
 msgstr ""
 
 #. type: Plain text
-#: keydocs.en.adoc:135
+#: keydocs.en.adoc:133
 #, no-wrap
 msgid "link:../exercise-data/RL-2001-001-2nd-Es.pdf[Categorías y Criterios de la Lista Roja de la UICN v3.1 - ESPAÑOL,opts=download]\n"
 msgstr ""
 
 #. type: Plain text
-#: keydocs.en.adoc:136
+#: keydocs.en.adoc:134
 #, no-wrap
 msgid "link:../exercise-data/RL-2001-001-2nd-Fr.pdf[Catégories et Critères de la Liste Rouge de l'UICN v3.1 - FRANÇAIS,opts=download]\n"
 msgstr ""
 
 #. type: Plain text
-#: keydocs.en.adoc:138
+#: keydocs.en.adoc:136
 #, no-wrap
 msgid "*Red List Guidelines*\n"
 msgstr ""
 
 #. type: Plain text
-#: keydocs.en.adoc:139
+#: keydocs.en.adoc:137
 #, no-wrap
 msgid "link:../exercise-data/RedListGuidelines.pdf[Guidelines for Using the Red List Categories and Criteria version 15 - ENGLISH,opts=download]\n"
 msgstr ""
 
 #. type: Plain text
-#: keydocs.en.adoc:140
+#: keydocs.en.adoc:138
 #, no-wrap
 msgid "link:../exercise-data/RedListGuidelines_SP.pdf[Directrices de uso de las Categorías y Criterios de la Lista Roja de la UICN Versión 14 - ESPAÑOL,opts=download]\n"
 msgstr ""
 
 #. type: Plain text
-#: keydocs.en.adoc:141
+#: keydocs.en.adoc:139
 #, no-wrap
 msgid "link:../exercise-data/RedListGuidelines_FR.pdf[Lignes directrices pour l’utilisation des Catégories et Critères de la Liste rouge de l’UICN Version 14 - Français,opts=download]\n"
 msgstr ""
 
 #. type: Plain text
-#: keydocs.en.adoc:143
+#: keydocs.en.adoc:141
 #, no-wrap
 msgid "*Criteria Summary Sheet*\n"
 msgstr ""
 
 #. type: Plain text
-#: keydocs.en.adoc:144
+#: keydocs.en.adoc:142
 #, no-wrap
 msgid "link:../exercise-data/summary_sheet_en_web.pdf[Criteria summary sheet - ENGLISH,opts=download]\n"
 msgstr ""
 
 #. type: Plain text
-#: keydocs.en.adoc:145
+#: keydocs.en.adoc:143
 #, no-wrap
 msgid "link:../exercise-data/summary_sheet_es_web.pdf[Resumen de los Criterios - ESPAÑOL,opts=download]\n"
 msgstr ""
 
 #. type: Plain text
-#: keydocs.en.adoc:146
+#: keydocs.en.adoc:144
 #, no-wrap
 msgid "link:../exercise-data/summary_sheet_fr_web.pdf[Résumé des Critères - FRANÇAIS,opts=download]\n"
 msgstr ""
 
 #. type: Plain text
-#: keydocs.en.adoc:148
+#: keydocs.en.adoc:146
 #, no-wrap
 msgid "*Mapping Standards*\n"
 msgstr ""
 
 #. type: Plain text
-#: keydocs.en.adoc:149
+#: keydocs.en.adoc:147
 #, no-wrap
 msgid "link:../exercise-data/Mapping_Standards_Version_1.19_2021.pdf[Mapping Standards - ENGLISH,opts=download]\n"
 msgstr ""
 
 #. type: Plain text
-#: keydocs.en.adoc:150
+#: keydocs.en.adoc:148
 #, no-wrap
 msgid "link:../exercise-data/IUCN_Standard_attributes_for_spatial_data_v1.19_2021.xlsx[Standard Attributes for Spatial Data - ENGLISH,opts=download]\n"
 msgstr ""
 
 #. type: Plain text
-#: keydocs.en.adoc:151
+#: keydocs.en.adoc:149
 #, no-wrap
 msgid "link:../exercise-data/Mapping_attribute_codes_v1.19_2021.pdf[Attribute codes for Presence, Origin and Seasonality - ENGLISH,opts=download]\n"
 msgstr ""
 
 #. type: Plain text
-#: keydocs.en.adoc:153
+#: keydocs.en.adoc:151
 #, no-wrap
 msgid "*Regional and National Levels Guidelines*\n"
 msgstr ""
 
 #. type: Plain text
-#: keydocs.en.adoc:154
+#: keydocs.en.adoc:152
 #, no-wrap
 msgid "link:../exercise-data/RL-2012-002.pdf[Guidelines for application of IUCN Red List Criteria at Regional and National Levels Version 4 - ENGLISH,opts=download]\n"
 msgstr ""
 
 #. type: Plain text
-#: keydocs.en.adoc:155
+#: keydocs.en.adoc:153
 #, no-wrap
 msgid "link:../exercise-data/RL-2012-002-Es.pdf[Directrices para el uso de los Criterios de la Lista Roja de la UICN a nivel regional y nacional Versión 4 - ESPAÑOL,opts=download]\n"
 msgstr ""
 
 #. type: Plain text
-#: keydocs.en.adoc:156
+#: keydocs.en.adoc:154
 #, no-wrap
 msgid "link:../exercise-data/RL-2012-002-Fr.pdf[Lignes directrices pour l’application des Critères de la Liste rouge de l’UICN aux niveaux régional et national Version 4. - FRANÇAIS,opts=download]\n"
 msgstr ""
 
+#. type: Plain text
+#: keydocs.en.adoc:157
+msgid "https://www.iucnredlist.org/resources/spatialtoolsanddata[Spatial Tools and Data for Red List Assessments] + Includes brief overviews of some tools developed to aid mapping of spatial data and estimation of Red List metrics such as EOO and AOO, plus developer information, links to help files, support networks and associated research publications."
+msgstr ""
+
+#. type: Plain text
+#: keydocs.en.adoc:159
+msgid "https://www.iucnredlist.org/resources/supporting-information-guidelines[Supporting information guidelines] + The Documentation Standards and Consistency Checks for IUCN Red List Assessments and Species Accounts (also known as the Supporting Information Guidelines) provides guidance on the required and recommended supporting information for Red List assessments. It also provides guidance on the writing style and format that should be used for all IUCN Red List assessments."
+msgstr ""
+
 #. type: Title ==
-#: keydocs.en.adoc:158
+#: keydocs.en.adoc:160
 #, no-wrap
 msgid "Quality"
 msgstr "Calidad"
 
 #. type: Plain text
-#: keydocs.en.adoc:162
+#: keydocs.en.adoc:164
 msgid "https://www.gbif.org/document/80509/principles-of-data-quality[Principles of Data Quality^] + Arthur Chapman 2005."
 msgstr "https://www.gbif.org/document/80509/principles-of-data-quality[Principios de Calidad de Datos^] + Arthur Chapman 2005."
 
 #. type: Plain text
-#: keydocs.en.adoc:164
+#: keydocs.en.adoc:166
 msgid "https://www.gbif.org/document/80528/principles-and-methods-of-data-cleaning-primary-species-and-species-occurrence-data[Principles and Methods of Data Cleaning: Primary Species and Species-Occurrence Data^] + Arthur Chapman 2005."
 msgstr "https://www.gbif.org/document/80528/principles-and-methods-of-data-cleaning-primary-species-and-species-occurrence-data[Principles and Methods of Data Cleaning: Primary Species and Species-Occurrence Data^] + Arthur Chapman 2005."
 
 #. type: Plain text
-#: keydocs.en.adoc:166
+#: keydocs.en.adoc:168
 msgid "https://coffeehouse.dataone.org/2014/04/09/abandon-all-hope-ye-who-enter-dates-in-excel[Be careful with dates in Excel^] + DataOne 2014."
 msgstr "https://coffeehouse.dataone.org/2014/04/09/abandon-all-hope-ye-who-enter-dates-in-excel[Be careful with dates in Excel^] + DataOne 2014."
 
 #. type: Plain text
-#: keydocs.en.adoc:167
+#: keydocs.en.adoc:169
 msgid "https://www.w3.org/International/questions/qa-what-is-encoding[Character encoding for beginners^]"
 msgstr "https://www.w3.org/International/questions/qa-what-is-encoding[Codificación de caracteres para principiantes^]"
 
 #. type: Plain text
-#: keydocs.en.adoc:168
+#: keydocs.en.adoc:170
 msgid "http://mvz.berkeley.edu/Locality_Field_Recording_Notebooks.html[MVZ Guide for Recording Localities in Field Notes^]"
 msgstr "http://mvz.berkeley.edu/Locality_Field_Recording_Notebooks.html[Guide MVZ para Registrar Localidades en Notas de Campo^]"
 
 #. type: Title ==
-#: keydocs.en.adoc:169
+#: keydocs.en.adoc:171
 #, no-wrap
 msgid "R "
 msgstr "R "
 
 #. type: Plain text
-#: keydocs.en.adoc:171
+#: keydocs.en.adoc:173
 msgid "https://datacarpentry.org/R-ecology-lesson/[Data Carpentry-Data Analysis and Visualization in R for Ecologists^]"
 msgstr ""
 
 #. type: Plain text
-#: keydocs.en.adoc:172
+#: keydocs.en.adoc:174
 msgid "https://www.datacamp.com/[Datacamp- Range of courses in R, Python and SQL^]"
 msgstr ""
 
 #. type: Plain text
-#: keydocs.en.adoc:173
+#: keydocs.en.adoc:175
 msgid "https://cran.r-project.org/doc/manuals/r-release/R-intro.pdf[Introduction to R Manual^]"
 msgstr "https://cran.r-project.org/doc/manuals/r-release/R-intro.pdf[Introducción al Manual de R^]"
 
 #. type: Plain text
-#: keydocs.en.adoc:174
+#: keydocs.en.adoc:176
 msgid "https://cran.r-project.org/web/packages/rgbif/rgbif.pdf[rgbif Manual^]"
 msgstr "https://cran.r-project.org/web/packages/rgbif/rgbif.pdf[Manual sobre rgbif^]"
 
 #. type: Plain text
-#: keydocs.en.adoc:175
+#: keydocs.en.adoc:177
 msgid "http://th.archive.ubuntu.com/pub/pub/cran/web/packages/CoordinateCleaner/CoordinateCleaner.pdf[CoordinateCleaner Manual^]"
 msgstr "http://th.archive.ubuntu.com/pub/pub/cran/web/packages/CoordinateCleaner/CoordinateCleaner.pdf[Manual sobre CoordinateCleaner^]"
 
 #. type: Plain text
-#: keydocs.en.adoc:176
+#: keydocs.en.adoc:178
 msgid "https://data-blog.gbif.org/post/downloading-long-species-lists-on-gbif/[Downloading occurrences from a long list of species in R and Python^]"
 msgstr "https://data-blog.gbif.org/post/downloading-long-species-lists-on-gbif/[Descarga de registros desde una lista larga de especies en R y Python^]"
 
 #. type: Plain text
-#: keydocs.en.adoc:177
+#: keydocs.en.adoc:179
 msgid "https://data-blog.gbif.org/post/gbif-filtering-guide/[Common things to look out for when post-processing GBIF downloads^]"
 msgstr "https://data-blog.gbif.org/post/gbif-filtering-guide/[Cosas comunes a tener en cuenta cuando procesemos datos de GBIF tras la descarga^]"
 
 #. type: Plain text
-#: keydocs.en.adoc:178
+#: keydocs.en.adoc:180
 msgid "https://data-blog.gbif.org/post/finding-gridded-datasets/[Finding gridded datasets^] & https://data-blog.gbif.org/post/gridded-datasets-update/[Gridded Datasets Update^]"
 msgstr "https://data-blog.gbif.org/post/finding-gridded-datasets/[Encontrar Conjuntos de Datos en Cuadrícula^] & https://data-blog.gbif.org/post/gridded-datasets-update/[Cargar Conjuntos de Datos en Cuadrícula^]"
 
 #. type: Plain text
-#: keydocs.en.adoc:179
+#: keydocs.en.adoc:181
 msgid "https://data-blog.gbif.org/post/country-centroids/[Country centroids^]"
 msgstr "https://data-blog.gbif.org/post/country-centroids/[Centroides de país^]"
 
 #. type: Plain text
-#: keydocs.en.adoc:180
+#: keydocs.en.adoc:182
 msgid "https://data-blog.gbif.org/post/shapefiles/[Using shapefiles on GBIF data with R^]"
 msgstr "https://data-blog.gbif.org/post/shapefiles/[Utilizar shapefiles en datos de GBIF con R^]"
 
 #. type: Plain text
-#: keydocs.en.adoc:181
+#: keydocs.en.adoc:183
 msgid "https://data-blog.gbif.org/post/not-a-bird/[Not a bird download^]"
 msgstr "https://data-blog.gbif.org/post/not-a-bird/[No es una descarga de aves^]"
 
 #. type: Title ==
-#: keydocs.en.adoc:182
+#: keydocs.en.adoc:184
 #, no-wrap
 msgid "Sensitive species"
 msgstr "Especies sensibles"
 
 #. type: Plain text
-#: keydocs.en.adoc:186
+#: keydocs.en.adoc:188
 msgid "https://doi.org/10.15468/doc-5jp4-5g10[Current Best Practices for Generalizing Sensitive Species Occurrence Data^] + Arthur D. Chapman 2020."
 msgstr "https://doi.org/10.15468/doc-5jp4-5g10[Current Best Practices for Generalizing Sensitive Species Occurrence Data^] + Arthur D. Chapman 2020."
 
 #. type: Title ==
-#: keydocs.en.adoc:187
+#: keydocs.en.adoc:189
 #, no-wrap
 msgid "Taxonomy"
 msgstr "Taxonomía"
 
 #. type: Plain text
-#: keydocs.en.adoc:190
+#: keydocs.en.adoc:192
 msgid "https://data-blog.gbif.org/post/gbif-checklist-datasets-and-data-gaps/[GBIF checklist datasets and data gaps^]"
 msgstr "https://data-blog.gbif.org/post/gbif-checklist-datasets-and-data-gaps/[Conjuntos de datos de listados de especies de GBIF y vacío de datos^]"
 
 #. type: Plain text
-#: keydocs.en.adoc:191
+#: keydocs.en.adoc:193
 msgid "https://www.gbif.org/tools/name-parser[GBIF Labs - Names Parser^]"
 msgstr "https://www.gbif.org/tools/name-parser[GBIF Labs - Names Parser^]"
 
 #. type: Plain text
-#: keydocs.en.adoc:192
+#: keydocs.en.adoc:194
 msgid "https://www.gbif.org/tools/species-lookup[GBIF Labs - Species Matching^]"
 msgstr "https://www.gbif.org/tools/species-lookup[GBIF Labs - Species Matching^]"
 
 #. type: Plain text
-#: keydocs.en.adoc:193
+#: keydocs.en.adoc:195
 msgid "http://resolver.globalnames.org/[Global Names Resolver^]"
 msgstr "http://resolver.globalnames.org/[Global Names Resolver^]"
 
 #. type: Plain text
-#: keydocs.en.adoc:194
+#: keydocs.en.adoc:196
 msgid "https://obis.org/manual/namematching/[Marine Name Matching Strategy for taxonomic quality control^]"
 msgstr "https://obis.org/manual/namematching/[Estrategia de Asignación de Nombres Marinos para controles de calidad de taxonomía^]"
 
 #. type: Plain text
-#: keydocs.en.adoc:194
+#: keydocs.en.adoc:196
 msgid "http://match.taibif.tw/index.html[Nomenmatch^]"
 msgstr "http://match.taibif.tw/index.html[Nomenmatch^]"
 
