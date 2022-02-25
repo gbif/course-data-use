@@ -1,14 +1,12 @@
 [multipage-level=2]
+
+This is an example script that can be used for developing your own data processing pipelines.  The script take you through the process of downloading, visualizing and cleaning GBIF-mediated data.  Remember that this script is only a tool and that, utlimately, it is you the user to ensure that the data is fit for purpose.   
+
 ---
-title: "GBIF -- data use modelu"
-author: "Arman Pili"
-date: "`r format(Sys.time(), '%Y-%m-%d')`"
-output:
-  html_document:
-    df_print: paged
-    toc: true
-    toc_depth: 3
-    toc_float: true
+# GBIF -- data processing
+
+Author: Arman Pili
+
 ---
 
 ```{r, message = FALSE}
