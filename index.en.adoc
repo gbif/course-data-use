@@ -32,6 +32,8 @@ include::downloads.en.adoc[]
 
 include::Data-Processing.en.adoc[]
 
+include::R Data Processing Pipeline.en.adoc[]
+
 include::Red-List-Assessments.en.adoc[]
 
 include::Use_Case_Conservation_Status.en.adoc[]
