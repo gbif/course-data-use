@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: data-use\n"
-"POT-Creation-Date: 2022-02-18 09:55+0000\n"
-"PO-Revision-Date: 2022-02-18 10:00\n"
+"POT-Creation-Date: 2022-02-25 13:25+0000\n"
+"PO-Revision-Date: 2022-02-25 13:31\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -689,7 +689,7 @@ msgid "Duplication of records can occur when several records of the same individ
 msgstr "La duplication des enregistrements peut se produire lorsque plusieurs enregistrements d'un même individu sont effectués.  Cela peut se produire, par exemple, lorsqu'un chercheur dépose plusieurs spécimens d'un même arbre dans des herbiers du monde entier qui publient ensuite ces données sur le GBIF, ou lorsqu'un individu a été déposé dans une collection d'histoire naturelle et que cet individu a également été échantillonné pour son ADN.  Dans ce cas, il y aura un enregistrement pour le spécimen dans les collections et un autre pour la séquence d'ADN."
 
 #. type: Plain text
-#: Data-Processing.en.adoc:226
+#: Data-Processing.en.adoc:225
 msgid "GBIF has recently introduces a clustering function in its advanced search that allows users to identify clusters of records i.e. records that appear to be derived from the same source.  This allows users to identify potential duplicated data and filter for these out of your download.  Note that if you filter out those records that are in a cluster, you will lose all records found within that cluster and will lose potentially useful data.  The filter may be better used to indicate the extent to which there is duplication in the dataset, or for indepedent donwloads of the clustered and non-clustered datasets for comparison."
 msgstr "Le GBIF a récemment introduit une fonction de regroupement dans sa recherche avancée qui permet aux utilisateurs d'identifier des groupes d'enregistrements, c'est-à-dire des enregistrements qui semblent provenir de la même source.  Cela permet aux utilisateurs d'identifier les données potentiellement dupliquées et de les filtrer lors du téléchargement.  Notez que si vous filtrez les enregistrements qui sont dans un groupe, vous perdrez tous les enregistrements trouvés dans ce groupe et vous perdrez des données potentiellement utiles.  Le filtre peut être mieux utilisé pour indiquer l'étendue de la duplication dans l'ensemble de données, ou pour des téléchargements indépendants des ensembles de données groupées et non groupées pour comparaison."
 
