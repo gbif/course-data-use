@@ -46,7 +46,7 @@ I chose to use the Ring-Tailed Lemur (*Lemur catta*) for demonstrative purposes.
 ```{r, message = FALSE}
 name_backbone(name = "Lemur catta", rank = "species")
 ```
-
+image::img/web/Taxon_key.png[align=center,width=640,height=360]
 In the next step, you will need a taxon key. Here, the taxon key is equivalent to the usageKey.
 
 What is the usageKey of Lemur catta?
