@@ -1,6 +1,6 @@
-[multipage-level=2]
-
 This is an example script that can be used for developing your own data processing pipelines.  The script take you through the process of downloading, visualizing and cleaning GBIF-mediated data.  Remember that this script is only a tool and that, utlimately, it is you the user to ensure that the data is fit for purpose.   
+
+You can download the R Markdown document for you own use here - 
 
 ---
 # GBIF -- data processing
@@ -63,7 +63,7 @@ usageKey <- name_backbone(name = "Lemur catta", rank = "species") %>%
 
 Looks like there are a lot of possible taxon keys for *Lemur catta*. I searched it in GBIF taxonomic backbone instead: 2436412
 
-## Sending request to download file
+### Sending request to download file
 
 Remember to fill in your own GBIF login credentials for "user", "pwd" and "email"  
 
@@ -76,7 +76,7 @@ gbif_download_key <- occ_download(pred("taxonKey", 2436412),
 ```
 
 
-## Actually downloading the file
+### Actually downloading the file
 
 ```{r}
 occ_download_wait(gbif_download_key)
@@ -90,12 +90,13 @@ head(gbif_download, 10) #view first ten rows
 ```
 image::img/web/download.png[align=center,width=900,height=250]
 
-# This is how you cite the downloaded dataset in your report
+### Retrieving the citation of the downloaded dataset to use in your report
 
 ```{r}
 print(gbif_citation(occ_download_meta(gbif_download_key))$download)
 ```
 
+# Data Visualization
 
 *Lemur catta* is native to Madagascar; but just to make sure, let's check where else it can be found 
 
@@ -122,7 +123,7 @@ table(gbif_download$countrycode)
 image::img/web/countries.png[align=center,width=600,height=75]
 
 
-# Data cleaning Step 1
+# Data cleaning step 1
 
 With each step note the number of records that you are removing
 
