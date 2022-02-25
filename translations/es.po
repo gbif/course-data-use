@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: data-use\n"
-"POT-Creation-Date: 2022-02-18 09:55+0000\n"
-"PO-Revision-Date: 2022-02-18 10:00\n"
+"POT-Creation-Date: 2022-02-25 13:25+0000\n"
+"PO-Revision-Date: 2022-02-25 13:31\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -689,7 +689,7 @@ msgid "Duplication of records can occur when several records of the same individ
 msgstr "La duplicación de registros puede ocurrir cuando se hacen varios registros para un mismo individuo. Esto puede ocurrir, por ejemplo, cuando un investigador deposita varios especímenes del individuo de un árbol en herbarios de todo el mundo que a su vez publican esos datos en GBIF, o cuando un individuo ha sido depositado en una colección de historia natural y el individuo también fue muestreado por su ADN. En este caso, habrá un registro del espécimen en las colecciones y otro para su secuencia de ADN."
 
 #. type: Plain text
-#: Data-Processing.en.adoc:226
+#: Data-Processing.en.adoc:225
 msgid "GBIF has recently introduces a clustering function in its advanced search that allows users to identify clusters of records i.e. records that appear to be derived from the same source.  This allows users to identify potential duplicated data and filter for these out of your download.  Note that if you filter out those records that are in a cluster, you will lose all records found within that cluster and will lose potentially useful data.  The filter may be better used to indicate the extent to which there is duplication in the dataset, or for indepedent donwloads of the clustered and non-clustered datasets for comparison."
 msgstr "GBIF ha introducido recientemente una función de agrupación en su búsqueda avanzada que permite a los usuarios identificar grupos de registros, p. ej. registros que parecen proceder de la misma fuente. Esto permite a los usuarios identificar posibles datos duplicados y filtrarlos para excluirlos de la descarga. Tenga en cuenta que si filtra los registros que están en un grupo, perderá todos los registros encontrados en ese grupo y perderá datos potencialmente útiles. El filtro puede usarse mejor para indicar hasta qué punto hay duplicidad en el conjunto de datos, o para descargas independientes de los conjuntos de datos en grupo y sin agrupar a modo de comparación."
 
