@@ -1,10 +1,10 @@
 
 ---
-= GBIF -- data processing
+* GBIF -- data processing
 
 This is an example script that can be used for developing your own data processing pipelines.  The script take you through the process of downloading, visualizing and cleaning GBIF-mediated data. Remember that this script is only a tool and that, utlimately, it is you the user to ensure that the data is fit for purpose.   
 
-You can download the R Markdown document for your own use here - link:../exercise-data/Lemur_catta_project.Rmd[_Lemur catta_ project, opts=download]
+You can download the R Markdown document for your own use here - link:../exercise-data/Lemur_catta_project_1.Rmd[_Lemur catta_ project, opts=download]
 
 Author: Arman Pili
 
@@ -20,17 +20,17 @@ library(sf)                 #for manipulating downloaded maps
 library(tidyverse)          #for tidy analysis
 library(CoordinateCleaner)  #for quality checking of occurrence data
 ```
-= Preparing plotting variables
+# Preparing plotting variables
 
 These will return the variables you will need for plotting your data later
 
-=== Downloading world map
+### Downloading world map
 
 ```{r}
 world_map <- ne_countries(returnclass = "sf")
 ```
 
-=== Downloading map of Madagascar
+### Downloading map of Madagascar
 
 ```{r}
 country_map <- ne_countries(country = "Madagascar",
