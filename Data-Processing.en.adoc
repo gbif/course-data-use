@@ -223,4 +223,3 @@ GBIF has recently introduces a clustering function in its advanced search that a
 This allows users to identify potential duplicated data and filter for these out of your download.  
 Note that if you filter out those records that are in a cluster, you will lose all records found within that cluster and will lose potentially useful data. 
 The filter may be better used to indicate the extent to which there is duplication in the dataset, or for indepedent donwloads of the clustered and non-clustered datasets for comparison.
-
