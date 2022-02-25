@@ -8,6 +8,7 @@ This is an example script that can be used for developing your own data processi
 Author: Arman Pili
 
 ---
+The following packages will be needed
 
 ```{r, message = FALSE}
                             #notes
@@ -18,7 +19,9 @@ library(sf)                 #for manipulating downloaded maps
 library(tidyverse)          #for tidy analysis
 library(CoordinateCleaner)  #for quality checking of occurrence data
 ```
-# preparing plotting variables (miscellaneous variables)
+# Preparing plotting variables
+
+These will return the variables you will need for plotting your data later
 
 ### Downloading world map
 
@@ -33,8 +36,6 @@ country_map <- ne_countries(country = "Madagascar",
                             scale = "medium",
                             returnclass = "sf")
 ```
-
-
 
 # Dowloading GBIF datasets
 
