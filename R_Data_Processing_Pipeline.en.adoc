@@ -1,6 +1,6 @@
 
 ---
-# GBIF -- data processing
+= GBIF -- data processing
 
 This is an example script that can be used for developing your own data processing pipelines.  The script take you through the process of downloading, visualizing and cleaning GBIF-mediated data. Remember that this script is only a tool and that, utlimately, it is you the user to ensure that the data is fit for purpose.   
 
@@ -20,17 +20,17 @@ library(sf)                 #for manipulating downloaded maps
 library(tidyverse)          #for tidy analysis
 library(CoordinateCleaner)  #for quality checking of occurrence data
 ```
-# Preparing plotting variables
+= Preparing plotting variables
 
 These will return the variables you will need for plotting your data later
 
-### Downloading world map
+=== Downloading world map
 
 ```{r}
 world_map <- ne_countries(returnclass = "sf")
 ```
 
-### Downloading map of Madagascar
+=== Downloading map of Madagascar
 
 ```{r}
 country_map <- ne_countries(country = "Madagascar",
@@ -38,9 +38,9 @@ country_map <- ne_countries(country = "Madagascar",
                             returnclass = "sf")
 ```
 
-# Dowloading GBIF datasets
+= Dowloading GBIF datasets
 
-### Looking up species taxon keys
+=== Looking up species taxon keys
 
 I chose to use the Ring-Tailed Lemur (*Lemur catta*) for demonstrative purposes.
 
@@ -64,7 +64,7 @@ usageKey <- name_backbone(name = "Lemur catta", rank = "species") %>%
 
 Looks like there are a lot of possible taxon keys for *Lemur catta*. I searched it in GBIF taxonomic backbone instead: 2436412
 
-### Sending request to download file
+=== Sending request to download file
 
 Remember to fill in your own GBIF login credentials for "user", "pwd" and "email"  
 
@@ -77,7 +77,7 @@ gbif_download_key <- occ_download(pred("taxonKey", 2436412),
 ```
 
 
-### Actually downloading the file
+=== Actually downloading the file
 
 ```{r}
 occ_download_wait(gbif_download_key)
@@ -97,7 +97,7 @@ image::img/web/download.png[align=center,width=900,height=250]
 print(gbif_citation(occ_download_meta(gbif_download_key))$download)
 ```
 
-# Data Visualization
+= Data Visualization
 
 *Lemur catta* is native to Madagascar; but just to make sure, let's check where else it can be found 
 
@@ -124,7 +124,7 @@ table(gbif_download$countrycode)
 image::img/web/countries.png[align=center,width=600,height=75]
 
 
-# Data cleaning step 1
+= Data cleaning step 1
 
 With each step note the number of records that you are removing
 
@@ -143,7 +143,7 @@ print(paste0(nrow(gbif_download)-nrow(clean_step1), " records deleted; ",
              nrow(clean_step1), " records remaining."))
 ```
 
-### Plotting raw records vs. cleaned records (step 1)
+=== Plotting raw records vs. cleaned records (step 1)
 
 ```{r}
 ggplot() +
@@ -163,7 +163,7 @@ ggplot() +
 
 image::img/web/lemur_cleaning_1.png[align=center,width=650,height=450]
 
-# Data cleaning step 2
+= Data cleaning step 2
 
 Flagging records with problematic occurrence information using functions of the coordinatecleaner package.
 
@@ -185,7 +185,7 @@ print(paste0(nrow(gbif_download)-nrow(clean_step2), " records deleted; ",
              nrow(clean_step2), " records remaining."))  
 ```
 
-### Plotting raw records vs. cleaned records (step 2)
+=== Plotting raw records vs. cleaned records (step 2)
 
 ```{r}
 ggplot() +
@@ -207,7 +207,7 @@ image::img/web/lemur_cleaning_2.png[align=center,width=650,height=450]
 
 The black "+" markers indicate the occurrences of the raw dataset; whereas the red "+" markers indicate the occurrences of the cleaned dataset.
 
-### Zooming in to madagascar
+=== Zooming in to madagascar
 
 
 ```{r}
@@ -230,7 +230,7 @@ ggplot() +
 
 image::img/web/lemur_madagascar.png[align=center,width=650,height=450]
 
-# Data cleaning step 3
+= Data cleaning step 3
 
 Removing records with coordinate uncertainty and precision issues
 
@@ -245,7 +245,7 @@ print(paste0(nrow(gbif_download)-nrow(clean_step3), " records deleted; ",
              nrow(clean_step3), " records remaining." ))  
 ```
 
-### Plotting raw records vs. cleaned records (step 3)
+=== Plotting raw records vs. cleaned records (step 3)
 
 ```{r}
 ggplot() +
@@ -270,7 +270,7 @@ image::img/web/lemur_cleaning_3.png[align=center,width=650,height=450]
 Oh no! we only have 14 records left.
 
 
-# Data cleaning step 4
+= Data cleaning step 4
 
 Further removing records with temporal range outside that of our predictor variables
 
