@@ -38,7 +38,7 @@ country_map <- ne_countries(country = "Madagascar",
                             returnclass = "sf")
 ```
 
-= Dowloading GBIF datasets
+= Downloading GBIF datasets
 
 === Looking up species taxon keys
 
