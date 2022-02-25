@@ -46,7 +46,8 @@ I chose to use the Ring-Tailed Lemur (*Lemur catta*) for demonstrative purposes.
 ```{r, message = FALSE}
 name_backbone(name = "Lemur catta", rank = "species")
 ```
-image::img/web/Taxon_key.png[align=center,width=640,height=360]
+image::img/web/Taxon_key.png[align=center,width=900,height=125]
+
 In the next step, you will need a taxon key. Here, the taxon key is equivalent to the usageKey.
 
 What is the usageKey of Lemur catta?
@@ -63,6 +64,8 @@ usageKey <- name_backbone(name = "Lemur catta", rank = "species") %>%
 Looks like there are a lot of possible taxon keys for *Lemur catta*. I searched it in GBIF taxonomic backbone instead: 2436412
 
 ## Sending request to download file
+
+Remember to fill in your own GBIF login credentials for "user", "pwd" and "email"  
 
 ```{r}
 gbif_download_key <- occ_download(pred("taxonKey", 2436412),
@@ -85,6 +88,7 @@ gbif_download <- occ_download_get(gbif_download_key,
 
 head(gbif_download, 10) #view first ten rows
 ```
+image::img/web/download.png[align=center,width=900,height=250]
 
 # This is how you cite the downloaded dataset in your report
 
@@ -105,6 +109,7 @@ ggplot() +
              color = "red") +
   theme_bw()
 ```
+image::img/web/lemur_map.png[align=center,width=650,height=450]
 
 From initial look, what's wrong with the distribution of the Lemur?
 
@@ -114,10 +119,12 @@ Wheps! seems like there are unusual occurrences outside its native range. Let's 
 table(gbif_download$countrycode)
 ```
 
-
+image::img/web/countries.png[align=center,width=600,height=75]
 
 
 # Data cleaning Step 1
+
+With each step note the number of records that you are removing
 
 Removing data recorded based on fossil or living specimens, and records from alien/invasive populations
 
@@ -152,6 +159,7 @@ ggplot() +
   theme_bw()
 ```
 
+image::img/web/lemur_cleaning_1.png[align=center,width=650,height=450]
 
 # Data cleaning step 2
 
@@ -193,6 +201,8 @@ ggplot() +
   theme_bw()
 ```
 
+image::img/web/lemur_cleaning_2.png[align=center,width=650,height=450]
+
 The black "+" markers indicate the occurrences of the raw dataset; whereas the red "+" markers indicate the occurrences of the cleaned dataset.
 
 ### Zooming in to madagascar
@@ -216,6 +226,7 @@ ggplot() +
   theme_bw()
 ```
 
+image::img/web/lemur_madagascar.png[align=center,width=650,height=450]
 
 # Data cleaning step 3
 
@@ -252,6 +263,8 @@ ggplot() +
   theme_bw()
 ```
 
+image::img/web/lemur_cleaning_3.png[align=center,width=650,height=450]
+
 Oh no! we only have 14 records left.
 
 
@@ -285,5 +298,7 @@ ggplot() +
   theme_bw()
 ```
 
-Oh noooooo there're just three records left!
+image::img/web/lemur_cleaning_4.png[align=center,width=650,height=450]
+
+Oh noooooo there are just three records left! You may not have enough data points for what you want to do. You can always go back to your pipeline and refine.
 
