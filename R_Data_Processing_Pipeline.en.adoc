@@ -1,6 +1,6 @@
 
 ---
-* GBIF -- data processing
+# GBIF -- data processing
 
 This is an example script that can be used for developing your own data processing pipelines.  The script take you through the process of downloading, visualizing and cleaning GBIF-mediated data. Remember that this script is only a tool and that, utlimately, it is you the user to ensure that the data is fit for purpose.   
 
