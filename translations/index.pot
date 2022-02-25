@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2022-02-18 09:55+0000\n"
+"POT-Creation-Date: 2022-02-25 13:25+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1000,7 +1000,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: Data-Processing.en.adoc:226
+#: Data-Processing.en.adoc:225
 msgid ""
 "GBIF has recently introduces a clustering function in its advanced search "
 "that allows users to identify clusters of records i.e. records that appear "
