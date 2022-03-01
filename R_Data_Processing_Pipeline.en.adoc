@@ -1,5 +1,5 @@
 
-= GBIF Data Processing Pipelins
+= Data Processing  
 
 Author: Arman Pili
 
