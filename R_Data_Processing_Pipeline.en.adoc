@@ -19,7 +19,7 @@ library(sf)                 #for manipulating downloaded maps
 library(tidyverse)          #for tidy analysis
 library(CoordinateCleaner)  #for quality checking of occurrence data
 ```
-= Preparing plotting variables
+== Preparing plotting variables
 
 These will return the variables you will need for plotting your data later
 
@@ -37,7 +37,7 @@ country_map <- ne_countries(country = "Madagascar",
                             returnclass = "sf")
 ```
 
-= Downloading GBIF datasets
+== Downloading GBIF datasets
 
 === Looking up species taxon keys
 
@@ -96,7 +96,7 @@ image::img/web/download.png[align=center,width=900,height=250]
 print(gbif_citation(occ_download_meta(gbif_download_key))$download)
 ```
 
-= Data Visualization
+== Data Visualization
 
 *Lemur catta* is native to Madagascar; but just to make sure, let's check where else it can be found 
 
@@ -123,7 +123,7 @@ table(gbif_download$countrycode)
 image::img/web/countries.png[align=center,width=600,height=75]
 
 
-= Data cleaning step 1
+== Data cleaning step 1
 
 With each step note the number of records that you are removing
 
@@ -162,7 +162,7 @@ ggplot() +
 
 image::img/web/lemur_cleaning_1.png[align=center,width=650,height=450]
 
-= Data cleaning step 2
+== Data cleaning step 2
 
 Flagging records with problematic occurrence information using functions of the coordinatecleaner package.
 
@@ -229,7 +229,7 @@ ggplot() +
 
 image::img/web/lemur_madagascar.png[align=center,width=650,height=450]
 
-= Data cleaning step 3
+== Data cleaning step 3
 
 Removing records with coordinate uncertainty and precision issues
 
@@ -269,7 +269,7 @@ image::img/web/lemur_cleaning_3.png[align=center,width=650,height=450]
 Oh no! we only have 14 records left.
 
 
-= Data cleaning step 4
+== Data cleaning step 4
 
 Further removing records with temporal range outside that of our predictor variables
 
