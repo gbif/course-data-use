@@ -34,6 +34,8 @@ include::Data-Processing.en.adoc[]
 
 include::R_Data_Processing_Pipeline.en.adoc[]
 
+include::Ecological-Niche-Modelling.en.adoc[]
+
 include::Red-List-Assessments.en.adoc[]
 
 include::Use_Case_Conservation_Status.en.adoc[]
