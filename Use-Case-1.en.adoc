@@ -1,7 +1,7 @@
 [multipage-level=2]
 = Use Case - Modelling Species Distributions Under Climate Change
 
-This is a practice use case for the ecological niche modeling module developed by Dr.Hannah Owens, University of Copenhagen. For this use case, you will use the modular, R-based platform Wallace link https://wallaceecomod.github.io/ for reproducible modeling of species niches and distributions. 
+This is a practice use case for the ecological niche modeling module developed by Dr. Hannah Owens, University of Copenhagen. For this use case, you will use the modular, R-based platform Wallace link https://wallaceecomod.github.io/ for reproducible modeling of species niches and distributions. 
 
 The platform is powered by a variety of R packages including dismo and enmeval allows and lowers the threshold for access to basic modeling functions through a user friendly graphical user interface (GUI).
 It is a great platform for getting you started in in niche modeling and will allow to learn the basics of modeling, explore your data and generate a backcbone R script that will allow for the repeatability of your analyses.  
