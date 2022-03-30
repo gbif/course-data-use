@@ -1,5 +1,5 @@
 [multipage-level=2]
-= Use Case 1 - Modelling Species Distributions Under climate Change
+= Use Case - Modelling Species Distributions Under Climate Change
 
 This is a practice use case for the ecological niche modeling module developed by Dr.Hannah Owens, University of Copenhagen. For this use case, you will use the modular, R-based platform Wallace link https://wallaceecomod.github.io/ for reproducible modeling of species niches and distributions. 
 
