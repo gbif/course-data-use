@@ -75,7 +75,7 @@ For those processing in R, this can be done within R, however, with OpenRefine o
 Uncertainty surrounding the taxonomy of a data point can arise for several reasons:
 
 * Species mis-identification
-* Synoynmy
+* Synonymy
 * Novel names
 
 === Species mis-identification
