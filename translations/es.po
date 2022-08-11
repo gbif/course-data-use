@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: data-use\n"
-"POT-Creation-Date: 2022-02-25 13:25+0000\n"
-"PO-Revision-Date: 2022-02-25 13:31\n"
+"POT-Creation-Date: 2022-08-11 12:52+0000\n"
+"PO-Revision-Date: 2022-08-11 12:55\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -404,8 +404,8 @@ msgstr "Identificación errónea de la especie"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:79
-msgid "Synoynmy"
-msgstr "Sinonimia"
+msgid "Synonymy"
+msgstr ""
 
 #. type: Plain text
 #: Data-Processing.en.adoc:80
