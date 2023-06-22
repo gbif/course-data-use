@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2022-08-11 12:52+0000\n"
+"POT-Creation-Date: 2023-06-22 10:42+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1121,31 +1121,36 @@ msgstr ""
 
 #. type: Plain text
 #: keydocs.en.adoc:30
+#, no-wrap
 msgid ""
 "https://doi.org/10.35035/doc-5xdm-8762[Best Practices for Publishing "
-"Biodiversity Data from Environmental Impact Assessments^] + GBIF Secretariat "
-"& IAIA: International Association for Impact Assessment (2020)."
-msgstr ""
-
-#. type: Plain text
-#: keydocs.en.adoc:32
-msgid ""
-"https://doi.org/10.35035/doc-b8hq-me03[Guidance for private companies to "
-"become data publishers through GBIF: Template document to support the "
-"internal authorization process to become a GBIF publisher^] + Rui Figueira, "
-"Pedro Beja, Cristina Villaverde, Miguel Vega, Katia Cezón, Tainan Messina, "
-"Anne-Sophie Archambeau, Rukaya Johaadien, Dag Endresen & Dairo Escobar "
+"Biodiversity Data from Environmental Impact Assessments^]\n"
+"GBIF Secretariat & IAIA: International Association for Impact Assessment "
 "(2020)."
 msgstr ""
 
 #. type: Plain text
+#: keydocs.en.adoc:32
+#, no-wrap
+msgid ""
+"https://doi.org/10.35035/doc-b8hq-me03[Guidance for private companies to "
+"become data publishers through GBIF: Template document to support the "
+"internal authorization process to become a GBIF publisher^]\n"
+"Rui Figueira, Pedro Beja, Cristina Villaverde, Miguel Vega, Katia Cezón, "
+"Tainan Messina, Anne-Sophie Archambeau, Rukaya Johaadien, Dag Endresen & "
+"Dairo Escobar (2020)."
+msgstr ""
+
+#. type: Plain text
 #: keydocs.en.adoc:34
+#, no-wrap
 msgid ""
 "https://doi.org/10.35035/doc-vf1a-nr22[Publishing DNA-derived data through "
-"biodiversity data platforms^] + Anders F. Andersson, Andrew Bissett, Anders "
-"G. Finstad, Frode Fossøy, Marie Grosjean, Michael Hope, Thomas S. Jeppesen, "
-"Urmas Kõljalg, Daniel Lundin, R. Henrik Nilsson, Maria Prager, Cecilie "
-"Svenningsen & Dmitry Schigel (2020)."
+"biodiversity data platforms^]\n"
+"Anders F. Andersson, Andrew Bissett, Anders G. Finstad, Frode Fossøy, Marie "
+"Grosjean, Michael Hope, Thomas S. Jeppesen, Urmas Kõljalg, Daniel Lundin, "
+"R. Henrik Nilsson, Maria Prager, Cecilie Svenningsen & Dmitry Schigel "
+"(2020)."
 msgstr ""
 
 #. type: Plain text
@@ -1222,10 +1227,12 @@ msgstr ""
 
 #. type: Plain text
 #: keydocs.en.adoc:49
+#, no-wrap
 msgid ""
 "http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0102623[The "
 "GBIF Integrated Publishing Toolkit: Facilitating the Efficient Publishing of "
-"Biodiversity Data on the Internet^] + Robertson et al. (2014)"
+"Biodiversity Data on the Internet^]\n"
+"Robertson et al. (2014)"
 msgstr ""
 
 #. type: Plain text
@@ -1326,10 +1333,11 @@ msgstr ""
 
 #. type: Plain text
 #: keydocs.en.adoc:71
+#, no-wrap
 msgid ""
 "https://doi.org/10.15468/doc-z79c-sa53[Establishing an Effective GBIF "
-"Participant Node: Concepts and general considerations^] + GBIF Secretariat "
-"(2019)."
+"Participant Node: Concepts and general considerations^]\n"
+"GBIF Secretariat (2019)."
 msgstr ""
 
 #. type: Title ==
@@ -1340,23 +1348,26 @@ msgstr ""
 
 #. type: Plain text
 #: keydocs.en.adoc:76
+#, no-wrap
 msgid ""
-"https://doi.org/10.15468/doc-gg7h-s853[Georeferencing Best Practices^] + "
+"https://doi.org/10.15468/doc-gg7h-s853[Georeferencing Best Practices^]\n"
 "Arthur D. Chapman & John R. Wieczorek (2020)."
 msgstr ""
 
 #. type: Plain text
 #: keydocs.en.adoc:78
+#, no-wrap
 msgid ""
-"https://doi.org/10.35035/e09p-h128[Georeferencing Quick Reference Guide^] + "
+"https://doi.org/10.35035/e09p-h128[Georeferencing Quick Reference Guide^]\n"
 "Paula F. Zermoglio, Arthur D. Chapman, John R. Wieczorek, Maria Celeste Luna "
 "& David A. Bloom (2020)."
 msgstr ""
 
 #. type: Plain text
 #: keydocs.en.adoc:80
+#, no-wrap
 msgid ""
-"https://doi.org/10.35035/gdwq-3v93[Georeferencing Calculator Manual^] + "
+"https://doi.org/10.35035/gdwq-3v93[Georeferencing Calculator Manual^]\n"
 "David A. Bloom, John R. Wieczorek & Paula F. Zermoglio (2020)."
 msgstr ""
 
@@ -1433,63 +1444,76 @@ msgstr ""
 
 #. type: Plain text
 #: keydocs.en.adoc:103
+#, no-wrap
 msgid ""
 "https://doi.org/10.15468/doc-gzjg-af18[Guía para la limpieza de datos sobre "
-"biodiversidad con OpenRefine^] + Paula F. Zermoglio, Camila A. Plata "
-"Corredor, John R. Wieczorek, Ricardo Ortiz Gallego & Leonardo Buitrago "
-"(2021)."
+"biodiversidad con OpenRefine^]\n"
+"Paula F. Zermoglio, Camila A. Plata Corredor, John R. Wieczorek, Ricardo "
+"Ortiz Gallego & Leonardo Buitrago (2021)."
 msgstr ""
 
 #. type: Plain text
 #: keydocs.en.adoc:106
+#, no-wrap
 msgid ""
 "http://iphylo.blogspot.com/2012/02/using-google-refine-and-taxonomic.html[Using "
 "Google Refine and taxonomic databases (EOL, NCBI, uBio, WORMS) to clean "
-"messy data^] + iPhylo blog post. Rod Page 2012."
+"messy data^]\n"
+"iPhylo blog post. Rod Page 2012."
 msgstr ""
 
 #. type: Plain text
 #: keydocs.en.adoc:108
+#, no-wrap
 msgid ""
 "http://iphylo.blogspot.com/2013/04/reconciling-author-names-using-open.html[Reconciling "
-"author names using Open Refine and VIAF^] + iPhylo blog post. Rod Page 2013."
+"author names using Open Refine and VIAF^]\n"
+"iPhylo blog post. Rod Page 2013."
 msgstr ""
 
 #. type: Plain text
 #: keydocs.en.adoc:110
+#, no-wrap
 msgid ""
 "http://gbif.blogspot.com/2013/07/validating-scientific-names-with.html[Validating "
-"scientific names with the GBIF Portal web service API^] + Guest post was "
-"written by Gaurav Vaidya, Victoria Tersigni and Robert Guralnick 2013."
+"scientific names with the GBIF Portal web service API^]\n"
+"Guest post was written by Gaurav Vaidya, Victoria Tersigni and Robert "
+"Guralnick 2013."
 msgstr ""
 
 #. type: Plain text
 #: keydocs.en.adoc:112
+#, no-wrap
 msgid ""
 "https://www.idigbio.org/wiki/images/2/22/OpenRefine.pdf[iDigBio Cleaning "
-"data with OpenRefine^] + iDigBio 2013."
+"data with OpenRefine^]\n"
+"iDigBio 2013."
 msgstr ""
 
 #. type: Plain text
 #: keydocs.en.adoc:114
+#, no-wrap
 msgid ""
 "http://www.canadensys.net/2014/have-we-got-the-names-right[Have We Got the "
-"Names “Right”?^] + Canadensys 2014."
+"Names “Right”?^]\n"
+"Canadensys 2014."
 msgstr ""
 
 #. type: Plain text
 #: keydocs.en.adoc:116
+#, no-wrap
 msgid ""
-"http://slides.com/dimitribrosens/o-3#/[Cleaning data with OpenRefine^] + "
+"http://slides.com/dimitribrosens/o-3#/[Cleaning data with OpenRefine^]\n"
 "Desmet and Brosens 2016 TDWG."
 msgstr ""
 
 #. type: Plain text
 #: keydocs.en.adoc:118
+#, no-wrap
 msgid ""
-"https://git-og.github.io/EasyOpenRedList/[EasyOpen Redlist^] + Querying the "
-"IUCN Red List, using a species list, OpenRefine, and some pre-written "
-"code. Olly Griffin July 2019."
+"https://git-og.github.io/EasyOpenRedList/[EasyOpen Redlist^]\n"
+"Querying the IUCN Red List, using a species list, OpenRefine, and some "
+"pre-written code. Olly Griffin July 2019."
 msgstr ""
 
 #. type: Title ==
@@ -1691,24 +1715,28 @@ msgstr ""
 
 #. type: Plain text
 #: keydocs.en.adoc:157
+#, no-wrap
 msgid ""
 "https://www.iucnredlist.org/resources/spatialtoolsanddata[Spatial Tools and "
-"Data for Red List Assessments] + Includes brief overviews of some tools "
-"developed to aid mapping of spatial data and estimation of Red List metrics "
-"such as EOO and AOO, plus developer information, links to help files, "
-"support networks and associated research publications."
+"Data for Red List Assessments]\n"
+"Includes brief overviews of some tools developed to aid mapping of spatial "
+"data and estimation of Red List metrics such as EOO and AOO, plus developer "
+"information, links to help files, support networks and associated research "
+"publications."
 msgstr ""
 
 #. type: Plain text
 #: keydocs.en.adoc:159
+#, no-wrap
 msgid ""
 "https://www.iucnredlist.org/resources/supporting-information-guidelines[Supporting "
-"information guidelines] + The Documentation Standards and Consistency Checks "
-"for IUCN Red List Assessments and Species Accounts (also known as the "
-"Supporting Information Guidelines) provides guidance on the required and "
-"recommended supporting information for Red List assessments. It also "
-"provides guidance on the writing style and format that should be used for "
-"all IUCN Red List assessments."
+"information guidelines]\n"
+"The Documentation Standards and Consistency Checks for IUCN Red List "
+"Assessments and Species Accounts (also known as the Supporting Information "
+"Guidelines) provides guidance on the required and recommended supporting "
+"information for Red List assessments. It also provides guidance on the "
+"writing style and format that should be used for all IUCN Red List "
+"assessments."
 msgstr ""
 
 #. type: Title ==
@@ -1719,24 +1747,30 @@ msgstr ""
 
 #. type: Plain text
 #: keydocs.en.adoc:164
+#, no-wrap
 msgid ""
 "https://www.gbif.org/document/80509/principles-of-data-quality[Principles of "
-"Data Quality^] + Arthur Chapman 2005."
+"Data Quality^]\n"
+"Arthur Chapman 2005."
 msgstr ""
 
 #. type: Plain text
 #: keydocs.en.adoc:166
+#, no-wrap
 msgid ""
 "https://www.gbif.org/document/80528/principles-and-methods-of-data-cleaning-primary-species-and-species-occurrence-data[Principles "
-"and Methods of Data Cleaning: Primary Species and Species-Occurrence Data^] "
-"+ Arthur Chapman 2005."
+"and Methods of Data Cleaning: Primary Species and Species-Occurrence "
+"Data^]\n"
+"Arthur Chapman 2005."
 msgstr ""
 
 #. type: Plain text
 #: keydocs.en.adoc:168
+#, no-wrap
 msgid ""
 "https://coffeehouse.dataone.org/2014/04/09/abandon-all-hope-ye-who-enter-dates-in-excel[Be "
-"careful with dates in Excel^] + DataOne 2014."
+"careful with dates in Excel^]\n"
+"DataOne 2014."
 msgstr ""
 
 #. type: Plain text
@@ -1838,9 +1872,11 @@ msgstr ""
 
 #. type: Plain text
 #: keydocs.en.adoc:188
+#, no-wrap
 msgid ""
 "https://doi.org/10.15468/doc-5jp4-5g10[Current Best Practices for "
-"Generalizing Sensitive Species Occurrence Data^] + Arthur D. Chapman 2020."
+"Generalizing Sensitive Species Occurrence Data^]\n"
+"Arthur D. Chapman 2020."
 msgstr ""
 
 #. type: Title ==
