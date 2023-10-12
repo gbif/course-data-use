@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: data-use\n"
 "POT-Creation-Date: 2023-06-22 10:42+0000\n"
-"PO-Revision-Date: 2023-06-22 10:44\n"
+"PO-Revision-Date: 2023-10-12 00:22\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -330,7 +330,7 @@ msgstr "*Modifiée signifie que les données originales ont été modifiées lor
 #: Data-Processing.en.adoc:49
 #, no-wrap
 msgid "*Inferred means the Using other record information the data indexed is inferred, if the original is empty.\n"
-msgstr ""
+msgstr "Déduit signifie l'utilisation d'autres sources d'information dont les données sont déduites si l'enregistrement original est vide.\n"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:55
@@ -405,7 +405,7 @@ msgstr "Mauvaise identification de l'espèce"
 #. type: Plain text
 #: Data-Processing.en.adoc:79
 msgid "Synonymy"
-msgstr ""
+msgstr "Synonymie"
 
 #. type: Plain text
 #: Data-Processing.en.adoc:80
@@ -788,21 +788,24 @@ msgstr "https://www.gbif.org/devenez un éditeur de données[Devenir un éditeur
 #, no-wrap
 msgid "https://doi.org/10.35035/doc-5xdm-8762[Best Practices for Publishing Biodiversity Data from Environmental Impact Assessments^]\n"
 "GBIF Secretariat & IAIA: International Association for Impact Assessment (2020)."
-msgstr ""
+msgstr "https://doi.org/10.35035/doc-5xdm-8762[Best Practices for Publishing Biodiversity Data from Environmental Impact Assessments^]\n"
+"GBIF Secretariat & IAIA: International Association for Impact Assessment (2020)"
 
 #. type: Plain text
 #: keydocs.en.adoc:32
 #, no-wrap
 msgid "https://doi.org/10.35035/doc-b8hq-me03[Guidance for private companies to become data publishers through GBIF: Template document to support the internal authorization process to become a GBIF publisher^]\n"
 "Rui Figueira, Pedro Beja, Cristina Villaverde, Miguel Vega, Katia Cezón, Tainan Messina, Anne-Sophie Archambeau, Rukaya Johaadien, Dag Endresen & Dairo Escobar (2020)."
-msgstr ""
+msgstr "https://doi.org/10.35035/doc-b8hq-me03[Guidance for private companies to become data publishers through GBIF: Template document to support the internal authorization process to become a GBIF publisher^]\n"
+"Rui Figueira, Pedro Beja, Cristina Villaverde, Miguel Vega, Katia Cezón, Tainan Messina, Anne-Sophie Archambeau, Rukaya Johaadien, Dag Endresen & Dairo Escobar (2020)."
 
 #. type: Plain text
 #: keydocs.en.adoc:34
 #, no-wrap
 msgid "https://doi.org/10.35035/doc-vf1a-nr22[Publishing DNA-derived data through biodiversity data platforms^]\n"
 "Anders F. Andersson, Andrew Bissett, Anders G. Finstad, Frode Fossøy, Marie Grosjean, Michael Hope, Thomas S. Jeppesen, Urmas Kõljalg, Daniel Lundin, R. Henrik Nilsson, Maria Prager, Cecilie Svenningsen & Dmitry Schigel (2020)."
-msgstr ""
+msgstr "https://doi.org/10.35035/doc-vf1a-nr22[Publishing DNA-derived data through biodiversity data platforms^]\n"
+"Anders F. Andersson, Andrew Bissett, Anders G. Finstad, Frode Fossøy, Marie Grosjean, Michael Hope, Thomas S. Jeppesen, Urmas Kõljalg, Daniel Lundin, R. Henrik Nilsson, Maria Prager, Cecilie Svenningsen & Dmitry Schigel (2020)."
 
 #. type: Plain text
 #: keydocs.en.adoc:35
@@ -865,7 +868,8 @@ msgstr "Publication de données: IPT"
 #, no-wrap
 msgid "http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0102623[The GBIF Integrated Publishing Toolkit: Facilitating the Efficient Publishing of Biodiversity Data on the Internet^]\n"
 "Robertson et al. (2014)"
-msgstr ""
+msgstr "http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0102623[The GBIF Integrated Publishing Toolkit: Facilitating the Efficient Publishing of Biodiversity Data on the Internet^]\n"
+"Robertson et al. (2014)"
 
 #. type: Plain text
 #: keydocs.en.adoc:50
@@ -954,7 +958,8 @@ msgstr "https://www.gbif.org/science-review[Revue Scientifique^]"
 #, no-wrap
 msgid "https://doi.org/10.15468/doc-z79c-sa53[Establishing an Effective GBIF Participant Node: Concepts and general considerations^]\n"
 "GBIF Secretariat (2019)."
-msgstr ""
+msgstr "https://doi.org/10.15468/doc-z79c-sa53[Establishing an Effective GBIF Participant Node: Concepts and general considerations^]\n"
+"GBIF Secretariat (2019)."
 
 #. type: Title ==
 #: keydocs.en.adoc:72
@@ -967,21 +972,24 @@ msgstr "Géoréférencement"
 #, no-wrap
 msgid "https://doi.org/10.15468/doc-gg7h-s853[Georeferencing Best Practices^]\n"
 "Arthur D. Chapman & John R. Wieczorek (2020)."
-msgstr ""
+msgstr "https://doi.org/10.15468/doc-gg7h-s853[Georeferencing Best Practices^]\n"
+"Arthur D. Chapman & John R. Wieczorek (2020)."
 
 #. type: Plain text
 #: keydocs.en.adoc:78
 #, no-wrap
 msgid "https://doi.org/10.35035/e09p-h128[Georeferencing Quick Reference Guide^]\n"
 "Paula F. Zermoglio, Arthur D. Chapman, John R. Wieczorek, Maria Celeste Luna & David A. Bloom (2020)."
-msgstr ""
+msgstr "https://doi.org/10.35035/e09p-h128[Georeferencing Quick Reference Guide^]\n"
+"Paula F. Zermoglio, Arthur D. Chapman, John R. Wieczorek, Maria Celeste Luna & David A. Bloom (2020)."
 
 #. type: Plain text
 #: keydocs.en.adoc:80
 #, no-wrap
 msgid "https://doi.org/10.35035/gdwq-3v93[Georeferencing Calculator Manual^]\n"
 "David A. Bloom, John R. Wieczorek & Paula F. Zermoglio (2020)."
-msgstr ""
+msgstr "https://doi.org/10.35035/gdwq-3v93[Georeferencing Calculator Manual^]\n"
+"David A. Bloom, John R. Wieczorek & Paula F. Zermoglio (2020)."
 
 #. type: Plain text
 #: keydocs.en.adoc:81
@@ -1051,56 +1059,64 @@ msgstr "https://github.com/OpenRefine/OpenRefine/wiki/Understanding-Regular-Expr
 #, no-wrap
 msgid "https://doi.org/10.15468/doc-gzjg-af18[Guía para la limpieza de datos sobre biodiversidad con OpenRefine^]\n"
 "Paula F. Zermoglio, Camila A. Plata Corredor, John R. Wieczorek, Ricardo Ortiz Gallego & Leonardo Buitrago (2021)."
-msgstr ""
+msgstr "https://doi.org/10.15468/doc-gzjg-af18[Guía para la limpieza de datos sobre biodiversidad con OpenRefine^]\n"
+"Paula F. Zermoglio, Camila A. Plata Corredor, John R. Wieczorek, Ricardo Ortiz Gallego & Leonardo Buitrago (2021)."
 
 #. type: Plain text
 #: keydocs.en.adoc:106
 #, no-wrap
 msgid "http://iphylo.blogspot.com/2012/02/using-google-refine-and-taxonomic.html[Using Google Refine and taxonomic databases (EOL, NCBI, uBio, WORMS) to clean messy data^]\n"
 "iPhylo blog post. Rod Page 2012."
-msgstr ""
+msgstr "http://iphylo.blogspot.com/2012/02/using-google-refine-and-taxonomic.html[Using Google Refine and taxonomic databases (EOL, NCBI, uBio, WORMS) to clean messy data^]\n"
+"iPhylo blog post. Rod Page 2012."
 
 #. type: Plain text
 #: keydocs.en.adoc:108
 #, no-wrap
 msgid "http://iphylo.blogspot.com/2013/04/reconciling-author-names-using-open.html[Reconciling author names using Open Refine and VIAF^]\n"
 "iPhylo blog post. Rod Page 2013."
-msgstr ""
+msgstr "http://iphylo.blogspot.com/2013/04/reconciling-author-names-using-open.html[Reconciling author names using Open Refine and VIAF^]\n"
+"iPhylo blog post. Rod Page 2013."
 
 #. type: Plain text
 #: keydocs.en.adoc:110
 #, no-wrap
 msgid "http://gbif.blogspot.com/2013/07/validating-scientific-names-with.html[Validating scientific names with the GBIF Portal web service API^]\n"
 "Guest post was written by Gaurav Vaidya, Victoria Tersigni and Robert Guralnick 2013."
-msgstr ""
+msgstr "http://gbif.blogspot.com/2013/07/validating-scientific-names-with.html[Validating scientific names with the GBIF Portal web service API^]\n"
+"Guest post was written by Gaurav Vaidya, Victoria Tersigni and Robert Guralnick 2013."
 
 #. type: Plain text
 #: keydocs.en.adoc:112
 #, no-wrap
 msgid "https://www.idigbio.org/wiki/images/2/22/OpenRefine.pdf[iDigBio Cleaning data with OpenRefine^]\n"
 "iDigBio 2013."
-msgstr ""
+msgstr "https://www.idigbio.org/wiki/images/2/22/OpenRefine.pdf[iDigBio Cleaning data with OpenRefine^]\n"
+"iDigBio 2013."
 
 #. type: Plain text
 #: keydocs.en.adoc:114
 #, no-wrap
 msgid "http://www.canadensys.net/2014/have-we-got-the-names-right[Have We Got the Names “Right”?^]\n"
 "Canadensys 2014."
-msgstr ""
+msgstr "http://www.canadensys.net/2014/have-we-got-the-names-right[Have We Got the Names “Right”?^]\n"
+"Canadensys 2014."
 
 #. type: Plain text
 #: keydocs.en.adoc:116
 #, no-wrap
 msgid "http://slides.com/dimitribrosens/o-3#/[Cleaning data with OpenRefine^]\n"
 "Desmet and Brosens 2016 TDWG."
-msgstr ""
+msgstr "http://slides.com/dimitribrosens/o-3#/[Cleaning data with OpenRefine^]\n"
+"Desmet and Brosens 2016 TDWG."
 
 #. type: Plain text
 #: keydocs.en.adoc:118
 #, no-wrap
 msgid "https://git-og.github.io/EasyOpenRedList/[EasyOpen Redlist^]\n"
 "Querying the IUCN Red List, using a species list, OpenRefine, and some pre-written code. Olly Griffin July 2019."
-msgstr ""
+msgstr "https://git-og.github.io/EasyOpenRedList/[EasyOpen Redlist^]\n"
+"Querying the IUCN Red List, using a species list, OpenRefine, and some pre-written code. Olly Griffin July 2019."
 
 #. type: Title ==
 #: keydocs.en.adoc:119
@@ -1142,91 +1158,91 @@ msgstr "https://github.com/[GitHub^]"
 #: keydocs.en.adoc:128
 #, no-wrap
 msgid "Red List Assessments"
-msgstr ""
+msgstr "Évaluations de listes rouges"
 
 #. type: Plain text
 #: keydocs.en.adoc:131
 #, no-wrap
 msgid "*IUCN Red List Categories and Criteria*\n"
-msgstr ""
+msgstr "*Catégories et critères des listes rouges de l'UICN*\n"
 
 #. type: Plain text
 #: keydocs.en.adoc:132
 #, no-wrap
 msgid "link:../exercise-data/RL-2001-001-2nd.pdf[IUCN Red List Categories and Criteria v3.1 - ENGLISH,opts=download]\n"
-msgstr ""
+msgstr "link:../exercise-data/RL-2001-001-2nd.pdf[IUCN Red List Categories and Criteria v3.1 - ENGLISH,opts=download]\n"
 
 #. type: Plain text
 #: keydocs.en.adoc:133
 #, no-wrap
 msgid "link:../exercise-data/RL-2001-001-2nd-Es.pdf[Categorías y Criterios de la Lista Roja de la UICN v3.1 - ESPAÑOL,opts=download]\n"
-msgstr ""
+msgstr "link:../exercise-data/RL-2001-001-2nd-Es.pdf[Categorías y Criterios de la Lista Roja de la UICN v3.1 - ESPAÑOL,opts=download]\n"
 
 #. type: Plain text
 #: keydocs.en.adoc:134
 #, no-wrap
 msgid "link:../exercise-data/RL-2001-001-2nd-Fr.pdf[Catégories et Critères de la Liste Rouge de l'UICN v3.1 - FRANÇAIS,opts=download]\n"
-msgstr ""
+msgstr "link:../exercise-data/RL-2001-001-2nd-Fr.pdf[Catégories et Critères de la Liste Rouge de l'UICN v3.1 - FRANÇAIS,opts=download]\n"
 
 #. type: Plain text
 #: keydocs.en.adoc:136
 #, no-wrap
 msgid "*Red List Guidelines*\n"
-msgstr ""
+msgstr "*Lignes directrices des listes rouges*\n"
 
 #. type: Plain text
 #: keydocs.en.adoc:137
 #, no-wrap
 msgid "link:../exercise-data/RedListGuidelines.pdf[Guidelines for Using the Red List Categories and Criteria version 15 - ENGLISH,opts=download]\n"
-msgstr ""
+msgstr "link:../exercise-data/RedListGuidelines.pdf[Guidelines for Using the Red List Categories and Criteria version 15 - ENGLISH,opts=download]\n"
 
 #. type: Plain text
 #: keydocs.en.adoc:138
 #, no-wrap
 msgid "link:../exercise-data/RedListGuidelines_SP.pdf[Directrices de uso de las Categorías y Criterios de la Lista Roja de la UICN Versión 14 - ESPAÑOL,opts=download]\n"
-msgstr ""
+msgstr "link:../exercise-data/RedListGuidelines_SP.pdf[Directrices de uso de las Categorías y Criterios de la Lista Roja de la UICN Versión 14 - ESPAÑOL,opts=download]\n"
 
 #. type: Plain text
 #: keydocs.en.adoc:139
 #, no-wrap
 msgid "link:../exercise-data/RedListGuidelines_FR.pdf[Lignes directrices pour l’utilisation des Catégories et Critères de la Liste rouge de l’UICN Version 14 - Français,opts=download]\n"
-msgstr ""
+msgstr "link:../exercise-data/RedListGuidelines_FR.pdf[Lignes directrices pour l’utilisation des Catégories et Critères de la Liste rouge de l’UICN Version 14 - Français,opts=download]\n"
 
 #. type: Plain text
 #: keydocs.en.adoc:141
 #, no-wrap
 msgid "*Criteria Summary Sheet*\n"
-msgstr ""
+msgstr "*Fiche Récapitulative des critères*\n"
 
 #. type: Plain text
 #: keydocs.en.adoc:142
 #, no-wrap
 msgid "link:../exercise-data/summary_sheet_en_web.pdf[Criteria summary sheet - ENGLISH,opts=download]\n"
-msgstr ""
+msgstr "link:../exercise-data/summary_sheet_en_web.pdf[Criteria summary sheet - ENGLISH,opts=download]\n"
 
 #. type: Plain text
 #: keydocs.en.adoc:143
 #, no-wrap
 msgid "link:../exercise-data/summary_sheet_es_web.pdf[Resumen de los Criterios - ESPAÑOL,opts=download]\n"
-msgstr ""
+msgstr "link:../exercise-data/summary_sheet_es_web.pdf[Resumen de los Criterios - ESPAÑOL,opts=download]\n"
 
 #. type: Plain text
 #: keydocs.en.adoc:144
 #, no-wrap
 msgid "link:../exercise-data/summary_sheet_fr_web.pdf[Résumé des Critères - FRANÇAIS,opts=download]\n"
-msgstr ""
+msgstr "link:../exercise-data/summary_sheet_fr_web.pdf[Résumé des Critères - FRANÇAIS,opts=download]\n"
 
 #. type: Plain text
 #: keydocs.en.adoc:146
 #, no-wrap
 msgid "*Mapping Standards*\n"
-msgstr ""
+msgstr "*Mapping Standards*\n"
 
 #. type: Plain text
 #: keydocs.en.adoc:147
 #, no-wrap
 msgid "link:../exercise-data/Mapping_Standards_Version_1.19_2021.pdf[Mapping Standards - ENGLISH,opts=download]\n"
-msgstr ""
+msgstr "link:../exercise-data/Mapping_Standards_Version_1.19_2021.pdf[Mapping Standards - ENGLISH,opts=download]\n"
 
 #. type: Plain text
 #: keydocs.en.adoc:148
