@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: data-use\n"
 "POT-Creation-Date: 2023-06-22 10:42+0000\n"
-"PO-Revision-Date: 2023-10-12 00:22\n"
+"PO-Revision-Date: 2023-10-12 01:23\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -1248,51 +1248,53 @@ msgstr "link:../exercise-data/Mapping_Standards_Version_1.19_2021.pdf[Mapping St
 #: keydocs.en.adoc:148
 #, no-wrap
 msgid "link:../exercise-data/IUCN_Standard_attributes_for_spatial_data_v1.19_2021.xlsx[Standard Attributes for Spatial Data - ENGLISH,opts=download]\n"
-msgstr ""
+msgstr "link:../exercise-data/IUCN_Standard_attributes_for_spatial_data_v1.19_2021.xlsx[Standard Attributes for Spatial Data - ENGLISH,opts=download]\n"
 
 #. type: Plain text
 #: keydocs.en.adoc:149
 #, no-wrap
 msgid "link:../exercise-data/Mapping_attribute_codes_v1.19_2021.pdf[Attribute codes for Presence, Origin and Seasonality - ENGLISH,opts=download]\n"
-msgstr ""
+msgstr "link:../exercise-data/Mapping_attribute_codes_v1.19_2021.pdf[Attribute codes for Presence, Origin and Seasonality - ENGLISH,opts=download]\n"
 
 #. type: Plain text
 #: keydocs.en.adoc:151
 #, no-wrap
 msgid "*Regional and National Levels Guidelines*\n"
-msgstr ""
+msgstr "*Mode d'emploi pour les niveaux régionaux et nationaux*\n"
 
 #. type: Plain text
 #: keydocs.en.adoc:152
 #, no-wrap
 msgid "link:../exercise-data/RL-2012-002.pdf[Guidelines for application of IUCN Red List Criteria at Regional and National Levels Version 4 - ENGLISH,opts=download]\n"
-msgstr ""
+msgstr "link:../exercise-data/RL-2012-002.pdf[Guidelines for application of IUCN Red List Criteria at Regional and National Levels Version 4 - ENGLISH,opts=download]\n"
 
 #. type: Plain text
 #: keydocs.en.adoc:153
 #, no-wrap
 msgid "link:../exercise-data/RL-2012-002-Es.pdf[Directrices para el uso de los Criterios de la Lista Roja de la UICN a nivel regional y nacional Versión 4 - ESPAÑOL,opts=download]\n"
-msgstr ""
+msgstr "link:../exercise-data/RL-2012-002-Es.pdf[Directrices para el uso de los Criterios de la Lista Roja de la UICN a nivel regional y nacional Versión 4 - ESPAÑOL,opts=download]\n"
 
 #. type: Plain text
 #: keydocs.en.adoc:154
 #, no-wrap
 msgid "link:../exercise-data/RL-2012-002-Fr.pdf[Lignes directrices pour l’application des Critères de la Liste rouge de l’UICN aux niveaux régional et national Version 4. - FRANÇAIS,opts=download]\n"
-msgstr ""
+msgstr "link:../exercise-data/RL-2012-002-Fr.pdf[Lignes directrices pour l’application des Critères de la Liste rouge de l’UICN aux niveaux régional et national Version 4. - FRANÇAIS,opts=download]\n"
 
 #. type: Plain text
 #: keydocs.en.adoc:157
 #, no-wrap
 msgid "https://www.iucnredlist.org/resources/spatialtoolsanddata[Spatial Tools and Data for Red List Assessments]\n"
 "Includes brief overviews of some tools developed to aid mapping of spatial data and estimation of Red List metrics such as EOO and AOO, plus developer information, links to help files, support networks and associated research publications."
-msgstr ""
+msgstr "https://www.iucnredlist.org/resources/spatialtoolsanddata[Spatial Tools and Data for Red List Assessments]\n"
+"Includes brief overviews of some tools developed to aid mapping of spatial data and estimation of Red List metrics such as EOO and AOO, plus developer information, links to help files, support networks and associated research publications."
 
 #. type: Plain text
 #: keydocs.en.adoc:159
 #, no-wrap
 msgid "https://www.iucnredlist.org/resources/supporting-information-guidelines[Supporting information guidelines]\n"
 "The Documentation Standards and Consistency Checks for IUCN Red List Assessments and Species Accounts (also known as the Supporting Information Guidelines) provides guidance on the required and recommended supporting information for Red List assessments. It also provides guidance on the writing style and format that should be used for all IUCN Red List assessments."
-msgstr ""
+msgstr "https://www.iucnredlist.org/resources/supporting-information-guidelines[Supporting information guidelines]\n"
+"The Documentation Standards and Consistency Checks for IUCN Red List Assessments and Species Accounts (also known as the Supporting Information Guidelines) provides guidance on the required and recommended supporting information for Red List assessments. It also provides guidance on the writing style and format that should be used for all IUCN Red List assessments."
 
 #. type: Title ==
 #: keydocs.en.adoc:160
@@ -1305,21 +1307,24 @@ msgstr "Qualité"
 #, no-wrap
 msgid "https://www.gbif.org/document/80509/principles-of-data-quality[Principles of Data Quality^]\n"
 "Arthur Chapman 2005."
-msgstr ""
+msgstr "https://www.gbif.org/document/80509/principles-of-data-quality[Principles of Data Quality^]\n"
+"Arthur Chapman 2005."
 
 #. type: Plain text
 #: keydocs.en.adoc:166
 #, no-wrap
 msgid "https://www.gbif.org/document/80528/principles-and-methods-of-data-cleaning-primary-species-and-species-occurrence-data[Principles and Methods of Data Cleaning: Primary Species and Species-Occurrence Data^]\n"
 "Arthur Chapman 2005."
-msgstr ""
+msgstr "https://www.gbif.org/document/80528/principles-and-methods-of-data-cleaning-primary-species-and-species-occurrence-data[Principles and Methods of Data Cleaning: Primary Species and Species-Occurrence Data^]\n"
+"Arthur Chapman 2005."
 
 #. type: Plain text
 #: keydocs.en.adoc:168
 #, no-wrap
 msgid "https://coffeehouse.dataone.org/2014/04/09/abandon-all-hope-ye-who-enter-dates-in-excel[Be careful with dates in Excel^]\n"
 "DataOne 2014."
-msgstr ""
+msgstr "https://coffeehouse.dataone.org/2014/04/09/abandon-all-hope-ye-who-enter-dates-in-excel[Be careful with dates in Excel^]\n"
+"DataOne 2014."
 
 #. type: Plain text
 #: keydocs.en.adoc:169
@@ -1340,12 +1345,12 @@ msgstr "R "
 #. type: Plain text
 #: keydocs.en.adoc:173
 msgid "https://datacarpentry.org/R-ecology-lesson/[Data Carpentry-Data Analysis and Visualization in R for Ecologists^]"
-msgstr ""
+msgstr "https://datacarpentry.org/R-ecology-lesson/[Data Carpentry-Data Analysis and Visualization in R for Ecologists^]"
 
 #. type: Plain text
 #: keydocs.en.adoc:174
 msgid "https://www.datacamp.com/[Datacamp- Range of courses in R, Python and SQL^]"
-msgstr ""
+msgstr "https://www.datacamp.com/[Datacamp- Range of courses in R, Python and SQL^]"
 
 #. type: Plain text
 #: keydocs.en.adoc:175
@@ -1403,7 +1408,8 @@ msgstr "Espèces sensibles"
 #, no-wrap
 msgid "https://doi.org/10.15468/doc-5jp4-5g10[Current Best Practices for Generalizing Sensitive Species Occurrence Data^]\n"
 "Arthur D. Chapman 2020."
-msgstr ""
+msgstr "https://doi.org/10.15468/doc-5jp4-5g10[Current Best Practices for Generalizing Sensitive Species Occurrence Data^]\n"
+"Arthur D. Chapman 2020."
 
 #. type: Title ==
 #: keydocs.en.adoc:189
