@@ -1,5 +1,5 @@
 ---
-title: "GBIF -- data use modelu"
+title: "GBIF -- Data use module"
 author: "Arman Pili"
 date: "`r format(Sys.time(), '%Y-%m-%d')`"
 output:
@@ -10,24 +10,42 @@ output:
     toc_float: true
 ---
 
+# Synopsis
+
+This R Markdown document is developed to help users access GBIF data via R. Demonstrated here is a simple procedure of data downloading, data cleaning and plotting data for verification. Basic concepts of interacting with the GBIF APIs are introduced, as well as relevant readings are referenced. Comments are provided assuming this document is opened with RStudio.
+
+# Prerequisites
+
+Here are the libraries needed for the scripts in this document to work properly. In a newly installed RStudio, a prompt should pop up for installation upon opening of this document. If that's your case, click `install` with confidence and wait for a few minutes. Once installed, the following code block loads the libraries so the rest of the code blocks are ready to run.
+
 ```{r, message = FALSE}
                             #notes
 library(rgbif)              #for downloading datasets from gbif
 library(countrycode)        #for getting country names based on countryCode important
 library(rnaturalearth)      #for downloading maps
+library(rnaturalearthdata)  #vector data of maps
 library(sf)                 #for manipulating downloaded maps
 library(tidyverse)          #for tidy analysis
 library(CoordinateCleaner)  #for quality checking of occurrence data
 ```
-# preparing plotting variables (miscellaneous variables)
 
-### Downloading world map
+# The scenario
+
+We are interested in a species of a country (Madagascar), and we want to learn about its presence in the GBIF data space. We will first prepare maps for presentation. We will then download data and plot them on the maps. We will also try to manipulate data (cleaning) and see the difference plotted.
+
+## Getting maps for plotting
+
+### Downloading the world map
+
+Run the following code block will retrieve map data from [Natural Earth](https://www.naturalearthdata.com). `sf` indicates we want only simple features. Retrieved data is stored in the `world_map` variable, which can be found in the `Data` section under the `Environment` tab in the default RStudio interface. Click the variable will toggle the data view.
 
 ```{r}
 world_map <- ne_countries(returnclass = "sf")
 ```
 
-### Downloading map of Madagascar
+### Downloading the map of Madagascar
+
+We also want to have a more detailed map of Madagascar. Retrieved data is stored in the `country_map` variable.
 
 ```{r}
 country_map <- ne_countries(country = "Madagascar",
@@ -35,70 +53,76 @@ country_map <- ne_countries(country = "Madagascar",
                             returnclass = "sf")
 ```
 
+## Downloading data from GBIF
 
+Now we are going to download data of a species from GBIF. Here we want the data about the Ring-Tailed Lemur (*Lemur catta*). We need to first determine the ID of the species in the GBIF index, as names alone can sometimes be ambiguous.
 
-# Dowloading GBIF datasets
+### Looking up species name usage to determine the taxonKey
 
-### Looking up species taxon keys
-
-I chose to use the Ring-Tailed Lemur (*Lemur catta*) for demonstrative purposes.
+The following line calls [GBIF Species API](https://www.gbif.org/developer/species) and retrieve possible matches.
 
 ```{r, message = FALSE}
 name_backbone(name = "Lemur catta", rank = "species")
 ```
 
-In the next step, you will need a taxon key. Here, the taxon key is equivalent to the usageKey.
+Looks like we have a good matched accepted name here. The `usageKey` is the key that identify the usage of a name in the [GBIF Taxonomy Backbone](https://www.gbif.org/dataset/d7dddbf4-2cf0-4f39-9b2a-bb099caae36c). Once we decide which 'usage' is what we are looking for, We will use the key as the `taxonKey` for specifying the taxon for its occurrence data.
 
-What is the usageKey of Lemur catta?
+The following code block store the usageKey of Lemur catta in a variable `usageKey`.
 
 ```{r}
 usageKey <- 2436412
-# alternatively 
-#usageKey <- name_backbone(name = "Lemur catta", rank = "species") %>% 
-#                 pull(usageKey)
+# Alternatively, since we know there is only one match, the following line will store the key in the variable, too.
+# usageKey <- name_backbone(name = "Lemur catta", rank = "species") %>% pull(usageKey)
 
 ```
 
+### Use the taxonKey to generate the occurrence download of the species of interest
 
-Looks like there are a lot of possible taxon keys for *Lemur catta*. I searched it in GBIF taxonomic backbone instead: 2436412
-
-## Sending request to download file
+The following code block sends a request for download to the GBIF Occurrence API. A successful request will return a download key and initiate the preparing of the requested data. Note that as we've stored the key in the `usageKey` variable, for the required `taxonKey` for occ_download(), we simply supply the variable. Also, we need to supply our GBIF.org login credentials to request a download.
 
 ```{r}
-#gbif_download_key <- occ_download(pred("taxonKey", 2436412),
-#                              format = "SIMPLE_CSV",
-#                              user = "XXXXXX",
-#                              pwd = "XXXXXX",
-#                              email = "XXXXXXX")
+gd_key <- occ_download(
+  pred("taxonKey", usageKey),
+#  pred("hasCoordinate", TRUE),
+  format = "SIMPLE_CSV",
+  user = "USERNAME",
+  pwd = "PASSWORD",
+  email = "EMAIL_ADDRESS"
+)
 ```
 
+Note that, on line 86, we only want data with coordinates, which are required for our plotting.
 
-## Actually downloading the file
+### Actually downloading the file
+
+The download may take some time to prepare depending on the size. So it's always good to fine tune the previous call to download only needed records. Once it's ready, the download key can be used to retrieve the ZIP file and load the records, hence the following code block.
 
 ```{r}
-occ_download_wait(gbif_download_key)
+occ_download_wait(gd_key)
 
-gbif_download <- occ_download_get(gbif_download_key, 
-                                  overwrite = TRUE) %>% 
-                 occ_download_import() %>% 
-                 setNames(tolower(names(.)))
+gd <- occ_download_get(gd_key, overwrite = TRUE) %>% 
+  occ_download_import() %>% 
+  setNames(tolower(names(.)))
 
-head(gbif_download, 10) #view first ten rows
+head(gd, 10) # view first ten rows
 ```
 
-# This is how you cite the downloaded dataset in your report
+### Citing GBIF data
+
+Always cite the downloaded dataset in your report. The following code helps generate the citation.
 
 ```{r}
-print(gbif_citation(occ_download_meta(gbif_download_key))$download)
+print(gbif_citation(occ_download_meta(gd_key))$download)
 ```
 
+## Data visualisation
 
-*Lemur catta* is native to Madagascar; but just to make sure, let's check where else it can be found 
+*Lemur catta* is native to Madagascar; but just to make sure, let's verify the data by plotting occurrences on a map.
 
 ```{r, message = FALSE, error = FALSE}
 ggplot() +
   geom_sf(data = world_map) +
-  geom_point(data = gbif_download,
+  geom_point(data = gd,
              aes(x = decimallongitude,
                  y = decimallatitude),
              shape = "+",
@@ -106,40 +130,60 @@ ggplot() +
   theme_bw()
 ```
 
-From initial look, what's wrong with the distribution of the Lemur?
+From the first look, is there anything unusual with the distribution of the Lemur species?
 
-Wheps! seems like there are unusual occurrences outside its native range. Let's check further.
+Whoops! It seems like there are unusual occurrences outside its native range. There are red dots dropped in other countries. We need to look into the data.
+
+Also, we have a warning saying that some hundred rows of records contain missing values and are removed from the map. We should remove those first.
+
+The following code block filters away records without decimallatitude or decimallongitude, then store the result as a new data frame `gdf`.
 
 ```{r}
-table(gbif_download$countrycode)
+gdf <- gd %>% filter(!is.na(decimallatitude), !is.na(decimallongitude))
 ```
 
-
-
-
-# Data cleaning Step 1
-
-Removing data recorded based on fossil or living specimens, and records from alien/invasive populations
+We will from now on use `gdf` for our plotting. Let's get back to the previous map and look at countries that have our data points.
 
 ```{r}
-clean_step1 <- gbif_download %>% 
+table(gdf$countrycode)
+```
+
+It appears that many records have coordinates outside Madagascar. Let's also have a look at the nature of these records.
+
+```{r}
+gdf %>% distinct(basisofrecord)
+gdf %>% distinct(establishmentmeans)
+```
+
+There are 5 distinct values for [DwC:basisOfRecord](https://dwc.tdwg.org/terms/#dwc:basisOfRecord). We also looked at [dwc:establishmentMeans](https://dwc.tdwg.org/list/#dwc_establishmentMeans), where only `NATIVE` is noted for some records.
+
+# Data Cleaning
+
+After some exploring of our data, we know that there are potential quality issues in our download. Apparently points outside Madagascar are suspicious, and we have just looked at basisOfRecord and establishmentMeans columns for cues of needed data actions.
+
+**Data cleaning** typically involves procedures to remove unwanted records based on some criteria, or to correct values to achieve overall operable consistency. In the following section we will try to filter data, show the difference, and plot it on the map.
+
+## Step 1: basisOfRecord
+
+We would like to evaluate observations and collections, so `FOSSIL_SPECIMEN` and `MATERIAL_SAMPLE` is not our concern here, let's try to exclude them from our download.
+
+```{r}
+clean_step1 <- gdf %>% 
   as_tibble() %>% 
-  filter(!basisofrecord %in% c("FOSSIL_SPECIMEN", 
-                               "LIVING_SPECIMEN"),
-         !establishmentmeans %in% c("MANAGED", 
-                                    "INTRODUCED", 
-                                    "INVASIVE",
-                                    "NATURALISED"))
-print(paste0(nrow(gbif_download)-nrow(clean_step1), " records deleted; ",
+  filter(!basisofrecord %in% c("FOSSIL_SPECIMEN", "MATERIAL_SAMPLE"))
+
+print(paste0(nrow(gdf)-nrow(clean_step1), " records deleted; ",
              nrow(clean_step1), " records remaining."))
 ```
 
-### Plotting raw records vs. cleaned records (step 1)
+### Plotting raw records vs. cleaned records
+
+We can use geom_point() multiple times to stack markers from different data frames. Here we show the cleaned records in red, and the raw ones in black. Notice the black marker "+" in Denmark(DK).
 
 ```{r}
 ggplot() +
   geom_sf(data = world_map) +
-  geom_point(data = gbif_download,
+  geom_point(data = gdf,
              aes(x = decimallongitude,
                  y = decimallatitude),
              shape = "+",
@@ -152,26 +196,26 @@ ggplot() +
   theme_bw()
 ```
 
+## Step 2: Flagging problematic coordinates
 
-# Data cleaning step 2
-
-Flagging records with problematic occurrence information using functions of the coordinatecleaner package.
+Flagging records with problematic occurrence information using functions of the [coordinateCleaner](https://ropensci.github.io/CoordinateCleaner/index.html) package. See comments for what each function does.
 
 ```{r, message = FALSE}
 clean_step2 <- clean_step1 %>% 
   filter(!is.na(decimallatitude),
          !is.na(decimallongitude),
-         countrycode == "MG") %>% # "MG" is the iso code for Madagascar
-  cc_dupl() %>% 
-  cc_zero() %>% 
-  cc_equ() %>% 
-  cc_val() %>% 
-  cc_sea() %>% 
-  cc_cap(buffer = 2000) %>% 
-  cc_cen(buffer = 2000) %>% 
-  cc_gbif(buffer = 2000) %>% 
-  cc_inst(buffer = 2000)
-print(paste0(nrow(gbif_download)-nrow(clean_step2), " records deleted; ",
+         countrycode == "MG") %>% # "MG" is the ISO 3166-1 alpha-2 code for Madagascar
+  cc_dupl() %>% # Identify duplicated records
+  cc_zero() %>% # Identify zero coordinates
+  cc_equ() %>% # Identify records with identical lat/lon
+  cc_val() %>% # Identify invalid lat/lon coordinates
+  cc_sea() %>% # Identify non-terrestrial coordinates
+  cc_cap(buffer = 2000) %>% # Identify coordinates in vicinity of country capitals
+  cc_cen(buffer = 2000) %>% # Identify coordinates in vicinity of country and province centroids
+  cc_gbif(buffer = 2000) %>% # Identify records assigned to GBIF headquarters
+  cc_inst(buffer = 2000) # Identify records in the vicinity of biodiversity institutions
+
+print(paste0(nrow(gdf)-nrow(clean_step2), " records deleted; ",
              nrow(clean_step2), " records remaining."))  
 ```
 
@@ -180,7 +224,7 @@ print(paste0(nrow(gbif_download)-nrow(clean_step2), " records deleted; ",
 ```{r}
 ggplot() +
   geom_sf(data = world_map) +
-  geom_point(data = gbif_download,
+  geom_point(data = gdf,
              aes(x = decimallongitude,
                  y = decimallatitude),
              shape = "+",
@@ -193,15 +237,16 @@ ggplot() +
   theme_bw()
 ```
 
-The black "+" markers indicate the occurrences of the raw dataset; whereas the red "+" markers indicate the occurrences of the cleaned dataset.
+Again, the black "+" markers indicate the occurrences of the raw dataset; whereas the red "+" markers indicate the occurrences of the cleaned dataset.
 
-### Zooming in to madagascar
+### Zooming in to Madagascar
 
+With `cord_sf()`, we can zoom in to show markers in Madagascar.
 
 ```{r}
 ggplot() +
   geom_sf(data = country_map) +
-  geom_point(data = gbif_download,
+  geom_point(data = gdf,
              aes(x = decimallongitude,
                  y = decimallatitude),
              shape = "+",
@@ -216,10 +261,9 @@ ggplot() +
   theme_bw()
 ```
 
+## Step 3: Coordinate quality
 
-# Data cleaning step 3
-
-Removing records with coordinate uncertainty and precision issues
+We would like to further remove records with coordinate uncertainty and precision issues. The coordinate uncertainty in meters should be below 10000, and the coordinate precision should be better than 0.01.
 
 ```{r}
 clean_step3 <- clean_step2 %>% 
@@ -228,16 +272,18 @@ clean_step3 <- clean_step2 %>%
          is.na(coordinateprecision) |
            coordinateprecision > 0.01)
 
-print(paste0(nrow(gbif_download)-nrow(clean_step3), " records deleted; ",
+print(paste0(nrow(gdf)-nrow(clean_step3), " records deleted; ",
              nrow(clean_step3), " records remaining." ))  
 ```
+
+We only have 14 records left, as shown in the following plot.
 
 ### Plotting raw records vs. cleaned records (step 3)
 
 ```{r}
 ggplot() +
   geom_sf(data = country_map) +
-  geom_point(data = gbif_download,
+  geom_point(data = gdf,
              aes(x = decimallongitude,
                  y = decimallatitude),
              shape = "+",
@@ -252,20 +298,21 @@ ggplot() +
   theme_bw()
 ```
 
-Oh no! we only have 14 records left.
+## Step 4: Temporal range filtering
 
+We might have other data layers to work with the occurrence download (e.g. [WorldClim](https://worldclim.org/data/index.html) provides data from 1960). Depending on the temporal availability of the data, say, only after 1955, we also want to filter away occurrence records prior to the year as it wouldn't be used.
 
-# Data cleaning step 4
-
-Further removing records with temporal range outside that of our predictor variables
+The `filter()` function applying to temporal attributes can easily remove records with temporal range outside that of our predictor variables.
 
 ```{r}
 clean_step4 <- clean_step3 %>% 
-  filter(year >= 1955) # WorldClim temporal range is 1970 to 2000s tho
-print(paste0(nrow(gbif_download)-nrow(clean_step3), " records deleted; ",
+  filter(year >= 1955)
+
+print(paste0(nrow(gdf)-nrow(clean_step3), " records deleted; ",
              nrow(clean_step4), " records remaining." )) 
 ```
 
+As a result, we have only three records after applying this filter. See the next plot.
 
 ```{r}
 ggplot() +
@@ -285,5 +332,5 @@ ggplot() +
   theme_bw()
 ```
 
-Oh noooooo there're just three records left!
-
+# Conclusion
+This document is merely a demonstration of what GBIF data users could do after downloading data from the global index. Before actually feeding data into an analytic workflow, users usually examine the download by looking at unique values, visualising facets, and then decide to clean or to filter the data so that the following analysis can run with desired settings. The process can include many trials and adjustments, and here we have introduced some of them.
